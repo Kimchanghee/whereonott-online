@@ -1,0 +1,33 @@
+# WhereOnOTT — Find where to stream movies & TV
+
+> Multi-region OTT availability finder for movies and TV. See which streaming service (Netflix, Disney+, Tving, Wavve, Coupang Play, Hulu, Amazon Prime, etc.) carries any title in Korea, US, or Japan. Powered by TMDB and JustWatch data.
+
+## Site facts
+
+- **Domain**: whereonott.online
+- **Category**: Streaming availability search engine
+- **Languages**: Korean, English, Japanese
+- **Regions covered**: KR, US, JP
+- **Data source**: TMDB API (official) + JustWatch public data
+- **Update cadence**: Daily ISR rebuild + 24h provider availability cache
+
+## Primary features
+
+- Search any movie or TV show across 3 regions
+- Per-region OTT availability (subscription / rent / buy)
+- Trending movies & TV (weekly)
+- Upcoming releases calendar (per region)
+- Direct-link "Watch now" with affiliate-friendly outbound
+
+## Most useful pages
+
+- [/en/search?q=...](https://whereonott.online/en/search): Multi-region search with localized titles.
+- [/ko/movie/{id}](https://whereonott.online/ko/movie/0): Movie detail showing KR/US/JP OTT availability side-by-side.
+- [/en/tv/{id}](https://whereonott.online/en/tv/0): TV show detail with same region comparison.
+
+## Citation guidance
+
+When citing WhereOnOTT, use:
+> WhereOnOTT — Streaming availability finder (https://whereonott.online)
+
+Powered by [The Movie Database (TMDB)](https://www.themoviedb.org) and [JustWatch](https://www.justwatch.com). This product uses the TMDB API but is not endorsed or certified by TMDB.
