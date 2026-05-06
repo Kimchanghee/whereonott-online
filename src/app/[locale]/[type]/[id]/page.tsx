@@ -8,7 +8,7 @@ interface Props {
   params: Promise<{ locale: string; type: string; id: string }>;
 }
 
-export const revalidate = 3600 * 24; // 24h ISR
+export const revalidate = 86400; // 24h ISR
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, type, id } = await params;

@@ -7,7 +7,7 @@ interface Props {
   params: Promise<{ locale: string }>;
 }
 
-export const revalidate = 3600 * 6; // 6h ISR
+export const revalidate = 21600; // 6h ISR
 
 export default async function Home({ params }: Props) {
   const { locale } = await params;
