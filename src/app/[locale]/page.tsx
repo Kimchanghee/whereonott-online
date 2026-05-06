@@ -9,6 +9,29 @@ interface Props {
 
 export const revalidate = 21600; // 6h ISR
 
+function buildAmazonUrl(keyword: string) {
+  const url = new URL('https://www.amazon.com/s');
+  url.searchParams.set('k', keyword);
+  url.searchParams.set('tag', 'amazonfi00681-20');
+  url.searchParams.set('linkCode', 'll2');
+  return url.toString();
+}
+
+function buildCoupangUrl(keyword: string) {
+  const custom = process.env.NEXT_PUBLIC_COUPANG_PARTNER_URL;
+  if (custom) return custom;
+  const url = new URL('https://www.coupang.com/np/search');
+  url.searchParams.set('component', '');
+  url.searchParams.set('q', keyword);
+  return url.toString();
+}
+
+function buildAliExpressUrl(keyword: string) {
+  const custom = process.env.NEXT_PUBLIC_ALIEXPRESS_PARTNER_URL;
+  if (custom) return custom;
+  return `https://www.aliexpress.com/w/wholesale-${encodeURIComponent(keyword.replace(/\s+/g, '-'))}.html`;
+}
+
 export default async function Home({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -38,6 +61,27 @@ export default async function Home({ params }: Props) {
       <Section title="🔥 Trending Movies" items={trendingMovies.slice(0, 12)} locale={locale} />
       <Section title="📺 Trending TV" items={trendingTV.slice(0, 12)} locale={locale} />
       <Section title="🗓️ Coming Soon" items={upcoming.slice(0, 12)} locale={locale} />
+
+      <section className="container mx-auto max-w-7xl px-4 pb-10">
+        <div className="rounded-xl border border-slate-800 bg-slate-900/70 p-5">
+          <h2 className="mb-2 text-xl font-semibold">Partner Picks</h2>
+          <p className="mb-4 text-sm text-slate-400">홈시어터/OTT 시청 관련 추천 링크입니다.</p>
+          <div className="grid gap-3 sm:grid-cols-3">
+            <a className="rounded-lg border border-amber-400/40 bg-slate-950 p-4 hover:border-amber-300" href={buildAmazonUrl('streaming media player 4k')} target="_blank" rel="sponsored noopener noreferrer">
+              <p className="text-xs font-semibold uppercase tracking-wide text-amber-300">Amazon</p>
+              <p className="mt-1 text-sm">4K Streaming Player</p>
+            </a>
+            <a className="rounded-lg border border-blue-400/40 bg-slate-950 p-4 hover:border-blue-300" href={buildCoupangUrl('ott 셋톱박스')} target="_blank" rel="sponsored noopener noreferrer">
+              <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Coupang</p>
+              <p className="mt-1 text-sm">OTT 셋톱박스</p>
+            </a>
+            <a className="rounded-lg border border-rose-400/40 bg-slate-950 p-4 hover:border-rose-300" href={buildAliExpressUrl('projector screen')} target="_blank" rel="sponsored noopener noreferrer">
+              <p className="text-xs font-semibold uppercase tracking-wide text-rose-300">AliExpress</p>
+              <p className="mt-1 text-sm">Projector Screen</p>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
