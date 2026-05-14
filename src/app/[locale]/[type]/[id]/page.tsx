@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (type !== 'movie' && type !== 'tv') return {};
   try {
     const detail = await getDetail(type, Number(id), locale as any);
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://whereonott.com';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://whereonott.online';
     return {
       title: `Where to watch ${detail.title}`,
       description: detail.overview || `Find where to stream ${detail.title}.`,
