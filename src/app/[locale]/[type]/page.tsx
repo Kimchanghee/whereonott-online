@@ -17,6 +17,21 @@ const TYPE_LABEL: Record<string, string> = {
   upcoming: 'Coming soon',
 };
 
+const TYPE_GUIDE: Record<string, { intro: string; checks: string[] }> = {
+  movie: {
+    intro: 'Use this movie board to scan theatrical releases, streaming originals, and library titles before opening a detail page. The cards stay internal first so users can compare titles instead of being pushed into an external ad click.',
+    checks: ['Confirm the release year when titles are reused.', 'Open the detail page before choosing a provider.', 'Use search for local-language titles that do not appear in the weekly trend list.']
+  },
+  tv: {
+    intro: 'Use this TV board for current drama, reality, anime, and documentary series. Series pages need a little more context than a poster, so the list keeps rating and title signals visible before the next click.',
+    checks: ['Check whether the title is a series or a special episode.', 'Compare the original title with the local title.', 'Use search when a new season has not entered trending data yet.']
+  },
+  upcoming: {
+    intro: 'Use the coming-soon board to plan watchlists before release. Upcoming availability can change quickly, so this page is designed as an internal discovery step rather than a thin outbound link list.',
+    checks: ['Treat dates as early signals until the provider confirms them.', 'Recheck the detail page near release week.', 'Search by original title if the local title has not been announced.']
+  }
+};
+
 export default async function MediaListPage({ params }: Props) {
   const { locale, type } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as any) || !TYPE_LABEL[type]) notFound();
@@ -25,6 +40,7 @@ export default async function MediaListPage({ params }: Props) {
   const items = type === 'upcoming'
     ? await getUpcoming(locale as any).catch(() => [])
     : await getTrending(type as 'movie' | 'tv', 'week', locale as any).catch(() => []);
+  const guide = TYPE_GUIDE[type];
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
@@ -38,6 +54,15 @@ export default async function MediaListPage({ params }: Props) {
       <section className="container mx-auto max-w-7xl px-4 py-10">
         <h1 className="text-4xl font-bold tracking-tight">{TYPE_LABEL[type]}</h1>
         <p className="mt-3 text-slate-400">Browse current streaming availability and trending titles.</p>
+
+        <section className="mt-6 grid gap-4 rounded-xl border border-slate-800 bg-slate-900/70 p-5 md:grid-cols-[1.3fr_1fr]">
+          <p className="text-sm leading-6 text-slate-300">{guide.intro}</p>
+          <ul className="space-y-2 text-sm leading-6 text-slate-400">
+            {guide.checks.map((check) => (
+              <li key={check}>- {check}</li>
+            ))}
+          </ul>
+        </section>
 
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6">
           {items.map((item: any) => {

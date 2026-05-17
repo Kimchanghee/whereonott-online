@@ -50,14 +50,30 @@ export default async function SearchPage({ params, searchParams }: Props) {
       </header>
 
       <section className="container mx-auto max-w-7xl px-4 py-8">
+        <div className="mb-8 max-w-3xl">
+          <h1 className="text-4xl font-bold tracking-tight">Search streaming availability</h1>
+          <p className="mt-3 text-slate-400">
+            Type a movie, drama, anime, actor, or original title to find likely streaming pages and compare where to watch next.
+            Results open inside WhereOnOTT first, so the click path does not jump straight to an ad or unrelated landing page.
+          </p>
+        </div>
         {q.trim() === '' ? (
-          <div className="text-center py-16 text-slate-400">
-            <p className="text-2xl">키워드를 입력해 주세요</p>
-            <p className="mt-2 text-sm">예: 오징어 게임, 기생충, 더 글로리</p>
+          <div className="rounded-xl border border-slate-800 bg-slate-900/70 p-6 text-slate-300">
+            <p className="text-2xl font-semibold text-slate-100">키워드를 입력해 주세요</p>
+            <p className="mt-2 text-sm">예: 오징어 게임, 기생충, 더 글로리, Shogun, Fallout, One Piece</p>
+            <ul className="mt-5 grid gap-3 text-sm leading-6 md:grid-cols-3">
+              <li className="rounded-lg bg-slate-950 p-4">작품명을 먼저 검색한 뒤 영화/TV 구분을 확인하세요.</li>
+              <li className="rounded-lg bg-slate-950 p-4">결과 카드의 평점과 포스터를 보고 같은 제목의 다른 작품을 피하세요.</li>
+              <li className="rounded-lg bg-slate-950 p-4">상세 페이지에서 제공사와 공개일 정보를 함께 확인하세요.</li>
+            </ul>
           </div>
         ) : results.length === 0 ? (
-          <div className="text-center py-16 text-slate-400">
-            <p className="text-2xl">"{q}"에 대한 결과 없음</p>
+          <div className="rounded-xl border border-slate-800 bg-slate-900/70 p-6 text-slate-300">
+            <p className="text-2xl font-semibold text-slate-100">"{q}"에 대한 결과 없음</p>
+            <p className="mt-3 text-sm leading-6">
+              한국어 제목이 없으면 원제, 배우 이름, 시즌명, 또는 짧은 핵심 단어로 다시 검색해 보세요.
+              오래된 작품은 국가별 제공권이 자주 바뀌므로 검색어를 바꿔 확인하는 편이 정확합니다.
+            </p>
           </div>
         ) : (
           <>
