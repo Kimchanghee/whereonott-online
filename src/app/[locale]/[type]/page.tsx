@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { getTrending, getUpcoming } from '@/lib/tmdb';
@@ -32,6 +33,19 @@ const TYPE_GUIDE: Record<string, { intro: string; checks: string[] }> = {
   }
 };
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale, type } = await params;
+  if (!SUPPORTED_LOCALES.includes(locale as any) || !TYPE_LABEL[type]) return {};
+  const title = `${TYPE_LABEL[type]} streaming guide | WhereOnOTT`;
+  const description = `Browse ${TYPE_LABEL[type].toLowerCase()} with internal streaming context, release checks, ratings, and next-step guidance before opening a detail page.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${locale}/${type}` },
+    openGraph: { title, description, url: `https://whereonott.online/${locale}/${type}` },
+  };
+}
+
 export default async function MediaListPage({ params }: Props) {
   const { locale, type } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as any) || !TYPE_LABEL[type]) notFound();
@@ -56,11 +70,20 @@ export default async function MediaListPage({ params }: Props) {
         <p className="mt-3 text-slate-400">Browse current streaming availability and trending titles.</p>
 
         <section className="mt-6 grid gap-4 rounded-xl border border-slate-800 bg-slate-900/70 p-5 md:grid-cols-[1.3fr_1fr]">
-          <p className="text-sm leading-6 text-slate-300">{guide.intro}</p>
+          <div className="space-y-3 text-sm leading-6 text-slate-300">
+            <p>{guide.intro}</p>
+            <p>
+              A useful streaming page should answer why a title deserves the next click. Compare the poster, title,
+              vote signal, release timing, and media type here first, then open the internal detail page only for the
+              titles that still look relevant. This keeps the experience focused on discovery instead of forcing an
+              immediate external jump.
+            </p>
+          </div>
           <ul className="space-y-2 text-sm leading-6 text-slate-400">
             {guide.checks.map((check) => (
               <li key={check}>- {check}</li>
             ))}
+            <li>- If a list is temporarily sparse, use search and the home board before assuming the title is unavailable.</li>
           </ul>
         </section>
 

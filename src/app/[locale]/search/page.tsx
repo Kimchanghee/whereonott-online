@@ -56,11 +56,21 @@ export default async function SearchPage({ params, searchParams }: Props) {
             Type a movie, drama, anime, actor, or original title to find likely streaming pages and compare where to watch next.
             Results open inside WhereOnOTT first, so the click path does not jump straight to an ad or unrelated landing page.
           </p>
+          <p className="mt-3 text-sm leading-6 text-slate-500">
+            Search works best when you start broad, confirm whether the result is a movie or TV series, and then open the
+            matching internal detail page. If a title has multiple remakes, use the poster, year, rating, and original
+            language together before trusting a provider result.
+          </p>
         </div>
         {q.trim() === '' ? (
           <div className="rounded-xl border border-slate-800 bg-slate-900/70 p-6 text-slate-300">
             <p className="text-2xl font-semibold text-slate-100">키워드를 입력해 주세요</p>
             <p className="mt-2 text-sm">예: 오징어 게임, 기생충, 더 글로리, Shogun, Fallout, One Piece</p>
+            <p className="mt-4 text-sm leading-6 text-slate-400">
+              정확한 결과가 바로 나오지 않으면 한국어 제목, 영어 원제, 배우 이름, 시즌 부제처럼 서로 다른 단서를
+              차례대로 입력해 보세요. 국가별 판권은 자주 바뀌기 때문에 검색 결과는 최종 결제 전 확인용 출발점으로
+              쓰는 것이 안전합니다.
+            </p>
             <ul className="mt-5 grid gap-3 text-sm leading-6 md:grid-cols-3">
               <li className="rounded-lg bg-slate-950 p-4">작품명을 먼저 검색한 뒤 영화/TV 구분을 확인하세요.</li>
               <li className="rounded-lg bg-slate-950 p-4">결과 카드의 평점과 포스터를 보고 같은 제목의 다른 작품을 피하세요.</li>
