@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { getTrending, getUpcoming } from '@/lib/tmdb';
+import SafeInlineAdsterra from '@/components/SafeInlineAdsterra';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -112,6 +113,7 @@ export default async function Home({ params }: Props) {
           </div>
         </div>
       </section>
+          <SafeInlineAdsterra placement="homepage-inline" />
     </main>
   );
 }
