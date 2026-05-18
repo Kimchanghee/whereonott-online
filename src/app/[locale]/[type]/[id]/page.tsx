@@ -140,10 +140,10 @@ function ProviderBlock({ title, data }: { title: string; data: any }) {
                 key={p.providerId}
                 href={data.link}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="noopener noreferrer sponsored nofollow"
                 title={p.providerName}
                 className="block transition hover:scale-110"
-              >
+               data-affiliate-link>
                 {p.logoUrl && (
                   <Image
                     src={p.logoUrl}
