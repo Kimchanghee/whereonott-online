@@ -9,14 +9,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   for (const locale of LOCALES) {
     entries.push({
-      url: `${SITE}/${locale}`,
+      url: `${SITE}/${locale}/`,
       lastModified, changeFrequency: 'daily', priority: 1.0,
-      alternates: { languages: Object.fromEntries(LOCALES.map(l => [l, `${SITE}/${l}`])) },
+      alternates: { languages: Object.fromEntries(LOCALES.map(l => [l, `${SITE}/${l}/`])) },
     });
-    entries.push({ url: `${SITE}/${locale}/movie`, lastModified, changeFrequency: 'daily', priority: 0.9 });
-    entries.push({ url: `${SITE}/${locale}/tv`, lastModified, changeFrequency: 'daily', priority: 0.9 });
-    entries.push({ url: `${SITE}/${locale}/upcoming`, lastModified, changeFrequency: 'daily', priority: 0.85 });
-    entries.push({ url: `${SITE}/${locale}/search`, lastModified, changeFrequency: 'weekly', priority: 0.6 });
+    entries.push({ url: `${SITE}/${locale}/movie/`, lastModified, changeFrequency: 'daily', priority: 0.9 });
+    entries.push({ url: `${SITE}/${locale}/tv/`, lastModified, changeFrequency: 'daily', priority: 0.9 });
+    entries.push({ url: `${SITE}/${locale}/upcoming/`, lastModified, changeFrequency: 'daily', priority: 0.85 });
+    entries.push({ url: `${SITE}/${locale}/search/`, lastModified, changeFrequency: 'weekly', priority: 0.6 });
   }
 
   // TMDB 인기 작품들의 동적 URL은 빌드 시 fetch하여 추가 가능

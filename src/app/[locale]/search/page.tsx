@@ -15,7 +15,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   return {
     title: q ? `Search: ${q}` : 'Search movies & TV',
     description: `Find streaming availability for "${q}"`,
-    alternates: { canonical: `/${locale}/search?q=${encodeURIComponent(q)}` },
+    alternates: { canonical: q ? `/${locale}/search/?q=${encodeURIComponent(q)}` : `/${locale}/search/` },
   };
 }
 

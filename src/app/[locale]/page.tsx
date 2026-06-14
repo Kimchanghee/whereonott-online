@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { getTrending, getUpcoming } from '@/lib/tmdb';
 import SafeInlineSponsored from '@/components/SafeInlineSponsored';
@@ -9,6 +10,14 @@ interface Props {
 }
 
 export const revalidate = 21600; // 6h ISR
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    alternates: { canonical: `/${locale}/` },
+    openGraph: { url: `https://whereonott.online/${locale}/` },
+  };
+}
 
 const FALLBACK_MOVIES = [
   { id: 'fallback-dune-part-two', type: 'movie', title: 'Dune: Part Two', posterUrl: '', voteAverage: 8.5 },

@@ -41,8 +41,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: { canonical: `/${locale}/${type}` },
-    openGraph: { title, description, url: `https://whereonott.online/${locale}/${type}` },
+    alternates: { canonical: `/${locale}/${type}/` },
+    openGraph: { title, description, url: `https://whereonott.online/${locale}/${type}/` },
   };
 }
 

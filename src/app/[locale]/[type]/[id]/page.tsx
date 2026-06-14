@@ -20,17 +20,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `Where to watch ${detail.title}`,
       description: detail.overview || `Find where to stream ${detail.title}.`,
       alternates: {
-        canonical: `/${locale}/${type}/${id}`,
+        canonical: `/${locale}/${type}/${id}/`,
         languages: {
-          ko: `/ko/${type}/${id}`,
-          en: `/en/${type}/${id}`,
-          ja: `/ja/${type}/${id}`,
+          ko: `/ko/${type}/${id}/`,
+          en: `/en/${type}/${id}/`,
+          ja: `/ja/${type}/${id}/`,
         },
       },
       openGraph: {
         title: detail.title,
         description: detail.overview,
-        url: `${baseUrl}/${locale}/${type}/${id}`,
+        url: `${baseUrl}/${locale}/${type}/${id}/`,
         images: detail.backdropUrl ? [detail.backdropUrl] : [],
       },
     };
