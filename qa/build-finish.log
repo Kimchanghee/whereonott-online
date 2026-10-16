@@ -1,0 +1,11 @@
+[33m[1m23:51:41[22m [WARN] [content][39m data store cleared (force)
+[2m23:51:44[22m [34m[content][39m Syncing content
+[33m[1m23:51:44[22m [WARN] [glob-loader][39m No files found matching "[!_]*.md" in directory "src\content\posts"
+[2m23:51:45[22m [34m[content][39m Synced content
+[2m23:51:45[22m [34m[types][39m Generated [2m3.83s[22m
+[2m23:51:45[22m [34m[build][39m output: [34m"static"[39m
+[2m23:51:45[22m [34m[build][39m mode: [34m"static"[39m
+[2m23:51:45[22m [34m[build][39m directory: [34mD:\웹 수익 자동화\rebuild-202610\whereonott.online\dist\[39m
+[2m23:51:45[22m [34m[build][39m Collecting build info...
+[2m23:51:45[22m [34m[build][39m [32m✓ Completed in 3.94s.[39m
+[2m23:51:45[22m [34m[build][39m Building static entrypoints...

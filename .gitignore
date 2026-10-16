@@ -5,3 +5,6 @@ dist/
 !.env.example
 qa/*.png
 qa/*.log
+
+.pnpm-store/
+qa/tmp/

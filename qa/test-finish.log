@@ -1,0 +1,15 @@
+✔ pass fixture passes the source gate (1495.6435ms)
+✔ fail fixture is rejected with the expected reasons (359.0605ms)
+✔ duplicate product URL within 30 days is rejected (374.161ms)
+✔ same slug already in publish log is rejected (358.358ms)
+✔ deploy requires explicit parent opt-in (2526.36ms)
+✔ traversal rejected (1352.4157ms)
+✔ missing dry-run post rejected (1464.6012ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5535.0996

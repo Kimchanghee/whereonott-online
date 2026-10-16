@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "사운드바를 살 때 ARC와 eARC를 확인해야 할까?"
 slug: "soundbar-earc"
 question: "사운드바를 살 때 ARC와 eARC를 확인해야 할까?"

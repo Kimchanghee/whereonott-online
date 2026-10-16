@@ -1,0 +1,4 @@
+---
+import {site} from '../site.config';const {id}=Astro.props;
+---
+{site.adsEnabled&&<div id={id} class="ad-slot" aria-label="광고 영역"/>}

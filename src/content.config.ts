@@ -21,6 +21,7 @@ const image = z.object({
 const posts = defineCollection({
   loader: glob({ pattern: '[!_]*.md', base: './src/content/posts' }),
   schema: z.object({
+ draft: z.boolean().default(true),
     title: z.string().min(8).max(60),
     slug: z.string().regex(/^[a-z0-9-]+$/),
     question: z.string().min(6),
@@ -51,6 +52,7 @@ const posts = defineCollection({
 const guides = defineCollection({
   loader: glob({ pattern: '[!_]*.md', base: './src/content/guides' }),
   schema: z.object({
+ draft: z.boolean().default(true),
     title: z.string().min(8).max(60),
     slug: z.string().regex(/^[a-z0-9-]+$/),
     question: z.string().min(6),

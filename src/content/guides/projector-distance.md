@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "프로젝터 구매 전 투사 거리를 어떻게 확인할까?"
 slug: "projector-distance"
 question: "프로젝터 구매 전 투사 거리를 어떻게 확인할까?"

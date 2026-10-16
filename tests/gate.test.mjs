@@ -4,7 +4,7 @@ import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { writeFileSync, mkdtempSync } from 'node:fs';
-import { tmpdir } from 'node:os';
+const tmpdir = () => join(root,'qa/tmp');
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const gate = join(root, 'scripts/gate.mjs');

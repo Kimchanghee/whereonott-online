@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "홈시네마는 화면보다 거실 배치를 먼저 정할까?"
 slug: "living-room-layout"
 question: "홈시네마는 화면보다 거실 배치를 먼저 정할까?"

@@ -1,0 +1,9 @@
+---
+import {site} from '../site.config';
+---
+{site.ga4Id&&<><script is:inline define:vars={{id:site.ga4Id}}>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;
+gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});
+gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IE','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});gtag('js',new Date());gtag('config',id);document.addEventListener('click',e=>{const a=e.target.closest?.('a[data-product-link]');if(a)gtag('event','outbound_affiliate_click',{destination_host:new URL(a.href).hostname})});
+</script><script is:inline async src={'https://www.googletagmanager.com/gtag/js?id='+site.ga4Id}/></>}
+{site.adsEnabled&&import.meta.env.PUBLIC_CMP_VERIFIED==='true'&&<script is:inline async crossorigin="anonymous" src={'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='+site.adsenseClient}/>}

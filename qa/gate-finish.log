@@ -1,0 +1,6 @@
+FAIL /guides/
+  - internal links in <main> 0 < 2
+FAIL /
+  - internal links in <main> 1 < 2
+FAIL site: launch requires >=8 substantive published guides; found 0
+gate: 10/12 checks passed, 1 site errors

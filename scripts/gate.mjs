@@ -282,6 +282,7 @@ function contentEntries() {
       if (!n.endsWith('.md') || n.startsWith('_')) continue;
       const file = join(p, n);
       const { fm } = splitFrontmatter(readFileSync(file, 'utf8'));
+      if (fm?.draft !== false) continue;
       list.push({ file, kind, fm, path: `/${base}/${fm?.slug}/` });
     }
   }
@@ -341,6 +342,7 @@ if (isMain) {
     results.push(gatePage(f, dist, { sitemapLocs, entries: entryMap }));
   }
   for (const x of entries) if (!existsSync(join(dist, x.path, 'index.html'))) results.push({ page: x.path, errors: ['content entry not built'], warnings: [] });
-  const ok = report(results, siteFiles(dist));
+  const extra=siteFiles(dist); const guides=entries.filter(x=>x.kind==='guide'); if(guides.length<8)extra.push(`launch requires >=8 substantive published guides; found ${guides.length}`);
+  const ok = report(results, extra);
   process.exit(ok ? 0 : 1);
 }

@@ -45,7 +45,10 @@ if (-not $productUrl -or -not $title -or -not $fm.disclosure) { Fail 'title/prod
 $site = $fm.siteUrl
 
 # 2. build + full built-page gate for this slug
-pnpm build
+$env:ASTRO_TELEMETRY_DISABLED = '1'
+node scripts/og.mjs
+if ($LASTEXITCODE -ne 0) { Fail 'OG generation failed' }
+node node_modules/astro/astro.js build --force
 if ($LASTEXITCODE -ne 0) { Fail 'build failed' }
 node scripts/gate.mjs --slug $Slug --log $log
 if ($LASTEXITCODE -ne 0) { Fail 'built-page gate failed' }
