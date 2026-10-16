@@ -1,0 +1,122 @@
+{
+  "observedAt": "2026-10-16T14:57:26.602Z",
+  "method": "Direct webfetch original bodies, not search snippets. Editorial synthesis, no product tests.",
+  "branch": "v2-cloudflare-static",
+  "baseCommit": "121e311",
+  "readings": [
+    {
+      "id": "epson",
+      "title": "Epson: Throw Distance and Positioning",
+      "url": "https://epson.com/projector-guide-how-to-buy-a-projector-throw-distance-and-positioning",
+      "usedBy": [
+        "projector-distance"
+      ],
+      "notes": "투사 거리 정의, 방 구조에 따른 위치/영상 크기, long/short/ultra-short 분류 확인. 일반 분류를 모델별 설치 보장으로 사용하지 않음.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "dolby",
+      "title": "Dolby: Home theater setup guide",
+      "url": "https://www.dolby.com/about/support/guide/home-theater-setup",
+      "usedBy": [
+        "projector-distance",
+        "living-room-layout"
+      ],
+      "notes": "방 계획, 중앙 정면 좌석, 조명·커튼, 거리/1.5=대각선 크기 및 55인치 약2.1m 예시 확인. 와트·제품 홍보 주장 제외.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "sony",
+      "title": "Sony: Recommended TV Viewing Distance Guide",
+      "url": "https://experience.sony-asia.com/ph/home/exploredetail/1158",
+      "usedBy": [
+        "living-room-layout"
+      ],
+      "notes": "4K 최소 거리=화면 세로 높이 약1.5배, Full HD 약3배, 55인치4K 약1m 확인. 최소 거리와 Dolby 배치 안내를 구분.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "hdmi",
+      "title": "HDMI LA: Enhanced Audio Return Channel",
+      "url": "https://www.hdmi.org/spec21sub/enhancedaudioreturnchannel",
+      "usedBy": [
+        "soundbar-earc"
+      ],
+      "notes": "eARC 반환 및 비압축 다채널·고비트레이트 형식 지원 확인. 표준 능력과 특정 제품 디코딩을 구분.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "sonos",
+      "title": "Sonos: HDMI ARC and eARC compared",
+      "url": "https://www.sonos.com/en-us/blog/hdmi-arc-earc-compared",
+      "usedBy": [
+        "soundbar-earc"
+      ],
+      "notes": "ARC 반환 연결, eARC 대역폭, TrueHD 무손실 Atmos 및 양쪽 지원 조건 확인. 단순화된 케이블 길이/속도 설명은 제외.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "appleHDR",
+      "title": "Apple: 4K, HDR and Dolby Vision connection requirements",
+      "url": "https://support.apple.com/en-us/102339",
+      "usedBy": [
+        "soundbar-earc",
+        "living-room-layout",
+        "streaming-settop-compatibility"
+      ],
+      "notes": "포트별4K/HDR 차이와 설정, 중간 수신기/사운드바/선택기 점검, TV 직접 연결 진단 확인.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "appleSpec",
+      "title": "Apple TV 4K (3rd generation): Technical specifications",
+      "url": "https://support.apple.com/111839",
+      "usedBy": [
+        "streaming-settop-compatibility"
+      ],
+      "notes": "3세대 사양과 각주 직접 읽음. 최대4K60, Wi-Fi/Ethernet 차이, 보호 콘텐츠 HDCP·호환 수신기 필요, 서비스 지역 제한 확인. 최신 제품 랜딩 사양 혼합하지 않음.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "appleSetup",
+      "title": "Apple: Set up Apple TV 4K",
+      "url": "https://support.apple.com/guide/tv/set-up-apple-tv-4k-atvb73e46488/tvos",
+      "usedBy": [
+        "streaming-settop-compatibility"
+      ],
+      "notes": "설치 가이드 직접 읽음. 공식 App Store 앱, 인터넷·HDMI·계정과3세대Wi-Fi모델Ethernet부재 확인.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "google",
+      "title": "Google: Chromecast and Google TV Streamer requirements",
+      "url": "https://support.google.com/chromecast/answer/7022492?hl=en",
+      "usedBy": [
+        "streaming-settop-compatibility"
+      ],
+      "notes": "해당Google기기HDCP1.3/4K HDCP2.2, 4K디스플레이·20Mbps 조건 및 앱/지역/네트워크 한계 확인. 모든OTT 보장 속도로 확대하지 않음.",
+      "readMode": "original body directly fetched and read"
+    },
+    {
+      "id": "widevine",
+      "title": "Google: Widevine DRM overview",
+      "url": "https://developers.google.com/widevine/drm/overview",
+      "usedBy": [
+        "streaming-settop-compatibility"
+      ],
+      "notes": "콘텐츠 보호 목적, Android TV 등 플랫폼 지원, 서비스 요청 검증·규칙 적용 확인. 플랫폼 지원을 개별 앱 인증·최고화질 보장으로 쓰지 않음.",
+      "readMode": "original body directly fetched and read"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.sony.co.uk/electronics/support/articles/00008601",
+      "reason": "Direct fetch 403. Search excerpt not counted; replaced with directly read Sony Asia original."
+    }
+  ],
+  "limits": [
+    "Four evergreen guides only, existing three expanded in place; no deploy/accounts.",
+    "No model-specific Korean OTT certification, price or hands-on claims.",
+    "Minimum eight-guide launch gate unchanged."
+  ]
+}

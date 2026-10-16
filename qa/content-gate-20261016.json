@@ -1,0 +1,124 @@
+{
+  "pass": false,
+  "results": [
+    {
+      "file": "src\\content\\guides\\living-room-layout.md",
+      "kind": "guide",
+      "slug": "living-room-layout",
+      "errors": [],
+      "warnings": [],
+      "bodyChars": 1653,
+      "questionH2": 5
+    },
+    {
+      "file": "src\\content\\guides\\projector-distance.md",
+      "kind": "guide",
+      "slug": "projector-distance",
+      "errors": [],
+      "warnings": [],
+      "bodyChars": 1636,
+      "questionH2": 5
+    },
+    {
+      "file": "src\\content\\guides\\soundbar-earc.md",
+      "kind": "guide",
+      "slug": "soundbar-earc",
+      "errors": [],
+      "warnings": [],
+      "bodyChars": 1798,
+      "questionH2": 5
+    },
+    {
+      "file": "src\\content\\guides\\streaming-settop-compatibility.md",
+      "kind": "guide",
+      "slug": "streaming-settop-compatibility",
+      "errors": [],
+      "warnings": [],
+      "bodyChars": 2145,
+      "questionH2": 6
+    },
+    {
+      "page": "/about/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/category/picture/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/category/room/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/category/sound/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/contact/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/disclaimer/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/guides/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/guides/living-room-layout/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/guides/projector-distance/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/guides/soundbar-earc/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/guides/streaming-settop-compatibility/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/methodology/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/picks/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/privacy/",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "page": "/terms/",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "siteErrors": [
+    "launch requires >=8 substantive published guides; found 4"
+  ]
+}
