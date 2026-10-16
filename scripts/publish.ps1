@@ -12,12 +12,34 @@ param(
   [switch]$DryRun, [switch]$AllowDeploy
 )
 $ErrorActionPreference = 'Stop'
+$OutputEncoding = [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
 function Fail($msg) { Write-Host "PUBLISH FAIL: $msg" -ForegroundColor Red; exit 1 }
 
+# A test stage can never enter the deployment path, even with explicit opt-in.
+$stageMarker = Join-Path $root '.dryrun-only.json'
+$staged = Test-Path $stageMarker
+if ($staged -and -not $DryRun) { Fail 'test stage is never deployable' }
+if ($staged) {
+  $tempRoot = (& node -p "require('fs').realpathSync(require('os').tmpdir())").TrimEnd('\') + '\'
+  if (-not $root.StartsWith($tempRoot, [StringComparison]::OrdinalIgnoreCase) -or (Split-Path $root -Leaf) -notlike 'whereonott-NONDEPLOYABLE-*') { Fail 'invalid dryrun staging location' }
+  $stageInfo = Get-Content $stageMarker -Raw | ConvertFrom-Json
+  if ($stageInfo.nonDeployable -ne $true) { Fail 'invalid dryrun staging marker' }
+}
 if ($Slug -notmatch '^[a-z0-9]+(?:-[a-z0-9]+)*$') { Fail 'invalid slug; paths and traversal are forbidden' }
 if (-not $DryRun -and -not $AllowDeploy) { Fail 'deployment disabled by default; parent must explicitly pass -AllowDeploy' }
+if ($DryRun -and -not $staged) {
+  if (-not (Test-Path (Join-Path $root "src/content/posts/$Slug.md")) -and -not (Test-Path (Join-Path $root "src/content/posts/$Slug.mdx"))) { Fail 'post not found' }
+  node (Join-Path $PSScriptRoot 'dryrun-stage.mjs') --slug $Slug
+  exit $LASTEXITCODE
+}
+# Fixture recognition applies to all buildable posts, not only the requested slug.
+if (-not $DryRun) {
+  foreach ($candidate in Get-ChildItem (Join-Path $root 'src/content/posts') -File) {
+    if ($candidate.Extension -in '.md','.mdx' -and (Get-Content $candidate.FullName -Raw) -match 'FIXTURE|fixture:\s*true|example-only') { Fail 'fixture content is never deployable' }
+  }
+}
 $intent = Join-Path $root "ops/publish-pending-$Slug.json"
 if (-not $DryRun -and (Test-Path $intent)) { Fail 'unreconciled publish intent exists; inspect live destination before retrying' }
 $cfg = Get-Content (Join-Path $root 'ops/publish.config.json') -Raw | ConvertFrom-Json
@@ -52,7 +74,7 @@ node node_modules/astro/astro.js build --force
 if ($LASTEXITCODE -ne 0) { Fail 'build failed' }
 node scripts/gate.mjs --slug $Slug --log $log
 if ($LASTEXITCODE -ne 0) { Fail 'built-page gate failed' }
-$buildSha = (git rev-parse --short HEAD).Trim()
+$buildSha = if ($staged) { $stageInfo.buildSha } else { (git rev-parse --short HEAD).Trim() }
 
 # 3. deploy (skipped in DryRun) and choose verification origin
 $preview = $null
@@ -78,7 +100,7 @@ try {
   for ($i = 0; $i -lt 6 -and -not $ok; $i++) {
     try {
       $r = Invoke-WebRequest -Uri $checkUrl -UseBasicParsing -TimeoutSec 20
-      $html = $r.Content
+      $html = [System.Text.Encoding]::UTF8.GetString($r.RawContentStream.ToArray())
       $hrefEsc = [System.Net.WebUtility]::HtmlEncode($productUrl)
       if ($r.StatusCode -ne 200) { $why = "status $($r.StatusCode)" }
       elseif (-not $html.Contains([System.Net.WebUtility]::HtmlEncode($title)) -and -not $html.Contains($title)) { $why = 'title missing' }
@@ -106,4 +128,3 @@ Add-Content -Path $target -Value $rec -Encoding utf8
 if (-not $DryRun) { Remove-Item $intent }
 Write-Host "PUBLISH OK$(if($DryRun){' (dry run)'}): $url" -ForegroundColor Green
 exit 0
-
