@@ -1,0 +1,74 @@
+{
+  "observedAt": "2026-10-16T15:03:47Z",
+  "scope": "Four additional independent guides; previous four unchanged; no prices, use claims, affiliate or ads activation.",
+  "articles": [
+    {
+      "slug": "projector-screen-ambient-light",
+      "sources": [
+        {
+          "title": "BenQ: Ambient Light Rejecting Screen",
+          "url": "https://www.benq.com/en-us/knowledge-center/knowledge/light-resistant-screens.html"
+        },
+        {
+          "title": "BenQ: Projector Brightness and Lumens",
+          "url": "https://www.benq.com/en-us/knowledge-center/knowledge/projector-brightness-lumens.html"
+        }
+      ],
+      "method": "Official originals directly read using webfetch. Epson PDF pages 150–154 extracted and read.",
+      "distinctIntent": "프로젝터 스크린"
+    },
+    {
+      "slug": "hdmi-cable-length-certification",
+      "sources": [
+        {
+          "title": "HDMI LA: Cable overview",
+          "url": "https://www.hdmi.org/resource/cables"
+        },
+        {
+          "title": "HDMI LA: Premium certification",
+          "url": "https://www.hdmi.org/spec/premiumcable"
+        },
+        {
+          "title": "HDMI LA: Ultra HDMI cables",
+          "url": "https://www.hdmi.org/spec2sub/ultrahdmicables"
+        }
+      ],
+      "method": "Official originals directly read using webfetch. Epson PDF pages 150–154 extracted and read.",
+      "distinctIntent": "HDMI 케이블 인증"
+    },
+    {
+      "slug": "projector-stand-safety",
+      "sources": [
+        {
+          "title": "Epson Home Cinema 3200/3800 User Guide pp.151–154",
+          "url": "https://files.support.epson.com/docid/cpd5/cpd57551.pdf"
+        }
+      ],
+      "method": "Official originals directly read using webfetch. Epson PDF pages 150–154 extracted and read.",
+      "distinctIntent": "프로젝터 받침대"
+    },
+    {
+      "slug": "living-room-audio-choice",
+      "sources": [
+        {
+          "title": "Dolby: Home theater setup guide",
+          "url": "https://www.dolby.com/about/support/guide/home-theater-setup"
+        },
+        {
+          "title": "Sonos Ray: User Guide and placement",
+          "url": "https://www.sonos.com/en-us/guides/ray"
+        }
+      ],
+      "method": "Official originals directly read using webfetch. Epson PDF pages 150–154 extracted and read.",
+      "distinctIntent": "거실 사운드바"
+    }
+  ],
+  "manufacturerLimits": {
+    "model": "Epson Home Cinema 3200/3800",
+    "pages": "151–154",
+    "wallClearance": "20 cm minimum",
+    "tilt": "No side operation/lateral tilt; front/back no more than 30 degrees",
+    "notUniversal": true
+  },
+  "ray": "Shelf front; 2in both sides; 1in above for controls; separate general 1in end-wall instruction not substituted for shelf rule."
+}
