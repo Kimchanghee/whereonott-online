@@ -1,38 +1,24 @@
 {
-  "name": "whereonott",
-  "version": "0.1.0",
+  "name": "whereonott-online",
   "private": true,
-  "description": "Where to watch — movie & series OTT availability finder (KR/EN/JA)",
+  "type": "module",
+  "version": "2.0.0",
   "scripts": {
-    "dev": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
-    "type-check": "tsc --noEmit",
-    "sync-tmdb": "tsx scripts/sync-tmdb.ts",
-    "translate:all": "tsx scripts/translate-all.ts",
-    "deploy": "npm run sync-tmdb && npm run translate:all && npm run build && cdk deploy --require-approval never"
+    "dev": "astro dev",
+    "build": "node scripts/og.mjs && astro build",
+    "check": "astro check",
+    "gate": "node scripts/gate.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "astro preview --port 4338"
   },
   "dependencies": {
-    "next": "^15.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next-intl": "^3.20.0",
-    "tailwindcss": "^3.4.13",
-    "lucide-react": "^0.452.0"
+    "astro": "^5.14.0"
   },
   "devDependencies": {
-    "@types/node": "^22.7.5",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "typescript": "^5.6.3",
-    "tsx": "^4.19.1",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "aws-cdk": "^2.160.0",
-    "aws-cdk-lib": "^2.160.0",
-    "@aws-sdk/client-bedrock-runtime": "^3.665.0"
-  },
-  "engines": {
-    "node": ">=20.0.0"
+    "@astrojs/check": "^0.9.4",
+    "sharp": "^0.34.0",
+    "typescript": "^5.9.0",
+    "yaml": "^2.8.0"
   }
 }

@@ -1,22 +1,7 @@
-# WhereOnOTT
+# 거실상영관
 
-OTT, manga, release, and media discovery pages.
+거실상영관은 프로젝터·사운드바·TV 주변기기를 공간과 연결 조건으로 고르는 한국어 홈시네마 구매 가이드입니다. 제조사와 표준 문서를 바탕으로 선택 기준과 구매 전 확인사항을 설명합니다.
 
-- Site: https://whereonott.online/
-- Discovery map: https://whereonott.online/discover.html
-- Sitemap: https://whereonott.online/sitemap.xml
-- Robots: https://whereonott.online/robots.txt
-
-## Related owned resources
-
-- [MangaDrop](https://mangadrop.online/) - ENTERTAINMENT
-- [EconoJabis](https://econojabis.com/) - FINANCE
-- [HowMuchIs](https://howmuchis.info/) - FINANCE
-- [Halculator](https://halculator.com/) - CALC
-- [WealthwiseHub](https://wealthwise-hub-71.lovable.app/) - FINANCE
-
-## Safe monetization hardening
-
-- Sponsored and affiliate links use nofollow/sponsored attributes.
-- Affiliate clicks are tracked with GA4 affiliate_click where the page has GA enabled.
-- Popup, popunder, social-bar, and redirect-style display ad loaders remain disabled.
+- [프로젝터 구매 전 투사 거리를 어떻게 확인할까?](https://whereonott.online/guides/projector-distance/)
+- [사운드바를 살 때 ARC와 eARC를 확인해야 할까?](https://whereonott.online/guides/soundbar-earc/)
+- [홈시네마는 화면보다 거실 배치를 먼저 정할까?](https://whereonott.online/guides/living-room-layout/)

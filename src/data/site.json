@@ -1,0 +1,35 @@
+{
+  "domain": "whereonott.online",
+  "url": "https://whereonott.online",
+  "name": "거실상영관",
+  "nameEn": "WhereOnOTT",
+  "lang": "ko",
+  "locale": "ko_KR",
+  "tagline": "상영 전, 거실부터 준비하세요",
+  "description": "거실상영관은 프로젝터·사운드바·TV 주변기기를 공간과 연결 조건으로 고르는 한국어 홈시네마 구매 가이드입니다. 제조사와 표준 문서를 바탕으로 선택 기준과 구매 전 확인사항을 설명합니다.",
+  "contactEmail": "contact@whereonott.online",
+  "adsenseClient": "ca-pub-4490818204529253",
+  "indexNowKey": "37b9fe0bc82442b1aa9bc9dd4b013ed8",
+  "postBase": "picks",
+  "guideBase": "guides",
+  "categories": [
+    {
+      "slug": "picture",
+      "name": "화면과 거리",
+      "code": "01",
+      "blurb": "TV와 프로젝터, 화면보다 먼저 공간을 확인합니다."
+    },
+    {
+      "slug": "sound",
+      "name": "소리와 연결",
+      "code": "02",
+      "blurb": "사운드바와 HDMI 연결 경로를 정리합니다."
+    },
+    {
+      "slug": "room",
+      "name": "상영 공간",
+      "code": "03",
+      "blurb": "빛과 자리, 거실의 조건부터 살펴봅니다."
+    }
+  ]
+}
