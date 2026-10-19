@@ -1,0 +1,123 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "columns": [
+        {
+          "items": [
+            "HDMI eARC/ARC 단자 위치",
+            "소리 출력 설정 메뉴",
+            "HDMI-CEC 기능 이름",
+            "TV 다리 사이 간격"
+          ],
+          "title": "TV 쪽"
+        },
+        {
+          "title": "S45H 쪽",
+          "accent": true,
+          "items": [
+            "HDMI 2.0 with eARC",
+            "폭 810mm",
+            "HDMI 입력: 없음(US 사양)",
+            "벽걸이·스탠드 겸용"
+          ]
+        }
+      ],
+      "kind": "columns",
+      "kicker": "TCL S45H 2.0ch 사운드바 · eARC 연결",
+      "foot": "출처: TCL Korea S45H 제품 페이지, TCL S45H 사양표(미국), 쿠팡 상품 정보 · 거실상영관 정리",
+      "title": "TV 쪽에서 볼 것, 사운드바 쪽에서 볼 것"
+    },
+    {
+      "file": "connection-path.png",
+      "note": "TV에 eARC가 없고 ARC만 있다면, 두 기기는 ARC 방식으로 연결됩니다.",
+      "nodes": [
+        {
+          "body": "HDMI 출력",
+          "title": "셋톱박스·콘솔",
+          "edge": "HDMI"
+        },
+        {
+          "body": "HDMI 입력 + eARC 단자",
+          "title": "TV",
+          "accent": true,
+          "edge": "eARC"
+        },
+        {
+          "body": "HDMI eARC 단자",
+          "title": "TCL S45H",
+          "edge": ""
+        }
+      ],
+      "kind": "flow",
+      "kicker": "연결 경로",
+      "foot": "TCL 미국 사양표 기준 S45H에는 HDMI 입력이 없어, 외부 기기는 TV에 연결하고 소리를 eARC로 돌려받습니다",
+      "title": "셋톱박스는 TV에, 소리는 eARC로"
+    },
+    {
+      "title": "eARC, ARC, 광 연결은 언제 쓸까?",
+      "highlight": 1,
+      "header": [
+        "항목",
+        "HDMI eARC",
+        "HDMI ARC",
+        "광(옵티컬)"
+      ],
+      "rows": [
+        [
+          "케이블",
+          "HDMI 1개",
+          "HDMI 1개",
+          "광케이블 1개"
+        ],
+        [
+          "조건",
+          "TV·사운드바 모두 eARC",
+          "양쪽 중 ARC 지원",
+          "TV 광 출력 단자"
+        ],
+        [
+          "리모컨 연동",
+          "CEC 설정 따라",
+          "CEC 설정 따라",
+          "기기별 상이"
+        ],
+        [
+          "언제",
+          "TV가 eARC 지원",
+          "eARC가 없을 때",
+          "TV에 ARC가 없을 때"
+        ]
+      ],
+      "kicker": "TV와 사운드바를 잇는 방법",
+      "foot": "출처: 삼성전자서비스 사운드바 연결 안내, LG 사운드바 사용설명서(eARC 연결) · 지원 포맷은 TV·사운드바·콘텐츠에 따라 다름",
+      "file": "link-types.png",
+      "kind": "table"
+    },
+    {
+      "file": "setup-check.png",
+      "steps": [
+        {
+          "body": "TV 뒷면 HDMI 단자 중 eARC 또는 ARC 표시가 있는 단자를 확인",
+          "title": "TV의 eARC 단자 찾기"
+        },
+        {
+          "body": "소리 출력을 외부 스피커로, eARC·HDMI-CEC 설정이 켜져 있는지 확인",
+          "title": "TV 설정 켜기"
+        },
+        {
+          "body": "TV 다리 사이나 TV장 위에 폭 810mm 본체가 들어가는지, 화면 하단을 가리지 않는지",
+          "title": "폭 810mm 자리 확인"
+        },
+        {
+          "body": "벽걸이로 설치하면 TV와 사운드바 사이 HDMI 케이블 길이를 다시 재기",
+          "title": "벽걸이 여부 정하기"
+        }
+      ],
+      "kind": "steps",
+      "kicker": "설치 전 점검",
+      "foot": "출처: TCL Korea S45H 제품 페이지, LG 사운드바 사용설명서, 삼성전자서비스 · 거실상영관 정리",
+      "title": "S45H를 놓기 전에 네 가지만 확인하세요"
+    }
+  ]
+}

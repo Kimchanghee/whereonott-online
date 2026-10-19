@@ -1,0 +1,108 @@
+{
+  "slug": "tcl-s45h-soundbar-earc-check",
+  "observedAt": "2026-10-19T09:25:00Z",
+  "primaryKeyword": "사운드바 eARC 연결",
+  "buyingQuestion": "TCL S45H를 거실 TV에 eARC로 연결하려면 무엇을 확인할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "TCL 2채널 돌비 애트모스 올인원 사운드바 S45H",
+    "option": "S45H · 단일색상 · 1개",
+    "sourceURL": "https://www.coupang.com/vp/products/8917712150?itemId=23155809850&vendorItemId=90188623298",
+    "coupangProductNo": "8917712150 - 23155809850",
+    "issuedURI": "https://link.coupang.com/a/hYpHk2smE8",
+    "linkIssuedAt": "2026-10-19T09:18:37.053Z",
+    "evidence": "ops/queue/evidence/tcl-s45h-soundbar-earc-check.md"
+  },
+  "serp": {
+    "google": {
+      "query": "사운드바 eARC 연결 선택 거실",
+      "observed": [
+        "samsungsvc.co.kr/solution/1484953",
+        "blog.naver.com/becausewecan/222102816960",
+        "clien.net/service/board/lecture/19180060",
+        "wikidocs.net/blog/@ranking/32418",
+        "blog.naver.com/samsung_cs/223577947577",
+        "reddit r/appletv eARC"
+      ]
+    },
+    "naver": {
+      "query": "사운드바 eARC 연결",
+      "observed": "AI 브리핑, 쿠팡 등 광고, 쇼핑 결과 위주; 원문은 Google 결과에서 선택"
+    }
+  },
+  "originalsRead": [
+    {
+      "url": "https://www.samsungsvc.co.kr/solution/1484953",
+      "title": "삼성 사운드바 연결하는 방법이 궁금해요 (삼성전자서비스, 2023-07-11)",
+      "structure": "ARC/eARC 연결→광→블루투스→Wi-Fi→외부기기 HDMI 연결",
+      "useful": "ARC/eARC 단자 연결 순서, TV 설정, HDMI와 광 동시 연결 시 HDMI 우선, CEC(Anynet+)",
+      "gap": "삼성 기기 전용 메뉴 경로는 일반화하지 않음"
+    },
+    {
+      "url": "https://m.blog.naver.com/becausewecan/222102816960",
+      "title": "HDMI ARC와 HDMI eARC에 관하여 알아야 할 모든 것 (하이탑AV, 2020-10-04)",
+      "structure": "ARC 개념→사용 조건→문제점→eARC 장점→케이블→하위 호환",
+      "useful": "eARC는 양쪽 기기 모두 지원 필요, ARC와 호환 시 ARC로 동작",
+      "gap": "2020년 시점 시장 정보는 현재 사실로 쓰지 않음"
+    },
+    {
+      "url": "https://www.clien.net/service/board/lecture/19180060",
+      "title": "HDMI-ARC 및 eARC: 사운드바 연결에 대해 알아야 할 모든 것 (클리앙 번역, 2026-04-20)",
+      "structure": "ARC 정의→ARC로 애트모스→필요 조건(CEC)→eARC→호환→케이블",
+      "useful": "CEC 이름이 제조사마다 다름, 하위 호환 시 ARC로 합의",
+      "gap": "번역 기사 수치(대역폭)는 사용하지 않음"
+    }
+  ],
+  "officialFacts": [
+    {
+      "claim": "S45H: 2.0ch, Dolby Atmos, DTS Virtual:X, HDMI 2.0 with eARC, AI Sonic-Adaptation, Tutti Choral",
+      "url": "https://www.tcl.com/kr/ko/soundbar/s45h"
+    },
+    {
+      "claim": "폭 810mm",
+      "url": "https://www.tcl.com/kr/ko/soundbar/s45h"
+    },
+    {
+      "claim": "Tutti Choral 업파이어링 기능은 업파이어링 스피커가 있는 TV에서만 지원",
+      "url": "https://www.tcl.com/kr/ko/soundbar/s45h"
+    },
+    {
+      "claim": "AI Sonic-Adaptation은 TCL 홈 앱으로 설정",
+      "url": "https://www.tcl.com/kr/ko/soundbar/s45h"
+    },
+    {
+      "claim": "모델 및 지역에 따라 기능, 사양 및 인증이 다름",
+      "url": "https://www.tcl.com/kr/ko/soundbar/s45h"
+    },
+    {
+      "claim": "미국 사양표: HDMI Input No, HDMI eARC 2.0, Optical Yes, 3.5mm AUX Yes, USB Audio Playback, Bluetooth",
+      "url": "https://us.tcl.com/products/tcl-s45h-s-class-2-0-channel-sound-bar-with-dolby-atmos-dts-virtual-x-and-bluetooth-music-streaming",
+      "note": "observed via official page spec excerpt; region may differ"
+    },
+    {
+      "claim": "ARC/eARC 연결 및 TV 설정, HDMI·광 동시 연결 시 HDMI 우선, CEC=Anynet+",
+      "url": "https://www.samsungsvc.co.kr/solution/1484953"
+    },
+    {
+      "claim": "TV에서 eARC 기능을 지원하고 켜야 사용 가능, SIMPLINK=HDMI-CEC",
+      "url": "https://gscs-manual.lge.com/PNZ/H7AKORLLK002/Korean/content7.html"
+    },
+    {
+      "claim": "쿠팡 상품 정보: 2채널, 벽걸이+스탠드겸용, 블루투스 가능, USB 재생가능",
+      "url": "https://www.coupang.com/vp/products/8917712150?itemId=23155809850&vendorItemId=90188623298"
+    }
+  ],
+  "omissions": [
+    "가격·평점·리뷰 수·구매 수",
+    "출력(W) 수치와 음질 평가",
+    "국내 판매분 구성품(벽걸이 키트·HDMI 케이블 포함 여부)",
+    "특정 포맷 전달 보장"
+  ],
+  "images": [
+    "cover.png",
+    "connection-path.png",
+    "link-types.png",
+    "setup-check.png"
+  ],
+  "imageRights": "own diagrams rendered by ops/diagrams/render.mjs; each inspected once"
+}
