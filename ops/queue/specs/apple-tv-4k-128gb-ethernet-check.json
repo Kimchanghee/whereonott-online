@@ -1,0 +1,123 @@
+{
+  "images": [
+    {
+      "columns": [
+        {
+          "items": [
+            "Apple TV 4K 본체",
+            "Siri Remote (3세대)",
+            "전원 코드",
+            "설명서"
+          ],
+          "title": "상자 안 (제조사 구성)"
+        },
+        {
+          "title": "따로 준비 (별매)",
+          "accent": true,
+          "items": [
+            "HDMI 케이블",
+            "리모컨 충전용 USB-C 케이블",
+            "USB-C 전원 어댑터 또는 컴퓨터",
+            "유선 연결 시 LAN 케이블"
+          ]
+        }
+      ],
+      "file": "cover.png",
+      "kind": "columns",
+      "title": "상자 안에 있는 것, 따로 준비할 것",
+      "kicker": "애플 TV 4K 3세대 · Wi-Fi + 이더넷 128GB (MN893KH/A)",
+      "foot": "출처: Apple 지원 「Apple TV 4K(3세대) 기술 사양」 제품 구성 항목 · 거실상영관 정리"
+    },
+    {
+      "file": "wired-path.png",
+      "kind": "flow",
+      "note": "전원 코드는 상자에 들어 있고, LAN 케이블과 HDMI 케이블은 길이를 재고 따로 준비합니다.",
+      "title": "유선 거실이라면 이 순서로 선을 확인하세요",
+      "kicker": "연결 경로 점검",
+      "nodes": [
+        {
+          "title": "공유기·벽 LAN 단자",
+          "edge": "LAN",
+          "body": "TV장까지 선이 닿는지"
+        },
+        {
+          "title": "Apple TV 4K 128GB",
+          "accent": true,
+          "edge": "HDMI",
+          "body": "기가비트 이더넷 포트"
+        },
+        {
+          "title": "TV 또는 AV 수신기",
+          "edge": "",
+          "body": "HDMI 입력 단자 위치"
+        }
+      ],
+      "foot": "기가비트 이더넷은 Wi-Fi + 이더넷(128GB) 모델에만 있습니다 · 출처: Apple 지원 기술 사양"
+    },
+    {
+      "file": "model-check.png",
+      "kind": "steps",
+      "title": "MN893KH/A · A2843, 네 군데에서 맞춰 보기",
+      "kicker": "정확한 옵션 확인",
+      "steps": [
+        {
+          "body": "모델명/품번이 MN893KH/A, 수량 1개로 표시되는지 확인",
+          "title": "판매 페이지 옵션명"
+        },
+        {
+          "body": "Wi-Fi + 이더넷 128GB 모델의 모델 번호는 A2843 (2022년 출시, 블랙)",
+          "title": "제조사 모델 번호"
+        },
+        {
+          "body": "본체 밑면 표기로 모델 번호를 한 번 더 대조",
+          "title": "받은 뒤 본체 밑면"
+        },
+        {
+          "body": "설정 > 일반 > 정보 화면 상단에서도 모델 번호를 확인할 수 있음",
+          "title": "설정 화면"
+        }
+      ],
+      "foot": "출처: Apple 지원 「Apple TV 모델 식별하기」 「Apple TV 모델 번호 찾기」 · 거실상영관 정리"
+    },
+    {
+      "highlight": 2,
+      "kind": "table",
+      "title": "64GB와 128GB는 저장 공간만 다를까?",
+      "rows": [
+        [
+          "저장 공간",
+          "64GB",
+          "128GB"
+        ],
+        [
+          "유선 랜",
+          "없음",
+          "기가비트 이더넷"
+        ],
+        [
+          "Thread 네트워킹",
+          "없음",
+          "지원"
+        ],
+        [
+          "칩",
+          "A15 Bionic",
+          "A15 Bionic"
+        ],
+        [
+          "HDMI",
+          "HDMI 2.1",
+          "HDMI 2.1"
+        ]
+      ],
+      "file": "variant-compare.png",
+      "foot": "출처: Apple 「Apple TV 4K 기술 사양」, Apple 지원 기술 사양 · Thread는 호환 HomeKit/Matter 액세서리에 한해 의미가 있음",
+      "header": [
+        "항목",
+        "Wi-Fi 모델",
+        "Wi-Fi + 이더넷 모델"
+      ],
+      "kicker": "3세대 두 옵션 비교"
+    }
+  ]
+}

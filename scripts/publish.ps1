@@ -68,6 +68,15 @@ $site = $fm.siteUrl
 
 # 2. build + full built-page gate for this slug
 $env:ASTRO_TELEMETRY_DISABLED = '1'
+# Production builds carry the site's GA4 id and optional per-site env (verification tokens), same as the parent deploy helper.
+$parentRefs = Join-Path (Split-Path -Parent $root) '_refs'
+$domainName = Split-Path $root -Leaf
+$gaFile = Join-Path $parentRefs 'ga4-ids.json'
+if (-not $staged -and (Test-Path $gaFile)) { $gaId = (Get-Content $gaFile -Raw | ConvertFrom-Json).($domainName.Split('.')[0]).id; if ($gaId) { $env:PUBLIC_GA4_ID = $gaId } }
+$siteEnv = Join-Path $parentRefs "env\$domainName.ps1"
+if (-not $staged -and (Test-Path $siteEnv)) { . $siteEnv }
+$naverFile = Join-Path $parentRefs 'naver-verification\tokens.json'
+if (-not $staged -and -not $env:PUBLIC_NAVER_VERIFICATION -and (Test-Path $naverFile)) { $nv = (Get-Content $naverFile -Raw | ConvertFrom-Json).tokens.$domainName; if ($nv) { $env:PUBLIC_NAVER_VERIFICATION = $nv } }
 node scripts/og.mjs
 if ($LASTEXITCODE -ne 0) { Fail 'OG generation failed' }
 node node_modules/astro/astro.js build --force
@@ -88,8 +97,11 @@ if ($DryRun) {
 } else {
   $intentStream = [System.IO.File]::Open($intent, [System.IO.FileMode]::CreateNew, [System.IO.FileAccess]::Write, [System.IO.FileShare]::None)
   try { $bytes = [Text.Encoding]::UTF8.GetBytes((@{slug=$Slug; attemptedAt=(Get-Date).ToUniversalTime().ToString('o'); buildSha=$buildSha} | ConvertTo-Json)); $intentStream.Write($bytes,0,$bytes.Length); $intentStream.Flush($true) } finally { $intentStream.Dispose() }
-  npx wrangler deploy
-  if ($LASTEXITCODE -ne 0) { Fail 'wrangler deploy failed' }
+  # Deploy through the parent helper so custom-domain routes, account id and GA4 checks are preserved.
+  $deployHelper = Join-Path $parentRefs 'deploy-site.ps1'
+  if (-not (Test-Path $deployHelper)) { Fail 'parent deploy helper missing' }
+  pwsh -NoProfile -File $deployHelper -Domain $domainName -SkipBuild
+  if ($LASTEXITCODE -ne 0) { Fail 'deploy helper failed' }
   $origin = $site
 }
 
