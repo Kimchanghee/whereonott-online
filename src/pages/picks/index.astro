@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { allPosts, postPath, ymd } from '../../lib/content';
 import { site, categoryBySlug } from '../../site.config';
 const posts = await allPosts();
-const title = '링크를 확인한 홈시네마 장비 추천 글 목록 | 거실상영관';
+const title = '링크를 확인한 홈시네마 장비 추천 글 목록';
 const description = '판매 링크가 실제 상품과 옵션으로 연결되는지 확인한 뒤 발행한 홈시네마 장비 추천 글 목록입니다. 모든 추천 글은 제휴 링크를 포함하며 글 맨 위에 제휴 사실을 표시합니다.';
 const crumbs = [{ name: '홈', href: '/' }, { name: '장비 추천', href: '/picks/' }];
 ---

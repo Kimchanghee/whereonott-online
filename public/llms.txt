@@ -1,7 +1,0 @@
-# 거실상영관
-
-거실상영관은 프로젝터·사운드바·TV 주변기기를 공간과 연결 조건으로 고르는 한국어 홈시네마 구매 가이드입니다. 제조사와 표준 문서를 바탕으로 선택 기준과 구매 전 확인사항을 설명합니다.
-
-- [프로젝터 구매 전 투사 거리를 어떻게 확인할까?](https://whereonott.online/guides/projector-distance/)
-- [사운드바를 살 때 ARC와 eARC를 확인해야 할까?](https://whereonott.online/guides/soundbar-earc/)
-- [홈시네마는 화면보다 거실 배치를 먼저 정할까?](https://whereonott.online/guides/living-room-layout/)

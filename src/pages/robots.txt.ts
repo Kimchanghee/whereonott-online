@@ -1,0 +1,3 @@
+import {site} from '../site.config';
+const named=['Googlebot','Bingbot','Yeti','Daum','DuckDuckBot','Applebot','Applebot-Extended','GPTBot','OAI-SearchBot','ChatGPT-User','ClaudeBot','Claude-User','Claude-SearchBot','PerplexityBot','Perplexity-User','Google-Extended','CCBot','Amazonbot','meta-externalagent'];
+export function GET(){const body=['# 거실상영관 robots.txt — 검색엔진과 AI 크롤러 모두 허용합니다.','User-agent: *','Allow: /','',...named.flatMap(n=>['User-agent: '+n,'Allow: /','']),'Sitemap: '+site.url+'/sitemap-index.xml',''].join('\n');return new Response(body,{headers:{'Content-Type':'text/plain; charset=utf-8'}})}

@@ -23,7 +23,7 @@ const prov = providerInfo(d.product.provider);
 const ld = [articleLd('post', post, path, og), faqLd(d.faq)].filter(Boolean) as Record<string, unknown>[];
 const crumbs = [ { name: '홈', href: '/' }, { name: cat.name, href: `/category/${cat.slug}/` }, { name: d.title, href: path } ];
 ---
-<Base title={`${d.title} | ${site.name}`} description={d.description} path={path} ogImage={og} ogType="article" jsonld={ld} crumbs={crumbs} published={d.published} updated={d.updated}>
+<Base title={d.title} description={d.description} path={path} ogImage={og} ogType="article" jsonld={ld} crumbs={crumbs} published={d.published} updated={d.updated}>
   <div class="wrap article-grid">
     <article class="article" data-gate="article">
       <p class="disclosure" data-gate="disclosure"><strong>제휴 고지</strong>{disclosureFor(post)}</p>
