@@ -17,7 +17,13 @@ $naverFile = Join-Path $parentRefs 'naver-verification\tokens.json'
 if (-not $env:PUBLIC_NAVER_VERIFICATION -and (Test-Path $naverFile)) { $nv = (Get-Content $naverFile -Raw | ConvertFrom-Json).tokens.$domainName; if ($nv) { $env:PUBLIC_NAVER_VERIFICATION = $nv } }
 $env:ASTRO_TELEMETRY_DISABLED = '1'
 node scripts/og.mjs; if ($LASTEXITCODE) { Fail 'og' }
-if (git status --porcelain) { Fail 'og generation changed tracked files; commit them first' }
+$ogDirty = @(git status --porcelain)
+if ($ogDirty.Count) {
+  if ($ogDirty | Where-Object { $_ -notmatch '^\s?[M?A]+\s+public/og/' }) { Fail 'og step changed non-OG files' }
+  git add public/og; git commit -q -m 'chore: regenerate OG cards'; git push -q origin HEAD:refs/heads/v2-cloudflare-static
+  if (((git ls-remote origin refs/heads/v2-cloudflare-static) -split '\s')[0] -ne (git rev-parse HEAD).Trim()) { Fail 'OG commit push mismatch' }
+  $head = (git rev-parse HEAD).Trim()
+}
 node node_modules/astro/astro.js build --force; if ($LASTEXITCODE) { Fail 'build' }
 node scripts/gate.mjs; if ($LASTEXITCODE) { Fail 'gate' }
 node --test tests/*.test.mjs; if ($LASTEXITCODE) { Fail 'tests' }
