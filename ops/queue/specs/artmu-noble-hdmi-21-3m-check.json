@@ -1,0 +1,118 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kicker": "HDMI 2.1 인증 케이블 · 아트뮤 Noble 3m (HN2130)",
+      "columns": [
+        {
+          "items": [
+            "Ultra High Speed 표기",
+            "길이 옵션: 3m × 1개",
+            "모델명/품번: HN2130",
+            "연결할 단자 위치와 거리"
+          ],
+          "title": "사기 전 (판매 페이지)"
+        },
+        {
+          "accent": true,
+          "title": "받은 뒤 (포장·케이블)",
+          "items": [
+            "포장의 인증 라벨",
+            "QR 코드 스캔 결과",
+            "케이블 피복의 이름 표기",
+            "브랜드·모델·길이 일치"
+          ]
+        }
+      ],
+      "title": "사기 전에 볼 것, 받은 뒤 볼 것",
+      "kind": "columns",
+      "foot": "출처: HDMI Licensing Administrator 「Ultra HDMI Cables」, 아트뮤 HDMI 케이블 라인업 안내 · 거실상영관 정리"
+    },
+    {
+      "file": "label-check.png",
+      "kicker": "인증 확인 순서",
+      "title": "Ultra High Speed 인증, 이렇게 확인합니다",
+      "kind": "steps",
+      "steps": [
+        {
+          "body": "Ultra High Speed HDMI Cable 인증 라벨이 포장에 붙어 있는지 확인",
+          "title": "포장 라벨 찾기"
+        },
+        {
+          "body": "일반 QR 앱으로 라벨을 스캔하면 인증 정보가 표시됨",
+          "title": "QR 코드 스캔"
+        },
+        {
+          "body": "스캔 결과의 브랜드, 모델 번호, 길이가 받은 케이블과 같은지 확인",
+          "title": "브랜드·모델·길이 대조"
+        },
+        {
+          "body": "인증 케이블은 케이블 피복에도 공식 케이블 이름이 표기되어야 함",
+          "title": "케이블 피복 표기"
+        }
+      ],
+      "foot": "출처: HDMI Licensing Administrator 「Ultra HDMI Cables」 인증 라벨·QR 확인 안내"
+    },
+    {
+      "file": "length-route.png",
+      "kicker": "길이 재기",
+      "title": "3m가 맞는지, 선이 지나갈 길로 재세요",
+      "kind": "flow",
+      "nodes": [
+        {
+          "body": "셋톱박스·콘솔 HDMI 출력",
+          "title": "소스 기기",
+          "edge": "경로"
+        },
+        {
+          "body": "가구 뒤, 몰딩, 꺾이는 지점",
+          "accent": true,
+          "title": "TV장·벽 경로",
+          "edge": "경로"
+        },
+        {
+          "body": "HDMI 입력 위치와 높이",
+          "title": "TV·수신기 단자",
+          "edge": ""
+        }
+      ],
+      "note": "측정한 경로가 3m를 넘거나 거의 닿는다면 다음 길이 옵션과 비교해 보세요.",
+      "foot": "직선 거리가 아니라 가구 뒤·바닥 몰딩을 따라가는 실제 경로에 여유 길이를 더합니다 · 거실상영관 정리"
+    },
+    {
+      "file": "cable-names.png",
+      "header": [
+        "항목",
+        "Ultra High Speed",
+        "Ultra96"
+      ],
+      "highlight": 1,
+      "kind": "table",
+      "kicker": "공식 케이블 이름 비교",
+      "title": "Ultra High Speed와 Ultra96, 무엇이 다를까?",
+      "foot": "출처: HDMI Licensing Administrator 「Ultra HDMI Cables」 (Ultra96는 HDMI 2.2 규격에서 도입)",
+      "rows": [
+        [
+          "도입 규격",
+          "HDMI 2.1",
+          "HDMI 2.2"
+        ],
+        [
+          "최대 대역폭",
+          "48Gbps",
+          "96Gbps"
+        ],
+        [
+          "인증 프로그램",
+          "의무 인증",
+          "의무 인증"
+        ],
+        [
+          "확인 방법",
+          "포장 라벨 QR",
+          "포장 라벨 QR"
+        ]
+      ]
+    }
+  ]
+}

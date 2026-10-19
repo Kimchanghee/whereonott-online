@@ -32,6 +32,8 @@ try{
  const previewPort=probe.address().port;
  await new Promise(resolve=>probe.close(resolve));
  for(const n of ['publish.config.json','publish-log.jsonl'])if(existsSync(join(root,'ops',n)))cpSync(join(root,'ops',n),join(stage,'ops',n));
+ // Evidence notes referenced by post frontmatter (product.evidence) are read-only inputs to the source gate.
+ for(const d of ['evidence','queue/evidence'])if(existsSync(join(root,'ops',d)))cpSync(join(root,'ops',d),join(stage,'ops',d),{recursive:true});
  writeFileSync(join(stage,'ops/publish.config.json'),JSON.stringify({previewPort}));
  // Reuse trusted installed packages, but never junction the writable cache container.
  mkdirSync(join(stage,'node_modules'));

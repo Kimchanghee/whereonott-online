@@ -1,0 +1,100 @@
+{
+  "slug": "artmu-noble-hdmi-21-3m-check",
+  "observedAt": "2026-10-19T09:10:00Z",
+  "primaryKeyword": "HDMI 2.1 인증 케이블",
+  "buyingQuestion": "거실 TV·셋톱박스 연결용 HDMI 2.1 인증 케이블 3m를 고를 때 무엇을 확인할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "아트뮤 Ultra High Speed HDMI 2.1 인증 케이블 Noble 화이트",
+    "option": "3m × 1개",
+    "model": "HN2130",
+    "sourceURL": "https://www.coupang.com/vp/products/9228558802?itemId=26050897185&vendorItemId=93032300116",
+    "coupangProductNo": "9228558802 - 26050897185",
+    "issuedURI": "https://link.coupang.com/a/hYoWREamQK",
+    "linkIssuedAt": "2026-10-19T09:08:07.880Z",
+    "evidence": "ops/queue/evidence/artmu-noble-hdmi-21-3m-check.md"
+  },
+  "serp": {
+    "google": {
+      "query": "HDMI 2.1 인증 케이블 고르는 법",
+      "observed": [
+        "blog.naver.com/danawa02/223773484597",
+        "cabletimetech.com 3-ways-to-identify-hdmi-2-1-cables",
+        "clien.net/service/board/park/18952500",
+        "muritzy.tistory.com/2455",
+        "quasarzone, dcinside, tilnote, youtube"
+      ]
+    },
+    "naver": {
+      "query": "HDMI 2.1 인증 케이블 거실 TV",
+      "observed": "광고(마하링크 등)와 쇼핑 결과 위주; 원문은 Google 결과에서 선택"
+    }
+  },
+  "originalsRead": [
+    {
+      "url": "https://m.blog.naver.com/danawa02/223773484597",
+      "title": "HDMI 케이블, 뭘 사야 하는지 알려드립니다 (샵다나와, 2024-05-02)",
+      "structure": "문제 상황→규격 표→케이블 카테고리→2022년 표기 변경 주의→용도별 추천",
+      "useful": "케이블은 버전보다 대역폭 카테고리; 필요 이상 긴 케이블 피하기",
+      "gap": "\"8K 60Hz 표기\"만으로 인증을 대신할 수 없음 → 공식 라벨 QR 확인으로 보완; 가격·후기 추천 미사용"
+    },
+    {
+      "url": "https://cabletimetech.com/ko-kr/blogs/knowledge/3-ways-to-identify-hdmi-2-1-cables",
+      "title": "HDMI 2.1 케이블을 식별하는 3 가지 방법 (Cabletime, 2023-02-20)",
+      "structure": "2.1 기능 목록→라벨→앱 스캔→직접 테스트",
+      "useful": "라벨과 QR 스캔 순서",
+      "gap": "제조사 자사 블로그 표현 대신 HDMI.org 공식 안내 사용"
+    },
+    {
+      "url": "https://www.clien.net/service/board/park/18952500",
+      "title": "험난했던 쿠팡에서 제대로 된 HDMI 2.1 케이블 찾기 (클리앙, 2025-04-09)",
+      "structure": "연결 문제→케이블 교체 시행착오→결론",
+      "useful": "판매 표기만으로 실제 대역폭이 보장되지 않는다는 구매자 문제의식",
+      "gap": "개인 경험담이라 사실 근거로 쓰지 않고 질문 설정에만 참고"
+    }
+  ],
+  "officialFacts": [
+    {
+      "claim": "Ultra High Speed HDMI Cable은 HDMI 2.1에서 도입, 최대 48Gbps 구성용",
+      "url": "https://www.hdmi.org/spec21sub/ultrahighspeedcable"
+    },
+    {
+      "claim": "Ultra96 HDMI Cable은 HDMI 2.2에서 도입, 최대 96Gbps",
+      "url": "https://www.hdmi.org/spec21sub/ultrahighspeedcable"
+    },
+    {
+      "claim": "두 케이블 모두 의무 인증; Forum ATC 통과 후 판매 단위 포장마다 인증 라벨",
+      "url": "https://www.hdmi.org/spec21sub/ultrahighspeedcable"
+    },
+    {
+      "claim": "라벨은 일반 QR 앱으로 스캔해 확인; 케이블 피복에도 공식 이름 표기 필요",
+      "url": "https://www.hdmi.org/spec21sub/ultrahighspeedcable"
+    },
+    {
+      "claim": "판매처가 공식 이름 대신 다양한 마케팅 용어를 쓰는 경우가 있음",
+      "url": "https://www.hdmi.org/spec21sub/ultrahighspeedcable"
+    },
+    {
+      "claim": "아트뮤 HDMI 케이블은 Ultra High Speed 공식 인증, 최대 48Gbps, 패키지 QR로 확인, 스티커는 생산 로트에 따라 혼용",
+      "url": "https://www.artmu.co.kr/story/detail.html?product_no=2252"
+    },
+    {
+      "claim": "Noble 라인 1~7m; 1~3m PVC·패브릭, 5~7m PVC(CL3)",
+      "url": "https://www.artmu.co.kr/story/detail.html?product_no=2252"
+    }
+  ],
+  "omissions": [
+    "가격·평점·리뷰 수·배송",
+    "4K120/8K 출력 보장",
+    "특정 기기 조합 호환 보장",
+    "받을 제품의 마감 단정",
+    "HN2130 개별 인증 스캔 결과(미확인, 독자에게 수령 후 확인 안내)"
+  ],
+  "images": [
+    "cover.png",
+    "cable-names.png",
+    "label-check.png",
+    "length-route.png"
+  ],
+  "imageRights": "own diagrams rendered by ops/diagrams/render.mjs; each inspected once at full size"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "artmu-noble-hdmi-21-3m-check",
+    "productName": "아트뮤 Ultra High Speed HDMI 2.1 인증 케이블 Noble 화이트",
+    "option": "3m × 1개 · HN2130",
+    "sourceURL": "https://www.coupang.com/vp/products/9228558802?itemId=26050897185&vendorItemId=93032300116",
+    "issuedURI": "https://link.coupang.com/a/hYoWREamQK",
+    "linkIssuedAt": "2026-10-19T09:08:07.880Z",
+    "productCheckedAt": "2026-10-19T09:07:37.183Z",
+    "factsFile": "ops/queue/facts/artmu-noble-hdmi-21-3m-check.json",
+    "evidence": "ops/queue/evidence/artmu-noble-hdmi-21-3m-check.md",
+    "manuscript": "ops/queue/artmu-noble-hdmi-21-3m-check.md",
+    "images": [
+      "ops/queue/images/artmu-noble-hdmi-21-3m-check/cover.png",
+      "ops/queue/images/artmu-noble-hdmi-21-3m-check/cable-names.png",
+      "ops/queue/images/artmu-noble-hdmi-21-3m-check/label-check.png",
+      "ops/queue/images/artmu-noble-hdmi-21-3m-check/length-route.png"
+    ],
+    "dryRunPassedAt": "2026-10-19T09:15:56.889Z",
+    "dryRunResult": "publish.ps1 -DryRun: source gate 1/1, built gate 32/32, local preview verify OK",
+    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy."
+  }
+]
