@@ -1,7 +1,7 @@
 ---
-import Base from '../layouts/Base.astro';import pages from '../data/legal.json';
+import Base from '../layouts/Base.astro';import pages from '../data/legal.json';import {PAGE_META} from '../lib/seo';
 export function getStaticPaths(){return ['about','methodology','contact','privacy','terms','disclaimer'].map(slug=>({params:{slug}}))}
-const p=pages[Astro.params.slug as keyof typeof pages];
+const slug=Astro.params.slug as keyof typeof pages;const p=pages[slug];const meta=PAGE_META[slug];
 ---
-<Base title={p[0]}><article class="article"><h1>{p[0]}</h1><p>{p[1]}</p><p>정책 기준일: 2026-10-16</p><a href="/guides/">구매 기준 가이드</a> · <a href="/contact/">문의</a></article></Base>
+<Base title={meta.title} description={meta.description} pageType={meta.type} path={`/${slug}/`}><article class="article"><h1>{p[0]}</h1><p>{p[1]}</p>{slug==='about'&&<p>거실상영관 (whereonott.online)의 영문 이름은 WhereOnOTT입니다. 이름과 달리 OTT 서비스나 작품 편성을 안내하지 않고, 프로젝터·사운드바·TV 주변기기 같은 홈시네마 장비를 사기 전에 확인할 조건을 다룹니다.</p>}<p>정책 기준일: 2026-10-16</p><a href="/guides/">구매 기준 가이드</a> · <a href="/contact/">문의</a></article></Base>
 
