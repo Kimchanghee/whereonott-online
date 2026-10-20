@@ -1,0 +1,80 @@
+{
+  "slug": "xiaomi-tv-stick-hd-2nd-gen-check",
+  "manuscript": "ops/queue/xiaomi-tv-stick-hd-2nd-gen-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge), receipts in channel-ops/ops/state/whereonott-concept-xiaomi-20261020 and whereonott-redesign-20261021",
+  "references": "whereonott.online-concept-assets/refs/SOURCES.json (mi.com/global xiaomi-tv-stick-hd-2nd-gen official images)",
+  "jobs": [
+    {
+      "name": "mdz34-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-concept-xiaomi-20261020\\hero-livingroom-v2.png",
+      "width": 1536,
+      "qa": "pass (concept QA: stick shape/LED/remote layout match refs)"
+    },
+    {
+      "name": "mdz34-hdmi-plugged.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-concept-xiaomi-20261020\\hdmi-plugged.png",
+      "width": 1200,
+      "qa": "pass (concept QA)"
+    },
+    {
+      "name": "mdz34-extension-cable.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-concept-xiaomi-20261020\\extension-cable.png",
+      "crop": {
+        "left": 250,
+        "top": 0,
+        "width": 1286,
+        "height": 1024
+      },
+      "width": 1200,
+      "qa": "pass (concept QA)"
+    },
+    {
+      "name": "mdz34-hand-scale.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-concept-xiaomi-20261020\\hand-scale.png",
+      "crop": {
+        "left": 0,
+        "top": 110,
+        "width": 940,
+        "height": 705
+      },
+      "width": 940,
+      "qa": "pass (concept QA)"
+    },
+    {
+      "name": "mdz34-power-path.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\xiaomi-power-path-v3.png",
+      "width": 1200,
+      "qa": "pass 2026-10-21: Korean Schuko multitap + round-pin adapter, Micro USB on side near rounded end, wordmark reads left-to-right (v2 rejected: upside-down wordmark, Chinese flat-pin strip)"
+    },
+    {
+      "name": "mdz34-box-contents.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-concept-xiaomi-20261020\\box-contents.png",
+      "width": 1200,
+      "qa": "pass (concept QA: 5 package items match official package list)"
+    },
+    {
+      "name": "mdz34-remote.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-concept-xiaomi-20261020\\remote-closeup.png",
+      "crop": {
+        "left": 268,
+        "top": 0,
+        "width": 1000,
+        "height": 1024
+      },
+      "width": 1000,
+      "qa": "pass (concept QA: button layout matches official remote image)"
+    },
+    {
+      "name": "thumb-mdz34.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-concept-xiaomi-20261020\\box-contents.png",
+      "crop": {
+        "left": 90,
+        "top": 150,
+        "width": 520,
+        "height": 700
+      },
+      "width": 480,
+      "qa": "crop of box-contents"
+    }
+  ]
+}

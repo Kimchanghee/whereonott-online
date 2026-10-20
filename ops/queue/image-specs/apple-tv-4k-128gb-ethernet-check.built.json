@@ -1,0 +1,40 @@
+{
+  "builtAt": "2026-10-20T15:46:27.459Z",
+  "dims": {
+    "a2843-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 89790
+    },
+    "a2843-ports.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 50874
+    },
+    "a2843-lan-route.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 77316
+    },
+    "a2843-box-contents.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 60434
+    },
+    "a2843-scale.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 49780
+    },
+    "a2843-remote.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 62916
+    },
+    "thumb-a2843.webp": {
+      "width": 640,
+      "height": 492,
+      "bytes": 19278
+    }
+  }
+}

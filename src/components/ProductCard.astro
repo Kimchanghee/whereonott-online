@@ -1,19 +1,27 @@
 ---
 import { providerInfo, type ProviderId } from '../site.config';
+import { imgSize, isDiagram } from '../lib/media';
 interface Props {
   product: { name: string; optionDetail: string; provider: ProviderId; url: string; verifiedAt: string; specs: { label: string; value: string }[] };
+  thumb: { src: string; alt: string; role: string; rights?: string };
   variant: 'side' | 'inline';
 }
-const { product, variant } = Astro.props;
+const { product, thumb, variant } = Astro.props;
 const p = providerInfo(product.provider);
+const shop = p.name.replace(' 파트너스', '');
+const size = await imgSize(thumb.src);
+const fit = isDiagram(thumb) ? 'object-fit:contain' : undefined;
 ---
-<aside class={`product-card ${variant === 'inline' ? 'product-card--inline' : ''}`} aria-label="이 글의 상품">
-  <p class="product-card__label">CHECKED ITEM · {p.name}</p>
-  <p class="product-card__name">{product.name}</p>
-  <p class="product-card__opt">{product.optionDetail}</p>
-  {product.specs.length > 0 && (
-    <dl>{product.specs.slice(0, 4).map((s) => (<><dt>{s.label}</dt><dd>{s.value}</dd></>))}</dl>
-  )}
-  <a class="btn-buy" href={product.url} rel="sponsored nofollow noopener" target="_blank" data-product-link={variant}>{p.name}에서 옵션 확인</a>
-  <p class="product-card__note">제휴 링크 · 링크 확인 {product.verifiedAt.slice(0, 10)} · 가격과 재고는 판매 페이지 기준</p>
+<aside class={`pc pc--${variant}`} aria-label="이 글의 상품">
+  <div class="pc__media"><img src={thumb.src} alt={thumb.alt} width={size.width} height={size.height} style={fit} loading={variant === 'inline' ? 'eager' : 'lazy'} decoding="async" /></div>
+  <div class="pc__body">
+    <p class="pc__eyebrow">이 글에서 확인한 상품</p>
+    <p class="pc__name">{product.name}</p>
+    <p class="pc__opt">{product.optionDetail}</p>
+    {variant === 'side' && product.specs.length > 0 && (
+      <dl class="pc__specs">{product.specs.slice(0, 4).map((s) => (<div><dt>{s.label}</dt><dd>{s.value}</dd></div>))}</dl>
+    )}
+    <a class="pc__btn" href={product.url} rel="sponsored nofollow noopener" target="_blank" data-product-link={variant}>{shop}에서 옵션 확인하기</a>
+    {variant === 'side' && <p class="pc__note">{p.name} 제휴 링크 · 링크 확인 {product.verifiedAt.slice(0, 10)} · 가격·재고는 판매 페이지 기준</p>}
+  </div>
 </aside>

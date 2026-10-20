@@ -1,0 +1,57 @@
+{
+  "slug": "apple-tv-4k-128gb-ethernet-check",
+  "manuscript": "src/content/posts/apple-tv-4k-128gb-ethernet-check.md",
+  "outDir": "public/images/picks/apple-tv-4k-128gb-ethernet-check",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge); manifests/logs/receipts channel-ops/ops/state/whereonott-redesign-20261021 (manifest-6-apple-a/b, manifest-7-apple-fix)",
+  "references": "whereonott.online-concept-assets/refs/apple/SOURCES.json (apple.com/kr/apple-tv-4k + /specs/ hardware, ports, remote images)",
+  "jobs": [
+    {
+      "name": "a2843-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\appletv-hero.png",
+      "width": 1536,
+      "qa": "pass: square black box w/ Apple logo + silver Siri Remote as official images"
+    },
+    {
+      "name": "a2843-ports.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\appletv-ports.png",
+      "width": 1200,
+      "qa": "pass: three rear ports in official order power / Ethernet / HDMI"
+    },
+    {
+      "name": "a2843-lan-route.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\appletv-lan-route-v2.png",
+      "width": 1200,
+      "qa": "pass (v2): RJ45 wall data jack to middle Ethernet port. v1 REJECTED: LAN cable shown plugged into a power socket"
+    },
+    {
+      "name": "a2843-box-contents.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\appletv-box-contents.png",
+      "width": 1200,
+      "qa": "pass: exactly 4 items (box, remote, power cord, booklet), no HDMI cable"
+    },
+    {
+      "name": "a2843-scale.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\appletv-scale.png",
+      "width": 1200,
+      "qa": "pass: palm-size square box"
+    },
+    {
+      "name": "a2843-remote.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\appletv-remote.png",
+      "width": 1200,
+      "qa": "pass: silver remote, black clickpad, button layout per official remote image"
+    },
+    {
+      "name": "thumb-a2843.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\appletv-hero.png",
+      "crop": {
+        "left": 120,
+        "top": 260,
+        "width": 780,
+        "height": 600
+      },
+      "width": 640,
+      "qa": "crop of hero"
+    }
+  ]
+}

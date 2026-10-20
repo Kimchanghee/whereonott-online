@@ -45,6 +45,8 @@ const posts = defineCollection({
     sources: z.array(source).min(1),
     faq: z.array(faq).default([]),
     disclosure: z.string().optional(),
+    checklist: z.array(z.string().min(4)).optional(),
+    checklistNote: z.string().optional(),
   }),
 });
 

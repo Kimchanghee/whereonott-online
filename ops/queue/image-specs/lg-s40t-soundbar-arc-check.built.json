@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-10-20T14:49:49.799Z",
+  "dims": {
+    "s40t-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 122368
+    },
+    "s40t-tv-arc-port.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 35936
+    },
+    "s40t-rear-ports.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 33048
+    },
+    "s40t-settop-to-tv.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 79654
+    },
+    "s40t-subwoofer-place.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 99562
+    },
+    "s40t-top-buttons.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 45938
+    },
+    "s40t-product-pair.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 97792
+    },
+    "thumb-s40t.webp": {
+      "width": 640,
+      "height": 386,
+      "bytes": 26852
+    }
+  }
+}

@@ -1,7 +1,19 @@
 ---
-import {articleLd,faqLd} from '../../lib/content';import Base from '../../layouts/Base.astro';import{getCollection,render}from'astro:content';
+import {articleLd,faqLd,ymd} from '../../lib/content';import Base from '../../layouts/Base.astro';import Checklist from '../../components/Checklist.astro';import{getCollection,render}from'astro:content';
 export async function getStaticPaths(){return(await getCollection('guides', ({data}) => !data.draft)).map(entry=>({params:{slug:entry.data.slug},props:{entry}}))}
 const{entry}=Astro.props;const d=entry.data;const{Content}=await render(entry);
 ---
-<Base title={d.title} description={d.description} ogType="article" published={d.published} updated={d.updated} crumbs={[{name:'홈',href:'/'},{name:'상영 준비',href:'/guides/'},{name:d.title,href:'/guides/'+d.slug+'/'}]} jsonld={[articleLd('guide',entry,Astro.url.pathname,'/og/home.png'),faqLd(d.faq)].filter(Boolean)}><a href="/guides/">← 전체 프로그램</a><h1>{d.title}</h1><p class="answer" data-gate="answer">{d.answer}</p><div class="meta">구매 기준 · {d.data_asof} · 거실상영관 편집</div><article class="article"><Content/>{d.faq.length>0&&<section data-gate="faq"><h2>자주 묻는 질문</h2><dl>{d.faq.map(f=><><dt>{f.q}</dt><dd>{f.a}</dd></>)}</dl></section>}<h2>구매 전 확인할 항목은?</h2><ul>{d.checklist.map(c=><li>{c}</li>)}</ul><h2>어떤 자료를 참고했나요?</h2><ul data-gate="sources">{d.sources.map(s=><li><a href={s.url}>{s.title}</a></li>)}</ul><p><a href="/methodology/">편집 기준</a> · <a href="/guides/">다른 구매 가이드</a></p></article></Base>
-
+<Base title={d.title} description={d.description} ogType="article" published={d.published} updated={d.updated} crumbs={[{name:'홈',href:'/'},{name:'상영 준비',href:'/guides/'},{name:d.title,href:'/guides/'+d.slug+'/'}]} jsonld={[articleLd('guide',entry,Astro.url.pathname,'/og/home.png'),faqLd(d.faq)].filter(Boolean)}>
+  <article class="article">
+    <a class="back-link" href="/guides/">← 상영 준비 가이드 전체</a>
+    <h1>{d.title}</h1>
+    <p class="guide-meta">구매 기준 · 기준일 {d.data_asof} · 수정 <time datetime={d.updated}>{ymd(d.updated)}</time> · 거실상영관 편집팀 · 제휴 링크 없음</p>
+    <section class="answer-box" aria-label="먼저 결론"><p class="answer-box__k">먼저 결론</p><p class="answer" data-gate="answer">{d.answer}</p></section>
+    <Content/>
+    {d.faq.length>0&&<section data-gate="faq"><h2>자주 묻는 질문</h2><dl>{d.faq.map(f=><><dt>{f.q}</dt><dd>{f.a}</dd></>)}</dl></section>}
+    <Checklist id={'guide-'+d.slug} items={d.checklist} title="구매 전 확인할 항목은?"/>
+    <h2>어떤 자료를 참고했나요?</h2>
+    <ul data-gate="sources">{d.sources.map(s=><li><a href={s.url}>{s.title}</a></li>)}</ul>
+    <p><a href="/methodology/">편집 기준</a> · <a href="/guides/">다른 구매 가이드</a></p>
+  </article>
+</Base>

@@ -11,9 +11,11 @@ const args=process.argv.slice(2);
 const opt=k=>args[args.indexOf(k)+1];
 const fixture=args.includes('--fixture');
 const mode=args.includes('--case')?opt('--case'):'pass';
-const slug=args.includes('--slug')?opt('--slug'):'zz-dryrun-fixture';
+const queue=args.includes('--queue')?opt('--queue'):null;
+const slug=queue??(args.includes('--slug')?opt('--slug'):'zz-dryrun-fixture');
 if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)||!['pass','invalid-source','invalid-built'].includes(mode))throw Error('invalid rehearsal arguments');
 if(!fixture&&mode!=='pass')throw Error('negative cases require fixture');
+if(queue&&fixture)throw Error('--queue and --fixture are exclusive');
 const protectedDirs=['src','public','dist','ops','content'];
 function treeHash(){
  const h=createHash('sha256');
@@ -57,14 +59,36 @@ try{
   if(existsSync(target))throw Error('fixture slug already exists');
   let text=readFileSync(join(stage,'src/content/posts/_examples/pass-example.md'),'utf8');
   const now=new Date().toISOString().replace(/\.\d{3}Z$/,'Z'),verified=new Date(Date.now()-600000).toISOString().replace(/\.\d{3}Z$/,'Z');
-  text=text.replace(/^slug: .*$/m,`slug: ${slug}`).replace(/^(published|updated): .*$/gm,`$1: "${now}"`).replace(/^  verifiedAt: .*$/m,`  verifiedAt: "${verified}"`);
+  text=text.replace(/^slug: .*$/m,`slug: ${slug}`).replaceAll('/images/picks/example-foam-roller-fixture/',`/images/picks/${slug}/`).replace(/^(published|updated): .*$/gm,`$1: "${now}"`).replace(/^  verifiedAt: .*$/m,`  verifiedAt: "${verified}"`);
   // Only this disposable fixture opts into the existing draft:false production schema.
   text=text.replace(/^---\r?\n/, '---\ndraft: false\n');
   if(mode==='invalid-source')text=text.replace(/^  optionDetail: .*\r?\n/m,'');
   writeFileSync(target,text);
-  mkdirSync(join(stage,'public/images/examples'),{recursive:true});
-  cpSync(join(stage,'src/content/posts/_examples/public/images/examples/fixture-cover.png'),join(stage,'public/images/examples/fixture-cover.png'));
+  mkdirSync(join(stage,'public/images/picks',slug),{recursive:true});
+  cpSync(join(stage,'src/content/posts/_examples/public/images/picks/example-foam-roller-fixture'),join(stage,'public/images/picks',slug),{recursive:true});
   if(mode==='invalid-built')rmSync(join(stage,'public/ads.txt'),{force:true});
+ }
+ if(queue){
+  // Queued item rehearsal: place the manuscript + its images exactly as the shop-publisher would (images mapped by
+  // basename onto the manuscript's own src values), stamp published/updated like a real publish, then run the
+  // normal staged publish.ps1 -DryRun (source gate, new template build, full built-page gate, local preview check).
+  const ready=JSON.parse(readFileSync(join(root,'ops/queue/ready.json'),'utf8'));
+  const item=ready.find(x=>x.slug===queue);
+  if(!item)throw Error('queue item not found in ops/queue/ready.json: '+queue);
+  let md=readFileSync(join(root,item.manuscript),'utf8');
+  const target=join(stage,'src/content/posts',queue+'.md');
+  if(existsSync(target))throw Error('queued slug already exists in src/content/posts');
+  const srcs=[...md.matchAll(/src:\s*"?(\/images\/[^"\s,}]+)"?/g)].map(x=>x[1]);
+  for(const rel of item.images||[]){
+   const base=rel.replace(/\\/g,'/').split('/').pop();
+   const src=srcs.find(s=>s.split('/').pop()===base);
+   if(!src)throw Error('image not referenced by manuscript: '+base);
+   const to=join(stage,'public',src);mkdirSync(dirname(to),{recursive:true});cpSync(join(root,rel),to);
+  }
+  const now=new Date(Date.now()+9*3600e3).toISOString().replace(/\.\d{3}Z$/,'+09:00');
+  md=md.replace(/^published: .*$/m,`published: "${now}"`).replace(/^updated: .*$/m,`updated: "${now}"`);
+  writeFileSync(target,md);
+  console.log(`QUEUE ITEM STAGED ${queue}: ${(item.images||[]).length} images, published/updated=${now}`);
  }
  const denied=spawnSync('pwsh',['-NoProfile','-File',join(stage,'scripts/publish.ps1'),'-Slug',slug,'-AllowDeploy'],{cwd:stage,encoding:'utf8',timeout:15000});
  if(denied.status!==1||!denied.stdout.includes('test stage is never deployable'))throw Error('stage deployment denial failed');

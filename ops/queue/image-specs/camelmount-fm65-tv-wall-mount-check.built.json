@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-10-20T14:51:40.619Z",
+  "dims": {
+    "fm65-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 129590
+    },
+    "fm65-vesa-measure.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 105464
+    },
+    "fm65-swivel-angle.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 78312
+    },
+    "fm65-folded-flat.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 37286
+    },
+    "fm65-wall-check.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 55978
+    },
+    "fm65-wall-plate.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 125842
+    },
+    "fm65-cable-route.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 55208
+    },
+    "thumb-fm65.webp": {
+      "width": 640,
+      "height": 427,
+      "bytes": 34094
+    }
+  }
+}

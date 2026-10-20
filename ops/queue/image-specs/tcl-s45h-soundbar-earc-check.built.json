@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-10-20T14:45:24.675Z",
+  "dims": {
+    "tcl-s45h-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 110570
+    },
+    "tcl-s45h-tv-earc-port.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 49972
+    },
+    "tcl-s45h-rear-hdmi.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 54568
+    },
+    "tcl-s45h-settop-path.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 68734
+    },
+    "tcl-s45h-console-width.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 131228
+    },
+    "tcl-s45h-wall-mounted.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 42094
+    },
+    "tcl-s45h-product.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 70558
+    },
+    "thumb-tcl-s45h.webp": {
+      "width": 640,
+      "height": 422,
+      "bytes": 19710
+    }
+  }
+}

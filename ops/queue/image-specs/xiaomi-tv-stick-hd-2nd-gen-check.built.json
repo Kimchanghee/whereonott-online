@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-10-20T14:44:40.549Z",
+  "dims": {
+    "mdz34-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 96642
+    },
+    "mdz34-hdmi-plugged.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 30394
+    },
+    "mdz34-extension-cable.webp": {
+      "width": 1200,
+      "height": 956,
+      "bytes": 89774
+    },
+    "mdz34-hand-scale.webp": {
+      "width": 940,
+      "height": 705,
+      "bytes": 32812
+    },
+    "mdz34-power-path.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 68892
+    },
+    "mdz34-box-contents.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 95254
+    },
+    "mdz34-remote.webp": {
+      "width": 1000,
+      "height": 1024,
+      "bytes": 175258
+    },
+    "thumb-mdz34.webp": {
+      "width": 480,
+      "height": 646,
+      "bytes": 27016
+    }
+  }
+}

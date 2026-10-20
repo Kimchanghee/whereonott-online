@@ -32,7 +32,16 @@ export const RULES = {
   description: KO ? [60, 160] : [120, 160],
   answerChars: KO ? [20, 220] : [60, 320],
   duplicateWindowDays: 30,
+  // Screening-room post format (approved 2026-10-21). Applies to posts whose `updated` is on/after formatV2From.
+  formatV2From: '2026-10-21T00:00:00+09:00',
+  postBodyCharsKo: [1800, 2800], // visible prose incl. spaces (tables and captions count, markup and alt text do not)
+  postQuestionH2: [4, 6],
+  postMinPhotos: 6,
+  postMaxFaq: 3,
+  postMinChecklist: 3,
 };
+export const AI_CAPTION = /AI\s?(이미지|생성|제작|그림)|생성형\s?AI|AI-generated|AI generated|가상\s?이미지|예시\s?이미지|실제\s?상품\s?사진이\s?아닙니다/i;
+export const MONOSPACE = /monospace|<code[\s>]|<pre[\s>]|`[^`\n]+`|font-family:\s*['"]?(Courier|Consolas|Menlo|Monaco)/i;
 export const BANNED_FIRST_HAND = [
   /직접\s?써\s?보니/, /직접\s?사용해\s?보니/, /제가\s?(직접\s?)?(사용|써)\s?(해\s?)?보니/, /사용해\s?본\s?결과/, /써\s?본\s?결과/,
   /내돈내산/, /실사용\s?후기/, /한\s?달\s?(동안\s?)?써\s?보/, /I tested/i, /in my experience/i, /we tested/i, /hands-on review/i,
@@ -54,6 +63,8 @@ const nonSpaceLen = (s) => s.replace(/\s+/g, '').length;
 function plainBody(md) {
   return md
     .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/<img\s[^>]*>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
     .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/^\|?[\s:|-]+\|?\s*$/gm, ' ')
@@ -70,6 +81,14 @@ function readLog(file) {
   return readFileSync(file, 'utf8').split(/\r?\n/).filter(Boolean).map((l, i) => {
     try { return JSON.parse(l); } catch { throw new Error(`publish log line ${i + 1} is not valid JSON`); }
   });
+}
+
+// Legacy = already in the real publish log before the format switch AND not updated since. Queued/new posts are always format v2.
+let _realLog = null;
+export function isLegacyPost(fm) {
+  if (!fm?.updated || String(fm.updated) >= RULES.formatV2From) return false;
+  _realLog ??= (() => { try { return readLog(join(root, 'ops/publish-log.jsonl')); } catch { return []; } })();
+  return _realLog.some((r) => r.slug === fm.slug && !r.dryRun && new Date(r.publishedAt) < new Date(RULES.formatV2From));
 }
 
 // ---------- source gate ----------
@@ -147,13 +166,46 @@ export function gateSource(file, { kind, logEntries = [], now = new Date(), know
     if (!imgs.some((i) => i?.role === 'cover')) e('no cover image');
     for (const img of imgs) {
       if (!img?.src?.startsWith('/')) { e(`image src must be site-absolute: ${img?.src}`); continue; }
-      const candidates = [join(root, 'public', img.src), join(dirname(file), 'public', img.src)];
+      // queued manuscripts keep their files in ops/queue/images/<slug>/<basename> until the publisher places them
+      const candidates = [join(root, 'public', img.src), join(dirname(file), 'public', img.src), join(dirname(file), 'images', String(fm.slug), img.src.split('/').pop())];
       if (!candidates.some((c) => existsSync(c) && statSync(c).size > 0)) e(`image file missing: ${img.src}`);
       if (!img.alt || String(img.alt).length < 4) e(`image alt missing: ${img.src}`);
       if (!['cover', 'context', 'detail', 'comparison', 'use'].includes(img.role)) e(`image role invalid: ${img.src}`);
       if (!['generated', 'provider-api', 'own'].includes(img.rights)) e(`image rights invalid: ${img.src}`);
       if (!img.credit) e(`image credit missing: ${img.src}`);
       if (/AI로 만든|실제 상품 사진이 아닙니다|가상 인물/.test(String(img.alt))) e(`image alt contains production disclaimer: ${img.src}`);
+    }
+    // screening-room format v2: every post except legacy ones (published before RULES.formatV2From and not updated since)
+    if (!isLegacyPost(fm)) {
+      const [bmin, bmax] = RULES.postBodyCharsKo;
+      const withSpaces = plain.replace(/\s+/g, ' ').trim().length;
+      if (KO && (withSpaces < bmin || withSpaces > bmax)) e(`format-v2: body ${withSpaces} chars (with spaces) not in ${bmin}–${bmax}`);
+      const [hmin, hmax] = RULES.postQuestionH2;
+      if (heads.length < hmin || heads.length > hmax) e(`format-v2: ${heads.length} H2 not in ${hmin}–${hmax}`);
+      if (qHeads.length !== heads.length) e('format-v2: every body H2 must be a question');
+      if (!/<table[\s>]/i.test(body) && !/^\|.+\|\s*$/m.test(body)) e('format-v2: comparison/spec table missing');
+      const faqN = Array.isArray(fm.faq) ? fm.faq.length : 0;
+      if (faqN < 1 || faqN > RULES.postMaxFaq) e(`format-v2: faq count ${faqN} not in 1–${RULES.postMaxFaq}`);
+      if (!Array.isArray(fm.checklist) || fm.checklist.length < RULES.postMinChecklist) e(`format-v2: checklist needs >= ${RULES.postMinChecklist} items`);
+      if (MONOSPACE.test(body)) e('format-v2: monospace/code formatting in body');
+      if (fm.disclosure !== undefined) e('format-v2: frontmatter.disclosure override is not allowed; provider disclosure is rendered first');
+      const srcs = imgs.map((i) => String(i?.src ?? ''));
+      const bases = srcs.map((s) => s.split('/').pop());
+      if (new Set(bases).size !== bases.length) e('format-v2: image basenames must be unique (publisher copies by basename)');
+      for (const s of srcs) if (!s.startsWith(`/images/picks/${fm.slug}/`)) e(`format-v2: image src must live under /images/picks/${fm.slug}/: ${s}`);
+      for (const s of srcs) if (!/\.webp$/i.test(s)) e(`format-v2: image must be WebP: ${s}`);
+      const photos = imgs.filter((i) => i?.rights !== 'own' && !/^thumb/.test(String(i?.src ?? '').split('/').pop()));
+      if (photos.length < RULES.postMinPhotos) e(`format-v2: ${photos.length} distinct photos < ${RULES.postMinPhotos} (thumb crops and diagrams do not count)`);
+      const inline = [...body.matchAll(/<img\s[^>]*src="([^"]+)"|!\[[^\]]*\]\(([^)\s]+)\)/g)].map((m) => m[1] ?? m[2]);
+      for (const s of inline) if (!srcs.includes(s)) e(`format-v2: body image not listed in frontmatter images: ${s}`);
+      for (const i of imgs) {
+        const s = String(i?.src ?? '');
+        if (i?.role === 'cover' || /^thumb/.test(s.split('/').pop())) continue;
+        if (!inline.includes(s)) e(`format-v2: frontmatter photo not placed next to a paragraph in body: ${s}`);
+      }
+      for (const m of body.matchAll(/<img\s[^>]*>/g)) { if (!/\swidth="\d+"/.test(m[0]) || !/\sheight="\d+"/.test(m[0])) e('format-v2: inline <img> needs width and height'); if (!/\salt="[^"]{4,}"/.test(m[0])) e('format-v2: inline <img> needs alt'); }
+      const captions = [...body.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g)].map((m) => m[1]);
+      for (const c of [...captions, ...imgs.map((i) => String(i?.alt ?? ''))]) if (AI_CAPTION.test(c)) e(`format-v2: AI/production caption or alt: ${c.slice(0, 40)}`);
     }
     // duplicates in publish log (last 30 days)
     const windowStart = now.getTime() - RULES.duplicateWindowDays * 864e5;
@@ -163,7 +215,7 @@ export function gateSource(file, { kind, logEntries = [], now = new Date(), know
       else if ((row['product.url'] ?? row.productUrl) === p.url && t >= windowStart) e(`same product URL published ${row.publishedAt} as ${row.slug} (within ${RULES.duplicateWindowDays} days)`);
     }
   }
-  return { file: relative(root, file), kind, slug: fm.slug, errors, warnings, bodyChars: len, questionH2: qHeads.length };
+  return { file: relative(root, file), kind, slug: fm.slug, errors, warnings, bodyChars: len, bodyCharsWithSpaces: plain.replace(/\s+/g, ' ').trim().length, questionH2: qHeads.length };
 }
 
 // ---------- built-page gate ----------
@@ -253,6 +305,16 @@ export function gatePage(file, dist, { sitemapLocs, entries }) {
       }
       const coverImg = (entry.fm.images ?? []).find((i) => i.role === 'cover');
       if (coverImg && !main.includes(`src="${coverImg.src}"`)) e('cover image not rendered');
+      if (!/class="pc pc--inline"[\s\S]*?<img\s/.test(main)) e('inline product card with photo missing');
+      if (!/class="pc pc--side"[\s\S]*?<img\s/.test(main)) e('side product card with photo missing');
+      if (!isLegacyPost(entry.fm)) {
+        if (entry.fm.checklist?.length && !/data-gate="checklist"/.test(main)) e('format-v2: checklist not rendered');
+        if (MONOSPACE.test(main.replace(/<script[\s\S]*?<\/script>/gi, ''))) e('format-v2: monospace in rendered article');
+      }
+    }
+    // every local image referenced in <main> must exist in the build
+    for (const m of main.matchAll(/<img\s[^>]*src="(\/[^"]+)"/g)) {
+      if (!existsSync(join(dist, decode(m[1]).split('?')[0]))) e(`image not in build: ${m[1]}`);
     }
   }
   return { page: pathName, errors, warnings };
@@ -269,6 +331,10 @@ function siteFiles(dist) {
     if (/Disallow:\s*\/\s*$/m.test(r)) errors.push('robots.txt blocks everything');
   }
   if (existsSync(join(dist, `${site.indexNowKey}.txt`)) && readFileSync(join(dist, `${site.indexNowKey}.txt`), 'utf8').trim() !== site.indexNowKey) errors.push('IndexNow key file content mismatch');
+  // design system: self-hosted Pretendard with licence, no monospace anywhere in built CSS
+  for (const f of ['fonts/Pretendard-Regular.subset.woff2', 'fonts/Pretendard-Bold.subset.woff2', 'fonts/OFL.txt']) if (!existsSync(join(dist, f))) errors.push(`dist/${f} missing`);
+  const astroDir = join(dist, '_astro');
+  if (existsSync(astroDir)) for (const n of readdirSync(astroDir)) if (n.endsWith('.css') && /monospace/i.test(readFileSync(join(astroDir, n), 'utf8'))) errors.push(`monospace in built CSS ${n}`);
   return errors;
 }
 

@@ -11,19 +11,25 @@
     "evidence": "ops/queue/evidence/tcl-s45h-soundbar-earc-check.md",
     "manuscript": "ops/queue/tcl-s45h-soundbar-earc-check.md",
     "images": [
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/cover.png",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/connection-path.png",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/link-types.png",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/setup-check.png"
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-hero.webp",
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-tv-earc-port.webp",
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-rear-hdmi.webp",
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-settop-path.webp",
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-console-width.webp",
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-wall-mounted.webp",
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-product.webp",
+      "ops/queue/images/tcl-s45h-soundbar-earc-check/thumb-tcl-s45h.webp"
     ],
-    "dryRunPassedAt": "2026-10-20T13:03:13.495Z",
-    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
-    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
+    "dryRunPassedAt": "2026-10-20T15:19:17.619Z",
+    "dryRunResult": "scripts/dryrun-stage.mjs --queue tcl-s45h-soundbar-earc-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 34/34, local preview verify OK, protected trees unchanged",
+    "publishNotes": "Gate rejects product.verifiedAt older than 5 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "S45H",
       "단일색상",
       "8917712150"
-    ]
+    ],
+    "format": "screening-room-v2 (2026-10-21)",
+    "imageSpec": "ops/queue/image-specs/tcl-s45h-soundbar-earc-check.json"
   },
   {
     "slug": "camelmount-fm65-tv-wall-mount-check",
@@ -37,23 +43,28 @@
     "evidence": "ops/queue/evidence/camelmount-fm65-tv-wall-mount-check.md",
     "manuscript": "ops/queue/camelmount-fm65-tv-wall-mount-check.md",
     "images": [
-      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/cover.png",
-      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/angles.png",
-      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/wall-check.png",
-      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/alternatives.png"
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/fm65-hero.webp",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/fm65-vesa-measure.webp",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/fm65-swivel-angle.webp",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/fm65-folded-flat.webp",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/fm65-wall-check.webp",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/fm65-wall-plate.webp",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/fm65-cable-route.webp",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/thumb-fm65.webp"
     ],
-    "dryRunPassedAt": "2026-10-20T13:02:59.063Z",
-    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
-    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
+    "dryRunPassedAt": "2026-10-20T15:19:17.619Z",
+    "dryRunResult": "scripts/dryrun-stage.mjs --queue camelmount-fm65-tv-wall-mount-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 34/34, local preview verify OK, protected trees unchanged",
+    "publishNotes": "Gate rejects product.verifiedAt older than 5 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "FM65",
       "블랙 × 1개",
       "6495851891"
     ],
     "limitations": [
-      "diagram renderer is 1200x800 landscape: smallest caption ~6.5px at 390px width (body repeats all facts)",
       "minimum VESA not on official page; omitted"
-    ]
+    ],
+    "format": "screening-room-v2 (2026-10-21)",
+    "imageSpec": "ops/queue/image-specs/camelmount-fm65-tv-wall-mount-check.json"
   },
   {
     "slug": "xiaomi-tv-stick-hd-2nd-gen-check",
@@ -67,13 +78,17 @@
     "evidence": "ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check.md",
     "manuscript": "ops/queue/xiaomi-tv-stick-hd-2nd-gen-check.md",
     "images": [
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/cover.png",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/hd-vs-4k.png",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/power-path.png",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/setup-check.png"
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-hero.webp",
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-hdmi-plugged.webp",
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-extension-cable.webp",
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-hand-scale.webp",
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-power-path.webp",
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-box-contents.webp",
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-remote.webp",
+      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/thumb-mdz34.webp"
     ],
-    "dryRunPassedAt": "2026-10-20T13:02:29.524Z",
-    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
+    "dryRunPassedAt": "2026-10-20T15:19:17.619Z",
+    "dryRunResult": "scripts/dryrun-stage.mjs --queue xiaomi-tv-stick-hd-2nd-gen-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 34/34, local preview verify OK, protected trees unchanged",
     "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page, update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "MDZ-34-AA",
@@ -81,9 +96,10 @@
       "9707354139"
     ],
     "limitations": [
-      "CPU clock and HDR/audio marketing claims omitted (conditional or inconsistent across sources)",
-      "diagrams 1080x1350, min text 12.3px at 390px"
-    ]
+      "CPU clock and HDR/audio marketing claims omitted (conditional or inconsistent across sources)"
+    ],
+    "format": "screening-room-v2 (2026-10-21)",
+    "imageSpec": "ops/queue/image-specs/xiaomi-tv-stick-hd-2nd-gen-check.json"
   },
   {
     "slug": "lg-s40t-soundbar-arc-check",
@@ -97,13 +113,17 @@
     "evidence": "ops/queue/evidence/lg-s40t-soundbar-arc-check.md",
     "manuscript": "ops/queue/lg-s40t-soundbar-arc-check.md",
     "images": [
-      "ops/queue/images/lg-s40t-soundbar-arc-check/cover.png",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/connection.png",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/size-power.png",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/setup-check.png"
+      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-hero.webp",
+      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-tv-arc-port.webp",
+      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-rear-ports.webp",
+      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-settop-to-tv.webp",
+      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-subwoofer-place.webp",
+      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-top-buttons.webp",
+      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-product-pair.webp",
+      "ops/queue/images/lg-s40t-soundbar-arc-check/thumb-s40t.webp"
     ],
-    "dryRunPassedAt": "2026-10-20T13:02:44.141Z",
-    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
+    "dryRunPassedAt": "2026-10-20T15:19:17.619Z",
+    "dryRunResult": "scripts/dryrun-stage.mjs --queue lg-s40t-soundbar-arc-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 34/34, local preview verify OK, protected trees unchanged",
     "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page, update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "S40T",
@@ -111,8 +131,9 @@
       "8271149152"
     ],
     "limitations": [
-      "package contents differ between LG KR and HK official specs; omitted",
-      "diagrams 1080x1350, min text 12.3px at 390px"
-    ]
+      "package contents differ between LG KR and HK official specs; omitted"
+    ],
+    "format": "screening-room-v2 (2026-10-21)",
+    "imageSpec": "ops/queue/image-specs/lg-s40t-soundbar-arc-check.json"
   }
 ]

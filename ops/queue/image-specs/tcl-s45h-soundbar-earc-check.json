@@ -1,0 +1,62 @@
+{
+  "slug": "tcl-s45h-soundbar-earc-check",
+  "manuscript": "ops/queue/tcl-s45h-soundbar-earc-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge); manifests/logs/collector receipts in channel-ops/ops/state/whereonott-redesign-20261021",
+  "references": "whereonott.online-concept-assets/refs/tcl/SOURCES.json (tcl.com/kr S45H page + us.tcl.com product JSON images)",
+  "jobs": [
+    {
+      "name": "tcl-s45h-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-hero.png",
+      "width": 1536,
+      "qa": "pass: long gunmetal bar, rounded ends, dark front strip, brushed top match TCL hero/front refs"
+    },
+    {
+      "name": "tcl-s45h-tv-earc-port.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-tv-earc-port.png",
+      "width": 1200,
+      "qa": "pass: generic TV panel, label HDMI 2 (eARC/ARC) legible; no product claim"
+    },
+    {
+      "name": "tcl-s45h-rear-hdmi.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-rear-hdmi.png",
+      "width": 1200,
+      "qa": "pass: two keyhole slots near ends + central recessed port bay match S_Back ref; individual port count not verifiable at official 720px"
+    },
+    {
+      "name": "tcl-s45h-settop-path.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-settop-path.png",
+      "width": 1200,
+      "qa": "pass: set-top and soundbar cables each go to TV (no HDMI input on S45H)"
+    },
+    {
+      "name": "tcl-s45h-console-width.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-console-width.png",
+      "width": 1200,
+      "qa": "pass: bar between TV feet, tape measure without legible numbers"
+    },
+    {
+      "name": "tcl-s45h-wall-mounted.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-wall-mounted.png",
+      "width": 1200,
+      "qa": "pass: front fabric strip, small TCL logo right, wall-mounted under TV"
+    },
+    {
+      "name": "tcl-s45h-product.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-product-table.png",
+      "width": 1200,
+      "qa": "pass: whole bar incl. both rounded ends, top button row faint"
+    },
+    {
+      "name": "thumb-tcl-s45h.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\tcl-product-table.png",
+      "width": 640,
+      "qa": "crop of product photo",
+      "crop": {
+        "left": 100,
+        "top": 120,
+        "width": 1336,
+        "height": 880
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { writeFileSync, mkdtempSync } from 'node:fs';
+import { writeFileSync, mkdtempSync, readFileSync } from 'node:fs';
 const tmpdir = () => join(root,'qa/tmp');
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -43,4 +43,17 @@ test('same slug already in publish log is rejected', () => {
   const r = run('--source', ex('pass-example.md'), '--log', log, '--json');
   assert.equal(r.status, 1);
   assert.match(r.stdout, /slug already in publish log/);
+});
+
+test('format-v2: new post without photos/table/checklist is rejected', () => {
+  const d = mkdtempSync(join(tmpdir(), 'gate-'));
+  const f = join(d, 'v2-missing.md');
+  let t = readFileSync(ex('pass-example.md'), 'utf8');
+  t = t.replace(/^checklist:[\s\S]*?^checklistNote:.*$/m, '').replace(/<div class="spec-compare"[\s\S]*?<\/div>/, '').replace(/^  - src: "\/images\/picks\/example-foam-roller-fixture\/fixture-(length|firmness|surface)\.webp"[\s\S]*?rights: generated\n/gm, '');
+  t += '\n코드 예시는 `npm test`처럼 쓰지 않습니다.\n';
+  writeFileSync(f, t);
+  const r = run('--source', f, '--json', '--log', emptyLog());
+  assert.equal(r.status, 1);
+  const errs = JSON.parse(r.stdout).results[0].errors.join('\n');
+  for (const needle of ['format-v2: comparison/spec table missing', 'format-v2: checklist needs', 'distinct photos', 'body image not listed in frontmatter', 'monospace']) assert.ok(errs.includes(needle), `expected "${needle}" in:\n${errs}`);
 });

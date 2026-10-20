@@ -1,0 +1,57 @@
+{
+  "slug": "artmu-noble-hdmi-21-3m-check",
+  "manuscript": "src/content/posts/artmu-noble-hdmi-21-3m-check.md",
+  "outDir": "public/images/picks/artmu-noble-hdmi-21-3m-check",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge); manifests/logs/receipts channel-ops/ops/state/whereonott-redesign-20261021 (manifest-5-artmu-a/b)",
+  "references": "whereonott.online-concept-assets/refs/artmu/SOURCES.json (artmu.co.kr Noble lineup images)",
+  "jobs": [
+    {
+      "name": "hn2130-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\artmu-hero.png",
+      "width": 1536,
+      "qa": "pass: white cable, silver housing + white collar, gold tip as artmu Noble white refs"
+    },
+    {
+      "name": "hn2130-connector.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\artmu-connector.png",
+      "width": 1200,
+      "qa": "pass: housing/collar/tip match ref artmu-00/05"
+    },
+    {
+      "name": "hn2130-label-check.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\artmu-label-check.png",
+      "width": 1200,
+      "qa": "pass: no readable text; generic package; phone shows blurred camera only"
+    },
+    {
+      "name": "hn2130-measure.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\artmu-measure.png",
+      "width": 1200,
+      "qa": "pass: tape without legible numbers"
+    },
+    {
+      "name": "hn2130-coil.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\artmu-coil.png",
+      "width": 1200,
+      "qa": "pass: single white cable, two silver ends"
+    },
+    {
+      "name": "hn2130-tv-port.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\artmu-tv-port.png",
+      "width": 1200,
+      "qa": "pass: generic TV, label HDMI 1"
+    },
+    {
+      "name": "thumb-hn2130.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\artmu-connector.png",
+      "crop": {
+        "left": 500,
+        "top": 150,
+        "width": 900,
+        "height": 700
+      },
+      "width": 640,
+      "qa": "crop of connector photo"
+    }
+  ]
+}

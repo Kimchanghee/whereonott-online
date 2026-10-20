@@ -1,0 +1,62 @@
+{
+  "slug": "camelmount-fm65-tv-wall-mount-check",
+  "manuscript": "ops/queue/camelmount-fm65-tv-wall-mount-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge); manifests/logs/collector receipts in channel-ops/ops/state/whereonott-redesign-20261021",
+  "references": "whereonott.online-concept-assets/refs/camel/SOURCES.json (m.camelmount.com goodsNo=1000000199 main/detail images)",
+  "jobs": [
+    {
+      "name": "fm65-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-hero.png",
+      "width": 1536,
+      "qa": "pass: black wall plate with rectangular cut-outs + arm + swivelled TV, matches FM65 detail_374/1055 structure"
+    },
+    {
+      "name": "fm65-vesa-measure.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-vesa-measure.png",
+      "width": 1200,
+      "qa": "pass: 4 VESA holes, tape without legible numbers, black slotted rail as in detail_883"
+    },
+    {
+      "name": "fm65-swivel-angle.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-swivel-angle.png",
+      "width": 1200,
+      "qa": "pass: double arm, wall plate cut-outs, two vertical slotted rails (detail_374/493)"
+    },
+    {
+      "name": "fm65-folded-flat.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-folded-flat.png",
+      "width": 1200,
+      "qa": "pass: folded side profile close to wall (detail_961)"
+    },
+    {
+      "name": "fm65-wall-check.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-wall-check.png",
+      "width": 1200,
+      "qa": "pass: no product shown; unbranded scanner, level, pencil mark"
+    },
+    {
+      "name": "fm65-wall-plate.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-wall-plate.png",
+      "width": 1200,
+      "qa": "pass: plate + folded arm + TV plate, rails on floor; matte black only"
+    },
+    {
+      "name": "fm65-cable-route.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-cable-route.png",
+      "width": 1200,
+      "qa": "pass: cables tied along arm into white cover (detail_1116)"
+    },
+    {
+      "name": "thumb-fm65.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\cm-wall-plate.png",
+      "width": 640,
+      "qa": "crop of wall-plate photo",
+      "crop": {
+        "left": 250,
+        "top": 20,
+        "width": 1050,
+        "height": 700
+      }
+    }
+  ]
+}

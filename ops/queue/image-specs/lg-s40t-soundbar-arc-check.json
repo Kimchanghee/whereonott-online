@@ -1,0 +1,62 @@
+{
+  "slug": "lg-s40t-soundbar-arc-check",
+  "manuscript": "ops/queue/lg-s40t-soundbar-arc-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge); manifests/logs/collector receipts in channel-ops/ops/state/whereonott-redesign-20261021",
+  "references": "whereonott.online-concept-assets/refs/lg/SOURCES.json (lge.co.kr S40T gallery large-m01..m09 + usp images)",
+  "jobs": [
+    {
+      "name": "s40t-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-hero.png",
+      "width": 1536,
+      "qa": "pass: short matte-black fabric bar w/ flat ends + plain black subwoofer match lge.co.kr gallery"
+    },
+    {
+      "name": "s40t-tv-arc-port.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-tv-arc-port.png",
+      "width": 1200,
+      "qa": "pass: generic TV panel; label HDMI 2 (ARC) legible (small duplicated print inside connector, not product-related)"
+    },
+    {
+      "name": "s40t-rear-ports.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-rear-ports.png",
+      "width": 1200,
+      "qa": "pass: recessed rear bay with HDMI(ARC)>TV, USB 5V 500mA, OPTICAL IN in same order as official large-m07"
+    },
+    {
+      "name": "s40t-settop-to-tv.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-settop-to-tv.png",
+      "width": 1200,
+      "qa": "pass: set-top and bar each cabled to TV; 5 top buttons, LG logo right"
+    },
+    {
+      "name": "s40t-subwoofer-place.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-subwoofer-place.png",
+      "width": 1200,
+      "qa": "pass: plain upright box with rounded vertical edges (large-m08), Korean Schuko outlet"
+    },
+    {
+      "name": "s40t-top-buttons.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-top-buttons.png",
+      "width": 1200,
+      "qa": "pass: five top buttons row as in large-m05"
+    },
+    {
+      "name": "s40t-product-pair.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-product-pair.png",
+      "width": 1200,
+      "qa": "pass: bar + subwoofer pair as in large-m02"
+    },
+    {
+      "name": "thumb-s40t.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-redesign-20261021\\lg-product-pair.png",
+      "width": 640,
+      "qa": "crop of product-pair",
+      "crop": {
+        "left": 150,
+        "top": 180,
+        "width": 1260,
+        "height": 760
+      }
+    }
+  ]
+}
