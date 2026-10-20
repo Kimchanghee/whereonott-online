@@ -16,8 +16,8 @@
       "ops/queue/images/tcl-s45h-soundbar-earc-check/link-types.png",
       "ops/queue/images/tcl-s45h-soundbar-earc-check/setup-check.png"
     ],
-    "dryRunPassedAt": "2026-10-19T09:22:46.220Z",
-    "dryRunResult": "publish.ps1 -DryRun: source gate 1/1, built gate 32/32, local preview verify OK",
+    "dryRunPassedAt": "2026-10-20T13:03:13.495Z",
+    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
     "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "S45H",
@@ -42,8 +42,8 @@
       "ops/queue/images/camelmount-fm65-tv-wall-mount-check/wall-check.png",
       "ops/queue/images/camelmount-fm65-tv-wall-mount-check/alternatives.png"
     ],
-    "dryRunPassedAt": "2026-10-20T05:36:58.428Z",
-    "dryRunResult": "publish.ps1 -DryRun: built gate 32/32, local preview verify OK",
+    "dryRunPassedAt": "2026-10-20T13:02:59.063Z",
+    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
     "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "FM65",
@@ -72,8 +72,8 @@
       "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/power-path.png",
       "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/setup-check.png"
     ],
-    "dryRunPassedAt": "2026-10-20T12:04:58.000Z",
-    "dryRunResult": "publish.ps1 -DryRun: source gate 1/1, built gate 34/34, local preview verify OK",
+    "dryRunPassedAt": "2026-10-20T13:02:29.524Z",
+    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
     "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page, update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "MDZ-34-AA",
@@ -102,8 +102,8 @@
       "ops/queue/images/lg-s40t-soundbar-arc-check/size-power.png",
       "ops/queue/images/lg-s40t-soundbar-arc-check/setup-check.png"
     ],
-    "dryRunPassedAt": "2026-10-20T12:06:26.408Z",
-    "dryRunResult": "publish.ps1 -DryRun: source gate 1/1, built gate 34/34, local preview verify OK",
+    "dryRunPassedAt": "2026-10-20T13:02:44.141Z",
+    "dryRunResult": "publish.ps1 -DryRun (queue md+images placed temporarily, removed after): source gate 1/1, built gate 34/34, local preview verify OK",
     "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page, update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
     "verifyTokens": [
       "S40T",
