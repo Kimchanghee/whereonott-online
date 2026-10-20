@@ -1,0 +1,92 @@
+{
+  "slug": "xiaomi-tv-stick-hd-2nd-gen-check",
+  "observedAt": "2026-10-20T12:00:00Z",
+  "primaryKeyword": "샤오미 TV 스틱 HD 2세대",
+  "buyingQuestion": "샤오미 TV 스틱 HD 2세대(MDZ-34-AA)를 사기 전에 무엇을 확인해야 할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "샤오미 TV 스틱 HD 2세대",
+    "option": "MDZ-34-AA × 1개",
+    "sourceURL": "https://www.coupang.com/vp/products/9707354139?itemId=29042345203&vendorItemId=95969441029",
+    "coupangProductNo": "9707354139 - 29042345203",
+    "issuedURI": "https://link.coupang.com/a/h0fL4Oi7PM",
+    "linkIssuedAt": "2026-10-20T11:54:52.337Z",
+    "productCheckedAt": "2026-10-20T11:55:00.263Z",
+    "evidence": "ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check.md"
+  },
+  "official": {
+    "url": "https://www.mi.com/kr/product/xiaomi-tv-stick-hd-2nd-gen/specs/",
+    "observedAt": "2026-10-20T11:58:00Z",
+    "facts": {
+      "model": "MDZ-34-AA (mi.com/uk FAQ)",
+      "outputResolution": "720i/p, 1080i/p, 최대 1080p/60Hz",
+      "os": "Google TV",
+      "preinstalledApps": "Netflix, Prime Video, YouTube",
+      "cpu": "쿼드 코어 Cortex-A55",
+      "gpu": "Mali-G31 MP2",
+      "ram": "1GB DDR4",
+      "storage": "8GB",
+      "size": "107.4 x 30 x 14mm",
+      "weight": "44g",
+      "color": "블랙",
+      "wifi": "2.4GHz/5GHz (Wi-Fi 5 지원 공유기 필요, 글로벌 제품 페이지 각주)",
+      "bluetooth": "5.0",
+      "ports": "HDMI x1, Micro USB x1",
+      "package": "본체, 리모컨, 사용 설명서, HDMI 연장 케이블, USB 전원 케이블",
+      "power": "USB 전원 어댑터 미포함. 별도 5V/1A 어댑터 또는 5V/1A 출력 TV USB",
+      "remoteIR": "리모컨 적외선 기능은 TV 제어용 (글로벌 제품 페이지 각주)",
+      "requiresWifi": true
+    },
+    "compare4K2ndGen": {
+      "url": "https://www.mi.com/global/product/xiaomi-tv-stick-4k-2nd-gen/specs/",
+      "outputResolution": "4K",
+      "ram": "2GB",
+      "storage": "8GB",
+      "bluetooth": "5.2",
+      "powerAdapterIncluded": true
+    }
+  },
+  "crossCheck": {
+    "coupangListing": "해상도 FHD, 색상 블랙, 107.4 x 30 x 14mm - 공식 사양과 일치",
+    "mi.com/global specs": "해상도·메모리·저장·연결·구성품 일치"
+  },
+  "serp": {
+    "google": {
+      "query": "샤오미 TV 스틱 HD 2세대",
+      "observed": [
+        "coupang.com/vp/products/9748356334",
+        "mi.com/kr/product/xiaomi-tv-stick-hd-2nd-gen/",
+        "coupang.com/vp/products/9707354139",
+        "mi.com/kr/support/faq/details/KA-689849/",
+        "reddit r/XiaomiGlobal 4K 2nd gen",
+        "m.blog.naver.com/jochi79/224277056986",
+        "coolenjoy.net/bbs/38/6662460"
+      ]
+    },
+    "naver": {
+      "query": "샤오미 TV 스틱 HD 2세대 (블로그 탭)",
+      "observed": [
+        "blog.naver.com/money10144/224377353624",
+        "blog.naver.com/nce0623/224446381216",
+        "blog.naver.com/piqunt22145/224314492052",
+        "blog.naver.com/js31fhq33xhh/224191640397"
+      ]
+    },
+    "originalsRead": [
+      { "url": "https://m.blog.naver.com/money10144/224377353624", "title": "샤오미TV스틱 2세대 : 오래된 TV에 꽂았더니 생긴 변화", "note": "4K 2세대 기준 글. 구형 TV 활용, 전원 공급 부족 시 재부팅 가능성과 전용 어댑터 연결 권장, 저장 공간 제약" },
+      { "url": "https://m.blog.naver.com/jochi79/224277056986", "title": "모르고 사면 후회하는 샤오미 TV 스틱 4K 2세대 체크포인트 3가지", "note": "4K 2세대 기준. 와이파이 속도, HDMI 포트 주변 공간 간섭 확인" },
+      { "url": "https://coolenjoy.net/bbs/38/6662460", "title": "샤오미 TV 스틱 2세대, 4K, 돌비 비전, 구글 TV 탑재로 출시", "note": "4K 2세대 출시 뉴스. CPU를 Cortex A35로 적어 공식(A55)과 불일치 - 사용 안 함" }
+    ],
+    "notes": [
+      "상위 원문 대부분이 4K 2세대를 다루고 HD 2세대와 섞어 부름 - 두 모델의 차이(해상도, 메모리, 블루투스, 전원 어댑터 포함 여부) 정리가 빈 부분",
+      "HD 2세대는 USB 전원 어댑터가 빠져 있다는 점을 다룬 원문 없음"
+    ]
+  },
+  "omitted": [
+    "가격",
+    "평점·후기",
+    "CPU 클럭(FAQ 1.5GHz 외 다른 출처 수치 상이)",
+    "HDR·오디오 포맷 마케팅 문구(재생 기기·콘텐츠 조건부라 본문에서 단정하지 않음)",
+    "국내 OTT 앱별 지원 여부(공식 기본 설치 앱만 표기)"
+  ]
+}

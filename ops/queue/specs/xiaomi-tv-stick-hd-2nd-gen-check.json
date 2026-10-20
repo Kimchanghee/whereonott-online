@@ -1,0 +1,73 @@
+{
+  "images": [
+    {
+      "file": "cover.png",
+      "kind": "columns",
+      "kicker": "샤오미 TV 스틱 HD 2세대 · MDZ-34-AA",
+      "title": "우리 TV 조건과 공식 사양을 나란히",
+      "columns": [
+        {
+          "title": "우리 TV에서 볼 것",
+          "items": [
+            "화면 해상도(FHD인지 4K인지)",
+            "남는 HDMI 입력 단자",
+            "TV USB 전원 5V/1A 여부",
+            "집 공유기 Wi-Fi 5 지원"
+          ]
+        },
+        {
+          "title": "HD 2세대 공식 사양",
+          "accent": true,
+          "items": [
+            "최대 1080p/60Hz 출력",
+            "Google TV",
+            "HDMI 1 · Micro USB 1",
+            "USB 전원 어댑터 미포함"
+          ]
+        }
+      ],
+      "foot": "출처: 샤오미 공식 HD 2세대 사양 페이지 · 거실상영관 정리"
+    },
+    {
+      "file": "hd-vs-4k.png",
+      "kind": "table",
+      "kicker": "같은 2세대, 다른 모델",
+      "title": "HD 2세대와 4K 2세대, 무엇이 다른가?",
+      "header": ["항목", "HD 2세대", "4K 2세대"],
+      "highlight": 1,
+      "rows": [
+        ["최대 출력", "1080p/60Hz", "4K"],
+        ["메모리·저장", "1GB · 8GB", "2GB · 8GB"],
+        ["블루투스", "5.0", "5.2"],
+        ["전원 어댑터", "미포함", "포함"]
+      ],
+      "foot": "출처: 샤오미 공식 HD 2세대·4K 2세대 사양 페이지 · 거실상영관 정리"
+    },
+    {
+      "file": "power-path.png",
+      "kind": "flow",
+      "kicker": "꽂는 순서",
+      "title": "TV에 연결하는 경로",
+      "nodes": [
+        { "title": "TV HDMI 입력", "body": "스틱을 직접 꽂거나 동봉 연장 케이블로 연결", "edge": "HDMI" },
+        { "title": "TV 스틱 HD 2세대", "body": "Micro USB 단자로 전원을 받음", "edge": "USB 전원 케이블" },
+        { "title": "전원 공급", "accent": true, "body": "5V/1A USB 어댑터(별도) 또는 5V/1A 출력 TV USB" }
+      ],
+      "note": "Wi-Fi 연결이 있어야 정상 동작합니다",
+      "foot": "출처: 샤오미 공식 HD 2세대 사양(패키지·전원 안내) · 거실상영관 정리"
+    },
+    {
+      "file": "setup-check.png",
+      "kind": "steps",
+      "kicker": "주문 전 점검",
+      "title": "장바구니에 담기 전 네 가지",
+      "steps": [
+        { "title": "화면 해상도 확인", "body": "4K TV에서 4K로 보려면 4K 모델이 맞음" },
+        { "title": "HDMI 자리 확인", "body": "옆 단자와 겹치면 동봉 연장 케이블 사용" },
+        { "title": "전원 방법 정하기", "body": "TV USB가 5V/1A인지, 아니면 어댑터 준비" },
+        { "title": "모델명 대조", "body": "판매 페이지 옵션이 MDZ-34-AA × 1개인지" }
+      ],
+      "foot": "출처: 샤오미 공식 사양·제품 페이지 · 쿠팡 판매 페이지 옵션 표기"
+    }
+  ]
+}

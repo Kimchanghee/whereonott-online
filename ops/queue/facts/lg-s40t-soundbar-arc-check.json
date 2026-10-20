@@ -1,0 +1,86 @@
+{
+  "slug": "lg-s40t-soundbar-arc-check",
+  "observedAt": "2026-10-20T12:00:00Z",
+  "primaryKeyword": "LG 사운드바 S40T",
+  "buyingQuestion": "LG 사운드바 S40T를 우리 TV에 연결하기 전에 무엇을 확인해야 할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "LG전자 사운드바 방문설치 S40T",
+    "option": "S40T · 단일색상",
+    "sourceURL": "https://www.coupang.com/vp/products/8271149152?itemId=23837215938&vendorItemId=90860752358",
+    "coupangProductNo": "8271149152 - 23837215938",
+    "issuedURI": "https://link.coupang.com/a/h0fNZQr7iS",
+    "linkIssuedAt": "2026-10-20T11:55:18.203Z",
+    "productCheckedAt": "2026-10-20T11:56:37.018Z",
+    "evidence": "ops/queue/evidence/lg-s40t-soundbar-arc-check.md"
+  },
+  "official": {
+    "url": "https://www.lge.co.kr/product/home-audio/s40t-wall",
+    "observedAt": "2026-10-20T11:59:00Z",
+    "facts": {
+      "channels": "2.1",
+      "outputPower": "300W",
+      "speakerUnits": "3EA",
+      "soundModes": "AI 사운드 프로, Standard, Cinema, Game",
+      "audioFormats": "Dolby Digital, DTS Digital Surround, AAC",
+      "hdmi": "HDMI Out 1, Audio Return Channel(ARC) 지원, CEC(Simplink) 지원",
+      "optical": "1",
+      "usb": "1",
+      "bluetooth": "5.3, SBC/AAC",
+      "wowInterface": "지원(호환 LG TV, 모델에 따라 다름)",
+      "mainSize": "720 x 63 x 87mm",
+      "subSize": "171 x 320 x 252mm",
+      "mainWeight": "1.65kg",
+      "subWeight": "4.2kg",
+      "powerMain": "22W (대기 0.5W 이하)",
+      "powerSub": "35W (대기 0.5W 이하)",
+      "release": "2024-04",
+      "maker": "LG전자㈜, 제조국 중국"
+    }
+  },
+  "crossCheck": {
+    "lg.com/hk_en": "https://www.lg.com/hk_en/speakers/soundbars/s40t/ - 채널, 출력, 유닛 수, 포맷, ARC/CEC, 단자, 블루투스 5.3, 크기, 무게, 소비전력 일치",
+    "coupangListing": "모델명 S40T, 2.1 채널, 사운드바+서브우퍼, 블루투스 가능, 방문설치 - 일치"
+  },
+  "disagreements": [
+    "구성품: 한국 공식 스펙은 HDMI 케이블·월마운트 브라켓, 홍콩 공식 스펙은 광 케이블 표기 - 본문에서 구성품 단정하지 않음"
+  ],
+  "serp": {
+    "google": {
+      "query": "LG 사운드바 S40T",
+      "observed": [
+        "lge.co.kr/product/home-audio/s40t-wall",
+        "prod.danawa.com/info/?pcode=48001079",
+        "reddit r/LGOLED S40T",
+        "compuzone.co.kr S40T",
+        "m.blog.naver.com/ckwldud1/223783791181",
+        "clien.net/service/board/park/16974048 (SP2 관련, 무관)",
+        "ganow.co.kr/magazine/143 (429로 읽지 못함)"
+      ]
+    },
+    "naver": {
+      "query": "LG 사운드바 S40T 연결 (블로그 탭)",
+      "observed": [
+        "blog.naver.com/constant1024/224429467937",
+        "blog.naver.com/frogging49940/224321460621",
+        "blog.naver.com/sapebotk/224323492794",
+        "blog.naver.com/supapa13/224379291900",
+        "blog.naver.com/think_price/224304096640"
+      ]
+    },
+    "originalsRead": [
+      { "url": "https://m.blog.naver.com/constant1024/224429467937", "title": "LG 사운드바 S40T, 39만원대 300W·2.1채널이면 TV 사운드가 얼마나 달라질까?", "note": "공식 스펙 인용형. HDMI Out 1·ARC 표기, 본체·서브우퍼 크기, WOW 인터페이스 호환 TV 확인 필요" },
+      { "url": "https://m.blog.naver.com/supapa13/224379291900", "title": "tv 사운드바 엘지(lg) 쓸만할까?", "note": "블루투스 스피커 대비 HDMI ARC·광 연결 이유, LG 라인업 구분" },
+      { "url": "https://m.blog.naver.com/think_price/224304096640", "title": "20만원대 LG 사운드바 2.1 채널 S40T 가성비", "note": "구매 전 TV 크기·설치 공간·HDMI ARC 지원 여부 확인 권장. 가격 수치는 사용 안 함" }
+    ],
+    "notes": [
+      "원문들은 출력·저음·LG TV 연동 위주. 빠진 정보: HDMI 입력이 사양표에 없어 셋톱박스·콘솔을 TV에 꽂아야 한다는 연결 경로, eARC 표기 부재, 서브우퍼 전원·자리"
+    ]
+  },
+  "omitted": [
+    "가격",
+    "평점·후기",
+    "구성품(공식 지역별 표기 상이)",
+    "WOW 인터페이스 호환 TV 목록(공식 안내 링크로 대체)"
+  ]
+}
