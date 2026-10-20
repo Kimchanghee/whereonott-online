@@ -1,0 +1,67 @@
+{
+  "slug": "camelmount-fm65-tv-wall-mount-check",
+  "observedAt": "2026-10-20T05:33:02.205Z",
+  "primaryKeyword": "TV 벽걸이 거치대",
+  "buyingQuestion": "관절형 TV 벽걸이 거치대 FM65를 달기 전에 무엇을 확인할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "카멜마운트 각도조절형 TV 벽걸이 거치대 FM65",
+    "option": "블랙 × 1개",
+    "sourceURL": "https://www.coupang.com/vp/products/6495851891?itemId=13760558281&vendorItemId=93605658106",
+    "coupangProductNo": "6495851891 - 13760558281",
+    "issuedURI": "https://link.coupang.com/a/hZOoCLmIkC",
+    "linkIssuedAt": "2026-10-20T05:31:50.714Z",
+    "productCheckedAt": "2026-10-20T05:31:21.687Z",
+    "evidence": "ops/queue/evidence/camelmount-fm65-tv-wall-mount-check.md"
+  },
+  "official": {
+    "url": "https://m.camelmount.com/goods/goods_view.php?goodsNo=1000000199",
+    "observedAt": "2026-10-20T05:33:02.205Z",
+    "facts": {
+      "screenSize": "32~70형",
+      "maxLoad": "45kg(권장 모니터 무게)",
+      "vesaMax": "400 x 400",
+      "tilt": "+5°~-15°",
+      "swivel": "±60°",
+      "armExtensionMax": "벽에서 최대 410mm",
+      "material": "스틸",
+      "color": "블랙",
+      "monitors": 1
+    }
+  },
+  "crossCheck": {
+    "danawa": "https://prod.danawa.com/info/?pcode=16662998 (32~70형, 45kg 이하, 틸트 +5~-15, 스윙 ±60 일치)"
+  },
+  "serp": {
+    "naver": {
+      "query": "TV 벽걸이 거치대 설치 전 확인",
+      "originalsRead": [
+        {
+          "url": "https://m.blog.naver.com/malifo/224406016102",
+          "title": "셋탑박스 거치대 고를 때 먼저 확인할 크기와 발열 조건 : 네이버 블로그",
+          "chars": 2784
+        },
+        {
+          "url": "https://m.blog.naver.com/jwmom0718/224369326848",
+          "title": "이동식 티비 거치대 벽걸이 TV 스탠드 대신 선택하는 삼탠바이미 고민이라면 : 네이버 블로그",
+          "chars": 1890
+        },
+        {
+          "url": "https://m.blog.naver.com/avaron2000/224439928978",
+          "title": "부산 문현롯데캐슬인피니엘 75인치TV 가벽 무타공벽걸이티비설치 : 네이버 블로그",
+          "chars": 3127
+        }
+      ]
+    },
+    "notes": [
+      "원문들은 벽 구조(가벽 보강), 콘센트·셋톱 위치, 벽걸이 대신 스탠드 대안을 다룸",
+      "빠진 정보: TV 뒷면 VESA 간격과 무게를 거치대 한계와 대조하는 방법, 관절 연장 시 벽에서 떨어지는 거리"
+    ]
+  },
+  "omitted": [
+    "가격",
+    "평점·후기",
+    "최소 VESA(공식 페이지 미표기)",
+    "설치 나사 규격(설명서 미확인)"
+  ]
+}

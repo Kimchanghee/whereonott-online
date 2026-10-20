@@ -50,5 +50,35 @@
       "단일색상",
       "8917712150"
     ]
+  },
+  {
+    "slug": "camelmount-fm65-tv-wall-mount-check",
+    "productName": "카멜마운트 각도조절형 TV 벽걸이 거치대 FM65",
+    "option": "블랙 × 1개 · FM65",
+    "sourceURL": "https://www.coupang.com/vp/products/6495851891?itemId=13760558281&vendorItemId=93605658106",
+    "issuedURI": "https://link.coupang.com/a/hZOoCLmIkC",
+    "linkIssuedAt": "2026-10-20T05:31:50.714Z",
+    "productCheckedAt": "2026-10-20T05:31:21.687Z",
+    "factsFile": "ops/queue/facts/camelmount-fm65-tv-wall-mount-check.json",
+    "evidence": "ops/queue/evidence/camelmount-fm65-tv-wall-mount-check.md",
+    "manuscript": "ops/queue/camelmount-fm65-tv-wall-mount-check.md",
+    "images": [
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/cover.png",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/angles.png",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/wall-check.png",
+      "ops/queue/images/camelmount-fm65-tv-wall-mount-check/alternatives.png"
+    ],
+    "dryRunPassedAt": "2026-10-20T05:36:58.428Z",
+    "dryRunResult": "publish.ps1 -DryRun: built gate 32/32, local preview verify OK",
+    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
+    "verifyTokens": [
+      "FM65",
+      "블랙 × 1개",
+      "6495851891"
+    ],
+    "limitations": [
+      "diagram renderer is 1200x800 landscape: smallest caption ~6.5px at 390px width (body repeats all facts)",
+      "minimum VESA not on official page; omitted"
+    ]
   }
 ]
