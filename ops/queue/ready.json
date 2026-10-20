@@ -18,7 +18,12 @@
     ],
     "dryRunPassedAt": "2026-10-19T09:15:56.889Z",
     "dryRunResult": "publish.ps1 -DryRun: source gate 1/1, built gate 32/32, local preview verify OK",
-    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy."
+    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
+    "verifyTokens": [
+      "3m × 1개",
+      "HN2130",
+      "9228558802"
+    ]
   },
   {
     "slug": "tcl-s45h-soundbar-earc-check",
@@ -39,6 +44,11 @@
     ],
     "dryRunPassedAt": "2026-10-19T09:22:46.220Z",
     "dryRunResult": "publish.ps1 -DryRun: source gate 1/1, built gate 32/32, local preview verify OK",
-    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy."
+    "publishNotes": "Gate rejects product.verifiedAt older than 2 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
+    "verifyTokens": [
+      "S45H",
+      "단일색상",
+      "8917712150"
+    ]
   }
 ]
