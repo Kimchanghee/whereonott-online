@@ -6,7 +6,7 @@ question: "애플 TV 4K 128GB 이더넷 모델은 무엇을 확인하고 사야 
 answer: "TV장까지 LAN 선을 연결할 계획이라면 Wi-Fi + 이더넷 128GB 옵션(MN893KH/A, 모델 번호 A2843)인지 먼저 맞춰 보세요. 상자에는 본체·리모컨·전원 코드·설명서만 있어 HDMI 케이블과 리모컨 충전용 USB-C 케이블·어댑터는 따로 준비해야 합니다."
 description: "애플 TV 4K 3세대 128GB(Wi-Fi + 이더넷, MN893KH/A)를 유선 거실에 놓기 전 확인할 옵션 표기, 상자 구성과 별매 케이블, 연결 경로, HDMI 2.1 표기 읽는 법을 제조사 사양 기준으로 정리했습니다."
 published: "2026-10-19T17:55:00+09:00"
-updated: "2026-10-19T17:55:00+09:00"
+updated: "2026-10-20T14:45:16+09:00"
 category: "sound"
 primaryKeyword: "애플 TV 4K 128GB 이더넷"
 product:

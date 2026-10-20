@@ -1,16 +1,74 @@
-// Renders own informational diagrams (SVG -> PNG via sharp). Usage: node ops/diagrams/render.mjs <spec.json> <outDir>
-import fs from 'node:fs';import sharp from 'sharp';import path from 'node:path';
-const [specFile,outDir]=process.argv.slice(2);const spec=JSON.parse(fs.readFileSync(specFile,'utf8'));fs.mkdirSync(outDir,{recursive:true});
-const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-const C={bg:'#f6f1e7',ink:'#241f20',wine:'#702b38',gold:'#b8893f',soft:'#eee5d7',muted:'#6b6158'};
-const F='Malgun Gothic, Apple SD Gothic Neo, sans-serif';
-function wrap(t,max){const out=[];let cur='';for(const w of String(t).split(' ')){if((cur+' '+w).trim().length>max){out.push(cur.trim());cur=w}else cur+=' '+w}if(cur.trim())out.push(cur.trim());return out}
-function text(x,y,t,{size=30,fill=C.ink,weight=400,anchor='start',max=99,lh=1.35}={}){return wrap(t,max).map((l,i)=>`<text x="${x}" y="${y+i*size*lh}" font-family="${F}" font-size="${size}" font-weight="${weight}" fill="${fill}" text-anchor="${anchor}">${esc(l)}</text>`).join('')}
-function frame(title,kicker,inner,foot){return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800"><rect width="1200" height="800" fill="${C.bg}"/><rect x="0" y="0" width="1200" height="14" fill="${C.wine}"/>${text(60,78,kicker,{size:22,fill:C.wine,weight:700})}${text(60,132,title,{size:42,weight:700,max:40})}${inner}<line x1="60" y1="736" x2="1140" y2="736" stroke="${C.ink}" stroke-width="2"/>${text(60,772,foot,{size:20,fill:C.muted})}</svg>`}
-const kinds={
- columns(s){const n=s.columns.length,w=(1080-(n-1)*30)/n;return s.columns.map((c,i)=>{const x=60+i*(w+30);const items=c.items.map((it,j)=>`<rect x="${x+24}" y="${292+j*82}" width="20" height="20" fill="none" stroke="${c.accent?C.wine:C.ink}" stroke-width="3"/>${text(x+60,310+j*82,it,{size:27,max:Math.floor(w/27)})}`).join('');return `<rect x="${x}" y="190" width="${w}" height="520" fill="${c.accent?'#fff':C.soft}" stroke="${c.accent?C.wine:C.ink}" stroke-width="${c.accent?4:2}"/>${text(x+24,240,c.title,{size:30,weight:700,fill:c.accent?C.wine:C.ink})}${items}`}).join('')},
- flow(s){const n=s.nodes.length,g=90,w=(1080-(n-1)*g)/n;return s.nodes.map((nd,i)=>{const x=60+i*(w+g);const arrow=i<n-1?`<path d="M${x+w+10} 420 L${x+w+g-14} 420" stroke="${C.wine}" stroke-width="5"/><path d="M${x+w+g-16} 408 L${x+w+g-4} 420 L${x+w+g-16} 432 Z" fill="${C.wine}"/>`:'';const lab=nd.edge&&i<n-1?text(x+w+g/2,398,nd.edge,{size:20,fill:C.wine,anchor:'middle',weight:700}):'';return `<rect x="${x}" y="250" width="${w}" height="300" fill="${nd.accent?'#fff':C.soft}" stroke="${nd.accent?C.wine:C.ink}" stroke-width="${nd.accent?4:2}"/>${text(x+w/2,310,nd.title,{size:28,weight:700,anchor:'middle',max:Math.floor(w/26)})}${text(x+w/2,420,nd.body,{size:22,anchor:'middle',fill:C.muted,max:Math.floor(w/20)})}${arrow}${lab}`}).join('')+(s.note?text(60,620,s.note,{size:24,max:80}):'')},
- table(s){const cols=s.header.length,w=1080/cols;const head=s.header.map((h,i)=>`<rect x="${60+i*w}" y="190" width="${w}" height="70" fill="${i===s.highlight?C.wine:C.ink}"/>${text(60+i*w+20,235,h,{size:26,weight:700,fill:'#fff'})}`).join('');const rows=s.rows.map((r,ri)=>r.map((c,ci)=>`<rect x="${60+ci*w}" y="${260+ri*92}" width="${w}" height="92" fill="${ci===s.highlight?'#fff':(ri%2?C.soft:C.bg)}" stroke="${C.ink}" stroke-width="1"/>${text(60+ci*w+20,312+ri*92,c,{size:25,weight:ci===0?700:400,max:Math.floor(w/24)})}`).join('')).join('');return head+rows},
- steps(s){return s.steps.map((st,i)=>{const y=200+i*130;return `<circle cx="100" cy="${y+40}" r="34" fill="${C.wine}"/>${text(100,y+52,String(i+1),{size:34,weight:700,fill:'#fff',anchor:'middle'})}<rect x="160" y="${y}" width="980" height="100" fill="${C.soft}" stroke="${C.ink}" stroke-width="2"/>${text(186,y+42,st.title,{size:28,weight:700})}${text(186,y+80,st.body,{size:22,fill:C.muted,max:80})}`}).join('')}
+// Own informational diagrams: mobile-first 1080x1350 portrait PNGs rendered with Edge (Playwright).
+// Usage: node ops/diagrams/render.mjs <spec.json> <outDir>
+// spec: { images: [{ file, kind: 'columns'|'flow'|'table'|'steps', kicker, title, foot, ... }] }
+// Fails (exit 1) if any text would render under 12px on a 390px-wide display (source font < 34px),
+// if anything overflows horizontally, or if content runs into the footer / past the canvas.
+import fs from 'node:fs';
+import path from 'node:path';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { chromium } = require('../../../_qa-tools/node_modules/playwright');
+
+const W = 1080, H = 1350, DISPLAY = 390, MIN_DISPLAY_PX = 12;
+const MIN_SRC_PX = Math.ceil((MIN_DISPLAY_PX * W) / DISPLAY); // 34
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+const css = `*{box-sizing:border-box;margin:0;padding:0}html,body{width:${W}px;height:${H}px;overflow:hidden}
+body{background:#f6f1e7;color:#241f20;font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;padding:56px 60px 48px;display:flex;flex-direction:column;border-top:16px solid #702b38}
+.k{font-size:34px;font-weight:700;color:#702b38;line-height:1.3;word-break:keep-all}
+h1{font-size:58px;line-height:1.2;margin:12px 0 28px;letter-spacing:-.02em;word-break:keep-all}
+.main{display:flex;flex-direction:column;gap:18px}.main.tbl{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box{background:#eee5d7;border:3px solid #241f20;padding:24px 30px}.box.ac{background:#fff;border:5px solid #702b38}
+.box h2{font-size:44px;line-height:1.25;margin-bottom:12px;word-break:keep-all}.box.ac h2{color:#702b38}
+.box ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.box li{font-size:38px;line-height:1.35;word-break:keep-all;padding-left:54px;position:relative}
+.box li:before{content:'';position:absolute;left:0;top:12px;width:26px;height:26px;border:4px solid currentColor}
+.node{background:#eee5d7;border:3px solid #241f20;padding:22px 30px;text-align:center}.node.ac{background:#fff;border:5px solid #702b38}
+.node b{display:block;font-size:46px;line-height:1.25;word-break:keep-all}.node span{display:block;font-size:36px;line-height:1.35;color:#5d544b;word-break:keep-all}
+.arr{display:flex;align-items:center;justify-content:center;gap:16px;font-size:36px;font-weight:700;color:#702b38;line-height:1}.arr i{font-style:normal;font-size:48px}
+.note{font-size:36px;line-height:1.4;word-break:keep-all;border-left:8px solid #b8893f;padding-left:20px}
+.row{background:#eee5d7;border:3px solid #241f20;padding:16px 22px}.row h2{font-size:40px;line-height:1.2;margin-bottom:6px;word-break:keep-all;color:#241f20}
+.row dl{display:block}.row dt{font-size:34px;line-height:1.3;color:#5d544b;word-break:keep-all;margin-top:6px}
+.row dd{font-size:36px;line-height:1.3;word-break:keep-all}.row dd.hl{font-weight:800;color:#702b38}
+.step{display:grid;grid-template-columns:76px 1fr;gap:2px 22px;background:#eee5d7;border:3px solid #241f20;padding:16px 24px;align-items:start}
+.step em{grid-row:span 2;font-style:normal;width:76px;height:76px;border-radius:50%;background:#702b38;color:#fff;font-size:42px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.step b{font-size:42px;line-height:1.2;word-break:keep-all}.step span{font-size:36px;line-height:1.32;color:#5d544b;word-break:keep-all}
+.foot{margin-top:auto;padding-top:20px;border-top:3px solid #241f20;font-size:34px;line-height:1.4;color:#5d544b;word-break:keep-all}`;
+
+const kinds = {
+  columns: (s) => s.columns.map((c) => `<div class="box${c.accent ? ' ac' : ''}"><h2>${esc(c.title)}</h2><ul>${c.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul></div>`).join(''),
+  flow: (s) => s.nodes.map((n, i) => `<div class="node${n.accent ? ' ac' : ''}"><b>${esc(n.title)}</b><span>${esc(n.body)}</span></div>` + (i < s.nodes.length - 1 ? `<div class="arr"><i>↓</i>${esc(n.edge || '')}</div>` : '')).join('') + (s.note ? `<p class="note">${esc(s.note)}</p>` : ''),
+  table: (s) => s.rows.map((r) => `<div class="row"><h2>${esc(r[0])}</h2><dl>${r.slice(1).map((v, j) => `<dt>${esc(s.header[j + 1])}</dt><dd${j + 1 === s.highlight ? ' class="hl"' : ''}>${esc(v)}</dd>`).join('')}</dl></div>`).join(''),
+  steps: (s) => s.steps.map((st, i) => `<div class="step"><em>${i + 1}</em><b>${esc(st.title)}</b><span>${esc(st.body)}</span></div>`).join(''),
 };
-for(const img of spec.images){const svg=frame(img.title,img.kicker,kinds[img.kind](img),img.foot);await sharp(Buffer.from(svg)).png({compressionLevel:9}).toFile(path.join(outDir,img.file));console.log('wrote',img.file)}
+const html = (d) => `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${css}</style></head><body><p class="k">${esc(d.kicker)}</p><h1>${esc(d.title)}</h1><div class="main${d.kind === 'table' ? ' tbl' : ''}">${kinds[d.kind](d)}</div><p class="foot">${esc(d.foot)}</p></body></html>`;
+
+const [specFile, outDir] = process.argv.slice(2);
+if (!specFile || !outDir) { console.error('usage: node ops/diagrams/render.mjs <spec.json> <outDir>'); process.exit(2); }
+const spec = JSON.parse(fs.readFileSync(specFile, 'utf8'));
+fs.mkdirSync(outDir, { recursive: true });
+const browser = await chromium.launch({ channel: 'msedge', headless: true });
+const results = [];
+let failed = false;
+try {
+  const page = await browser.newPage({ viewport: { width: W, height: H } });
+  for (const d of spec.images) {
+    if (!kinds[d.kind] || !/^[a-z0-9-]+\.png$/.test(d.file)) throw new Error('bad spec item ' + d.file);
+    await page.setContent(html(d));
+    await page.waitForTimeout(150);
+    const m = await page.evaluate(() => {
+      const els = [...document.querySelectorAll('body *')].filter((e) => [...e.childNodes].some((n) => n.nodeType === 3 && n.textContent.trim()));
+      const minFont = Math.min(...els.map((e) => parseFloat(getComputedStyle(e).fontSize)));
+      const foot = document.querySelector('.foot').getBoundingClientRect();
+      const main = document.querySelector('.main').getBoundingClientRect();
+      const overflowX = document.documentElement.scrollWidth > innerWidth || els.some((e) => e.getBoundingClientRect().right > innerWidth - 8);
+      return { minFont, footBottom: Math.round(foot.bottom), overlap: main.bottom > foot.top - 6, overflowX };
+    });
+    const ok = m.minFont >= MIN_SRC_PX && m.footBottom <= H - 8 && !m.overlap && !m.overflowX;
+    if (!ok) failed = true;
+    await page.screenshot({ path: path.join(outDir, d.file) });
+    results.push({ file: d.file, width: W, height: H, minSourceFontPx: m.minFont, minDisplayPxAt390: +((m.minFont * DISPLAY) / W).toFixed(1), footBottom: m.footBottom, overlap: m.overlap, overflowX: m.overflowX, ok });
+  }
+} finally { await browser.close(); }
+console.log(JSON.stringify(results, null, 1));
+process.exit(failed ? 1 : 0);

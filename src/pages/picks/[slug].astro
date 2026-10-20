@@ -34,8 +34,8 @@ const crumbs = [ { name: '홈', href: '/' }, { name: cat.name, href: `/category/
       </header>
       <p class="answer" data-gate="answer">{d.answer}</p>
       <ProductCard product={d.product} variant="inline" />
-      <figure style="margin:0 0 18px">
-        <img src={cover.src} alt={cover.alt} width="1200" height="800" loading="eager" decoding="async" />
+      <figure class="pick-fig" style="margin:0 0 18px">
+        <img src={cover.src} alt={cover.alt} width="1080" height="1350" loading="eager" decoding="async" />
       </figure>
       <div class="prose" data-gate="body"><Content /></div>
       {d.faq.length > 0 && (
