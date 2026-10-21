@@ -1,0 +1,62 @@
+{
+  "slug": "samsung-freestyle-2nd-gen-projector-check",
+  "manuscript": "ops/queue/samsung-freestyle-2nd-gen-projector-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge), manifests/logs/receipts in channel-ops/ops/state/whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check (manifest-a2, manifest-b, manifest-c edits; run a killed with empty log, its renderer artifacts not collected)",
+  "references": "whereonott.online-concept-assets/refs/freestyle2/SOURCES.json (samsung.com/sec SP-LFCF3LAXXKR official gallery images)",
+  "jobs": [
+    {
+      "name": "fs2-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-hero.png",
+      "width": 1536,
+      "qa": "pass 2026-10-21: white perforated cylinder, U-cradle on round base, black speaker end toward viewer and beam leaving lens end toward wall image; no text/logos"
+    },
+    {
+      "name": "fs2-dark-room.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-dark-room-v2.png",
+      "width": 1200,
+      "qa": "pass 2026-10-21 (v2 edit): lens end now faces the wall picture, speaker end toward viewer, window-side picture washed out; v1 rejected: lens faced the viewer while image was on the wall (impossible beam direction)"
+    },
+    {
+      "name": "fs2-distance.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-distance-v2.png",
+      "width": 1200,
+      "qa": "pass 2026-10-21 (v2 edit): lens face and beam point at the projected rectangle, side port row (switch, Micro HDMI, USB-C) matches ref, tape measure without readable text; v1 rejected: beam haze went up-left away from the screen"
+    },
+    {
+      "name": "fs2-ceiling.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-ceiling.png",
+      "width": 1200,
+      "qa": "pass 2026-10-21: cradle tilted lens-up, beam to ceiling, lens window/sensors and side port row match refs; ceiling image fills ceiling (stylised), no text"
+    },
+    {
+      "name": "fs2-side-ports.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-side-ports.png",
+      "width": 1200,
+      "qa": "pass 2026-10-21: rear black speaker mesh with pogo-pin connector and four pads matches ref rear view; port order switch → Micro HDMI (black plug) → USB-C (white plug) matches; plug overmould slightly large but no wrong port; switch mark is an icon, no garbled text"
+    },
+    {
+      "name": "fs2-power-outlet.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-power-outlet-v2.png",
+      "width": 1200,
+      "qa": "pass 2026-10-21 (v2 edit): white cable enters the side USB-C port, Micro HDMI empty, runs to white adapter in Korean round-pin Type F outlet; v1 rejected: both side ports empty while cable came from behind the cradle"
+    },
+    {
+      "name": "fs2-bt-speaker.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-bt-speaker-v2.png",
+      "width": 1200,
+      "qa": "pass 2026-10-21 (v2 edit): speaker end toward viewer, beam from lens end to wall picture; generic rounded-rectangle grey fabric speaker with no logo/lights; v1 rejected: lens faced viewer while picture was behind, and round fabric speaker resembled a specific branded product"
+    },
+    {
+      "name": "thumb-fs2.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check\\fs2-power-outlet-v2.png",
+      "crop": {
+        "left": 380,
+        "top": 100,
+        "width": 460,
+        "height": 460
+      },
+      "width": 460,
+      "qa": "crop of fs2-power-outlet-v2 (lens face, side ports, cradle)"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "samsung-freestyle-2nd-gen-projector-check",
+  "observedAt": "2026-10-21T04:36:59.967Z",
+  "primaryKeyword": "더 프리스타일 2세대",
+  "buyingQuestion": "삼성 더 프리스타일 2세대(SP-LFCF3LAXXKR)를 거실 프로젝터로 사기 전에 무엇을 확인해야 할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "삼성전자 The Freestyle 2세대 프로젝터 화이트",
+    "listingTitle": "삼성전자 The Freestyle 프로젝터 화이트",
+    "option": "SP-LFCF3LAXXKR · 화이트",
+    "sourceURL": "https://www.coupang.com/vp/products/8159486083?itemId=23256797583&vendorItemId=93288440068",
+    "coupangProductNo": "8159486083 - 23256797583",
+    "issuedURI": "https://link.coupang.com/a/h1oF3wo1Zc",
+    "linkIssuedAt": "2026-10-21T04:27:08.111Z",
+    "productCheckedAt": "2026-10-21T04:26:53.300Z",
+    "seller": "위더스바잉 (marketplace)",
+    "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check.md"
+  },
+  "official": {
+    "url": "https://www.samsung.com/sec/projectors/the-freestyle-sp-lfcf3laxxkr-d2c/SP-LFCF3LAXXKR/",
+    "observedAt": "2026-10-21T04:36:59.967Z",
+    "facts": {
+      "sku": "SP-LFCF3LAXXKR (The Freestyle 2세대)",
+      "resolution": "1920 x 1080",
+      "lightSource": "LED",
+      "lightSourceLife": "30000hrs",
+      "throwRatio": "1.2",
+      "screenSize": "30~100\" (상품 안내: 76 cm ~ 254 cm)",
+      "display": "DLP",
+      "brightness": "230 ANSI Lumen (Peak), 삼성 내부 테스트 결과",
+      "noise": "30dB(A)",
+      "hdr": "HDR, HDR10+ 재생, HLG 지원",
+      "contrast": "100,000:1",
+      "sound": "MS12 2CH, 5W, 360도 사운드, 블루투스 오디오 연결 지원",
+      "os": "Tizen",
+      "hdmi": "1 (Micro), Anynet+ 있음",
+      "usb": "없음",
+      "bluetooth": "BT5.2",
+      "wifi": "WiFi5",
+      "ethernet": "없음",
+      "optical": "없음",
+      "remote": "TM2361E (솔라셀, USB-C 충전 가능)",
+      "power": "AC100-240V 50/60Hz, 정격소비전력 50W, 대기 0.5W",
+      "includedPowerCable": "있음",
+      "battery": "포터블 배터리 별도 판매; 사용하려면 포터블 배터리 장착 또는 전원 연결 필요",
+      "autoFeatures": "오토 키스톤, 오토 포커스, 오토 레벨링",
+      "ceiling": "천장 투사 시 화면 크기 및 이동 기능 적용이 필요할 수 있고 화면 크기가 줄어들 수 있음",
+      "smart": "네트워크 연결 및 삼성 계정 필요; 미로그인 시 Live TV(튜너 내장 한정)와 외부 기기 연결(HDMI)만",
+      "mobile": "SmartThings 앱 또는 AirPlay 2 (AirPlay는 모델/지역에 따라 미지원 가능)",
+      "multiBT": "블루투스 이어폰 2세트 동시 연결",
+      "releaseDate": "2023년 9월"
+    }
+  },
+  "officialUK": {
+    "url": "https://www.samsung.com/uk/projectors/the-freestyle/the-freestyle-2nd-gen-sp-lff3claxxxu/",
+    "model": "SP-LFF3CLAXXXU",
+    "facts": {
+      "distanceToScreen": "0.8m→30\", 1.5m→55\", 1.7m→65\", 2.0m→75\", 2.7m→100\"",
+      "externalBattery": "USB-PD and 50W/20V output or above"
+    }
+  },
+  "crossCheck": {
+    "coupangListing": "230ansi, FHD, DLP, 모델명 SP-LFCF3LAXXKR - 공식 사양과 일치"
+  },
+  "serp": {
+    "google": {
+      "query": "더 프리스타일 2세대 구매 전 확인",
+      "observedAt": "2026-10-21",
+      "observed": [
+        "samsung.com/sec SP-LFCF3LAXXKR",
+        "m.blog.naver.com/chojunhyeon/223302527362",
+        "onairfind.tistory.com/128",
+        "nosearch.com SP-LFCF3LAXXKR",
+        "etlandmall.co.kr",
+        "threads.com post",
+        "prod.danawa.com 27986420",
+        "arca.live hotdealhugi",
+        "m.blog.naver.com/mkhse78/223594602992"
+      ]
+    },
+    "naver": {
+      "query": "더 프리스타일 2세대 확인 (블로그 탭)",
+      "observed": [
+        "blog.naver.com/seagreen0314/224217609336",
+        "blog.naver.com/whitour/224347183233",
+        "blog.naver.com/kaluv1129/224019056855",
+        "blog.naver.com/sg90929/224245238749",
+        "blog.naver.com/02_log_/224175438501",
+        "blog.naver.com/aiwositai/224224869703"
+      ]
+    },
+    "originalsRead": [
+      {
+        "url": "https://onairfind.tistory.com/128",
+        "title": "더 프리스타일 2세대 본체만 사도 될까? 투사 공간과 전원으로 고르는 법",
+        "note": "공식 사양 기반. 100형=대각선, 영국 안내 거리 예시, 230 ANSI(Peak), 천장 투사 시 화면 축소, USB-PD 50W/20V 조건, Micro HDMI·USB 미디어 포트 없음. 배터리 상세가 길어 거실 홈시네마 관점(광출력·사운드 연결)이 빈 부분"
+      },
+      {
+        "url": "https://m.blog.naver.com/whitour/224347183233",
+        "title": "삼성 더 프리스타일 2세대 지금 사도 될까 (2026.7)",
+        "note": "가격 중심 글. 어두운 방 전제, 후속작 언급. 가격·후속작 정보는 사용 안 함; 무게 0.8kg는 국내 공식 스펙 탭에 없어 생략"
+      },
+      {
+        "url": "https://m.blog.naver.com/02_log_/224175438501",
+        "title": "삼성 더프리스타일 2세대 사용후기 | 닌텐도랑 연결하는 법",
+        "note": "내장 배터리 없음, Micro HDMI라 일반 HDMI 케이블 직결 불가 - 변환 젠더 필요(공식 사양 Micro HDMI와 일치). 개인 경험 서술은 옮기지 않음"
+      }
+    ],
+    "notes": [
+      "상위 글 다수가 가격·배터리 중심이라 거실 홈시네마 관점(주변광, 거리, 광출력 없음, 블루투스 사운드)을 한 글로 묶은 부분이 빈 곳",
+      "쿠팡 판매 페이지 제목에 2세대 표기가 빠져 모델명 확인이 필요하다는 점을 다룬 글 없음"
+    ]
+  },
+  "omitted": [
+    "가격",
+    "평점·후기",
+    "본체 무게·크기(국내 공식 스펙 탭에는 포장 기준 값만 있고 출처마다 표기 상이)",
+    "배터리 사용시간",
+    "1세대와의 세부 차이(공식 비교 자료 미확인)",
+    "후속 모델 출시 정보",
+    "국내 모델의 특정 외장 배터리 호환 확정"
+  ]
+}

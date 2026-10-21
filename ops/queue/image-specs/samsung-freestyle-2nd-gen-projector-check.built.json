@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-10-21T04:53:30.967Z",
+  "dims": {
+    "fs2-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 93874
+    },
+    "fs2-dark-room.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 86108
+    },
+    "fs2-distance.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 51782
+    },
+    "fs2-ceiling.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 63736
+    },
+    "fs2-side-ports.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 69704
+    },
+    "fs2-power-outlet.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 47454
+    },
+    "fs2-bt-speaker.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 62978
+    },
+    "thumb-fs2.webp": {
+      "width": 460,
+      "height": 460,
+      "bytes": 14842
+    }
+  }
+}
