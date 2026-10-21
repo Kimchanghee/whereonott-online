@@ -14,7 +14,7 @@
 | 스트리밍 셋톱박스 앱·DRM·HDMI 호환성 확인법 | 공식·판매처 출처 5건, 자료 기준일 2026-10-16, 수정 2026-10-16 | 가이드(제휴 없음) | 발행됨(live) | https://whereonott.online/guides/streaming-settop-compatibility/ |
 | 애플 TV 4K 128GB 이더넷 모델은 무엇을 확인하고 사야 할까? | 공식·판매처 출처 4건, 수정 2026-10-20 | 상품 노트(제휴) | 발행됨(live) | https://whereonott.online/picks/apple-tv-4k-128gb-ethernet-check/ |
 | 거실 TV에 쓸 HDMI 2.1 인증 케이블 3m는 무엇을 확인하고 사야 할까? | 공식·판매처 출처 3건, 수정 2026-10-20 | 상품 노트(제휴) | 발행됨(live) | https://whereonott.online/picks/artmu-noble-hdmi-21-3m-check/ |
-| TCL S45H 사운드바를 TV에 eARC로 연결하려면 무엇을 확인해야 할까? | ops/queue 대기 항목, dry-run 통과 2026-10-19; 발행 시 링크·옵션 재확인 필요 | 상품 노트(제휴) | 대기(queued) | 미발행 |
+| TCL S45H 사운드바를 TV에 eARC로 연결하려면 무엇을 확인해야 할까? | ops/queue 상품 재확인 후 자동 게시 2026-10-21 | 상품 노트(제휴) | 발행됨(live) | https://whereonott.online/picks/tcl-s45h-soundbar-earc-check/ |
 | 관절형 TV 벽걸이 거치대 FM65를 달기 전에 무엇을 확인해야 할까? | ops/queue 대기 항목, dry-run 통과 2026-10-20; 발행 시 링크·옵션 재확인 필요 | 상품 노트(제휴) | 대기(queued) | 미발행 |
 | 샤오미 TV 스틱 HD 2세대(MDZ-34-AA)를 사기 전에 무엇을 확인해야 할까? | ops/queue 대기 항목, dry-run 통과 2026-10-20; 발행 시 링크·옵션 재확인 필요 | 상품 노트(제휴) | 대기(queued) | 미발행 |
 | LG 사운드바 S40T를 우리 TV에 연결하기 전에 무엇을 확인해야 할까? | ops/queue 대기 항목, dry-run 통과 2026-10-20; 발행 시 링크·옵션 재확인 필요 | 상품 노트(제휴) | 대기(queued) | 미발행 |

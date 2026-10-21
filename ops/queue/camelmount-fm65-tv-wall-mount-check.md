@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/hZOoCLmIkC"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-20T14:31:21+09:00"
+  verifiedAt: "2026-10-21T13:05:51+09:00"
   evidence: "ops/queue/evidence/camelmount-fm65-tv-wall-mount-check.md"
   specs:
     - { label: "지원 화면", value: "32~70형" }

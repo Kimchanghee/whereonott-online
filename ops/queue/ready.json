@@ -6,7 +6,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/6495851891?itemId=13760558281&vendorItemId=93605658106",
     "issuedURI": "https://link.coupang.com/a/hZOoCLmIkC",
     "linkIssuedAt": "2026-10-20T05:31:50.714Z",
-    "productCheckedAt": "2026-10-20T05:31:21.687Z",
+    "productCheckedAt": "2026-10-21T04:05:51.000Z",
     "factsFile": "ops/queue/facts/camelmount-fm65-tv-wall-mount-check.json",
     "evidence": "ops/queue/evidence/camelmount-fm65-tv-wall-mount-check.md",
     "manuscript": "ops/queue/camelmount-fm65-tv-wall-mount-check.md",
@@ -32,7 +32,12 @@
       "minimum VESA not on official page; omitted"
     ],
     "format": "screening-room-v2 (2026-10-21)",
-    "imageSpec": "ops/queue/image-specs/camelmount-fm65-tv-wall-mount-check.json"
+    "imageSpec": "ops/queue/image-specs/camelmount-fm65-tv-wall-mount-check.json",
+    "lastRecheck": {
+      "at": "2026-10-21T13:05:51+09:00",
+      "result": "ok",
+      "evidence": "ops/queue/evidence/camelmount-fm65-tv-wall-mount-check-recheck-2026-10-21.png/.txt"
+    }
   },
   {
     "slug": "xiaomi-tv-stick-hd-2nd-gen-check",
@@ -41,7 +46,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/9707354139?itemId=29042345203&vendorItemId=95969441029",
     "issuedURI": "https://link.coupang.com/a/h0fL4Oi7PM",
     "linkIssuedAt": "2026-10-20T11:54:52.337Z",
-    "productCheckedAt": "2026-10-20T11:55:00.263Z",
+    "productCheckedAt": "2026-10-21T04:08:51.000Z",
     "factsFile": "ops/queue/facts/xiaomi-tv-stick-hd-2nd-gen-check.json",
     "evidence": "ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check.md",
     "manuscript": "ops/queue/xiaomi-tv-stick-hd-2nd-gen-check.md",
@@ -67,7 +72,12 @@
       "CPU clock and HDR/audio marketing claims omitted (conditional or inconsistent across sources)"
     ],
     "format": "screening-room-v2 (2026-10-21)",
-    "imageSpec": "ops/queue/image-specs/xiaomi-tv-stick-hd-2nd-gen-check.json"
+    "imageSpec": "ops/queue/image-specs/xiaomi-tv-stick-hd-2nd-gen-check.json",
+    "lastRecheck": {
+      "at": "2026-10-21T13:08:51+09:00",
+      "result": "ok",
+      "evidence": "ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-21.png/.txt"
+    }
   },
   {
     "slug": "lg-s40t-soundbar-arc-check",
@@ -76,7 +86,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/8271149152?itemId=23837215938&vendorItemId=90860752358",
     "issuedURI": "https://link.coupang.com/a/h0fNZQr7iS",
     "linkIssuedAt": "2026-10-20T11:55:18.203Z",
-    "productCheckedAt": "2026-10-20T11:56:37.018Z",
+    "productCheckedAt": "2026-10-21T04:10:04.000Z",
     "factsFile": "ops/queue/facts/lg-s40t-soundbar-arc-check.json",
     "evidence": "ops/queue/evidence/lg-s40t-soundbar-arc-check.md",
     "manuscript": "ops/queue/lg-s40t-soundbar-arc-check.md",
@@ -102,6 +112,11 @@
       "package contents differ between LG KR and HK official specs; omitted"
     ],
     "format": "screening-room-v2 (2026-10-21)",
-    "imageSpec": "ops/queue/image-specs/lg-s40t-soundbar-arc-check.json"
+    "imageSpec": "ops/queue/image-specs/lg-s40t-soundbar-arc-check.json",
+    "lastRecheck": {
+      "at": "2026-10-21T13:10:04+09:00",
+      "result": "ok",
+      "evidence": "ops/queue/evidence/lg-s40t-soundbar-arc-check-recheck-2026-10-21.png/.txt"
+    }
   }
 ]

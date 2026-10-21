@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h0fNZQr7iS"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-20T20:56:37+09:00"
+  verifiedAt: "2026-10-21T13:10:04+09:00"
   evidence: "ops/queue/evidence/lg-s40t-soundbar-arc-check.md"
   specs:
     - { label: "채널·출력", value: "2.1ch · 300W" }

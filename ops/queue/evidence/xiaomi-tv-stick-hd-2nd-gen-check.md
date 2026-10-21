@@ -6,3 +6,13 @@
 - Affiliate URI: https://link.coupang.com/a/h0fL4Oi7PM - issued 2026-10-20T11:54:52Z via partners.coupang.com 간편 링크 만들기 (channel 기본값) from the exact URL above; no restriction message. Not clicked/resolved.
 - Screenshots: ops/queue/evidence/xiaomi-mdz34-coupang.png, ops/queue/evidence/xiaomi-mdz34-partners-link.png; text ops/queue/evidence/xiaomi-mdz34-coupang.txt
 - Price/rating/review counts intentionally not used.
+
+## Re-check 2026-10-21 (routine 3CJqbDbHnE7Owmp9, logged-in Aside browser)
+
+- checkedAt: 2026-10-21T13:08:51+09:00
+- ordinary listing: https://www.coupang.com/vp/products/9707354139?itemId=29042345203&vendorItemId=95969441029
+- page title: 샤오미 TV 스틱 HD 2세대 - 셋톱박스 | 쿠팡
+- verifyTokens all present: MDZ-34-AA / 샤오미 TV 스틱 HD 2세대 / 9707354139
+- not sold out (no 품절/판매종료 text); no access denial
+- screenshot: ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-21.png ; text: ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-21.txt
+- own Partners link not opened.

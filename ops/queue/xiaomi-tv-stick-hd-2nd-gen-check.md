@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h0fL4Oi7PM"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-20T20:55:00+09:00"
+  verifiedAt: "2026-10-21T13:08:51+09:00"
   evidence: "ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check.md"
   specs:
     - { label: "최대 출력", value: "1080p/60Hz" }

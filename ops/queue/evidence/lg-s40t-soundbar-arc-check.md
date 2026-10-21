@@ -6,3 +6,13 @@
 - Affiliate URI: https://link.coupang.com/a/h0fNZQr7iS - issued 2026-10-20T11:55:18Z via partners.coupang.com 간편 링크 만들기 (channel 기본값) from the exact URL above; no restriction message. Not clicked/resolved.
 - Screenshots: ops/queue/evidence/lg-s40t-coupang.png, ops/queue/evidence/lg-s40t-partners-link.png; text ops/queue/evidence/lg-s40t-coupang.txt
 - Price/rating/review counts intentionally not used.
+
+## Re-check 2026-10-21 (routine 3CJqbDbHnE7Owmp9, logged-in Aside browser)
+
+- checkedAt: 2026-10-21T13:10:04+09:00
+- ordinary listing: https://www.coupang.com/vp/products/8271149152?itemId=23837215938&vendorItemId=90860752358
+- page title: LG전자 사운드바 방문설치 - 사운드바 | 쿠팡
+- verifyTokens all present: S40T / 단일색상 / 8271149152
+- not sold out (no 품절/판매종료 text); no access denial
+- screenshot: ops/queue/evidence/lg-s40t-soundbar-arc-check-recheck-2026-10-21.png ; text: ops/queue/evidence/lg-s40t-soundbar-arc-check-recheck-2026-10-21.txt
+- own Partners link not opened.
