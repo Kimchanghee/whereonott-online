@@ -6,7 +6,7 @@ question: "거실 TV에 쓸 HDMI 2.1 인증 케이블 3m는 무엇을 확인하�
 answer: "공식 이름이 Ultra High Speed HDMI Cable인지, 포장 인증 라벨의 QR로 브랜드·모델·길이를 대조할 수 있는지부터 보세요. 길이는 직선이 아니라 선이 지나갈 실제 경로로 재고, 3m에 여유가 있을 때 고르면 됩니다."
 description: "HDMI 2.1 인증 케이블(아트뮤 Noble 3m, HN2130)을 거실 TV·셋톱박스 연결용으로 고를 때 확인할 공식 케이블 이름, 인증 라벨 QR 확인법, 길이 재는 법, Ultra96과의 차이를 공식 자료 기준으로 정리했습니다."
 published: "2026-10-20T15:14:25+09:00"
-updated: "2026-10-21T12:18:59+09:00"
+updated: "2026-10-21T14:35:58+09:00"
 category: "sound"
 primaryKeyword: "HDMI 2.1 인증 케이블"
 product:
