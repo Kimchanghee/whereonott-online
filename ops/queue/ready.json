@@ -1,37 +1,5 @@
 [
   {
-    "slug": "tcl-s45h-soundbar-earc-check",
-    "productName": "TCL 2채널 돌비 애트모스 올인원 사운드바 S45H",
-    "option": "S45H · 단일색상 · 1개",
-    "sourceURL": "https://www.coupang.com/vp/products/8917712150?itemId=23155809850&vendorItemId=90188623298",
-    "issuedURI": "https://link.coupang.com/a/hYpHk2smE8",
-    "linkIssuedAt": "2026-10-19T09:18:37.053Z",
-    "productCheckedAt": "2026-10-19T09:17:18.445Z",
-    "factsFile": "ops/queue/facts/tcl-s45h-soundbar-earc-check.json",
-    "evidence": "ops/queue/evidence/tcl-s45h-soundbar-earc-check.md",
-    "manuscript": "ops/queue/tcl-s45h-soundbar-earc-check.md",
-    "images": [
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-hero.webp",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-tv-earc-port.webp",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-rear-hdmi.webp",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-settop-path.webp",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-console-width.webp",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-wall-mounted.webp",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/tcl-s45h-product.webp",
-      "ops/queue/images/tcl-s45h-soundbar-earc-check/thumb-tcl-s45h.webp"
-    ],
-    "dryRunPassedAt": "2026-10-20T15:19:17.619Z",
-    "dryRunResult": "scripts/dryrun-stage.mjs --queue tcl-s45h-soundbar-earc-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 34/34, local preview verify OK, protected trees unchanged",
-    "publishNotes": "Gate rejects product.verifiedAt older than 5 days: before live publish re-check the exact option page, update verifiedAt/evidence, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
-    "verifyTokens": [
-      "S45H",
-      "단일색상",
-      "8917712150"
-    ],
-    "format": "screening-room-v2 (2026-10-21)",
-    "imageSpec": "ops/queue/image-specs/tcl-s45h-soundbar-earc-check.json"
-  },
-  {
     "slug": "camelmount-fm65-tv-wall-mount-check",
     "productName": "카멜마운트 각도조절형 TV 벽걸이 거치대 FM65",
     "option": "블랙 × 1개 · FM65",
