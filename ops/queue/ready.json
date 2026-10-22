@@ -185,5 +185,56 @@
       "content": "channel-ops/ops/content/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check",
       "state": "channel-ops/ops/state/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check"
     }
+  },
+  {
+    "slug": "nextu-mtv340-4k-mirroring-dongle-check",
+    "productName": "넥스트유 WiFi 5 4K 무선 미러링 동글",
+    "option": "NEXT-MTV340-4K × 1개",
+    "sourceURL": "https://www.coupang.com/vp/products/1787492383?itemId=3043209190&vendorItemId=94167766638",
+    "issuedURI": "https://link.coupang.com/a/h24M17eNXw",
+    "linkIssuedAt": "2026-10-22T04:44:00.452Z",
+    "productCheckedAt": "2026-10-22T04:43:06.909Z",
+    "factsFile": "ops/queue/facts/nextu-mtv340-4k-mirroring-dongle-check.json",
+    "evidence": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check.md",
+    "manuscript": "ops/queue/nextu-mtv340-4k-mirroring-dongle-check.md",
+    "images": [
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/mtv-hero.webp",
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/mtv-laptop.webp",
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/mtv-usb-power.webp",
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/mtv-extension.webp",
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/mtv-distance.webp",
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/mtv-box-contents.webp",
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/mtv-projector.webp",
+      "ops/queue/images/nextu-mtv340-4k-mirroring-dongle-check/thumb-mtv340.webp"
+    ],
+    "dryRunPassedAt": "2026-10-22T04:49:48.100Z",
+    "dryRunResult": "scripts/dryrun-stage.mjs --queue nextu-mtv340-4k-mirroring-dongle-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 38/38, local preview verify OK, protected trees unchanged",
+    "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page (marketplace offer, seller (주)당신마트 with 60 other sellers; confirm 모델명/품번 NEXT-MTV340-4K and not sold out), update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
+    "verifyTokens": [
+      "NEXT-MTV340-4K",
+      "넥스트유 WiFi 5 4K 무선 미러링 동글",
+      "1787492383"
+    ],
+    "limitations": [
+      "marketplace offer (seller (주)당신마트); listing image carries seller NETFLIX/4K marketing text, not used",
+      "OTT/Netflix support omitted: blogs and seller image conflict with the manual DRM limitation",
+      "macOS omitted (manual recommended-system table vs spec table differ); body size/weight not in official material"
+    ],
+    "format": "screening-room-v2 (2026-10-21)",
+    "imageSpec": "ops/queue/image-specs/nextu-mtv340-4k-mirroring-dongle-check.json",
+    "research": {
+      "google": "넥스트유 NEXT-MTV340-4K 미러링 동글",
+      "naver": "넥스트유 MTV340 미러링 (블로그 탭)",
+      "originalsRead": [
+        "https://m.blog.naver.com/laputa69/222275540944",
+        "https://m.blog.naver.com/etrh9998192/223634874313",
+        "https://m.blog.naver.com/pick25905/224003478164"
+      ],
+      "serp": "ops/queue/facts/nextu-mtv340-4k-mirroring-dongle-check.json#serp"
+    },
+    "imageJob": {
+      "content": "channel-ops/ops/content/whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check",
+      "state": "channel-ops/ops/state/whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check"
+    }
   }
 ]

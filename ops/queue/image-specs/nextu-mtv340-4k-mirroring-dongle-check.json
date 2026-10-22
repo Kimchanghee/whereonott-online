@@ -1,0 +1,62 @@
+{
+  "slug": "nextu-mtv340-4k-mirroring-dongle-check",
+  "manuscript": "ops/queue/nextu-mtv340-4k-mirroring-dongle-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge), manifests/logs/receipts in channel-ops/ops/state/whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check (manifest-a 4 jobs, manifest-b 3 jobs, concurrency 2 each; native CLI reported write failure under read-only policy, PNGs recovered by gpt-image-host-copy.ps1 with exact_utf8 binding)",
+  "references": "whereonott.online-concept-assets/refs/mtv340/SOURCES.json (manufacturer image ZIP linked from ez-net.co.kr product page + official manual)",
+  "jobs": [
+    {
+      "name": "mtv-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-hero.png",
+      "width": 1536,
+      "qa": "pass 2026-10-22: white flat rounded-rectangle dongle with dot ring and upright hinged rod antenna on the side of a wall TV; phone shows the same seaside photo as the TV; no text/logos, hand only"
+    },
+    {
+      "name": "mtv-laptop.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-laptop.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: laptop and TV show the same travel photo (people seen from behind), dongle with antenna on TV side; no UI text"
+    },
+    {
+      "name": "mtv-usb-power.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-usb-power.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: dongle in TV side HDMI, black micro-USB cable from antenna-end port to white USB adapter in a round-pin wall outlet; no text"
+    },
+    {
+      "name": "mtv-extension.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-extension.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: dongle held by the female end of a short black HDMI extension from a rear TV HDMI port, antenna up; body/dots match ref"
+    },
+    {
+      "name": "mtv-distance.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-distance.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: person from behind on sofa holding phone toward TV a few metres away, clear line of sight, dongle with antenna visible at TV side; no face"
+    },
+    {
+      "name": "mtv-box-contents.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-box-contents.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: exactly dongle + removed HDMI cap, one USB-A to micro-USB cable, one short HDMI male-to-female extension, one blank booklet - matches manual box list; no text"
+    },
+    {
+      "name": "mtv-projector.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-projector.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: generic logo-less grey projector with dongle in rear HDMI and antenna up, projecting a lake photo; no text"
+    },
+    {
+      "name": "thumb-mtv340.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check\\mtv-box-contents.png",
+      "crop": {
+        "left": 160,
+        "top": 60,
+        "width": 600,
+        "height": 500
+      },
+      "width": 480,
+      "qa": "crop of mtv-box-contents (dongle body, antenna, HDMI plug, cap)"
+    }
+  ]
+}

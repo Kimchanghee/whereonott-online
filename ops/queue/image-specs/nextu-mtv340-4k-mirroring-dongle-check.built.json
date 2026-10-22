@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-10-22T04:48:49.778Z",
+  "dims": {
+    "mtv-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 105052
+    },
+    "mtv-laptop.webp": {
+      "width": 1200,
+      "height": 801,
+      "bytes": 86626
+    },
+    "mtv-usb-power.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 57134
+    },
+    "mtv-extension.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 38720
+    },
+    "mtv-distance.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 81510
+    },
+    "mtv-box-contents.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 89928
+    },
+    "mtv-projector.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 56386
+    },
+    "thumb-mtv340.webp": {
+      "width": 480,
+      "height": 400,
+      "bytes": 16350
+    }
+  }
+}

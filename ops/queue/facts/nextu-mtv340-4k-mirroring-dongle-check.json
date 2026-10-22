@@ -1,0 +1,104 @@
+{
+  "slug": "nextu-mtv340-4k-mirroring-dongle-check",
+  "observedAt": "2026-10-22T04:50:00.000Z",
+  "primaryKeyword": "넥스트유 미러링 동글",
+  "buyingQuestion": "넥스트유 4K 무선 미러링 동글 NEXT-MTV340-4K로 스마트폰 화면을 TV에 띄우기 전에 무엇을 확인해야 할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "넥스트유 WiFi 5 4K 무선 미러링 동글",
+    "listingTitle": "넥스트유 WiFi 5 4K 무선 미러링 동글",
+    "option": "NEXT-MTV340-4K × 1개",
+    "sourceURL": "https://www.coupang.com/vp/products/1787492383?itemId=3043209190&vendorItemId=94167766638",
+    "coupangProductNo": "1787492383 - 3043209190",
+    "issuedURI": "https://link.coupang.com/a/h24M17eNXw",
+    "linkIssuedAt": "2026-10-22T04:44:00.452Z",
+    "productCheckedAt": "2026-10-22T04:43:06.909Z",
+    "seller": "(주)당신마트 (marketplace, 판매자로켓 표시, 다른 판매자 60)",
+    "listingAttributes": "Manufacturer Part Number: next-mtv340-4k / 해상도 4K 울트라 HD / 무선연결 방식: 와이파이 / 쿠팡상품번호 1787492383 - 3043209190; page JSON itemInfo soldOut:false",
+    "evidence": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check.md"
+  },
+  "official": {
+    "url": "https://www.ez-net.co.kr/sub/sub01_01_view.php?cat_no=375&idx=2280",
+    "manual": "https://eznet.synology.me/download/NEXT-MTV340-4K_manual_2305.pdf (fetched via http; https HEAD 200 application/pdf 2026-10-22)",
+    "observedAt": "2026-10-22T04:48:00.000Z",
+    "facts": {
+      "maker": "(주)이지넷유비쿼터스 (NEXTU), 보증 1년",
+      "purpose": "스마트폰 등의 화면을 TV·모니터·빔프로젝터에 복제(Mirror)",
+      "box": "동글 1, Micro 5pin 케이블 1, HDMI 연장케이블 1, 매뉴얼 1",
+      "network": "IEEE802.11n(2.4G)/802.11ac(5G)",
+      "supportOS": "iOS, Android, Windows10 (사양표); 권장사양 표에는 iOS 7+, Android 4.2(1GB RAM), Windows 8.1/10(Intel CPU), MAC 10.8+",
+      "video": "3840x2160/1920x1080/1280x720/720x480",
+      "protocol": "WiFi/DLNA/Miracast; iOS는 AirPlay 미러링",
+      "power": "USB-Bus, DC 5V/500mA; 전용 케이블 5V USB 전원 공급 시 정상 사용, TV USB 출력이 기종마다 달라 5V2A USB 어댑터 권장",
+      "drm": "DRM 콘텐츠 재생 또는 미러링을 지원하지 않는 앱 사용 시 미러링 기능 제한",
+      "distance": "스마트 기기와 동글 권장 거리: 장애물 없는 환경에서 약 5M 이내, 안테나와 기기 사이 일직선 장애물 없는 환경 권장",
+      "stability": "무선 특성상 네트워크 환경에 따라 지연·끊김 가능",
+      "hdmiExt": "TV·모니터에 따라 HDMI 포트가 상이하면 동봉 HDMI 연장케이블로 연결",
+      "windows": "Windows는 최대 1080P@30Hz 출력, 복제 모드 권장(확장 모드 비권장), PC가 Miracast 지원해야 함(dxdiag로 확인)",
+      "iosNet": "아이폰은 동글 SSID(기본 암호 12345678)에 접속 후 192.168.49.1 설정창에서 공유기 연결",
+      "firmware": "인터넷 연결 시 자동 온라인 업데이트, 업데이트 중 전원 제거 금지, Reset 약 10초 공장 초기화"
+    }
+  },
+  "serp": {
+    "google": {
+      "query": "넥스트유 NEXT-MTV340-4K 미러링 동글",
+      "observedAt": "2026-10-22",
+      "observed": [
+        "www.coupang.com/vp/products/9631589222",
+        "compuzone.co.kr/product/product_detail.htm?ProductNo=784559&srsltid=AYCX9vLaD8WodqP49jVudVlB6jUy2ZzO",
+        "www.ez-net.co.kr/sub/sub01_01_view.php?cat_no=70&idx=2280&brand=&f1=&f2=&f3=&f4=&f5=&f6=&f7=&f8=&f9=",
+        "m.blog.naver.com/laputa69/222275540944",
+        "www.devicemart.co.kr/goods/view?no=13910699&srsltid=AYCX9vJL-hVTMa0jUNJoSOtgLvNtc6LtXHLBtFjG3AxP8K94",
+        "www.11st.co.kr/products/8684682925?srsltid=AYCX9vIfk5i-HJFy2LH9f4wx1DTipkfkoG8JRl9SL02gWiDvUBR1dzNU",
+        "m.gmarket.co.kr/vi/product/4732687674?buyboxtype=ad&utparam-url=%7B%22x_object_type%22%3A%22item%22%",
+        "blog.naver.com/laputa69/222275540944?viewType=pc",
+        "www.icbanq.com/P016914213?srsltid=AYCX9vLI8QYnnSQgRN8Rz1_tGb_fXPH6KJOj9jr3X3G_rGFW6IW2xwCD"
+      ]
+    },
+    "naver": {
+      "query": "넥스트유 MTV340 미러링 (블로그 탭)",
+      "observedAt": "2026-10-22",
+      "observed": [
+        "blog.naver.com/minchx5jqd/224232134660",
+        "blog.naver.com/tallwm/224218979998",
+        "blog.naver.com/pzdrop/224202866541",
+        "blog.naver.com/pick25905/224003478164",
+        "blog.naver.com/gjxodbs8974/224210083684",
+        "blog.naver.com/etrh9998192/223634874313",
+        "blog.naver.com/qforkcsie677/223656266486",
+        "blog.naver.com/dfvgbg944/223626610698",
+        "blog.naver.com/nlcgjfmmqu/223750198721",
+        "blog.naver.com/ft17sxsc/223664216592"
+      ]
+    },
+    "originalsRead": [
+      {
+        "url": "https://m.blog.naver.com/laputa69/222275540944",
+        "title": "[4K 무선 디스플레이] NEXT MTV340 4K HDMI 미라캐스트 동글",
+        "note": "구성품(동글·HDMI 케이블·USB/마이크로 USB 케이블)과 Windows 10 무선 디스플레이 연결이 매뉴얼과 일치; Windows에서 30Hz는 매뉴얼의 1080P@30Hz와 일치. 끊김 체감 등 개인 경험은 옮기지 않음"
+      },
+      {
+        "url": "https://m.blog.naver.com/etrh9998192/223634874313",
+        "title": "넥스트 WiFi 5 4K 무선 미러링 동글 NEXTMTV3404K 완벽 가이드",
+        "note": "제휴 홍보 글. 넷플릭스 4K 스트리밍 주장은 매뉴얼의 DRM 제한과 충돌 - 넷플릭스 지원 여부는 쓰지 않음. DRM 제한 언급만 매뉴얼과 일치"
+      },
+      {
+        "url": "https://m.blog.naver.com/pick25905/224003478164",
+        "title": "스마트폰이 4K 영화관으로 변신! 넥스트유 미러링 동글",
+        "note": "쿠팡 파트너스 글. macOS 지원 주장은 매뉴얼 권장사양(MAC 10.8+)과 사양표(iOS·Android·Windows10)가 서로 달라 생략. 5GHz 권장 팁은 개인 팁이라 미사용"
+      }
+    ],
+    "notes": [
+      "상위 글 다수가 제휴 홍보형으로 넷플릭스·4K를 강조하고, 매뉴얼의 DRM 제한·Windows 1080P 30Hz·전원 5V2A 권장·5M 거리 조건을 정리한 글이 드묾",
+      "Google 1위가 다른 쿠팡 상품(9631589222)이나 클릭하지 않음"
+    ]
+  },
+  "omitted": [
+    "가격",
+    "평점·후기 수",
+    "넷플릭스 등 특정 OTT 앱 재생 가능 여부(판매 이미지 문구와 매뉴얼 DRM 제한이 충돌)",
+    "macOS 지원(매뉴얼 내 표기 상이)",
+    "본체 크기·무게(공식 자료 미확인)",
+    "지연 시간 수치"
+  ]
+}
