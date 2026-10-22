@@ -16,3 +16,13 @@
 - not sold out (no 품절/판매종료 text); no access denial
 - screenshot: ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-21.png ; text: ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-21.txt
 - own Partners link not opened.
+
+## Re-check 2026-10-22 (whereonott routine, logged-in Aside browser, paced via _refs/coupang-pacing/acquire.mjs)
+
+- checkedAt: 2026-10-22T13:14:05+09:00
+- ordinary listing: https://www.coupang.com/vp/products/9707354139?itemId=29042345203&vendorItemId=95969441029
+- page title: 샤오미 TV 스틱 HD 2세대 - 셋톱박스 | 쿠팡
+- verifyTokens all present in the product body area (상품명·옵션·쿠팡상품번호 block, before 추천/비교 sections): MDZ-34-AA / 샤오미 TV 스틱 HD 2세대 / 9707354139
+- not sold out (lib.mjs SOLD_OUT regex: no match in product body or whole page); no access denial
+- screenshot: ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-22.png ; text: ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-22.txt
+- own Partners link not opened.
