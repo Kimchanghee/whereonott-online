@@ -1,0 +1,62 @@
+{
+  "slug": "samsung-hw-s60d-soundbar-check",
+  "manuscript": "ops/queue/samsung-hw-s60d-soundbar-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge), manifests/logs/receipts in channel-ops/ops/state/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check (manifest-a 4 jobs, manifest-b 3 jobs, concurrency 2 each; native CLI reported write failure under read-only policy, PNGs recovered by gpt-image-host-copy.ps1 with exact_utf8 binding)",
+  "references": "whereonott.online-concept-assets/refs/s60d/SOURCES.json (samsung.com/sec HW-S60D/KR official gallery images)",
+  "jobs": [
+    {
+      "name": "s60d-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-hero.png",
+      "width": 1536,
+      "qa": "pass 2026-10-22: single black capsule bar with rounded ends and fine perforated grille centred on oak console under wall TV, much narrower than TV; no sub/rear speakers; no text/logos"
+    },
+    {
+      "name": "s60d-no-sub.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-no-sub.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: bar alone on white cabinet, floor clear of any subwoofer/other speakers; TV shows a figure from behind (no face); no text"
+    },
+    {
+      "name": "s60d-tv-height.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-tv-height.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: pedestal TV with soundbar in front, visible gap between bar top and screen bottom edge; four small top buttons at centre match ref; perforated grille and rounded ends match"
+    },
+    {
+      "name": "s60d-wall-mount.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-wall-mount.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: bar mounted flat on wall below wall TV, both centred, cables hidden; shape matches ref; no text"
+    },
+    {
+      "name": "s60d-rear-jacks.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-rear-jacks.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: rear panel with two recessed jack pockets and screw points like jack-port ref; left pocket power plug, right pocket square optical port empty above a plugged connector; centre label area rendered blank (no garbled text); plugs enter more horizontally than the downward-facing ref jacks (minor, accepted)"
+    },
+    {
+      "name": "s60d-optical-old-tv.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-optical-old-tv.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: thin black optical cable from TV rear port to soundbar right rear pocket, HDMI port below it empty; four top buttons visible; no readable text"
+    },
+    {
+      "name": "s60d-remote.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-remote.png",
+      "width": 1200,
+      "qa": "pass 2026-10-22: slim black remote with red power key top, round nav ring with play/pause, icon keys matching official remote ref; icons only, no garbled text; hand without face"
+    },
+    {
+      "name": "thumb-s60d.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261022-samsung-hw-s60d-soundbar-check\\s60d-tv-height.png",
+      "crop": {
+        "left": 240,
+        "top": 300,
+        "width": 1040,
+        "height": 440
+      },
+      "width": 640,
+      "qa": "crop of s60d-tv-height (soundbar body, top buttons, TV bottom edge)"
+    }
+  ]
+}

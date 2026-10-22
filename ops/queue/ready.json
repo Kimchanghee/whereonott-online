@@ -134,5 +134,56 @@
       "result": "ok",
       "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-2026-10-22.png/.txt"
     }
+  },
+  {
+    "slug": "samsung-hw-s60d-soundbar-check",
+    "productName": "삼성전자 사운드바 고객직접설치 HW-S60D/KR",
+    "option": "HW-S60D/KR · 단일색상",
+    "sourceURL": "https://www.coupang.com/vp/products/7926011701?itemId=21789390291&vendorItemId=88838055497",
+    "issuedURI": "https://link.coupang.com/a/h23mi5GdO0",
+    "linkIssuedAt": "2026-10-22T04:24:02.948Z",
+    "productCheckedAt": "2026-10-22T04:28:54.749Z",
+    "factsFile": "ops/queue/facts/samsung-hw-s60d-soundbar-check.json",
+    "evidence": "ops/queue/evidence/samsung-hw-s60d-soundbar-check.md",
+    "manuscript": "ops/queue/samsung-hw-s60d-soundbar-check.md",
+    "images": [
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/s60d-hero.webp",
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/s60d-no-sub.webp",
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/s60d-tv-height.webp",
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/s60d-wall-mount.webp",
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/s60d-rear-jacks.webp",
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/s60d-optical-old-tv.webp",
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/s60d-remote.webp",
+      "ops/queue/images/samsung-hw-s60d-soundbar-check/thumb-s60d.webp"
+    ],
+    "dryRunPassedAt": "2026-10-22T04:39:37.873Z",
+    "dryRunResult": "scripts/dryrun-stage.mjs --queue samsung-hw-s60d-soundbar-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 38/38, local preview verify OK, protected trees unchanged",
+    "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page (same listing also offers HW-S61D/KR; confirm 모델명/품번 HW-S60D/KR is selected and not sold out), update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
+    "verifyTokens": [
+      "HW-S60D/KR",
+      "삼성전자 사운드바 고객직접설치",
+      "7926011701"
+    ],
+    "limitations": [
+      "listing title is generic (삼성전자 사운드바 고객직접설치); model identified by 모델명/품번 HW-S60D/KR option",
+      "rear speaker named only as on Samsung KR page (SWA-9200S); a blog pairing with SWA-9250S conflicts and is omitted",
+      "HDMI cable in box, output wattage, SpaceFit for non-Samsung TVs omitted (not in KR official spec tab)"
+    ],
+    "format": "screening-room-v2 (2026-10-21)",
+    "imageSpec": "ops/queue/image-specs/samsung-hw-s60d-soundbar-check.json",
+    "research": {
+      "google": "삼성 사운드바 S60D 구매 전 확인",
+      "naver": "삼성 사운드바 S60D (블로그 탭)",
+      "originalsRead": [
+        "https://m.blog.naver.com/sta-tio/224336562093",
+        "https://m.blog.naver.com/hcr333/224228740204",
+        "https://m.blog.naver.com/danawaelec/223389510819"
+      ],
+      "serp": "ops/queue/facts/samsung-hw-s60d-soundbar-check.json#serp"
+    },
+    "imageJob": {
+      "content": "channel-ops/ops/content/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check",
+      "state": "channel-ops/ops/state/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check"
+    }
   }
 ]

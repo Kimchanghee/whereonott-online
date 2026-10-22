@@ -1,0 +1,126 @@
+{
+  "slug": "samsung-hw-s60d-soundbar-check",
+  "observedAt": "2026-10-22T04:36:00.000Z",
+  "primaryKeyword": "삼성 사운드바 S60D",
+  "buyingQuestion": "서브우퍼 없는 삼성 올인원 사운드바 HW-S60D, 우리 거실에 들이기 전에 무엇을 확인해야 할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "삼성전자 사운드바 고객직접설치 HW-S60D/KR",
+    "listingTitle": "삼성전자 사운드바 고객직접설치",
+    "option": "HW-S60D/KR · 단일색상",
+    "sourceURL": "https://www.coupang.com/vp/products/7926011701?itemId=21789390291&vendorItemId=88838055497",
+    "coupangProductNo": "7926011701 - 21789390291",
+    "issuedURI": "https://link.coupang.com/a/h23mi5GdO0",
+    "linkIssuedAt": "2026-10-22T04:24:02.948Z",
+    "productCheckedAt": "2026-10-22T04:28:54.749Z",
+    "seller": "배송/설치: 삼성직배송 (로켓설치 표시)",
+    "listingAttributes": "사운드바 구성: 사운드바 / 형태: 벽걸이 + 스탠드겸용 / 스피커 채널: 5 채널 / 블루투스 가능 / wifi 연결가능 / 필수표기 KC R-R-SEC-HW-S60D, 정격 DC19V",
+    "evidence": "ops/queue/evidence/samsung-hw-s60d-soundbar-check.md"
+  },
+  "official": {
+    "url": "https://www.samsung.com/sec/samsung-audio/soundbar-hw-s60d-d2c/HW-S60D/KR",
+    "observedAt": "2026-10-22T04:36:00.000Z",
+    "facts": {
+      "sku": "HW-S60D/KR (5.0 ch 사운드바 S60D)",
+      "channels": "5.0",
+      "speakers": "7 (소개 문구: 트위터 3개, 우퍼 4개)",
+      "center": "센터 스피커 있음",
+      "upFiring": "없음",
+      "sideFiring": "있음",
+      "rearBuiltIn": "무선 리어 스피커 내장 없음",
+      "dolby": "ATMOS Music, ATMOS, Dolby Digital Plus, Dolby True HD",
+      "dts": "DTS 5.1ch",
+      "modes": "Adaptive Sound, DTS Virtual:X, Music, Game, Standard",
+      "voice": "음성 강조 모드·야간 모드·액티브 보이스 있음",
+      "spacefit": "공간 맞춤 사운드 프로",
+      "video": "4K 영상 출력 없음",
+      "hdmiOut": "1 (eARC)",
+      "hdmiIn": "없음",
+      "cec": "있음",
+      "optical": "디지털 오디오(옵티컬) 입력 1",
+      "usbMusic": "없음",
+      "bluetooth": "있음 (코덱 SBC), 블루투스 Power On 있음",
+      "wifi": "있음",
+      "cast": "구글 캐스트·Spotify Connect·에어플레이 지원",
+      "qSymphony": "Q 심포니 있음 - Q 심포니 호환 삼성 TV 필요, TV와 Wi-Fi·HDMI·옵티컬 연결 시 사용",
+      "wirelessAtmos": "Wi-Fi Dolby Atmos 연결은 호환 2022~2024 삼성 TV에 한함, TV와 사운드바가 같은 Wi-Fi망",
+      "btLimit": "TV와 블루투스로 연결된 상태에서는 Q 심포니처럼 유선 또는 Wi-Fi 연결이 필요한 기능 사용 불가",
+      "oneRemote": "원 리모컨 있음 (블루투스 지원 삼성 TV 리모컨)",
+      "size": "본체 670.0 x 62.0 x 105.0 mm",
+      "weight": "본체 2.7 kg",
+      "box": "포장 908 x 125 x 158 mm, 4.1 kg",
+      "power": "동작 31 W, 대기 0.5 W",
+      "accessories": "리모컨 있음, 벽걸이 키트 있음",
+      "rearOption": "삼성 무선 리어 스피커 별도 판매 (SWA-9200S), 무선 모듈은 전원 코드와 스피커 케이블 필요",
+      "subOption": "삼성 무선 우퍼 별도 판매 (SWA-W510), 서브우퍼는 전원 케이블 필요",
+      "release": "24년 02월",
+      "jacksImage": "공식 Jack port 이미지: 뒷면 왼쪽 홈 DC 19V·SERVICE, 오른쪽 홈 DIGITAL AUDIO IN (OPTICAL)·HDMI (eARC)"
+    }
+  },
+  "serp": {
+    "google": {
+      "query": "삼성 사운드바 S60D 구매 전 확인",
+      "observedAt": "2026-10-22",
+      "observed": [
+        "www.samsung.com/sec/samsung-audio/soundbar-hw-s60d-d2c/HW-S60D/KR/",
+        "www.samsungebiz.com/sohomall/sound-bar/HW-S60D-KR/HW-S60D/KR",
+        "www.samsungsvc.co.kr/solution/110890",
+        "m.danawa.com/product/product.html?code=122695530",
+        "www.coupang.com/vp/products/7984862735",
+        "m.blog.naver.com/PostView.naver?blogId=sta-tio&logNo=224336562093",
+        "www.ganow.co.kr/appliance/3560",
+        "ko.manuals.plus/samsung/hw-s60d-soundbar-manual",
+        "www.reddit.com/r/readbeforebuying/comments/1h14tk5/i_bought_the_samsung_hws60d_soundbar_the_ultimate/?tl=ko"
+      ]
+    },
+    "naver": {
+      "query": "삼성 사운드바 S60D (블로그 탭)",
+      "observedAt": "2026-10-22",
+      "observed": [
+        "blog.naver.com/sta-tio/224336562093",
+        "blog.naver.com/sejn_/224368138889",
+        "blog.naver.com/hcr333/224228740204",
+        "blog.naver.com/cerif/224307037036",
+        "blog.naver.com/majfeekm/224218747698",
+        "blog.naver.com/howdoryudo/224170271537",
+        "blog.naver.com/eksql181818/224411144571",
+        "blog.naver.com/h0cv1dnx/223682972534",
+        "blog.naver.com/danawaelec/223389510819",
+        "blog.naver.com/akstkantk001/223945771024",
+        "blog.naver.com/kfzes592/224219157028",
+        "blog.naver.com/yoojoonsuk/223977897730"
+      ]
+    },
+    "originalsRead": [
+      {
+        "url": "https://m.blog.naver.com/sta-tio/224336562093",
+        "title": "[제품 리뷰] 내장 스피커와는 확실히 다른 소리를 들려주는 삼성 HW-S60D/KR 사운드바 리뷰",
+        "note": "쇼핑 커넥트 제휴 글. 단자 배치(왼쪽 전원·SERVICE, 오른쪽 옵티컬·HDMI eARC)는 공식 Jack port 이미지와 일치. ARC 없는 TV는 옵티컬 연결, eARC는 TV도 지원해야 함. 구성품 중 HDMI 케이블 포함·어댑터 외장은 공식 스펙 탭에 없어 생략. 청감·경험 서술은 옮기지 않음"
+      },
+      {
+        "url": "https://m.blog.naver.com/hcr333/224228740204",
+        "title": "하만카돈 오라스튜디오5 ... 삼성사운드바(S60D), 우퍼(W510), 리어(9250S) 거실 설치",
+        "note": "S60D에 리어 9250S를 조합했다는 개인 구성. 공식 한국 페이지는 리어 SWA-9200S를 안내 - 출처 간 다르므로 9250S 호환은 쓰지 않고 공식 안내 모델만 표기. 볼륨 팁 등 경험 서술 미사용"
+      },
+      {
+        "url": "https://m.blog.naver.com/danawaelec/223389510819",
+        "title": "24년형 삼성 사운드바 비교분석 (다나와)",
+        "note": "S60D를 사운드바 단품 라인으로 분류, 2024년형 무선 돌비애트모스·Q심포니 소개. 공간맞춤사운드프로 타사 TV 사용 가능 주장은 공식 S60D 페이지에서 확인 못 해 생략"
+      }
+    ],
+    "notes": [
+      "상위 글 대부분이 청감 후기·가격·환급 중심이고, 서브우퍼 없는 구성을 고를 때의 확인 순서(크기·TV 연결 방식별 제약·확장 모델)를 공식 사양으로 묶은 글이 빈 곳",
+      "Wi-Fi 돌비 애트모스가 2022~2024 삼성 TV 한정이고 블루투스 연결 시 Q 심포니가 안 된다는 조건을 짚은 글이 드묾",
+      "Google 결과에 쿠팡 판매 페이지가 섞여 있으나 클릭하지 않음"
+    ]
+  },
+  "omitted": [
+    "가격·할인·환급",
+    "평점·후기 수",
+    "청감·저음 체감",
+    "구성품 HDMI 케이블 포함 여부(공식 스펙 탭 미표기)",
+    "SWA-9250S 등 공식 페이지 외 리어 조합",
+    "공간맞춤사운드프로의 타사 TV 지원(공식 S60D 페이지 미확인)",
+    "실제 출력(W) 수치(한국 스펙 탭 미표기)"
+  ]
+}
