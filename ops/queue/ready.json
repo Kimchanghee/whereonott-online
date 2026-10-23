@@ -1,45 +1,5 @@
 [
   {
-    "slug": "xiaomi-tv-stick-hd-2nd-gen-check",
-    "productName": "샤오미 TV 스틱 HD 2세대",
-    "option": "MDZ-34-AA × 1개",
-    "sourceURL": "https://www.coupang.com/vp/products/9707354139?itemId=29042345203&vendorItemId=95969441029",
-    "issuedURI": "https://link.coupang.com/a/h0fL4Oi7PM",
-    "linkIssuedAt": "2026-10-20T11:54:52.337Z",
-    "productCheckedAt": "2026-10-22T04:14:05.000Z",
-    "factsFile": "ops/queue/facts/xiaomi-tv-stick-hd-2nd-gen-check.json",
-    "evidence": "ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check.md",
-    "manuscript": "ops/queue/xiaomi-tv-stick-hd-2nd-gen-check.md",
-    "images": [
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-hero.webp",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-hdmi-plugged.webp",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-extension-cable.webp",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-hand-scale.webp",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-power-path.webp",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-box-contents.webp",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/mdz34-remote.webp",
-      "ops/queue/images/xiaomi-tv-stick-hd-2nd-gen-check/thumb-mdz34.webp"
-    ],
-    "dryRunPassedAt": "2026-10-20T15:19:17.619Z",
-    "dryRunResult": "scripts/dryrun-stage.mjs --queue xiaomi-tv-stick-hd-2nd-gen-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 34/34, local preview verify OK, protected trees unchanged",
-    "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page, update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
-    "verifyTokens": [
-      "MDZ-34-AA",
-      "샤오미 TV 스틱 HD 2세대",
-      "9707354139"
-    ],
-    "limitations": [
-      "CPU clock and HDR/audio marketing claims omitted (conditional or inconsistent across sources)"
-    ],
-    "format": "screening-room-v2 (2026-10-21)",
-    "imageSpec": "ops/queue/image-specs/xiaomi-tv-stick-hd-2nd-gen-check.json",
-    "lastRecheck": {
-      "at": "2026-10-22T13:14:05+09:00",
-      "result": "ok",
-      "evidence": "ops/queue/evidence/xiaomi-tv-stick-hd-2nd-gen-check-recheck-2026-10-22.png/.txt"
-    }
-  },
-  {
     "slug": "lg-s40t-soundbar-arc-check",
     "productName": "LG전자 사운드바 방문설치 S40T",
     "option": "S40T · 단일색상",
