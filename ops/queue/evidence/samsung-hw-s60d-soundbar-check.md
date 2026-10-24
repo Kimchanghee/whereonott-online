@@ -26,3 +26,11 @@
 - 모델명/품번: HW-S60D/KR, 색상: 단일색상 선택 상태로 표시; 배송/설치 삼성직배송 (10/26~11/24 설치일 지정 가능); 장바구니 담기/바로구매 표시; 쿠팡상품번호 7926011701 - 21789390291
 - screenshot: ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-2026-10-24.png ; text: ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-2026-10-24.txt
 - own Partners link not opened.
+
+
+## 2026-10-24 13:00 KST routine recheck
+- Observed: 2026-10-24T13:02:08.620+09:00
+- Exact source URL: https://www.coupang.com/vp/products/7926011701?itemId=21789390291&vendorItemId=88838055497
+- All verifyTokens matched; selected option purchase controls present. No affiliate link opened.
+- Text: ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-20261024-1300.txt
+- Screenshot: ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-20261024-1300.webp

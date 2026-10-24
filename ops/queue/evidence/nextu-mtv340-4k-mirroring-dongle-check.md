@@ -26,3 +26,11 @@
 - 모델명/품번 × 수량: NEXT-MTV340-4K × 1개; 판매자 (주)당신마트 (다른 판매자 보기 60); 내일(일) 10/25 도착 표시, 장바구니 담기/바로구매 표시; 쿠팡상품번호 1787492383 - 3043209190
 - screenshot: ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-2026-10-24.png ; text: ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-2026-10-24.txt
 - own Partners link not opened.
+
+
+## 2026-10-24 13:00 KST routine recheck
+- Observed: 2026-10-24T13:02:15.384+09:00
+- Exact source URL: https://www.coupang.com/vp/products/1787492383?itemId=3043209190&vendorItemId=94167766638
+- All verifyTokens matched; selected option purchase controls present. No affiliate link opened.
+- Text: ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-20261024-1300.txt
+- Screenshot: ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-20261024-1300.webp

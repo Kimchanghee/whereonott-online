@@ -31,3 +31,11 @@
 - 모델명/품번 SP-LFCF3LAXXKR 표시 확인; 판매 페이지 제목에는 여전히 "2세대" 없음; 판매자 위더스바잉 (다른 판매자 보기 4); 상품 본문 상단 "단 2개 남음 빨리 주문하세요!" (재고 적음, 품절 아님); 장바구니 담기/바로구매 표시, 도착 예정 10/27
 - screenshot: ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-2026-10-24.png ; text: ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-2026-10-24.txt
 - own Partners link not opened.
+
+
+## 2026-10-24 13:00 KST routine recheck
+- Observed: 2026-10-24T13:01:48.298+09:00
+- Exact source URL: https://www.coupang.com/vp/products/8159486083?itemId=23256797583&vendorItemId=93288440068
+- All verifyTokens matched; selected option purchase controls present. No affiliate link opened.
+- Text: ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-20261024-1300.txt
+- Screenshot: ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-20261024-1300.webp

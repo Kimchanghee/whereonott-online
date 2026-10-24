@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h1oF3wo1Zc"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-24T10:45:53+09:00"
+  verifiedAt: "2026-10-24T13:01:48+09:00"
   evidence: "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check.md"
   specs:
     - { label: "해상도", value: "1920×1080 (FHD)" }

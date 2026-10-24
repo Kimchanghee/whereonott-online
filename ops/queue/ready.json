@@ -6,7 +6,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/8159486083?itemId=23256797583&vendorItemId=93288440068",
     "issuedURI": "https://link.coupang.com/a/h1oF3wo1Zc",
     "linkIssuedAt": "2026-10-21T04:27:08.111Z",
-    "productCheckedAt": "2026-10-24T01:45:53.000Z",
+    "productCheckedAt": "2026-10-24T04:01:48.298Z",
     "factsFile": "ops/queue/facts/samsung-freestyle-2nd-gen-projector-check.json",
     "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check.md",
     "manuscript": "ops/queue/samsung-freestyle-2nd-gen-projector-check.md",
@@ -50,9 +50,10 @@
       "state": "channel-ops/ops/state/whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check"
     },
     "lastRecheck": {
-      "at": "2026-10-24T10:45:53+09:00",
+      "at": "2026-10-24T13:01:48.298+09:00",
       "result": "ok",
-      "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-2026-10-24.png/.txt"
+      "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-20261024-1300.txt",
+      "screenshot": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-20261024-1300.webp"
     }
   },
   {
@@ -62,7 +63,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/7926011701?itemId=21789390291&vendorItemId=88838055497",
     "issuedURI": "https://link.coupang.com/a/h23mi5GdO0",
     "linkIssuedAt": "2026-10-22T04:24:02.948Z",
-    "productCheckedAt": "2026-10-24T01:47:10.000Z",
+    "productCheckedAt": "2026-10-24T04:02:08.620Z",
     "factsFile": "ops/queue/facts/samsung-hw-s60d-soundbar-check.json",
     "evidence": "ops/queue/evidence/samsung-hw-s60d-soundbar-check.md",
     "manuscript": "ops/queue/samsung-hw-s60d-soundbar-check.md",
@@ -106,9 +107,10 @@
       "state": "channel-ops/ops/state/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check"
     },
     "lastRecheck": {
-      "at": "2026-10-24T10:47:10+09:00",
+      "at": "2026-10-24T13:02:08.620+09:00",
       "result": "ok",
-      "evidence": "ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-2026-10-24.png/.txt"
+      "evidence": "ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-20261024-1300.txt",
+      "screenshot": "ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-20261024-1300.webp"
     }
   },
   {
@@ -118,7 +120,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/1787492383?itemId=3043209190&vendorItemId=94167766638",
     "issuedURI": "https://link.coupang.com/a/h24M17eNXw",
     "linkIssuedAt": "2026-10-22T04:44:00.452Z",
-    "productCheckedAt": "2026-10-24T01:50:34.000Z",
+    "productCheckedAt": "2026-10-24T04:02:15.384Z",
     "factsFile": "ops/queue/facts/nextu-mtv340-4k-mirroring-dongle-check.json",
     "evidence": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check.md",
     "manuscript": "ops/queue/nextu-mtv340-4k-mirroring-dongle-check.md",
@@ -162,9 +164,10 @@
       "state": "channel-ops/ops/state/whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check"
     },
     "lastRecheck": {
-      "at": "2026-10-24T10:50:34+09:00",
+      "at": "2026-10-24T13:02:15.384+09:00",
       "result": "ok",
-      "evidence": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-2026-10-24.png/.txt"
+      "evidence": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-20261024-1300.txt",
+      "screenshot": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-20261024-1300.webp"
     }
   },
   {
@@ -174,7 +177,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/1787454341?itemId=3043165364&vendorItemId=96148539250",
     "issuedURI": "https://link.coupang.com/a/h6d2FxQ7pY",
     "linkIssuedAt": "2026-10-24T02:16:19.352Z",
-    "productCheckedAt": "2026-10-24T02:01:54.000Z",
+    "productCheckedAt": "2026-10-24T04:02:22.517Z",
     "factsFile": "ops/queue/facts/nextu-3403sw4k-hdmi-selector-check.json",
     "evidence": "ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check.md",
     "manuscript": "ops/queue/nextu-3403sw4k-hdmi-selector-check.md",
@@ -216,6 +219,12 @@
     "imageJob": {
       "content": "channel-ops/ops/content/whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check",
       "state": "channel-ops/ops/state/whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check"
+    },
+    "lastRecheck": {
+      "at": "2026-10-24T13:02:22.517+09:00",
+      "result": "ok",
+      "evidence": "ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check-recheck-20261024-1300.txt",
+      "screenshot": "ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check-recheck-20261024-1300.webp"
     }
   },
   {
@@ -225,7 +234,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/7704285860?itemId=20635348061&vendorItemId=87768888997",
     "issuedURI": "https://link.coupang.com/a/h6d4u2NeCa",
     "linkIssuedAt": "2026-10-24T02:16:43.944Z",
-    "productCheckedAt": "2026-10-24T02:12:00.000Z",
+    "productCheckedAt": "2026-10-24T04:02:29.396Z",
     "factsFile": "ops/queue/facts/camelmount-sb80-tv-floor-stand-check.json",
     "evidence": "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check.md",
     "manuscript": "ops/queue/camelmount-sb80-tv-floor-stand-check.md",
@@ -268,6 +277,12 @@
     "imageJob": {
       "content": "channel-ops/ops/content/whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check",
       "state": "channel-ops/ops/state/whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check"
+    },
+    "lastRecheck": {
+      "at": "2026-10-24T13:02:29.396+09:00",
+      "result": "ok",
+      "evidence": "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261024-1300.txt",
+      "screenshot": "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261024-1300.webp"
     }
   }
 ]

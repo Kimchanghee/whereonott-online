@@ -21,3 +21,11 @@
 - Naver (actual SERP, 블로그 탭): "넥스트유 3403SW4K HDMI 선택기" - tcw3xxf, xzjxp5pfagco, bdkorea.tistory, watneym, iamcjs4 (x2), dondon1223, verbal10705.
 - Originals read in full: m.blog.naver.com/watneym/221202986518, m.blog.naver.com/techref/224399080131, m.blog.naver.com/lanstar_/223000416403 (notes and conflicts in the facts file).
 - Conflicts handled: HDCP version (official v1.3 vs blog 1.4) -> version number omitted; auto-switching and picture-quality impressions are personal observations -> not used.
+
+
+## 2026-10-24 13:00 KST routine recheck
+- Observed: 2026-10-24T13:02:22.517+09:00
+- Exact source URL: https://www.coupang.com/vp/products/1787454341?itemId=3043165364&vendorItemId=96148539250
+- All verifyTokens matched; selected option purchase controls present. No affiliate link opened.
+- Text: ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check-recheck-20261024-1300.txt
+- Screenshot: ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check-recheck-20261024-1300.webp

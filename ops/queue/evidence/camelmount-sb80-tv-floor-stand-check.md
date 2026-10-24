@@ -15,3 +15,11 @@
 - Naver (actual SERP, 블로그 탭): "카멜마운트 SB80 TV 스탠드" - judgehletx47538, dolpa7535, 2akat1p6azwih, g7z2ejqc23t1fmcs, aimchcgq, 1789go, pbtmjfdruq, inyeeee, icaner.
 - Originals read in full: m.blog.naver.com/inyeeee/224093691839, m.blog.naver.com/dolpa7535/224092543256, pcgearguide.tistory.com/134 (notes and conflicts in the facts file).
 - Conflicts handled: wheels ("바퀴 이동", blog) vs official flat-base floor stand -> no mobility/wheel claim; swivel ±30° (blog) vs 30° (official) -> number omitted.
+
+
+## 2026-10-24 13:00 KST routine recheck
+- Observed: 2026-10-24T13:02:29.396+09:00
+- Exact source URL: https://www.coupang.com/vp/products/7704285860?itemId=20635348061&vendorItemId=87768888997
+- All verifyTokens matched; selected option purchase controls present. No affiliate link opened.
+- Text: ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261024-1300.txt
+- Screenshot: ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261024-1300.webp
