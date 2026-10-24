@@ -1,0 +1,99 @@
+{
+  "slug": "nextu-3403sw4k-hdmi-selector-check",
+  "observedAt": "2026-10-24T02:20:00.000Z",
+  "primaryKeyword": "HDMI 선택기 3대1",
+  "buyingQuestion": "TV HDMI 단자가 모자라 넥스트유 3대1 HDMI 선택기(NEXT-3403SW4K)를 쓰려면 무엇을 확인해야 할까?",
+  "productConnectionScore": 3,
+  "product": {
+    "name": "넥스트유 3대1 HDMI 선택기 UHD 4K",
+    "listingTitle": "넥스트유 3대1 HDMI 선택기 UHD 4K",
+    "option": "NEXT-3403SW4K × 1개",
+    "sourceURL": "https://www.coupang.com/vp/products/1787454341?itemId=3043165364&vendorItemId=96148539250",
+    "coupangProductNo": "1787454341 - 3043165364",
+    "issuedURI": "https://link.coupang.com/a/h6d2FxQ7pY",
+    "linkIssuedAt": "2026-10-24T02:16:19.352Z",
+    "productCheckedAt": "2026-10-24T02:01:54.000Z",
+    "seller": "아시리아 (marketplace, 판매자배송, 우체국, 다른 판매자 보기 45)",
+    "listingAttributes": "Manufacturer Part Number: next-3403sw4k / 해상도 4K UHD / 케이블 종류 HDMI 케이블 / 고객직접설치 / 쿠팡상품번호 1787454341 - 3043165364; option list NEXT-3403SW4K × 1개 / × 2개",
+    "evidence": "ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check.md"
+  },
+  "official": {
+    "url": "https://www.ez-net.co.kr/sub/sub01_01_view.php?idx=613",
+    "observedAt": "2026-10-24T02:05:00.000Z",
+    "facts": {
+      "summary": "NEXT 3403SW4K 3x1 HDMI1.4 선택기 /4K30Hz /HDCP v1.3 /IR리모컨 (product page summary line)",
+      "purpose": "디스플레이에 HDMI 포트가 부족할 때 3대의 HDMI 소스기기를 동시에 연결해 원하는 기기를 선택 출력 (WEBDB_02)",
+      "ports": "전면: 상태 LED, 입력 영상 선택 스위치, IR(리모컨 센서) 커넥터, HDMI 출력, 5V 전원 커넥터 / 후면: HDMI 입력 1·2·3 (WEBDB_02)",
+      "switching": "선택 1 리모컨(기본 제공), 선택 2 본체 Select 버튼(누를 때마다 순차 전환, 선택된 번호 LED 점등) (WEBDB_04)",
+      "ir": "IR(적외선 리모컨) 수신포트, 넉넉한 길이의 케이블의 IR 센서 (WEBDB_04)",
+      "hdcp": "HDCP 적용; HDCP를 지원하지 않는 기기를 사용하면 해당 영상물이 출력되지 않음 (WEBDB_06)",
+      "plugplay": "Hot Swap, Plug & Play (WEBDB_07)",
+      "power": "HDMI 자체 전원 뿐 아니라 DC 5V 단자를 별도로 제공 (WEBDB_07)",
+      "box": "구성품: USB 전원 케이블, IR 센서 케이블, 매뉴얼 (WEBDB_10); 리모컨 기본 제공 (WEBDB_04)",
+      "spec": "모델명 NEXT-3403SW4K, 입력 DDC 신호 5 volts p-p(TTL), 최대 해상도 4Kx2K, 비디오 출력 HDMI 1.4b, 수직 주파수 50/60Hz, 비디오 대역폭 3.0Gbps/300MHz, 지원 해상도 480i/576i/1080i/480p/576p/720p/1080p/4K, 사이즈 81x58x18mm, 무게 55g, 작동온도 0~70°C (WEBDB_10)",
+      "warranty": "국내 1년 무상 품질보증 (WEBDB_11)"
+    }
+  },
+  "serp": {
+    "google": {
+      "query": "HDMI 선택기 3대1 TV 연결 구매 전 확인",
+      "observedAt": "2026-10-24",
+      "observed": [
+        "www.coupang.com/vp/products/9748919092",
+        "buubleunder.tistory.com/entry/HDMI-%EB%B6%84%EB%B0%B0%EA%B8%B0%EB%A1%9C-%EB%93%80%EC%96%BC%EB%AA%A8%EB%8B%88%E",
+        "m.blog.naver.com/techref/224399080131",
+        "godtisu.tistory.com/67",
+        "www.coupang.com/vp/products/9725050177",
+        "nextu.kr/product/8k-60hz-3%EB%8C%801-hdmi%EC%84%A0%ED%83%9D%EA%B8%B0-%EC%85%80%EB%A0%89%ED%84%B0-4303swc8k/579",
+        "blog.naver.com/PostView.naver?blogId=lanstar_&logNo=223000416403&redirect=Dlog",
+        "www.11st.co.kr/products/9179917380",
+        "stewardrobby7.tistory.com/341"
+      ]
+    },
+    "naver": {
+      "query": "넥스트유 3403SW4K HDMI 선택기 (블로그 탭)",
+      "observedAt": "2026-10-24",
+      "observed": [
+        "blog.naver.com/tcw3xxf/224391284536",
+        "blog.naver.com/xzjxp5pfagco/224401657225",
+        "bdkorea.tistory.com/632",
+        "blog.naver.com/watneym/221202986518",
+        "blog.naver.com/iamcjs4/222024610378",
+        "blog.naver.com/iamcjs4/222024616314",
+        "blog.naver.com/dondon1223/223847408685",
+        "blog.naver.com/verbal10705/223631875404",
+        "blog.naver.com/rigour28165/224307433126",
+        "blog.naver.com/lozpxtjixu/224387289850"
+      ]
+    },
+    "originalsRead": [
+      {
+        "url": "https://m.blog.naver.com/watneym/221202986518",
+        "title": "HDMI 셀렉터, NEXT-3403SW4K",
+        "note": "3입력 1출력, 리모컨 전환, HDMI 케이블 미포함(공식 구성품 목록과 일치). HDCP 1.4 표기는 공식 HDCP v1.3과 달라 HDCP 버전 수치 생략. 자동 전환·화질 열화 체감은 개인 경험이라 미사용"
+      },
+      {
+        "url": "https://m.blog.naver.com/techref/224399080131",
+        "title": "HDMI 선택기 분배기 차이, 2:1 양방향 스위치 구매 전 체크",
+        "note": "선택기=여러 기기→1화면, 분배기=1기기→여러 화면 동시 출력 구분을 FAQ에 반영. 4K60·HDCP 2.2 일반론은 다른 제품 대상이라 수치 인용 안 함"
+      },
+      {
+        "url": "https://m.blog.naver.com/lanstar_/223000416403",
+        "title": "HDMI 선택기 심플하게 사용하려면 꼭 확인하세요!",
+        "note": "다른 제품(랜스타 LS-AS203N, HDMI 2.0) 사례. 케이블 규격·전원 어댑터 확인 관점만 참고, 수치 미사용"
+      }
+    ],
+    "notes": [
+      "상위 글은 분배기와 선택기를 혼동하거나 4K60 제품 위주라, 4K 30Hz·HDMI 1.4b 한계와 HDMI 케이블 별도 준비, IR 센서 배치를 함께 정리한 글이 드묾",
+      "Google 1위가 다른 쿠팡 상품(9748919092)이나 클릭하지 않음"
+    ]
+  },
+  "omitted": [
+    "가격",
+    "평점·후기 수",
+    "HDCP 버전 수치(공식 v1.3 vs 블로그 1.4 상이)",
+    "신호 자동 전환 동작(공식 자료 미확인)",
+    "HDMI 케이블 권장 길이(공식 자료 미확인)",
+    "화질 열화 체감(개인 경험)"
+  ]
+}

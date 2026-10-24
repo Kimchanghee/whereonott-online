@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-10-24T02:18:23.728Z",
+  "dims": {
+    "sw-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 108164
+    },
+    "sw-input-ports.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 64578
+    },
+    "sw-select-led.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 61798
+    },
+    "sw-output-side.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 77440
+    },
+    "sw-remote.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 114764
+    },
+    "sw-ir-sensor.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 58554
+    },
+    "sw-box-contents.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 45656
+    },
+    "thumb-3403sw4k.webp": {
+      "width": 480,
+      "height": 400,
+      "bytes": 10804
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "nextu-3403sw4k-hdmi-selector-check",
+  "manuscript": "ops/queue/nextu-3403sw4k-hdmi-selector-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge), manifests/logs/receipts in channel-ops/ops/state/whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check (manifest-a 4 jobs + manifest-b 4 jobs generate, concurrency 2 each; manifest-c 3 edit jobs, manifest-d 1 edit job; PNGs recovered by gpt-image-host-copy.ps1 with exact binding, receipts collect-a..d)",
+  "references": "whereonott.online-concept-assets/refs/3403sw4k/SOURCES.json (manufacturer image ZIP + WEBDB detail images linked from ez-net.co.kr product page idx=613)",
+  "jobs": [
+    {
+      "name": "sw-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-hero.png",
+      "width": 1536,
+      "qa": "pass 2026-10-24: black box with gold HDMI / SWITCH 3 TO 1 / 4K / ULTRA HD print legible and matching ref, INPUT 1-3 LEDs + SELECTED button, IR jack on short side, HDMI output + DC plug on the LED-side long face, three input cables from the far side; logo-less set-top box/console, remote with 1-2-3 buttons, red IR eye"
+    },
+    {
+      "name": "sw-input-ports.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-input-ports.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: INPUT3/INPUT2/INPUT1 order as in ref rear view, three HDMI cables, IR jack on short side; top print upside-down from this angle as in ref"
+    },
+    {
+      "name": "sw-select-led.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-select-led-v2.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24 (v2 edit): fingertip on round button, 2nd LED lit, LED-side face shows single HDMI output + DC jack as in ref; inputs cabled from far side. v1 (sw-select-led.png) REJECTED: three HDMI ports drawn on the LED/output side"
+    },
+    {
+      "name": "sw-output-side.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-output-side-v2.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24 (v2 edit): HDMI output cable + DC 5V plug on the LED-side face, IR sensor cable in short-side IR jack, SWITCH 3 TO 1 line legible. v1 (sw-output-side.png) REJECTED: small SWITCH 3 TO 1 line garbled/mirrored"
+    },
+    {
+      "name": "sw-remote.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-remote.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: hand holds silver remote with 1/2/3 buttons toward TV console; box under TV; no face, no text"
+    },
+    {
+      "name": "sw-ir-sensor.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-ir-sensor.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: only red dome IR eye on console front edge, box hidden; cable thin black; no text"
+    },
+    {
+      "name": "sw-box-contents.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-box-contents-v2.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24 (v2 edit): exactly box, remote, USB-A power cable, IR sensor cable with 3.5 mm plug, blank booklet - matches official 구성품 (USB 전원 케이블, IR 센서 케이블, 매뉴얼) + remote; no HDMI cable; LED-side face shows single HDMI output + DC jack. v1 REJECTED: three HDMI ports on LED side"
+    },
+    {
+      "name": "thumb-3403sw4k.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-nextu-3403sw4k-hdmi-selector-check\\sw-box-contents-v2.png",
+      "crop": {
+        "left": 540,
+        "top": 120,
+        "width": 600,
+        "height": 500
+      },
+      "width": 480,
+      "qa": "crop of sw-box-contents-v2 (box body, gold print, LEDs, output + DC)"
+    }
+  ],
+  "rejected": [
+    {
+      "file": "sw-usb-power.png",
+      "reason": "power cable leaves from a short side; real DC 5V jack is on the output long side"
+    },
+    {
+      "file": "sw-usb-power-v2.png",
+      "reason": "edit still routes HDMI output and power from the short side - port layout mismatch; not used"
+    },
+    {
+      "file": "sw-select-led.png",
+      "reason": "three HDMI ports on LED/output side (superseded by v2)"
+    },
+    {
+      "file": "sw-box-contents.png",
+      "reason": "three HDMI ports on LED/output side (superseded by v2)"
+    },
+    {
+      "file": "sw-output-side.png",
+      "reason": "garbled mirrored SWITCH 3 TO 1 line (superseded by v2)"
+    }
+  ]
+}
