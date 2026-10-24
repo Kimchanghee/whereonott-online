@@ -1,45 +1,5 @@
 [
   {
-    "slug": "lg-s40t-soundbar-arc-check",
-    "productName": "LG전자 사운드바 방문설치 S40T",
-    "option": "S40T · 단일색상",
-    "sourceURL": "https://www.coupang.com/vp/products/8271149152?itemId=23837215938&vendorItemId=90860752358",
-    "issuedURI": "https://link.coupang.com/a/h0fNZQr7iS",
-    "linkIssuedAt": "2026-10-20T11:55:18.203Z",
-    "productCheckedAt": "2026-10-22T04:15:02.000Z",
-    "factsFile": "ops/queue/facts/lg-s40t-soundbar-arc-check.json",
-    "evidence": "ops/queue/evidence/lg-s40t-soundbar-arc-check.md",
-    "manuscript": "ops/queue/lg-s40t-soundbar-arc-check.md",
-    "images": [
-      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-hero.webp",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-tv-arc-port.webp",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-rear-ports.webp",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-settop-to-tv.webp",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-subwoofer-place.webp",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-top-buttons.webp",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/s40t-product-pair.webp",
-      "ops/queue/images/lg-s40t-soundbar-arc-check/thumb-s40t.webp"
-    ],
-    "dryRunPassedAt": "2026-10-20T15:19:17.619Z",
-    "dryRunResult": "scripts/dryrun-stage.mjs --queue lg-s40t-soundbar-arc-check (isolated stage, screening-room v2 template): manuscript + 8 images placed by basename, source gate 1/1, built gate 34/34, local preview verify OK, protected trees unchanged",
-    "publishNotes": "Gate rejects product.verifiedAt older than 5 days before published: before live publish re-check the exact option page, update verifiedAt/evidence if re-verified, set published/updated to publish time, then copy md to src/content/posts and images to public/images/picks/<slug>/ and run scripts/publish.ps1 -Slug <slug> -AllowDeploy.",
-    "verifyTokens": [
-      "S40T",
-      "단일색상",
-      "8271149152"
-    ],
-    "limitations": [
-      "package contents differ between LG KR and HK official specs; omitted"
-    ],
-    "format": "screening-room-v2 (2026-10-21)",
-    "imageSpec": "ops/queue/image-specs/lg-s40t-soundbar-arc-check.json",
-    "lastRecheck": {
-      "at": "2026-10-22T13:15:02+09:00",
-      "result": "ok",
-      "evidence": "ops/queue/evidence/lg-s40t-soundbar-arc-check-recheck-2026-10-22.png/.txt"
-    }
-  },
-  {
     "slug": "samsung-freestyle-2nd-gen-projector-check",
     "productName": "삼성전자 The Freestyle 2세대 프로젝터 화이트",
     "option": "SP-LFCF3LAXXKR · 화이트",
