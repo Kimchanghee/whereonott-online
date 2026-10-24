@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h23mi5GdO0"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-22T13:28:54+09:00"
+  verifiedAt: "2026-10-24T10:47:10+09:00"
   evidence: "ops/queue/evidence/samsung-hw-s60d-soundbar-check.md"
   specs:
     - { label: "채널·스피커", value: "5.0ch · 스피커 7개" }

@@ -6,7 +6,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/8159486083?itemId=23256797583&vendorItemId=93288440068",
     "issuedURI": "https://link.coupang.com/a/h1oF3wo1Zc",
     "linkIssuedAt": "2026-10-21T04:27:08.111Z",
-    "productCheckedAt": "2026-10-22T04:18:49.000Z",
+    "productCheckedAt": "2026-10-24T01:45:53.000Z",
     "factsFile": "ops/queue/facts/samsung-freestyle-2nd-gen-projector-check.json",
     "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check.md",
     "manuscript": "ops/queue/samsung-freestyle-2nd-gen-projector-check.md",
@@ -50,9 +50,9 @@
       "state": "channel-ops/ops/state/whereonott-queue-20261021-samsung-freestyle-2nd-gen-projector-check"
     },
     "lastRecheck": {
-      "at": "2026-10-22T13:18:49+09:00",
+      "at": "2026-10-24T10:45:53+09:00",
       "result": "ok",
-      "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-2026-10-22.png/.txt"
+      "evidence": "ops/queue/evidence/samsung-freestyle-2nd-gen-projector-check-recheck-2026-10-24.png/.txt"
     }
   },
   {
@@ -62,7 +62,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/7926011701?itemId=21789390291&vendorItemId=88838055497",
     "issuedURI": "https://link.coupang.com/a/h23mi5GdO0",
     "linkIssuedAt": "2026-10-22T04:24:02.948Z",
-    "productCheckedAt": "2026-10-22T04:28:54.749Z",
+    "productCheckedAt": "2026-10-24T01:47:10.000Z",
     "factsFile": "ops/queue/facts/samsung-hw-s60d-soundbar-check.json",
     "evidence": "ops/queue/evidence/samsung-hw-s60d-soundbar-check.md",
     "manuscript": "ops/queue/samsung-hw-s60d-soundbar-check.md",
@@ -104,6 +104,11 @@
     "imageJob": {
       "content": "channel-ops/ops/content/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check",
       "state": "channel-ops/ops/state/whereonott-queue-20261022-samsung-hw-s60d-soundbar-check"
+    },
+    "lastRecheck": {
+      "at": "2026-10-24T10:47:10+09:00",
+      "result": "ok",
+      "evidence": "ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-2026-10-24.png/.txt"
     }
   },
   {
@@ -113,7 +118,7 @@
     "sourceURL": "https://www.coupang.com/vp/products/1787492383?itemId=3043209190&vendorItemId=94167766638",
     "issuedURI": "https://link.coupang.com/a/h24M17eNXw",
     "linkIssuedAt": "2026-10-22T04:44:00.452Z",
-    "productCheckedAt": "2026-10-22T04:43:06.909Z",
+    "productCheckedAt": "2026-10-24T01:50:34.000Z",
     "factsFile": "ops/queue/facts/nextu-mtv340-4k-mirroring-dongle-check.json",
     "evidence": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check.md",
     "manuscript": "ops/queue/nextu-mtv340-4k-mirroring-dongle-check.md",
@@ -155,6 +160,11 @@
     "imageJob": {
       "content": "channel-ops/ops/content/whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check",
       "state": "channel-ops/ops/state/whereonott-queue-20261022-nextu-mtv340-4k-mirroring-dongle-check"
+    },
+    "lastRecheck": {
+      "at": "2026-10-24T10:50:34+09:00",
+      "result": "ok",
+      "evidence": "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-2026-10-24.png/.txt"
     }
   }
 ]

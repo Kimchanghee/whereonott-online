@@ -15,3 +15,14 @@
 - Naver (actual SERP, 블로그 탭): "넥스트유 MTV340 미러링" - minchx5jqd, tallwm, pzdrop, pick25905, gjxodbs8974, etrh9998192, qforkcsie677, dfvgbg944, nlcgjfmmqu, ft17sxsc.
 - Originals read in full: m.blog.naver.com/laputa69/222275540944, m.blog.naver.com/etrh9998192/223634874313, m.blog.naver.com/pick25905/224003478164 (notes and conflicts in the facts file).
 - Conflicts handled: Netflix/4K streaming claims (blogs, seller image) vs manual DRM limitation -> no OTT-app support claim; macOS listed in the manual's recommended-system table but not in its spec table -> omitted.
+
+## Re-check 2026-10-24 (whereonott routine, logged-in Aside browser, paced via _refs/coupang-pacing/acquire.mjs)
+
+- checkedAt: 2026-10-24T10:50:34+09:00
+- ordinary listing: https://www.coupang.com/vp/products/1787492383?itemId=3043209190&vendorItemId=94167766638
+- page title: 넥스트유 WiFi 5 4K 무선 미러링 동글 - 미러링/스트리밍 | 쿠팡
+- verifyTokens all present in the product body area (상품명·옵션·쿠팡상품번호 block, before 추천/비교 sections): NEXT-MTV340-4K / 넥스트유 WiFi 5 4K 무선 미러링 동글 / 1787492383
+- not sold out (lib.mjs SOLD_OUT regex: no match in product body or whole page); no access denial
+- 모델명/품번 × 수량: NEXT-MTV340-4K × 1개; 판매자 (주)당신마트 (다른 판매자 보기 60); 내일(일) 10/25 도착 표시, 장바구니 담기/바로구매 표시; 쿠팡상품번호 1787492383 - 3043209190
+- screenshot: ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-2026-10-24.png ; text: ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-2026-10-24.txt
+- own Partners link not opened.

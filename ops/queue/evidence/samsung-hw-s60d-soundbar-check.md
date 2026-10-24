@@ -15,3 +15,14 @@
 - Naver (actual SERP, 블로그 탭): "삼성 사운드바 S60D" - sta-tio, sejn_, hcr333, cerif, majfeekm, howdoryudo, eksql181818, h0cv1dnx, danawaelec, akstkantk001, kfzes592, yoojoonsuk.
 - Originals read in full: m.blog.naver.com/sta-tio/224336562093, m.blog.naver.com/hcr333/224228740204, m.blog.naver.com/danawaelec/223389510819 (notes and conflicts in the facts file).
 - Conflict handled: one blog pairs S60D with rear SWA-9250S; Samsung KR S60D page names SWA-9200S. Only the official page's model names are used, framed as "삼성 페이지 안내".
+
+## Re-check 2026-10-24 (whereonott routine, logged-in Aside browser, paced via _refs/coupang-pacing/acquire.mjs)
+
+- checkedAt: 2026-10-24T10:47:10+09:00
+- ordinary listing: https://www.coupang.com/vp/products/7926011701?itemId=21789390291&vendorItemId=88838055497
+- page title: 삼성전자 사운드바 고객직접설치 - 사운드바 | 쿠팡
+- verifyTokens all present in the product body area (상품명·옵션·쿠팡상품번호 block, before 추천/비교 sections): HW-S60D/KR / 삼성전자 사운드바 고객직접설치 / 7926011701
+- not sold out (lib.mjs SOLD_OUT regex: no match in product body or whole page); no access denial
+- 모델명/품번: HW-S60D/KR, 색상: 단일색상 선택 상태로 표시; 배송/설치 삼성직배송 (10/26~11/24 설치일 지정 가능); 장바구니 담기/바로구매 표시; 쿠팡상품번호 7926011701 - 21789390291
+- screenshot: ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-2026-10-24.png ; text: ops/queue/evidence/samsung-hw-s60d-soundbar-check-recheck-2026-10-24.txt
+- own Partners link not opened.
