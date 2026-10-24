@@ -1,0 +1,50 @@
+{
+  "builtAt": "2026-10-24T02:22:48.230Z",
+  "dims": {
+    "sb80-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 148828
+    },
+    "sb80-vesa-measure.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 87228
+    },
+    "sb80-height-holes.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 44056
+    },
+    "sb80-sofa-view.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 69298
+    },
+    "sb80-side-wall.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 48800
+    },
+    "sb80-shelf.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 41118
+    },
+    "sb80-cable-holder.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 65366
+    },
+    "sb80-base-footprint.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 82024
+    },
+    "thumb-sb80.webp": {
+      "width": 480,
+      "height": 400,
+      "bytes": 25346
+    }
+  }
+}

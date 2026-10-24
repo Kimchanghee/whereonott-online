@@ -1,0 +1,69 @@
+{
+  "slug": "camelmount-sb80-tv-floor-stand-check",
+  "manuscript": "ops/queue/camelmount-sb80-tv-floor-stand-check.md",
+  "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge), manifests/logs/receipts in channel-ops/ops/state/whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check (manifest-a 4 jobs, manifest-b 4 jobs, concurrency 2 each; PNGs recovered by gpt-image-host-copy.ps1 with exact binding, receipts collect-a/b)",
+  "references": "whereonott.online-concept-assets/refs/sb80/SOURCES.json (official mall product images + SB80 detail GIFs)",
+  "jobs": [
+    {
+      "name": "sb80-hero.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-hero.png",
+      "width": 1536,
+      "qa": "pass 2026-10-24: flat black base with walnut middle strip, single wide curved walnut column, black uprights + bracket behind logo-less TV, small black shelf with slim set-top box; stand in front of marble wall; no text/logos"
+    },
+    {
+      "name": "sb80-vesa-measure.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-vesa-measure.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: TV face down, hands measure VESA holes with tape, black bracket (two bars + two slotted arms) on floor, stand (base/column/shelf) behind; no faces, tape digits incidental"
+    },
+    {
+      "name": "sb80-height-holes.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-height-holes.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: black sleeves with evenly spaced bolt holes over walnut column, hex key in hand - matches ref close-up; no text"
+    },
+    {
+      "name": "sb80-sofa-view.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-sofa-view.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: person from behind (no face) on sofa, TV on stand at eye level, walnut column + black base visible"
+    },
+    {
+      "name": "sb80-side-wall.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-side-wall.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: side view, base at wall, TV close to wall, shelf with box; composition follows official room render (door, bedroom) - generated, not a copy of bytes"
+    },
+    {
+      "name": "sb80-shelf.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-shelf.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: black shelf protruding from walnut column under TV, logo-less set-top box and plain remote; matches ref"
+    },
+    {
+      "name": "sb80-cable-holder.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-cable-holder.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: rear view, cable runs down between the two black uprights held by a black clip, to wall outlet; shelf and bracket consistent"
+    },
+    {
+      "name": "sb80-base-footprint.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-base-footprint.png",
+      "width": 1200,
+      "qa": "pass 2026-10-24: black base plate with walnut strip and curved column foot, tape measure along front edge; no wheels (consistent with official renders)"
+    },
+    {
+      "name": "thumb-sb80.webp",
+      "src": "D:\\웹 수익 자동화\\channel-ops\\ops\\content\\whereonott-queue-20261024-camelmount-sb80-tv-floor-stand-check\\sb80-hero.png",
+      "crop": {
+        "left": 460,
+        "top": 150,
+        "width": 864,
+        "height": 720
+      },
+      "width": 480,
+      "qa": "crop of sb80-hero (TV, walnut column, shelf, base)"
+    }
+  ],
+  "rejected": []
+}
