@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h6d4u2NeCa"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-24T13:02:29+09:00"
+  verifiedAt: "2026-10-25T04:02:22Z"
   evidence: "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check.md"
   specs:
     - { label: "VESA", value: "200×200 ~ 600×400" }

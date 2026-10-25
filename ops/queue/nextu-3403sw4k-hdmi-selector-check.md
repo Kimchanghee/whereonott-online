@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h6d2FxQ7pY"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-24T13:02:22+09:00"
+  verifiedAt: "2026-10-25T04:02:15Z"
   evidence: "ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check.md"
   specs:
     - { label: "입출력", value: "HDMI 입력 3 · 출력 1" }
