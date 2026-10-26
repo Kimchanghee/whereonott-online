@@ -15,8 +15,8 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h24M17eNXw"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-25T04:01:59Z"
-  evidence: "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check.md"
+  verifiedAt: "2026-10-26T04:02:45Z"
+  evidence: "ops/queue/evidence/nextu-mtv340-4k-mirroring-dongle-check-recheck-20261026-1300.md"
   specs:
     - { label: "무선", value: "802.11n 2.4G · 802.11ac 5G" }
     - { label: "방식", value: "Miracast · AirPlay · DLNA" }

@@ -15,8 +15,8 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h6d2FxQ7pY"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-25T04:02:15Z"
-  evidence: "ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check.md"
+  verifiedAt: "2026-10-26T04:02:45Z"
+  evidence: "ops/queue/evidence/nextu-3403sw4k-hdmi-selector-check-recheck-20261026-1300.md"
   specs:
     - { label: "입출력", value: "HDMI 입력 3 · 출력 1" }
     - { label: "규격", value: "HDMI 1.4b · 4K 30Hz" }
