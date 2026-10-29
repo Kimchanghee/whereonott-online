@@ -1,0 +1,40 @@
+{
+  "builtAt": "2026-10-29T04:08:33.064Z",
+  "dims": {
+    "av-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 84326
+    },
+    "av-front-ports.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 42380
+    },
+    "av-rear-ports.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 50124
+    },
+    "av-optical-amp.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 67110
+    },
+    "av-rca-speakers.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 58054
+    },
+    "av-headphone.webp": {
+      "width": 1200,
+      "height": 800,
+      "bytes": 57060
+    },
+    "thumb-av2303.webp": {
+      "width": 480,
+      "height": 213,
+      "bytes": 6656
+    }
+  }
+}

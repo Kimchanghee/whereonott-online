@@ -1,0 +1,66 @@
+{
+ "slug": "nextu-av2303-hdmi-arc-optical-audio-check",
+ "manuscript": "ops/queue/nextu-av2303-hdmi-arc-optical-audio-check.md",
+ "generator": "GENEXIS gpt-image (ChatGPT-auth Codex bridge) via _mac/bridge gptimage batch; manifests channel-ops/ops/state/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/manifest-a.json (7 jobs, concurrency 2), manifest-b.json (1 regenerate); results _mac/bridge/results/20261029-1300-wo2303-gen-a.json, -gen-b.json",
+ "references": "channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/refs/SOURCES.json (ez-net.co.kr idx=1939 product photos large_*52..55.jpg + WEBDB_01..06)",
+ "jobs": [
+  {
+   "name": "av-hero.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/av-hero.png",
+   "width": 1536,
+   "qa": "pass 2026-10-29: matte black small box, front face L→R gold 3.5mm jack, LED, slide switch, HDMI (cable in) as in ref; RCA red/white pair from rear; generic TV/speakers, no logos"
+  },
+  {
+   "name": "av-front-ports.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/av-front-ports.png",
+   "width": 1200,
+   "qa": "pass: front face order 3.5mm jack(headphone icon) → LED → ON/OFF slide → HDMI ARC IN with cable, corner screws as ref"
+  },
+  {
+   "name": "av-rear-ports.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/av-rear-ports.png",
+   "width": 1200,
+   "qa": "pass: rear face L→R micro-USB (cable in), square optical, orange/white/red RCA as ref"
+  },
+  {
+   "name": "av-optical-amp.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/av-optical-amp.png",
+   "width": 1200,
+   "qa": "pass: rear face micro-USB, optical (cable to generic amp optical in), orange/white/red RCA empty; amp unbranded no text"
+  },
+  {
+   "name": "av-rca-speakers.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/av-rca-speakers-v2.png",
+   "width": 1200,
+   "qa": "pass (v2): micro-USB left, optical & orange coax empty, white L / red R plugs to speaker RCA input, one twin cable"
+  },
+  {
+   "name": "av-headphone.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/av-headphone.png",
+   "width": 1200,
+   "qa": "pass: front face jack (headphone plugged) → LED → switch → empty HDMI; generic headphone"
+  },
+  {
+   "name": "thumb-av2303.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/whereonott-queue-20261029-nextu-av2303-hdmi-arc-optical-audio-check/av-front-ports.png",
+   "width": 480,
+   "qa": "crop of av-front-ports (front face with jack/LED/switch/HDMI)",
+   "crop": {
+    "left": 400,
+    "top": 360,
+    "width": 720,
+    "height": 320
+   }
+  }
+ ],
+ "rejected": [
+  {
+   "file": "av-rca-speakers.png",
+   "reason": "speaker RCA cable routed into the box's micro-USB end while separate RCA plugs hang loose; wiring not traceable → regenerated as v2"
+  },
+  {
+   "file": "av-usb-power.png",
+   "reason": "box geometry wrong: optical/RCA and headphone/HDMI shown on the same long face, micro-USB on a short side; real front/rear split differs → excluded"
+  }
+ ]
+}

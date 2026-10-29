@@ -1,0 +1,63 @@
+{
+ "slug": "nextu-av2303-hdmi-arc-optical-audio-check",
+ "observedAt": "2026-10-29T04:20:00Z",
+ "primaryKeyword": "HDMI ARC 오디오 추출기",
+ "buyingQuestion": "TV의 HDMI ARC 소리를 광·동축·RCA 오디오로 빼려고 넥스트유 NEXT-AV2303을 사기 전에 무엇을 확인해야 할까?",
+ "product": {
+  "name": "넥스트유 HDMI ARC 오디오 출력기",
+  "option": "NEXT-AV2303 × 1세트",
+  "sourceURL": "https://www.coupang.com/vp/products/4522472581?itemId=5454096075&vendorItemId=73686782946",
+  "coupangProductNo": "4522472581 - 5454096075",
+  "GTIN": "8809579987949",
+  "issuedURI": "https://link.coupang.com/a/ieD8Y9ivS0",
+  "productCheckedAt": "2026-10-29T04:1x:00Z",
+  "seller": "로켓배송 표시, 다른 판매자 보기(52)",
+  "evidence": "ops/queue/evidence/nextu-av2303-hdmi-arc-optical-audio-check-product-20261029-1300.txt"
+ },
+ "official": {
+  "url": "https://www.ez-net.co.kr/sub/sub01_01_view.php?idx=1939",
+  "observedAt": "2026-10-29T04:12:00Z",
+  "facts": {
+   "summary": "NEXT-AV2303 HDMI ARC 오디오 추출 변환기 / HDMI ARC Audio Extractor (product page title)",
+   "purpose": "HDMI ARC 신호를 받아 SPDIF(광), Coaxial(동축), RCA 스테레오, 3.5mm 스테레오로 출력하는 HDMI ARC 오디오 추출기 (WEBDB_01)",
+   "audio": "192KHz 24bit 오디오 전송속도 (WEBDB_01 maker claim)",
+   "feature": "SPDIF·Coaxial·RCA·3.5mm 헤드폰 출력, 노이즈 감소 및 자동 절전 모드, 192KHz 지원 (WEBDB_01)",
+   "front": "3.5mm 스테레오 출력, 전원 LED, 전원 스위치(ON/OFF), ARC 입력 (WEBDB_02)",
+   "rear": "DC5V 마이크로5핀, SPDIF(광) 출력, Coaxial(동축) 출력, RCA(L/R) 출력 (WEBDB_02)",
+   "caution": "ARC를 지원하지 않는 HDMI 단자에 연결할 경우 ARC 기능이 작동하지 않음 (WEBDB_03)",
+   "diagram": "ARC 지원 HDTV → ARC 입력; 3.5mm→헤드폰, SPDIF/Coaxial→디지털 앰프, RCA→스테레오 스피커, 마이크로5핀→DC 전원 입력 (WEBDB_03)",
+   "box": "구성품: 마이크로 5핀 USB 케이블 (WEBDB_05)",
+   "spec": "재질 알루미늄, 전원 Micro USB, 소비전력 max 65mA, 어댑터 DC 5V, 작동온도 -15~55°C, 사이즈 81.5x58.5x21.5mm (WEBDB_05)",
+   "kc": "R-R-NXT-NEXT-AV2303 (WEBDB_04)",
+   "warranty": "국내 1년 무상 A/S (WEBDB_06)",
+   "sibling": "NEXT-AV2304: HDMI 오디오 추출 변환기 / 4K HDMI 입/출력 / 5.1, 2채널 오디오 출력 (WEBDB_06)"
+  }
+ },
+ "omitted": [
+  "무게: 제조사 상세 88g vs 컴퓨존 고시 61g 불일치 → 생략",
+  "Dolby Digital/DTS/5.1 비트스트림 지원 여부: 제조사 자료에 없음 → 미확인으로 표기",
+  "eARC 지원: 제조사 자료에 ARC만 표기 → eARC 지원 주장 안 함",
+  "USB 어댑터 포함 여부: 구성품은 케이블만 표기"
+ ],
+ "serp": {
+  "google": {
+   "query": "HDMI ARC 오디오 추출기 TV 광출력 연결 확인",
+   "observedAt": "2026-10-29"
+  },
+  "naver": {
+   "query": "NEXT-AV2303 ARC (블로그 탭)",
+   "observedAt": "2026-10-29"
+  },
+  "originalsRead": [
+   "https://www.vegannews.co.kr/news/article.html?no=392537",
+   "https://m.blog.naver.com/namgang0400/224395694825",
+   "https://keysion.shop/ko/blog/tv-optical-hdmi-arc-dac-guide"
+  ],
+  "takeaways": [
+   "TV 쪽 ARC/eARC 표시 단자에 연결해야 함, 일반 HDMI 단자는 소리 안 나올 수 있음",
+   "TV 음향 출력을 HDMI ARC/외부 기기로 바꾸고 필요시 HDMI-CEC(Anynet+, SIMPLINK) 켬",
+   "외부 기기가 해석 못 하는 비트스트림이면 TV 디지털 출력 형식을 PCM으로 바꿔야 하는 경우가 있음",
+   "광출력이 있는 TV라면 광출력으로 바로 연결하는 경로도 있음"
+  ]
+ }
+}
