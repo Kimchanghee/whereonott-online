@@ -55,6 +55,8 @@
       "screenshot": "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261030-1300.webp",
       "availability": "SB80 × 1개 selected; buy/cart enabled; no purchase"
     },
-    "restoreReason": "2026-10-30 ordinary exact URL again shows original required SB80 × 1개 token; prior exclusion preserved unchanged"
+    "restoreReason": "2026-10-30 ordinary exact URL again shows original required SB80 × 1개 token; prior exclusion preserved unchanged",
+    "dryRunPassedAt": "2026-10-30T04:05:14Z",
+    "dryRunResult": "bridge 20261030-1300-whereonott-child-sb80-dryrun: code0; source/build/local preview 52/52; isolated nondeployable stage removed, protected trees unchanged; automated listing HTTP403 inconclusive, actual browser exact-token verification 2026-10-30T04:04:33Z retained"
   }
 ]

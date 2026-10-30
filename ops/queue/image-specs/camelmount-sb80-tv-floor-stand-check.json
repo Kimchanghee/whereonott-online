@@ -65,5 +65,17 @@
       "qa": "crop of sb80-hero (TV, walnut column, shelf, base)"
     }
   ],
-  "rejected": []
+  "rejected": [],
+  "recheck20261030": {
+    "at": "2026-10-30T04:05:05.717Z",
+    "result": "pass",
+    "photos": 8,
+    "thumbnail": 1,
+    "newGeneration": 0,
+    "referenceUrls": [
+      "https://ai.esmplus.com/camelinter/SB80/SB80_01.gif",
+      "https://ai.esmplus.com/camelinter/SB80/SB80_14.gif"
+    ],
+    "method": "Reviewed all eight queue WebP photos in contact sheet against official reference: black flat base, walnut curved column, twin rear uprights, front shelf; no wheel claim. Historical job provenance retained."
+  }
 }
