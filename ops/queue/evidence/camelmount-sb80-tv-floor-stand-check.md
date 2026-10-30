@@ -23,3 +23,12 @@
 - All verifyTokens matched; selected option purchase controls present. No affiliate link opened.
 - Text: ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261024-1300.txt
 - Screenshot: ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261024-1300.webp
+
+## 2026-10-30 13:00 SHOP slot recheck
+- observedAt: 2026-10-30T04:04:33.429Z
+- Exact ordinary URL again renders SB80 × 1개, Manufacturer Part Number SB80, product 7704285860 - 20635348061; enabled 장바구니 담기 and 바로구매. No purchase; no affiliate link opened.
+- Previous 2026-10-26 exclusion preserved; restore only after current exact-token observation.
+- Existing issued affiliate URL retained, not reissued: https://link.coupang.com/a/h6d4u2NeCa
+- Text: ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261030-1300.txt
+- Screenshot: ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261030-1300.webp
+- Eight existing generated photos + thumbnail visually rechecked against official SB80_01 and SB80_14 (flat black base/walnut column/shelf/two uprights). No new generation.

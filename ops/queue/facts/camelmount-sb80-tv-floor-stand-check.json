@@ -12,7 +12,7 @@
     "coupangProductNo": "7704285860 - 20635348061",
     "issuedURI": "https://link.coupang.com/a/h6d4u2NeCa",
     "linkIssuedAt": "2026-10-24T02:16:43.944Z",
-    "productCheckedAt": "2026-10-24T02:12:00.000Z",
+    "productCheckedAt": "2026-10-30T04:04:33.429Z",
     "seller": "(주)컴퓨존 (marketplace, CJ대한통운, 다른 판매자 보기 17)",
     "listingAttributes": "Manufacturer Part Number: SB80 / 쿠팡상품번호 7704285860 - 20635348061",
     "evidence": "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check.md"
@@ -101,5 +101,24 @@
     "스위블 각도 수치(공식 30° vs 블로그 ±30°)",
     "선반 설치 높이 818mm(도면 해석 불확실)",
     "사운드바·셋톱 거치대 포함 여부(판매 페이지 확인 필요)"
+  ],
+  "recheck20261030": {
+    "at": "2026-10-30T04:04:33.429Z",
+    "result": "ok",
+    "evidence": "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261030-1300.txt",
+    "screenshot": "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check-recheck-20261030-1300.webp",
+    "availability": "SB80 × 1개 selected; buy/cart enabled; no purchase"
+  },
+  "strategyVersion": "channel-discovery-20261025-v1",
+  "sourceIds": [
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09"
   ]
 }

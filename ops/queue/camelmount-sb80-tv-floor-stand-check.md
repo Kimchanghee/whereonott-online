@@ -15,7 +15,7 @@ product:
   provider: coupang
   url: "https://link.coupang.com/a/h6d4u2NeCa"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-10-25T04:02:22Z"
+  verifiedAt: "2026-10-30T04:04:33Z"
   evidence: "ops/queue/evidence/camelmount-sb80-tv-floor-stand-check.md"
   specs:
     - { label: "VESA", value: "200×200 ~ 600×400" }
@@ -95,7 +95,7 @@ faq:
 
 제조사는 VESA 사이즈, 화면 크기, 스탠드를 제외한 TV 무게 세 가지가 모두 맞는지 꼭 확인하라고 안내합니다. 하나라도 벗어나면 거치할 수 없습니다.
 
-화면 크기가 80인치 안에 들어도 VESA 간격이나 무게가 벗어날 수 있습니다. TV 제조사 사양표에서 VESA 값과 스탠드를 뺨 본체 무게를 함께 찾아 두세요.
+화면 크기가 80인치 안에 들어도 VESA 간격이나 무게가 벗어날 수 있습니다. TV 제조사 사양표에서 VESA 값과 스탠드를 뺀 본체 무게를 함께 찾아 두세요.
 
 제조사 도면 기준으로 브래킷은 가로 200~600mm, 세로 100~402mm 범위에서 나사 위치를 맞추는 구조입니다.
 
