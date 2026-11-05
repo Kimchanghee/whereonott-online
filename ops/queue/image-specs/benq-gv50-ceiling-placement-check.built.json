@@ -1,0 +1,40 @@
+{
+  "builtAt": "2026-11-05T04:13:57.500Z",
+  "dims": {
+    "gv50-bedside-hero.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 99088
+    },
+    "gv50-wall-position.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 123914
+    },
+    "gv50-room-measure.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 180000
+    },
+    "gv50-ceiling-clearance.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 127996
+    },
+    "gv50-connection-side.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 135756
+    },
+    "gv50-base-clearance.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 109096
+    },
+    "thumb-gv50.webp": {
+      "width": 480,
+      "height": 480,
+      "bytes": 24864
+    }
+  }
+}

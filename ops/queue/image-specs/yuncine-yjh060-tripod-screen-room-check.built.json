@@ -1,0 +1,40 @@
+{
+  "builtAt": "2026-11-05T04:23:12.058Z",
+  "dims": {
+    "01-cover.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 75774
+    },
+    "02-context.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 122074
+    },
+    "03-measure.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 31634
+    },
+    "04-distance.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 113992
+    },
+    "05-light.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 57714
+    },
+    "06-mount.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 39110
+    },
+    "thumb-yjh060.webp": {
+      "width": 480,
+      "height": 480,
+      "bytes": 8352
+    }
+  }
+}

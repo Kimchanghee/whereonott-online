@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "slug": "benq-gv50-ceiling-placement-check",
+    "productName": "벤큐 천장측면투사 구글OS내장형 미니 빔프로젝터",
+    "option": "GV50 / 1개",
+    "sourceURL": "https://www.coupang.com/vp/products/8586674865?itemId=24893436786&vendorItemId=95933190680",
+    "issuedURI": "https://link.coupang.com/a/iqgFjYaniC",
+    "linkIssuedAt": "2026-11-05T04:06:05.896Z",
+    "productCheckedAt": "2026-11-05T04:06:05.896Z",
+    "manuscript": "ops/queue/benq-gv50-ceiling-placement-check.md",
+    "factsFile": "ops/queue/facts/benq-gv50-ceiling-placement-check.json",
+    "evidence": "ops/queue/evidence/benq-gv50-ceiling-placement-check-20261105.md",
+    "verifyTokens": [
+      "GV50",
+      "벤큐"
+    ],
+    "images": [
+      "ops/queue/images/benq-gv50-ceiling-placement-check/gv50-bedside-hero.webp",
+      "ops/queue/images/benq-gv50-ceiling-placement-check/gv50-wall-position.webp",
+      "ops/queue/images/benq-gv50-ceiling-placement-check/gv50-room-measure.webp",
+      "ops/queue/images/benq-gv50-ceiling-placement-check/gv50-ceiling-clearance.webp",
+      "ops/queue/images/benq-gv50-ceiling-placement-check/gv50-connection-side.webp",
+      "ops/queue/images/benq-gv50-ceiling-placement-check/gv50-base-clearance.webp",
+      "ops/queue/images/benq-gv50-ceiling-placement-check/thumb-gv50.webp"
+    ],
+    "imageSpec": "ops/queue/image-specs/benq-gv50-ceiling-placement-check.json",
+    "research": {
+      "originalsRead": [
+        "https://www.benq.com/en-us/projector/portable/gv50.html",
+        "https://www.benq.com/en-us/projector/portable/gv50/spec.html",
+        "https://www.benq.com/en-us/knowledge-center/knowledge/ceiling-projector-for-bedroom-movie-time.html",
+        "http://www.weeklypost.kr/news/articleView.html?idxno=8008"
+      ]
+    },
+    "publishNotes": "Daily launcher only; this run does not publish. Source/dryrun pass must be recorded before commit.",
+    "dryRunPassedAt": "2026-11-05T04:18:13Z",
+    "dryRunResult": "bridge 20261105-shop-where-gv50-dryrun-v2 code0; 54/54 source+build gates, local HTTP title/disclosure/exact href check; protected trees unchanged; isolated stage removed. Not a public post."
+  },
+  {
+    "slug": "yuncine-yjh060-tripod-screen-room-check",
+    "productName": "윤씨네 YJH-060 족자스크린 삼각대 세트",
+    "option": "YJH-060 · 화이트 · 16:9 · 삼각대 포함",
+    "sourceURL": "https://www.coupang.com/vp/products/143446979?vendorItemId=5271542024&sourceType=SDP_ALSO_VIEWED",
+    "issuedURI": "https://link.coupang.com/a/iqhzmrtwmi",
+    "linkIssuedAt": "2026-11-05T04:23:11.461Z",
+    "productCheckedAt": "2026-11-05T04:16:09.925Z",
+    "manuscript": "ops/queue/yuncine-yjh060-tripod-screen-room-check.md",
+    "factsFile": "ops/queue/facts/yuncine-yjh060-tripod-screen-room-check.json",
+    "evidence": "ops/queue/evidence/yuncine-yjh060-tripod-screen-room-check-20261105.md",
+    "verifyTokens": [
+      "YJH-060",
+      "16:9",
+      "삼각대포함",
+      "화이트"
+    ],
+    "images": [
+      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/01-cover.webp",
+      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/02-context.webp",
+      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/03-measure.webp",
+      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/04-distance.webp",
+      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/05-light.webp",
+      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/06-mount.webp",
+      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/thumb-yjh060.webp"
+    ],
+    "imageSpec": "ops/queue/image-specs/yuncine-yjh060-tripod-screen-room-check.json",
+    "research": {
+      "originalsRead": [
+        "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/",
+        "https://www.benq.com/ko-kr/knowledge-center/knowledge/projector-installation-calculator.html",
+        "https://m.blog.naver.com/benq4ever/220400117160"
+      ]
+    },
+    "publishNotes": "Daily launcher only; queue prepared and isolated dryrun passed. This task does not publish.",
+    "dryRunPassedAt": "2026-11-05T04:26:01Z",
+    "dryRunResult": "bridge 20261105-shop-where-yjh-dryrun-v3 code0; source+build gate54/54; isolated loopback title/disclosure/exact href check; protected trees unchanged; stage removed. Not publication proof."
+  }
+]

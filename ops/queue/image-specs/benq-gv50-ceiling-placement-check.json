@@ -1,0 +1,51 @@
+{
+  "slug": "benq-gv50-ceiling-placement-check",
+  "manuscript": "ops/queue/benq-gv50-ceiling-placement-check.md",
+  "generator": "GENEXIS gpt-image ChatGPT-auth Codex bridge",
+  "references": "whereonott.online-concept-assets/refs/benq-gv50/SOURCES.json",
+  "jobs": [
+    {
+      "name": "gv50-bedside-hero.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-bedside-hero.png",
+      "width": 1536,
+      "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+    },
+    {
+      "name": "gv50-wall-position.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-wall-position.png",
+      "width": 1536,
+      "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+    },
+    {
+      "name": "gv50-room-measure.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-room-measure.png",
+      "width": 1536,
+      "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+    },
+    {
+      "name": "gv50-ceiling-clearance.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-ceiling-clearance.png",
+      "width": 1536,
+      "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+    },
+    {
+      "name": "gv50-connection-side.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-connection-side.png",
+      "width": 1536,
+      "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+    },
+    {
+      "name": "gv50-base-clearance.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-base-clearance.png",
+      "width": 1536,
+      "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+    },
+    {
+      "name": "thumb-gv50.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-bedside-hero.png",
+      "width": 480,
+      "square": true,
+      "qa": "approved hero crop"
+    }
+  ]
+}

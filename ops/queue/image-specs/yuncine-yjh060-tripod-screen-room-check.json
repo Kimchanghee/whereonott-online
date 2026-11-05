@@ -1,0 +1,113 @@
+{
+  "slug": "yuncine-yjh060-tripod-screen-room-check",
+  "manuscript": "ops/queue/yuncine-yjh060-tripod-screen-room-check.md",
+  "generator": "GENEXIS gpt-image ChatGPT-auth Codex bridge",
+  "references": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/SOURCES.json",
+  "visualQA": [
+    {
+      "file": "01-cover.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "흰색 상하 봉과 검은 측면 테두리의 YJH 스크린을 세운 거실",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "6f759cda4a5704aaf0e02645617ecbc4c946ffd362058829bb7a718194b42946"
+    },
+    {
+      "file": "02-context.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "거실 통로를 비워 두고 펼친 YJH 스크린과 세 다리 삼각대",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "4c9c1564b815e29764d3f50a280810eedeb603d3261d404bbbaca7c6d338f912"
+    },
+    {
+      "file": "03-measure.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "펼친 YJH 스크린 옆 나무 스툴 위의 줄자",
+      "limitations": "tape measure lies on stool; no measurement reading implied",
+      "sha256": "7db0e1f13593f4451648fd7df22f3c626f434ec2e9137fe708d74cdb25a68cb8"
+    },
+    {
+      "file": "04-distance.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "낮은 테이블 위 프로젝터와 정면의 YJH 스크린 사이 공간",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "316e93865c7d8572a909c1929de4533be2369e966b8f25c0b319654df3cbfd7b"
+    },
+    {
+      "file": "05-light.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "커튼과 천장 조명 앞에 세운 YJH 와이드 스크린",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "a731811471ed1e8673f292ef69b2d78fc1fd94b906cb6ea0010f81cb15cb881f"
+    },
+    {
+      "file": "06-mount.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "YJH 스크린의 중앙 지지대와 세 다리 삼각대 결합 구조",
+      "limitations": "assembled-center-mount scene replaces original folded-parts plan; not a photo of stored components",
+      "sha256": "3a66c05fb902c050470172f79081c9a3d19c266e0a0d37f363244cf0efcf90fe"
+    }
+  ],
+  "jobs": [
+    {
+      "name": "01-cover.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-yuncine-yjh060/01-cover.png",
+      "width": 1536,
+      "qa": "pass white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen"
+    },
+    {
+      "name": "02-context.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-yuncine-yjh060/02-context.png",
+      "width": 1536,
+      "qa": "pass white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen"
+    },
+    {
+      "name": "03-measure.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-yuncine-yjh060/03-measure.png",
+      "width": 1536,
+      "qa": "pass white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen"
+    },
+    {
+      "name": "04-distance.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-yuncine-yjh060/04-distance.png",
+      "width": 1536,
+      "qa": "pass white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen"
+    },
+    {
+      "name": "05-light.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-yuncine-yjh060/05-light.png",
+      "width": 1536,
+      "qa": "pass white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen"
+    },
+    {
+      "name": "06-mount.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-yuncine-yjh060/06-mount.png",
+      "width": 1536,
+      "qa": "pass white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen"
+    },
+    {
+      "name": "thumb-yjh060.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-yuncine-yjh060/01-cover.png",
+      "width": 480,
+      "square": true,
+      "qa": "approved cover crop"
+    }
+  ]
+}

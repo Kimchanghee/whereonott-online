@@ -1,0 +1,131 @@
+{
+  "strategyVersion": "channel-discovery-20261025-v1",
+  "sourceIds": [
+    "G01",
+    "G02",
+    "G04",
+    "G05",
+    "G07",
+    "G08"
+  ],
+  "preparedAt": "2026-11-05T04:26:01.920Z",
+  "reader": "거실 정면 시청용 이동형 스크린을 구매하기 전 공간을 확인하는 독자",
+  "question": "YJH-060의 바닥·거리·보관 조건이 집에 맞는가",
+  "readerAction": "바닥 폭, 렌즈-스크린 거리, 봉 보관 공간을 각각 확인",
+  "actualChanges": [
+    "질문형H2 5개 및 첫답·짧은문단",
+    "60형/16:9/족자형·분리 삼각대 표",
+    "가격·리뷰·사용경험·원단성능 추정 배제",
+    "공식WHITE상하봉·black측면·three-leg 형태6장 시각검수",
+    "06 이미지는 접힌부속품이 아닌 assembled mount로 본문alt/caption 수정",
+    "제휴 URI는 직접 발급 증거만 사용하고 열지 않음"
+  ],
+  "sources": [
+    {
+      "title": "윤씨네 YJH 공식 제품·옵션·상세 취급 안내",
+      "url": "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/",
+      "status": "read",
+      "note": "native 공식 상품·옵션·실제 공식 상세 JPG 정독"
+    },
+    {
+      "title": "BenQ 화면 크기와 투사거리 확인 안내",
+      "url": "https://www.benq.com/ko-kr/knowledge-center/knowledge/projector-installation-calculator.html",
+      "status": "read",
+      "note": "방 크기·가구·모델별 거리, 키스톤/렌즈시프트 구분. 과도한 설치가능 홍보·번역 면적값 미사용"
+    },
+    {
+      "title": "BenQ 공식블로그 프로젝터 스크린 거리 계산 방법",
+      "url": "https://m.blog.naver.com/benq4ever/220400117160",
+      "status": "read",
+      "note": "2015년 과거 모델 계산 예시는 수치 인용 안 함. 모델/설치형태/화면비 선택과 실제 가로폭 확인 방법만 참고"
+    }
+  ],
+  "photos": {
+    "inspectedAt": "2026-11-05T04:23:11.461Z",
+    "reference": "official-yjh.jpg",
+    "results": [
+      {
+        "file": "01-cover.png",
+        "verdict": "pass",
+        "inspectedAt": "2026-11-05T04:23:11.461Z",
+        "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+        "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+        "scene": "흰색 상하 봉과 검은 측면 테두리의 YJH 스크린을 세운 거실",
+        "limitations": "No projected-content performance or firsthand claim",
+        "sha256": "6f759cda4a5704aaf0e02645617ecbc4c946ffd362058829bb7a718194b42946"
+      },
+      {
+        "file": "02-context.png",
+        "verdict": "pass",
+        "inspectedAt": "2026-11-05T04:23:11.461Z",
+        "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+        "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+        "scene": "거실 통로를 비워 두고 펼친 YJH 스크린과 세 다리 삼각대",
+        "limitations": "No projected-content performance or firsthand claim",
+        "sha256": "4c9c1564b815e29764d3f50a280810eedeb603d3261d404bbbaca7c6d338f912"
+      },
+      {
+        "file": "03-measure.png",
+        "verdict": "pass",
+        "inspectedAt": "2026-11-05T04:23:11.461Z",
+        "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+        "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+        "scene": "펼친 YJH 스크린 옆 나무 스툴 위의 줄자",
+        "limitations": "tape measure lies on stool; no measurement reading implied",
+        "sha256": "7db0e1f13593f4451648fd7df22f3c626f434ec2e9137fe708d74cdb25a68cb8"
+      },
+      {
+        "file": "04-distance.png",
+        "verdict": "pass",
+        "inspectedAt": "2026-11-05T04:23:11.461Z",
+        "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+        "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+        "scene": "낮은 테이블 위 프로젝터와 정면의 YJH 스크린 사이 공간",
+        "limitations": "No projected-content performance or firsthand claim",
+        "sha256": "316e93865c7d8572a909c1929de4533be2369e966b8f25c0b319654df3cbfd7b"
+      },
+      {
+        "file": "05-light.png",
+        "verdict": "pass",
+        "inspectedAt": "2026-11-05T04:23:11.461Z",
+        "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+        "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+        "scene": "커튼과 천장 조명 앞에 세운 YJH 와이드 스크린",
+        "limitations": "No projected-content performance or firsthand claim",
+        "sha256": "a731811471ed1e8673f292ef69b2d78fc1fd94b906cb6ea0010f81cb15cb881f"
+      },
+      {
+        "file": "06-mount.png",
+        "verdict": "pass",
+        "inspectedAt": "2026-11-05T04:23:11.461Z",
+        "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+        "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+        "scene": "YJH 스크린의 중앙 지지대와 세 다리 삼각대 결합 구조",
+        "limitations": "assembled-center-mount scene replaces original folded-parts plan; not a photo of stored components",
+        "sha256": "3a66c05fb902c050470172f79081c9a3d19c266e0a0d37f363244cf0efcf90fe"
+      }
+    ],
+    "allPass": true,
+    "generatedReceipts": [
+      "20261105-shop-yjh-gen-1",
+      "20261105-shop-yjh-gen-2"
+    ],
+    "sourceReferenceNoReuseRightsClaim": true
+  },
+  "sourceGate": "1/1 passed",
+  "dryrun": {
+    "id": "20261105-shop-where-yjh-dryrun-v3",
+    "code": 0,
+    "finishedAt": "2026-11-05T04:26:01.920Z",
+    "checks": "54/54",
+    "public": false
+  },
+  "excluded": {
+    "product": "UGREEN CM624",
+    "reason": "official HTTP429; no alternate region retry; not in ready"
+  },
+  "queueOrder": [
+    "benq-gv50-ceiling-placement-check",
+    "yuncine-yjh060-tripod-screen-room-check"
+  ]
+}

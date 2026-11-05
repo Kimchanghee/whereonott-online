@@ -1,0 +1,260 @@
+{
+  "candidate": {
+    "name": "윤씨네 YJH-060 족자스크린 삼각대 세트",
+    "slug": "yuncine-yjh060-tripod-screen-room-check",
+    "sourceURL": "https://www.coupang.com/vp/products/143446979?vendorItemId=5271542024&sourceType=SDP_ALSO_VIEWED",
+    "verifyTokens": [
+      "YJH-060",
+      "16:9",
+      "삼각대포함",
+      "화이트"
+    ],
+    "stockEvidence": {
+      "path": "yuncine-yjh060-coupang.txt",
+      "checkedAt": "2026-11-05T04:16:09.925Z",
+      "status": "native-confirmed",
+      "accepted": "선택 모델명 YJH-060, 장바구니 담기·바로구매 활성; 상품번호143446979-416570470, 판매자 에스앤피"
+    },
+    "facts": [
+      {
+        "name": "형태",
+        "value": "YJH 족자형·삼각대 분리 가능",
+        "source": "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/"
+      },
+      {
+        "name": "화면비",
+        "value": "16:9",
+        "source": "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/"
+      },
+      {
+        "name": "선택 크기",
+        "value": "60형",
+        "source": "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/"
+      },
+      {
+        "name": "native model",
+        "value": "YJH-060",
+        "source": "yuncine-yjh060-coupang.txt"
+      },
+      {
+        "name": "native title dimensions",
+        "value": "1328×747mm",
+        "useInManuscript": false,
+        "note": "원고는 치수 혼동 방지를 위해 직접 수치 생략, 60형 및 비율만 기재"
+      }
+    ],
+    "sourceReads": [
+      {
+        "title": "윤씨네 YJH 공식 제품·옵션·상세 취급 안내",
+        "url": "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/",
+        "status": "read",
+        "note": "native 공식 상품·옵션·실제 공식 상세 JPG 정독"
+      },
+      {
+        "title": "BenQ 화면 크기와 투사거리 확인 안내",
+        "url": "https://www.benq.com/ko-kr/knowledge-center/knowledge/projector-installation-calculator.html",
+        "status": "read",
+        "note": "방 크기·가구·모델별 거리, 키스톤/렌즈시프트 구분. 과도한 설치가능 홍보·번역 면적값 미사용"
+      },
+      {
+        "title": "BenQ 공식블로그 프로젝터 스크린 거리 계산 방법",
+        "url": "https://m.blog.naver.com/benq4ever/220400117160",
+        "status": "read",
+        "note": "2015년 과거 모델 계산 예시는 수치 인용 안 함. 모델/설치형태/화면비 선택과 실제 가로폭 확인 방법만 참고"
+      }
+    ],
+    "officialReference": "yuncine-refs/official-yjh.jpg",
+    "additionalOfficialReferences": [
+      "yuncine-refs/official-yjh-detail.jpg",
+      "yuncine-refs/official-yjh-spec.jpg",
+      "yuncine-refs/official-yjh-checks.jpg"
+    ],
+    "manuscriptPath": "yuncine-yjh060-tripod-screen-room-check.md",
+    "imagePlan": [
+      {
+        "index": 1,
+        "role": "cover",
+        "scene": "정면 시청용 거실에 세운 와이드 YJH-060, 검은 족자봉과 단일 중앙 삼각대, 영상 없는 흰 화면",
+        "qa": "공식 대표·상세 참조로 봉·삼각대 구조와 화면비 대조",
+        "placeholder": "{{PHOTO_01_SRC}}",
+        "plannedSrc": "/images/picks/yuncine-yjh060-tripod-screen-room-check/01-cover.webp",
+        "reference": "yuncine-refs/official-yjh.jpg",
+        "status": "not-generated"
+      },
+      {
+        "index": 2,
+        "role": "context",
+        "scene": "평평한 바닥과 통로를 구분해 놓은 삼각대 설치 장면",
+        "qa": "없는 보조 지지대·바퀴·발 추가 금지",
+        "placeholder": "{{PHOTO_02_SRC}}",
+        "plannedSrc": "/images/picks/yuncine-yjh060-tripod-screen-room-check/02-context.webp",
+        "reference": "yuncine-refs/official-yjh.jpg",
+        "status": "not-generated"
+      },
+      {
+        "index": 3,
+        "role": "detail",
+        "scene": "흰 16:9 화면과 상하 검은 봉, 줄자는 보조로만 배치",
+        "qa": "가짜 인쇄 치수·실측 결과 금지",
+        "placeholder": "{{PHOTO_03_SRC}}",
+        "plannedSrc": "/images/picks/yuncine-yjh060-tripod-screen-room-check/03-detail.webp",
+        "reference": "yuncine-refs/official-yjh.jpg",
+        "status": "not-generated"
+      },
+      {
+        "index": 4,
+        "role": "context",
+        "scene": "프로젝터 테이블과 정면 스크린 사이 여백",
+        "qa": "광고 영상·저작권 캐릭터·가짜 측정선 금지",
+        "placeholder": "{{PHOTO_04_SRC}}",
+        "plannedSrc": "/images/picks/yuncine-yjh060-tripod-screen-room-check/04-context.webp",
+        "reference": "yuncine-refs/official-yjh.jpg",
+        "status": "not-generated"
+      },
+      {
+        "index": 5,
+        "role": "context",
+        "scene": "커튼과 천장 조명 아래 와이드 스크린",
+        "qa": "밝기 성능의 전후 비교처럼 연출 금지",
+        "placeholder": "{{PHOTO_05_SRC}}",
+        "plannedSrc": "/images/picks/yuncine-yjh060-tripod-screen-room-check/05-context.webp",
+        "reference": "yuncine-refs/official-yjh.jpg",
+        "status": "not-generated"
+      },
+      {
+        "index": 6,
+        "role": "detail",
+        "scene": "공식 형태대로 말린 족자봉과 분리해 접은 삼각대",
+        "qa": "실제 부속품 외 가방·리모컨·전원장치 발명 금지",
+        "placeholder": "{{PHOTO_06_SRC}}",
+        "plannedSrc": "/images/picks/yuncine-yjh060-tripod-screen-room-check/06-detail.webp",
+        "reference": "yuncine-refs/official-yjh.jpg",
+        "status": "not-generated"
+      }
+    ],
+    "counts": {
+      "visible": 2309,
+      "nonspace": 1744,
+      "h2": 5,
+      "inlinePhotos": 5,
+      "plannedPhotos": 6
+    },
+    "status": "queue-prepared-isolated-dryrun-passed",
+    "remaining": [
+      "daily publisher only; not published by this task"
+    ],
+    "duplicateCheck": "기존 publish-log 12상품과 다른 윤씨네 스크린; 기존 queue 재사용 없음",
+    "rejectedDiscovery": [
+      {
+        "url": "https://www.coupang.com/vp/products/6873945769",
+        "reason": "일반 제목만 있고 필수표기 별도표기·대표 no-image로 정확 모델 결속 불가. 사용 금지"
+      }
+    ]
+  },
+  "sourceStrategy": "channel-discovery-20261025-v1",
+  "sourceIds": [
+    "G01",
+    "G02",
+    "G04",
+    "G05",
+    "G07",
+    "G08"
+  ],
+  "verifiedAt": "2026-11-05T04:16:09.925Z",
+  "affiliateIssuedEvidence": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-partners.txt",
+  "affiliateURI": "https://link.coupang.com/a/iqhzmrtwmi",
+  "visualQA": [
+    {
+      "file": "01-cover.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "흰색 상하 봉과 검은 측면 테두리의 YJH 스크린을 세운 거실",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "6f759cda4a5704aaf0e02645617ecbc4c946ffd362058829bb7a718194b42946"
+    },
+    {
+      "file": "02-context.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "거실 통로를 비워 두고 펼친 YJH 스크린과 세 다리 삼각대",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "4c9c1564b815e29764d3f50a280810eedeb603d3261d404bbbaca7c6d338f912"
+    },
+    {
+      "file": "03-measure.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "펼친 YJH 스크린 옆 나무 스툴 위의 줄자",
+      "limitations": "tape measure lies on stool; no measurement reading implied",
+      "sha256": "7db0e1f13593f4451648fd7df22f3c626f434ec2e9137fe708d74cdb25a68cb8"
+    },
+    {
+      "file": "04-distance.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "낮은 테이블 위 프로젝터와 정면의 YJH 스크린 사이 공간",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "316e93865c7d8572a909c1929de4533be2369e966b8f25c0b319654df3cbfd7b"
+    },
+    {
+      "file": "05-light.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "커튼과 천장 조명 앞에 세운 YJH 와이드 스크린",
+      "limitations": "No projected-content performance or firsthand claim",
+      "sha256": "a731811471ed1e8673f292ef69b2d78fc1fd94b906cb6ea0010f81cb15cb881f"
+    },
+    {
+      "file": "06-mount.png",
+      "verdict": "pass",
+      "inspectedAt": "2026-11-05T04:23:11.461Z",
+      "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/prepared/whereonott/yuncine-refs/official-yjh.jpg",
+      "observed": "white upper/lower roller bars, white screen, black vertical side borders, single central support with hanging cord, silver/light-metal three-leg tripod with black foot caps; one assembled screen",
+      "scene": "YJH 스크린의 중앙 지지대와 세 다리 삼각대 결합 구조",
+      "limitations": "assembled-center-mount scene replaces original folded-parts plan; not a photo of stored components",
+      "sha256": "3a66c05fb902c050470172f79081c9a3d19c266e0a0d37f363244cf0efcf90fe"
+    }
+  ],
+  "omissions": [
+    "price, ratings, reviews, fabricated first-person use",
+    "raw manufacturer dimensions not repeated in manuscript",
+    "UGREEN CM624 manufacturer HTTP429 remains excluded; no regional retry"
+  ],
+  "sourceReads": [
+    {
+      "title": "윤씨네 YJH 공식 제품·옵션·상세 취급 안내",
+      "url": "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/",
+      "status": "read",
+      "note": "native 공식 상품·옵션·실제 공식 상세 JPG 정독"
+    },
+    {
+      "title": "BenQ 화면 크기와 투사거리 확인 안내",
+      "url": "https://www.benq.com/ko-kr/knowledge-center/knowledge/projector-installation-calculator.html",
+      "status": "read",
+      "note": "방 크기·가구·모델별 거리, 키스톤/렌즈시프트 구분. 과도한 설치가능 홍보·번역 면적값 미사용"
+    },
+    {
+      "title": "BenQ 공식블로그 프로젝터 스크린 거리 계산 방법",
+      "url": "https://m.blog.naver.com/benq4ever/220400117160",
+      "status": "read",
+      "note": "2015년 과거 모델 계산 예시는 수치 인용 안 함. 모델/설치형태/화면비 선택과 실제 가로폭 확인 방법만 참고"
+    }
+  ],
+  "dryrun": {
+    "id": "20261105-shop-where-yjh-dryrun-v3",
+    "code": 0,
+    "finishedAt": "2026-11-05T04:26:01.920Z",
+    "checks": "54/54",
+    "public": false
+  }
+}

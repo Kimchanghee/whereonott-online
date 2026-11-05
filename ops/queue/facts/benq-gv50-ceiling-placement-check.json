@@ -1,0 +1,214 @@
+{
+  "candidate": {
+    "name": "BenQ GV50",
+    "slug": "benq-gv50-ceiling-placement-check",
+    "sourceURL": "https://www.coupang.com/vp/products/8586674865?itemId=24893436786&vendorItemId=95933190680",
+    "verifyTokens": [
+      "GV50",
+      "벤큐"
+    ],
+    "stockEvidence": {
+      "status": "parent-native-confirmed",
+      "path": "../../gv50-coupang.txt",
+      "checkedAt": "2026-11-05T04:06:05.896Z",
+      "accepted": "GV50 옵션·장바구니 담기/바로구매 활성"
+    },
+    "facts": [
+      {
+        "name": "nativeResolution",
+        "value": "1920×1080",
+        "source": "https://www.benq.com/en-us/projector/portable/gv50/spec.html"
+      },
+      {
+        "name": "brightness",
+        "value": "500 ANSI lumens",
+        "source": "https://www.benq.com/en-us/projector/portable/gv50/spec.html"
+      },
+      {
+        "name": "throwRatio",
+        "value": "1.2",
+        "source": "https://www.benq.com/en-us/projector/portable/gv50/spec.html"
+      },
+      {
+        "name": "opticalZoom",
+        "value": "Fixed",
+        "source": "https://www.benq.com/en-us/projector/portable/gv50/spec.html"
+      },
+      {
+        "name": "HDMI input",
+        "value": 1,
+        "source": "https://www.benq.com/en-us/projector/portable/gv50/spec.html"
+      },
+      {
+        "name": "verticalRotation",
+        "value": "135°",
+        "source": "https://www.benq.com/en-us/projector/portable/gv50.html"
+      }
+    ],
+    "sourceReads": [
+      {
+        "title": "BenQ GV50 공식 제품 정보",
+        "url": "https://www.benq.com/en-us/projector/portable/gv50.html",
+        "status": "read",
+        "note": "native snapshot inspected"
+      },
+      {
+        "title": "BenQ GV50 공식 사양",
+        "url": "https://www.benq.com/en-us/projector/portable/gv50/spec.html",
+        "status": "read",
+        "note": "full original text read"
+      },
+      {
+        "title": "BenQ 천장투사 설치 안내",
+        "url": "https://www.benq.com/en-us/knowledge-center/knowledge/ceiling-projector-for-bedroom-movie-time.html",
+        "status": "read",
+        "note": "full original text read"
+      },
+      {
+        "title": "위클리포스트 GV50 국내 출시 기사",
+        "url": "http://www.weeklypost.kr/news/articleView.html?idxno=8008",
+        "status": "read",
+        "note": "색역 98%는 공식 92%와 달라 전부 생략. 홍보 최상급·화질 보장 문장 사용 안 함."
+      }
+    ],
+    "manuscriptPath": "benq-gv50-ceiling-placement-check.md",
+    "imagePlan": [
+      {
+        "index": 1,
+        "role": "cover",
+        "scene": "어두운 침실 협탁의 GV50, 천장 여백과 기기 실루엣",
+        "qa": "Parent hero 담당",
+        "placeholder": "{{PHOTO_01_SRC}}",
+        "plannedSrc": "/images/picks/benq-gv50-ceiling-placement-check/01-cover.webp",
+        "status": "not-generated"
+      },
+      {
+        "index": 2,
+        "role": "context",
+        "scene": "안정적인 협탁 위 본체와 위쪽 렌즈 방향",
+        "qa": "침구 위 불안정 배치 금지",
+        "placeholder": "{{PHOTO_02_SRC}}",
+        "plannedSrc": "/images/picks/benq-gv50-ceiling-placement-check/02-context.webp",
+        "status": "not-generated"
+      },
+      {
+        "index": 3,
+        "role": "detail",
+        "scene": "줄자와 천장 빈 영역 계획 종이",
+        "qa": "수치·가짜 실측 표시 금지",
+        "placeholder": "{{PHOTO_03_SRC}}",
+        "plannedSrc": "/images/picks/benq-gv50-ceiling-placement-check/03-detail.webp",
+        "status": "not-generated"
+      },
+      {
+        "index": 4,
+        "role": "context",
+        "scene": "천장 조명과 투사 여백",
+        "qa": "보장된 실제 투사 화질 금지",
+        "placeholder": "{{PHOTO_04_SRC}}",
+        "plannedSrc": "/images/picks/benq-gv50-ceiling-placement-check/04-context.webp",
+        "status": "not-generated"
+      },
+      {
+        "index": 5,
+        "role": "detail",
+        "scene": "본체 연결부와 느슨하게 정돈한 전선",
+        "qa": "공식 단자 원형 대조",
+        "placeholder": "{{PHOTO_05_SRC}}",
+        "plannedSrc": "/images/picks/benq-gv50-ceiling-placement-check/05-detail.webp",
+        "status": "not-generated"
+      },
+      {
+        "index": 6,
+        "role": "detail",
+        "scene": "본체와 실제 받침 구조",
+        "qa": "실제 구성품 대조",
+        "placeholder": "{{PHOTO_06_SRC}}",
+        "plannedSrc": "/images/picks/benq-gv50-ceiling-placement-check/06-detail.webp",
+        "status": "not-generated"
+      }
+    ],
+    "officialReference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/whereonott.online-concept-assets/refs/benq-gv50/official-left45.webp",
+    "status": "prepared-only",
+    "remaining": [
+      "사진 생성 6장·QA",
+      "제휴 URI·실제 사진 src Parent 주입",
+      "frontmatter 시각·evidence 확정",
+      "source gate·dryrun·게시기 등록은 Parent 담당"
+    ]
+  },
+  "selection": {
+    "name": "벤큐 천장측면투사 구글OS내장형 미니 빔프로젝터",
+    "model": "GV50",
+    "sourceURL": "https://www.coupang.com/vp/products/8586674865?itemId=24893436786&vendorItemId=95933190680",
+    "affiliateURL": "https://link.coupang.com/a/iqgFjYaniC",
+    "verifyTokens": [
+      "GV50",
+      "벤큐"
+    ],
+    "stock": "장바구니 담기/바로구매 활성",
+    "checkedAt": "2026-11-05T04:06:05.896Z",
+    "evidence": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop-runs/20261105-1300/gv50-coupang.txt",
+    "officialReference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/whereonott.online-concept-assets/refs/benq-gv50/official-left45.webp"
+  },
+  "sourceStrategy": "channel-discovery-20261025-v1",
+  "sourceIds": [
+    "G01",
+    "G02",
+    "G04",
+    "G05",
+    "G07",
+    "G08"
+  ],
+  "images": {
+    "slug": "benq-gv50-ceiling-placement-check",
+    "manuscript": "ops/queue/benq-gv50-ceiling-placement-check.md",
+    "generator": "GENEXIS gpt-image ChatGPT-auth Codex bridge",
+    "references": "whereonott.online-concept-assets/refs/benq-gv50/SOURCES.json",
+    "jobs": [
+      {
+        "name": "gv50-bedside-hero.webp",
+        "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-bedside-hero.png",
+        "width": 1536,
+        "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+      },
+      {
+        "name": "gv50-wall-position.webp",
+        "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-wall-position.png",
+        "width": 1536,
+        "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+      },
+      {
+        "name": "gv50-room-measure.webp",
+        "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-room-measure.png",
+        "width": 1536,
+        "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+      },
+      {
+        "name": "gv50-ceiling-clearance.webp",
+        "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-ceiling-clearance.png",
+        "width": 1536,
+        "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+      },
+      {
+        "name": "gv50-connection-side.webp",
+        "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-connection-side.png",
+        "width": 1536,
+        "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+      },
+      {
+        "name": "gv50-base-clearance.webp",
+        "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-base-clearance.png",
+        "width": 1536,
+        "qa": "pass 2026-11-05 official shape/color/ports/count and distinct scene QA"
+      },
+      {
+        "name": "thumb-gv50.webp",
+        "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261105-gv50/gv50-bedside-hero.png",
+        "width": 480,
+        "square": true,
+        "qa": "approved hero crop"
+      }
+    ]
+  }
+}
