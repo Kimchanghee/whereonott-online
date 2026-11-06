@@ -1,0 +1,56 @@
+{
+  "slug": "google-tv-streamer-4k-hdmi-network-check",
+  "manuscript": "ops/queue/google-tv-streamer-4k-hdmi-network-check.md",
+  "generator": "GENEXIS gpt-image ChatGPT-auth Codex bridge",
+  "references": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop/20261106-1300/google-tv-refs/SOURCES.json",
+  "visualQA": {
+    "checkedAt": "2026-11-06T04:28:38.912Z",
+    "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop/20261106-1300/google-tv-refs/official.jpg",
+    "verdict": "6pass; samePorcelain flattenedroundedwedge/singleunit; no inventedports, no suppliedcableclaim; TVs generic off, not performanceproof"
+  },
+  "jobs": [
+    {
+      "name": "01-cover.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-google-tv/01-cover.png",
+      "width": 1536,
+      "qa": "pass officialreference shape/colour/count match"
+    },
+    {
+      "name": "02-hdmi.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-google-tv/02-hdmi.png",
+      "width": 1536,
+      "qa": "pass officialreference shape/colour/count match"
+    },
+    {
+      "name": "03-network.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-google-tv/03-network.png",
+      "width": 1536,
+      "qa": "pass officialreference shape/colour/count match"
+    },
+    {
+      "name": "04-setup.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-google-tv/04-setup.png",
+      "width": 1536,
+      "qa": "pass officialreference shape/colour/count match"
+    },
+    {
+      "name": "05-place.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-google-tv/05-place.png",
+      "width": 1536,
+      "qa": "pass officialreference shape/colour/count match"
+    },
+    {
+      "name": "06-detail.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-google-tv/06-detail.png",
+      "width": 1536,
+      "qa": "pass officialreference shape/colour/count match"
+    },
+    {
+      "name": "thumb-streamer.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-google-tv/01-cover.png",
+      "width": 480,
+      "square": true,
+      "qa": "approved cover crop"
+    }
+  ]
+}

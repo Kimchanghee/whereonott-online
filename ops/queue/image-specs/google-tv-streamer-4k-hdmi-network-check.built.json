@@ -1,0 +1,40 @@
+{
+  "builtAt": "2026-11-06T04:28:51.045Z",
+  "dims": {
+    "01-cover.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 56762
+    },
+    "02-hdmi.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 84146
+    },
+    "03-network.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 46708
+    },
+    "04-setup.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 126772
+    },
+    "05-place.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 110508
+    },
+    "06-detail.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 89462
+    },
+    "thumb-streamer.webp": {
+      "width": 480,
+      "height": 480,
+      "bytes": 9962
+    }
+  }
+}

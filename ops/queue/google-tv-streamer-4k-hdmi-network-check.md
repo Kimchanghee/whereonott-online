@@ -7,7 +7,7 @@ description: "구글 TV 스트리머 4K 포슬린 구매 전 HDMI 케이블, 유
 draft: false
 published: "2026-11-06T04:17:00Z"
 updated: "2026-11-06T04:17:00Z"
-category: "streaming"
+category: "sound"
 primaryKeyword: "구글 TV 스트리머"
 product:
   name: "구글 TV 스트리머 4K Streamer 5세대 포슬린 크롬캐스트 셋톱박스"

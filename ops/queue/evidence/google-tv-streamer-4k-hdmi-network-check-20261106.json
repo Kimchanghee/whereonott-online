@@ -48,14 +48,10 @@
     "google-tv-naver.txt"
   ],
   "photos": {
-    "status": "held_disk",
-    "approvedCount": 3,
+    "status": "six_photos_qa_pass",
+    "approvedCount": 6,
     "required": 6,
-    "remaining": [
-      "04-setup",
-      "05-place",
-      "06-detail"
-    ],
-    "qa": "All3 original photos visually inspected vs Google official reference: Porcelain low wedge body, singleunit; loosecables are examples, not supplieditem claim."
+    "qa": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/whereonott.online/ops/queue/image-specs/google-tv-streamer-4k-hdmi-network-check.json",
+    "remaining": []
   }
 }
