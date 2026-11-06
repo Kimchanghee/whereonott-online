@@ -1,0 +1,61 @@
+{
+  "productName": "구글 TV 스트리머 4K Streamer 5세대 포슬린 크롬캐스트 셋톱박스",
+  "option": "포슬린 색상 ×1개",
+  "sourceURL": "https://www.coupang.com/vp/products/9804997290?itemId=29361964391&vendorItemId=96274567874",
+  "issuedURI": "https://link.coupang.com/a/irWeBudfHM",
+  "seller": "우니코리아",
+  "checkedAt": "2026-11-06T04:21:07Z",
+  "verifyTokens": [
+    "포슬린 색상",
+    "1개",
+    "9804997290 - 29361964391",
+    "우니코리아"
+  ],
+  "available": true,
+  "officialFacts": {
+    "formFactor": "box, not HDMI dongle",
+    "hdmiCable": "sold separately; official recommends Ultra High Speed HDMI2.1 certified",
+    "ethernet": true,
+    "ramGB": 4,
+    "storageGB": 32,
+    "colors": [
+      "Porcelain",
+      "Hazel"
+    ],
+    "maxResolution": "4K depending on display/content",
+    "setup": "Google Account and secure WiFi or Ethernet; supplied adapter",
+    "fourKConditions": [
+      "HDCP2.2 compatible display/AVR",
+      "4K content and subscription if required"
+    ],
+    "notVerified": [
+      "Korean individual OTT app availability",
+      "seller-supplied adapter region",
+      "local warranty"
+    ]
+  },
+  "originalsRead": [
+    "https://support.google.com/googletv/answer/15273676?hl=en",
+    "https://support.google.com/chromecast/answer/15157762?hl=en-AU",
+    "https://support.google.com/chromecast/answer/7151529?hl=en"
+  ],
+  "translationLimit": "7151529 Korean version omits Streamer; English original checked and used instead.",
+  "affiliateVisited": false,
+  "ordinarySnapshot": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop/20261106-1300/google-tv-native-final.txt",
+  "partnersSnapshot": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop/20261106-1300/google-tv-partners.txt",
+  "searchEvidence": [
+    "google-tv-google.json",
+    "google-tv-naver.txt"
+  ],
+  "photos": {
+    "status": "held_disk",
+    "approvedCount": 3,
+    "required": 6,
+    "remaining": [
+      "04-setup",
+      "05-place",
+      "06-detail"
+    ],
+    "qa": "All3 original photos visually inspected vs Google official reference: Porcelain low wedge body, singleunit; loosecables are examples, not supplieditem claim."
+  }
+}

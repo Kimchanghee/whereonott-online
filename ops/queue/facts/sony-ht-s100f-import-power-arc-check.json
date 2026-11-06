@@ -1,0 +1,38 @@
+{
+  "model": "HT-S100F",
+  "checkedAt": "2026-11-06T04:21:10Z",
+  "officialRegion": "Japan",
+  "officialFacts": {
+    "power": "100V 50/60Hz",
+    "dimensionsMM": [
+      900,
+      64,
+      88
+    ],
+    "hdmiInput": 0,
+    "hdmiArcOutput": 1,
+    "earc": false,
+    "opticalInput": true,
+    "layout": "2.0ch single bar"
+  },
+  "sellerFacts": {
+    "name": "best select",
+    "sourceURL": "https://www.coupang.com/vp/products/6675833102?itemId=15376015167&vendorItemId=95948300747",
+    "productId": "6675833102",
+    "itemId": "15376015167",
+    "model": "HT-S100F",
+    "shipping": "해외배송",
+    "available": true
+  },
+  "unknowns": [
+    "actual-shipped-region voltage label",
+    "local warranty",
+    "actual supplied accessories"
+  ],
+  "rule": "Never assert all regional HT-S100F power ratings match Japan. Require seller label confirmation, never advise direct220V connection.",
+  "sourceFiles": [
+    "sony-official-spec.txt",
+    "sony-official-feature.txt",
+    "sony-official-design.txt"
+  ]
+}

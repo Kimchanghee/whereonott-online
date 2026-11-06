@@ -15,8 +15,8 @@ product:
   provider: "coupang"
   url: "https://link.coupang.com/a/iqhzmrtwmi"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-11-05T04:16:09Z"
-  evidence: "ops/queue/evidence/yuncine-yjh060-tripod-screen-room-check-20261105.md"
+  verifiedAt: "2026-11-06T04:05:34Z"
+  evidence: "ops/queue/evidence/yjh060-recheck-20261106.json"
 images:
   - src: "/images/picks/yuncine-yjh060-tripod-screen-room-check/01-cover.webp"
     alt: "흰색 상하 봉과 검은 측면 테두리의 YJH 스크린을 세운 거실"

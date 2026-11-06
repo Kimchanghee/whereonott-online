@@ -1,0 +1,40 @@
+{
+  "builtAt": "2026-11-06T04:17:27.739Z",
+  "dims": {
+    "01-cover.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 98472
+    },
+    "02-width.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 82696
+    },
+    "03-clearance.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 105764
+    },
+    "04-cables.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 70922
+    },
+    "05-layout.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 91944
+    },
+    "07-check-paper.webp": {
+      "width": 1536,
+      "height": 1024,
+      "bytes": 139616
+    },
+    "thumb-s100f.webp": {
+      "width": 480,
+      "height": 480,
+      "bytes": 12454
+    }
+  }
+}

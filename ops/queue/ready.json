@@ -6,10 +6,10 @@
     "sourceURL": "https://www.coupang.com/vp/products/143446979?vendorItemId=5271542024&sourceType=SDP_ALSO_VIEWED",
     "issuedURI": "https://link.coupang.com/a/iqhzmrtwmi",
     "linkIssuedAt": "2026-11-05T04:23:11.461Z",
-    "productCheckedAt": "2026-11-05T04:16:09.925Z",
+    "productCheckedAt": "2026-11-06T04:05:34.370Z",
     "manuscript": "ops/queue/yuncine-yjh060-tripod-screen-room-check.md",
     "factsFile": "ops/queue/facts/yuncine-yjh060-tripod-screen-room-check.json",
-    "evidence": "ops/queue/evidence/yuncine-yjh060-tripod-screen-room-check-20261105.md",
+    "evidence": "ops/queue/evidence/yjh060-recheck-20261106.json",
     "verifyTokens": [
       "YJH-060",
       "16:9",
@@ -36,5 +36,42 @@
     "publishNotes": "Daily launcher only; queue prepared and isolated dryrun passed. This task does not publish.",
     "dryRunPassedAt": "2026-11-05T04:26:01Z",
     "dryRunResult": "bridge 20261105-shop-where-yjh-dryrun-v3 code0; source+build gate54/54; isolated loopback title/disclosure/exact href check; protected trees unchanged; stage removed. Not publication proof."
+  },
+  {
+    "slug": "sony-ht-s100f-import-power-arc-check",
+    "productName": "소니 사운드바 HT-S100F 100W 하이파워 서라운드",
+    "option": "HT-S100F · 해외배송 · 판매자 best select · item15376015167",
+    "sourceURL": "https://www.coupang.com/vp/products/6675833102?itemId=15376015167&vendorItemId=95948300747",
+    "issuedURI": "https://link.coupang.com/a/irVHtZV1iK",
+    "linkIssuedAt": "2026-11-06T04:07:00Z",
+    "productCheckedAt": "2026-11-06T04:21:10Z",
+    "manuscript": "ops/queue/sony-ht-s100f-import-power-arc-check.md",
+    "factsFile": "ops/queue/facts/sony-ht-s100f-import-power-arc-check.json",
+    "evidence": "ops/queue/evidence/sony-ht-s100f-import-power-arc-check-20261106.json",
+    "verifyTokens": [
+      "HT-S100F",
+      "6675833102 - 15376015167",
+      "best select"
+    ],
+    "images": [
+      "ops/queue/images/sony-ht-s100f-import-power-arc-check/01-cover.webp",
+      "ops/queue/images/sony-ht-s100f-import-power-arc-check/02-width.webp",
+      "ops/queue/images/sony-ht-s100f-import-power-arc-check/03-clearance.webp",
+      "ops/queue/images/sony-ht-s100f-import-power-arc-check/04-cables.webp",
+      "ops/queue/images/sony-ht-s100f-import-power-arc-check/05-layout.webp",
+      "ops/queue/images/sony-ht-s100f-import-power-arc-check/07-check-paper.webp",
+      "ops/queue/images/sony-ht-s100f-import-power-arc-check/thumb-s100f.webp"
+    ],
+    "imageSpec": "ops/queue/image-specs/sony-ht-s100f-import-power-arc-check.json",
+    "research": {
+      "originalsRead": [
+        "https://www.sony.jp/home-theater/products/HT-S100F/spec.html",
+        "https://www.sony.jp/home-theater/products/HT-S100F/feature_3.html",
+        "https://www.sony.jp/home-theater/products/HT-S100F/feature_4.html"
+      ]
+    },
+    "publishNotes": "Daily launcher only, no direct deployment. Regional100V caution, never220V-direct advice. Six approved distinct photos plus thumb.",
+    "dryRunPassedAt": "2026-11-06T04:19:08Z",
+    "dryRunResult": "bridge20261106-shop-where-sony-dryrun code0; fullgate56/56; title/disclosure/exacthref loopback; protectedtrees unchanged, stage removed. Native listing fresh 2026-11-06T04:21:10Z. Not publication proof."
   }
 ]

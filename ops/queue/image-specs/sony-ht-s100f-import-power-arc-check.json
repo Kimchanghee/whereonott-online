@@ -1,0 +1,72 @@
+{
+  "slug": "sony-ht-s100f-import-power-arc-check",
+  "manuscript": "ops/queue/sony-ht-s100f-import-power-arc-check.md",
+  "generator": "GENEXIS gpt-image ChatGPT-auth Codex bridge",
+  "references": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop/20261106-1300/sony-refs/SOURCES.json",
+  "visualQA": {
+    "checkedAt": "2026-11-06T04:15:16.714Z",
+    "reference": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop/20261106-1300/sony-refs/official-design.jpg",
+    "passed": [
+      "01-cover.png",
+      "02-width.png",
+      "03-clearance.png",
+      "04-cables.png",
+      "05-layout.png",
+      "07-check-paper.png"
+    ],
+    "rejected": [
+      {
+        "file": "06-check.png",
+        "reason": "Generated loose IEC three-pin power cable and round-pin plug are not verified product accessories; product-specific physical fidelity cannot be confirmed. Do not use."
+      }
+    ],
+    "correctionPending": null,
+    "note": "05 TV is secondary scene context, not claimed to be a specified television model. No product performance or measured furniture claim.",
+    "corrected": "removed unsupported power accessory; actual single-bar front geometry and black grille match official reference"
+  },
+  "jobs": [
+    {
+      "name": "01-cover.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-sony-s100f/01-cover.png",
+      "width": 1536,
+      "qa": "pass; exact black single-bar frontal geometry vs official reference; not performance evidence"
+    },
+    {
+      "name": "02-width.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-sony-s100f/02-width.png",
+      "width": 1536,
+      "qa": "pass; exact black single-bar frontal geometry vs official reference; not performance evidence"
+    },
+    {
+      "name": "03-clearance.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-sony-s100f/03-clearance.png",
+      "width": 1536,
+      "qa": "pass; exact black single-bar frontal geometry vs official reference; not performance evidence"
+    },
+    {
+      "name": "04-cables.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-sony-s100f/04-cables.png",
+      "width": 1536,
+      "qa": "pass; exact black single-bar frontal geometry vs official reference; not performance evidence"
+    },
+    {
+      "name": "05-layout.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-sony-s100f/05-layout.png",
+      "width": 1536,
+      "qa": "pass; exact black single-bar frontal geometry vs official reference; not performance evidence"
+    },
+    {
+      "name": "07-check-paper.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-sony-s100f/07-check-paper.png",
+      "width": 1536,
+      "qa": "pass; exact black single-bar frontal geometry vs official reference; not performance evidence"
+    },
+    {
+      "name": "thumb-s100f.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261106-sony-s100f/01-cover.png",
+      "width": 480,
+      "square": true,
+      "qa": "approved cover crop"
+    }
+  ]
+}
