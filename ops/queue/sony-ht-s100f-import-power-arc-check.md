@@ -15,8 +15,8 @@ product:
   provider: "coupang"
   url: "https://link.coupang.com/a/irVHtZV1iK"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-11-06T04:21:10Z"
-  evidence: "ops/queue/evidence/sony-ht-s100f-import-power-arc-check-20261106.json"
+  verifiedAt: "2026-11-07T04:04:19Z"
+  evidence: "ops/queue/evidence/sony-ht-s100f-import-power-arc-check-20261107.json"
 images:
   - { src: "/images/picks/sony-ht-s100f-import-power-arc-check/01-cover.webp", alt: "TV 아래 콘솔에 놓은 검은색 HT-S100F 사운드바", role: "cover", rights: "generated", credit: "거실상영관 제작 (소니 공식 제품 사진 참고)" }
   - { src: "/images/picks/sony-ht-s100f-import-power-arc-check/02-width.webp", alt: "사운드바 옆 줄자로 가구 폭을 확인하는 준비 장면", role: "context", rights: "generated", credit: "거실상영관 제작 (소니 공식 제품 사진 참고)" }

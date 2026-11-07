@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-11-07T04:04:19Z",
+  "sourceURL": "https://www.coupang.com/vp/products/6675833102?itemId=15376015167&vendorItemId=95948300747",
+  "issuedURI": "https://link.coupang.com/a/irVHtZV1iK",
+  "affiliateVisited": false,
+  "tokens": [
+    {
+      "token": "HT-S100F",
+      "found": true
+    },
+    {
+      "token": "6675833102 - 15376015167",
+      "found": true
+    },
+    {
+      "token": "best select",
+      "found": true
+    }
+  ],
+  "availability": "바로구매 enabled on native page; no cart/order actions",
+  "fullTextFile": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/shop/20261107-1300/sony-full-main.txt",
+  "screenshot": "/Users/kimchangheemac/.aside/u/0/sessions/2026-11-07_DRTrZ3WBqsquU5SR/tmp/sony-current.webp"
+}
