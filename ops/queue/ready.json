@@ -1,43 +1,5 @@
 [
   {
-    "slug": "yuncine-yjh060-tripod-screen-room-check",
-    "productName": "윤씨네 YJH-060 족자스크린 삼각대 세트",
-    "option": "YJH-060 · 화이트 · 16:9 · 삼각대 포함",
-    "sourceURL": "https://www.coupang.com/vp/products/143446979?vendorItemId=5271542024&sourceType=SDP_ALSO_VIEWED",
-    "issuedURI": "https://link.coupang.com/a/iqhzmrtwmi",
-    "linkIssuedAt": "2026-11-05T04:23:11.461Z",
-    "productCheckedAt": "2026-11-06T04:05:34.370Z",
-    "manuscript": "ops/queue/yuncine-yjh060-tripod-screen-room-check.md",
-    "factsFile": "ops/queue/facts/yuncine-yjh060-tripod-screen-room-check.json",
-    "evidence": "ops/queue/evidence/yjh060-recheck-20261106.json",
-    "verifyTokens": [
-      "YJH-060",
-      "16:9",
-      "삼각대포함",
-      "화이트"
-    ],
-    "images": [
-      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/01-cover.webp",
-      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/02-context.webp",
-      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/03-measure.webp",
-      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/04-distance.webp",
-      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/05-light.webp",
-      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/06-mount.webp",
-      "ops/queue/images/yuncine-yjh060-tripod-screen-room-check/thumb-yjh060.webp"
-    ],
-    "imageSpec": "ops/queue/image-specs/yuncine-yjh060-tripod-screen-room-check.json",
-    "research": {
-      "originalsRead": [
-        "https://yuncine04.cafe24.com/product/%EC%9C%A4%EC%94%A8%EB%84%A4-169-yjh-%EC%A1%B1%EC%9E%90%EC%82%BC%EA%B0%81%EB%8C%80%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%82%BC%EA%B0%81%EB%8C%80-%EB%B6%84%EB%A6%AC-%EA%B0%80%EB%8A%A5-152cm60/225/",
-        "https://www.benq.com/ko-kr/knowledge-center/knowledge/projector-installation-calculator.html",
-        "https://m.blog.naver.com/benq4ever/220400117160"
-      ]
-    },
-    "publishNotes": "Daily launcher only; queue prepared and isolated dryrun passed. This task does not publish.",
-    "dryRunPassedAt": "2026-11-05T04:26:01Z",
-    "dryRunResult": "bridge 20261105-shop-where-yjh-dryrun-v3 code0; source+build gate54/54; isolated loopback title/disclosure/exact href check; protected trees unchanged; stage removed. Not publication proof."
-  },
-  {
     "slug": "sony-ht-s100f-import-power-arc-check",
     "productName": "소니 사운드바 HT-S100F 100W 하이파워 서라운드",
     "option": "HT-S100F · 해외배송 · 판매자 best select · item15376015167",
