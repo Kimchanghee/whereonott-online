@@ -1,41 +1,5 @@
 [
   {
-    "slug": "sony-ht-s100f-import-power-arc-check",
-    "productName": "소니 사운드바 HT-S100F 100W 하이파워 서라운드",
-    "option": "HT-S100F · 해외배송 · 판매자 best select · item15376015167",
-    "sourceURL": "https://www.coupang.com/vp/products/6675833102?itemId=15376015167&vendorItemId=95948300747",
-    "issuedURI": "https://link.coupang.com/a/irVHtZV1iK",
-    "productCheckedAt": "2026-11-07T04:04:19Z",
-    "manuscript": "ops/queue/sony-ht-s100f-import-power-arc-check.md",
-    "factsFile": "ops/queue/facts/sony-ht-s100f-import-power-arc-check.json",
-    "evidence": "ops/queue/evidence/sony-ht-s100f-import-power-arc-check-20261107.json",
-    "verifyTokens": [
-      "HT-S100F",
-      "6675833102 - 15376015167",
-      "best select"
-    ],
-    "images": [
-      "ops/queue/images/sony-ht-s100f-import-power-arc-check/01-cover.webp",
-      "ops/queue/images/sony-ht-s100f-import-power-arc-check/02-width.webp",
-      "ops/queue/images/sony-ht-s100f-import-power-arc-check/03-clearance.webp",
-      "ops/queue/images/sony-ht-s100f-import-power-arc-check/04-cables.webp",
-      "ops/queue/images/sony-ht-s100f-import-power-arc-check/05-layout.webp",
-      "ops/queue/images/sony-ht-s100f-import-power-arc-check/07-check-paper.webp",
-      "ops/queue/images/sony-ht-s100f-import-power-arc-check/thumb-s100f.webp"
-    ],
-    "imageSpec": "ops/queue/image-specs/sony-ht-s100f-import-power-arc-check.json",
-    "research": {
-      "originalsRead": [
-        "https://www.sony.jp/home-theater/products/HT-S100F/spec.html",
-        "https://www.sony.jp/home-theater/products/HT-S100F/feature_3.html",
-        "https://www.sony.jp/home-theater/products/HT-S100F/feature_4.html"
-      ]
-    },
-    "publishNotes": "Daily launcher only, no direct deployment. Regional100V caution, never220V-direct advice. Six approved distinct photos plus thumb.",
-    "dryRunPassedAt": "2026-11-06T04:19:08Z",
-    "dryRunResult": "bridge20261106-shop-where-sony-dryrun code0; fullgate56/56; title/disclosure/exacthref loopback; protectedtrees unchanged, stage removed. Native listing fresh 2026-11-06T04:21:10Z. Not publication proof."
-  },
-  {
     "slug": "google-tv-streamer-4k-hdmi-network-check",
     "productName": "구글 TV 스트리머 4K Streamer 5세대 포슬린 크롬캐스트 셋톱박스",
     "option": "포슬린 색상 ×1개 · 판매자 우니코리아 · 해외배송",
