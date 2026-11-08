@@ -5,10 +5,10 @@
     "option": "포슬린 색상 ×1개 · 판매자 우니코리아 · 해외배송",
     "sourceURL": "https://www.coupang.com/vp/products/9804997290?itemId=29361964391&vendorItemId=96274567874",
     "issuedURI": "https://link.coupang.com/a/irWeBudfHM",
-    "productCheckedAt": "2026-11-07T04:04:19Z",
+    "productCheckedAt": "2026-11-08T04:03:16.515Z",
     "manuscript": "ops/queue/google-tv-streamer-4k-hdmi-network-check.md",
     "factsFile": "ops/queue/facts/google-tv-streamer-4k-hdmi-network-check.json",
-    "evidence": "ops/queue/evidence/google-tv-streamer-4k-hdmi-network-check-20261107.json",
+    "evidence": "ops/queue/evidence/google-tv-streamer-4k-hdmi-network-check-20261108.json",
     "verifyTokens": [
       "포슬린 색상",
       "1개",
@@ -33,7 +33,7 @@
       ]
     },
     "publishNotes": "Daily launcher only. Six approved photos+thumb. No guaranteed localapp support or imported power/warranty claim.",
-    "dryRunPassedAt": "2026-11-06T04:29:59Z",
-    "dryRunResult": "bridge20261106-shop-where-google-dryrun code0 fullgate56/56 localpreviewtitle/disclosure/exacthref; protectedtrees unchanged, stage removed; freshNativeVerifiedAt2026-11-06T04:21:07Z matches this candidate. Redacted bridge slug is not treated as rawslug proof. Not publication."
+    "dryRunPassedAt": "2026-11-08T04:04:24.024Z",
+    "dryRunResult": "bridge20261108-1300-shop-where-dryrun-nMJfVCzT code0; source/fullgate/local preview reverified. Not publication."
   }
 ]

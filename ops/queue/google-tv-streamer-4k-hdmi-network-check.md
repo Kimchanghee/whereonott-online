@@ -15,8 +15,8 @@ product:
   provider: "coupang"
   url: "https://link.coupang.com/a/irWeBudfHM"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-11-07T04:04:19Z"
-  evidence: "ops/queue/evidence/google-tv-streamer-4k-hdmi-network-check-20261107.json"
+  verifiedAt: "2026-11-08T04:03:16Z"
+  evidence: "ops/queue/evidence/google-tv-streamer-4k-hdmi-network-check-20261108.json"
 images:
   - { src: "/images/picks/google-tv-streamer-4k-hdmi-network-check/01-cover.webp", alt: "TV 아래에 놓인 포슬린 구글 TV 스트리머", role: "cover", rights: "generated", credit: "거실상영관 제작 (Google 공식 제품 사진 참고)" }
   - { src: "/images/picks/google-tv-streamer-4k-hdmi-network-check/02-hdmi.webp", alt: "구글 TV 스트리머 옆에 따로 놓은 HDMI 케이블", role: "context", rights: "generated", credit: "거실상영관 제작 (Google 공식 제품 사진 참고)" }
