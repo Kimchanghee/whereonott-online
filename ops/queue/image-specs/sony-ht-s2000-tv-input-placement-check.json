@@ -1,0 +1,87 @@
+{
+  "slug": "sony-ht-s2000-tv-input-placement-check",
+  "observedUTC": "2026-11-15T04:30:52.963Z",
+  "creatorSessionId": "LvnufLFHB9xO1dsJ",
+  "sourceReferencePolicy": "actual official manufacturer reference attached",
+  "visualQA": "read_file original PNGs checked individually before eligibility",
+  "photos": [
+    {
+      "id": "hts2000-room-fit",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-hts2000/hts2000-room-fit.png",
+      "sourceSHA256": "8e3d56562494b377fe6b892f5bb2b71257450195062c30bc4eb8439d2cbcbf95",
+      "sourceBytes": 2230498,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/sony-ht-s2000-tv-input-placement-check/01-hts2000-room-fit.webp",
+      "targetSHA256": "2591f285bc9ca27b57f5c4464b57db9938c9779a47d56a050014ad52c59ff340",
+      "targetBytes": 77954,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "id": "hts2000-width-check",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-hts2000/hts2000-width-check.png",
+      "sourceSHA256": "c667ba387e555b4c5a6c3e607f65fa1992182d603f07f0d821f2ba545ef47e35",
+      "sourceBytes": 2493854,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/sony-ht-s2000-tv-input-placement-check/02-hts2000-width-check.webp",
+      "targetSHA256": "45bd97e3ac36df8ce656ff0e56a5416d93cf08d45e73262e51511799b6578aa8",
+      "targetBytes": 123188,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "id": "hts2000-side-clearance",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-hts2000/hts2000-side-clearance.png",
+      "sourceSHA256": "7a6ea5fa3e790ab5a52477e03f293075b9de646ec1c86405b0545165bf0bfce2",
+      "sourceBytes": 2052982,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/sony-ht-s2000-tv-input-placement-check/03-hts2000-side-clearance.webp",
+      "targetSHA256": "a24898baefb1879ff09047f4527913f80c36a56f36ffd0a9c549ff1018805d72",
+      "targetBytes": 69072,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "id": "hts2000-tv-height",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-hts2000/hts2000-tv-height.png",
+      "sourceSHA256": "6c2ecdb2f43b5158cb687dea8b998e608dd3868e1db018e62ee90e074eff578f",
+      "sourceBytes": 2448420,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/sony-ht-s2000-tv-input-placement-check/04-hts2000-tv-height.webp",
+      "targetSHA256": "96edf083e6ce63aa353d5b246186cf754aec4d15eddb8d9a1044e435324ed4c1",
+      "targetBytes": 120382,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "id": "hts2000-front-grille",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-hts2000/hts2000-front-grille.png",
+      "sourceSHA256": "d17b174494415d1063f592b5b267e604dab44808f8fb49b30b519c8835860258",
+      "sourceBytes": 2461786,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/sony-ht-s2000-tv-input-placement-check/05-hts2000-front-grille.webp",
+      "targetSHA256": "a56bfd4689a24c83493ade5c28a4ceb80762a7ed08297dbf865c91177ed319e5",
+      "targetBytes": 125794,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "id": "hts2000-source-layout",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-hts2000/hts2000-source-layout.png",
+      "sourceSHA256": "6482b1df2d8ba8cb8a069b1a182d5304497fe99e244179b6f454e3f13f29b5d3",
+      "sourceBytes": 2021883,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/sony-ht-s2000-tv-input-placement-check/06-hts2000-source-layout.webp",
+      "targetSHA256": "c49f51583c48507e381180fced26283f876dc16ffa419555f4a3f506ab3891e4",
+      "targetBytes": 58732,
+      "width": 1280,
+      "height": 853
+    }
+  ]
+}
