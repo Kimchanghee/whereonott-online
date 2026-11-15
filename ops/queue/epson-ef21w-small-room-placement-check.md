@@ -7,7 +7,7 @@ description: "엡손 EF-21W 화이트 모델을 작은 방에 들이기 전 투�
 draft: false
 published: "2026-11-15T10:53:26.830Z"
 updated: "2026-11-15T10:53:26.830Z"
-category: "projectors"
+category: "picture"
 primaryKeyword: "미니빔 작은 방 설치"
 product:
   name: "엡손 가정용 미니 빔 프로젝터"
@@ -109,7 +109,7 @@ EF-21W와 회전 스탠드가 달린 EF-22는 설치 구조를 구분해야 합�
 
 <figure class="fig"><img src="/images/picks/epson-ef21w-small-room-placement-check/03-ef3.webp" alt="프로젝터를 놓을 테이블과 주변 공간을 살피는 장면" width="1280" height="853" loading="lazy" decoding="async"><figcaption>프로젝터를 놓을 테이블과 주변 공간을 살피는 장면</figcaption></figure>
 
-[프로젝터 선택 안내](/category/projectors/)에서 다른 설치 구조를 비교할 수 있습니다. 회전이 필요한지, 낮은 가구에 고정해 둘지부터 정하면 비슷한 모델명 사이에서 볼 항목이 분명해집니다.
+[프로젝터 거리 안내](/guides/projector-distance/)에서 다른 설치 구조를 비교할 수 있습니다. 회전이 필요한지, 낮은 가구에 고정해 둘지부터 정하면 비슷한 모델명 사이에서 볼 항목이 분명해집니다.
 
 ## 구글 TV가 있으면 외부 영상기기는 필요 없을까요?
 
