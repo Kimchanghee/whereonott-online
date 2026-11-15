@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "domain": "whereonott.online",
+    "slug": "epson-ef21w-small-room-placement-check",
+    "manuscript": "ops/queue/epson-ef21w-small-room-placement-check.md",
+    "option": "EF-21W / 화이트 / 본체 1대",
+    "sourceURL": "https://www.coupang.com/vp/products/8405310081?itemId=24299349589&vendorItemId=93651050273",
+    "issuedURI": "https://link.coupang.com/a/iHjAAV0Ua4",
+    "verifyTokens": [
+      "EF-21W",
+      "24299349589",
+      "프로젝터"
+    ],
+    "evidence": "ops/queue/evidence/epson-ef21w-small-room-placement-check.md",
+    "images": [
+      "ops/queue/images/epson-ef21w-small-room-placement-check/01-ef1c.webp",
+      "ops/queue/images/epson-ef21w-small-room-placement-check/02-ef2.webp",
+      "ops/queue/images/epson-ef21w-small-room-placement-check/03-ef3.webp",
+      "ops/queue/images/epson-ef21w-small-room-placement-check/04-ef4.webp",
+      "ops/queue/images/epson-ef21w-small-room-placement-check/05-ef5.webp",
+      "ops/queue/images/epson-ef21w-small-room-placement-check/06-ef6b.webp",
+      "ops/queue/images/epson-ef21w-small-room-placement-check/thumb-ef21w.webp"
+    ],
+    "verifiedAt": "2026-11-15T19:35:16+09:00",
+    "photoCount": 6,
+    "addedAt": "2026-11-15T10:48:24.195Z",
+    "creatorSessionId": "kuWJU8rq0pCnpQnO",
+    "status": "pending-dryrun"
+  }
+]

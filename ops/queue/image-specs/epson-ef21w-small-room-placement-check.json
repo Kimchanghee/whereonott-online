@@ -1,0 +1,116 @@
+{
+  "slot": "20261115-1920-shop",
+  "creatorSessionId": "kuWJU8rq0pCnpQnO",
+  "observedUTC": "2026-11-15T10:53:26.833Z",
+  "visualInspection": "all original files read individually with read_file",
+  "photoCount": 6,
+  "photoIds": [
+    "ef1c",
+    "ef2",
+    "ef3",
+    "ef4",
+    "ef5",
+    "ef6b"
+  ],
+  "rejected": [
+    {
+      "id": "ef1",
+      "reason": "projection direction inconsistent"
+    },
+    {
+      "id": "ef6",
+      "reason": "US power plug incompatible with Korean-option illustration"
+    },
+    {
+      "id": "ef1b",
+      "reason": "visible generated branding removed in targeted ef1c edit"
+    }
+  ],
+  "photos": [
+    {
+      "id": "ef1c",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-1920-ef21w/ef1c.png",
+      "sourceSHA256": "f9a576e645456dbea2c08c1a99384f05bcd4874e85315a80dd559cdeb748b1b7",
+      "sourceBytes": 1758708,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "rotation": 0,
+      "target": "ops/queue/images/epson-ef21w-small-room-placement-check/01-ef1c.webp",
+      "targetSHA256": "290922ea5128d5fc41a54d69fe46867e37e270c10ec9dd075082e672b4ee9afa",
+      "width": 1280,
+      "height": 853,
+      "visualQA": "approved: individually inspected original with read_file"
+    },
+    {
+      "id": "ef2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-1920-ef21w/ef2.png",
+      "sourceSHA256": "31b90abb2a4520bb696700db93de25df3049fffd46bf50ece3690af78eb7f6b9",
+      "sourceBytes": 2411539,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "rotation": 0,
+      "target": "ops/queue/images/epson-ef21w-small-room-placement-check/02-ef2.webp",
+      "targetSHA256": "037ff7c1685a00e64732e1d6281e4776f6fe94e3e6506964cede9267680aa417",
+      "width": 1280,
+      "height": 853,
+      "visualQA": "approved: individually inspected original with read_file"
+    },
+    {
+      "id": "ef3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-1920-ef21w/ef3.png",
+      "sourceSHA256": "8e3051a2c72367c4472043fb58e95dd08f7894180221b36587dc95cf8464987e",
+      "sourceBytes": 2845027,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "rotation": 0,
+      "target": "ops/queue/images/epson-ef21w-small-room-placement-check/03-ef3.webp",
+      "targetSHA256": "fe1d085461335d9e27d79cf5d347ca277d890d882309b7029e8ae8a9c410d473",
+      "width": 1280,
+      "height": 853,
+      "visualQA": "approved: individually inspected original with read_file"
+    },
+    {
+      "id": "ef4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-1920-ef21w/ef4.png",
+      "sourceSHA256": "1d485c618700e8fca35d144fcd70e9581ead84f9bb7e36ed5396f217c981d808",
+      "sourceBytes": 1850109,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "rotation": 0,
+      "target": "ops/queue/images/epson-ef21w-small-room-placement-check/04-ef4.webp",
+      "targetSHA256": "57a8da44672733cf6b3809be6eead7aa6a6ee6e1b62a8b197da8d19f84b29197",
+      "width": 1280,
+      "height": 853,
+      "visualQA": "approved: individually inspected original with read_file"
+    },
+    {
+      "id": "ef5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-1920-ef21w/ef5.png",
+      "sourceSHA256": "b7b9b2530cc8bf82d6ab42e306d61c41804dda3c3a71de57154f1c23caba1cf1",
+      "sourceBytes": 2187621,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "rotation": 0,
+      "target": "ops/queue/images/epson-ef21w-small-room-placement-check/05-ef5.webp",
+      "targetSHA256": "d3168569deaed1c93b9fec4e7855bffbd0898c0dad7f41923219e1eba44fb70d",
+      "width": 1280,
+      "height": 853,
+      "visualQA": "approved: individually inspected original with read_file"
+    },
+    {
+      "id": "ef6b",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261115-1920-ef21w/ef6b.png",
+      "sourceSHA256": "b4257e067a3009377f8fb04a6388c13987f4315b233c28ccf03cf5c3c2ea4d15",
+      "sourceBytes": 2022980,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "rotation": 0,
+      "target": "ops/queue/images/epson-ef21w-small-room-placement-check/06-ef6b.webp",
+      "targetSHA256": "aabd7585fcd7f7d0b9fe5e89725799af8b4e8b23ca7447e259d2087bda7219f3",
+      "width": 1280,
+      "height": 853,
+      "visualQA": "approved: individually inspected original with read_file"
+    }
+  ],
+  "inspectedAtUTC": "2026-11-15T10:53:26.865Z"
+}

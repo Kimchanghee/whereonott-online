@@ -1,0 +1,269 @@
+- title: "엡손 가정용 미니 빔 프로젝터 - 빔/프로젝터 | 쿠팡" [url=https://www.coupang.com/vp/products/8405310081?itemId=24299349589&vendorItemId=93651050273&pickType=COU_PICK&q=%EC%97%A1%EC%86%9…]
+- listitem "판매자 가입" [ref=e329]:
+  - link "판매자 가입" [ref=e1]
+- listitem "고객센터" [ref=e330]:
+  - link "고객센터" [ref=e2]
+- listitem "로그아웃" [ref=e331]:
+  - link "로그아웃" [ref=e3]
+- listitem "님" [ref=e332]:
+  - link "님" [ref=e4]: "김*희  님"
+- listitem "즐겨찾기" [ref=e333]:
+  - link "즐겨찾기" [ref=e5]
+- listitem "입점신청" [ref=e334]:
+  - link "입점신청" [ref=e6]
+- generic "카테고리" [ref=e7]
+- link "Coupang" [ref=e8]:
+  - image "Coupang"
+- form:
+  - link "전체" [ref=e9]
+  - textbox "찾고 싶은 상품을 검색해보세요!" [ref=e10] [placeholder="찾고 싶은 상품을 검색해보세요!"]
+  - link [ref=e11]
+  - button "검색" [ref=e12]
+- list:
+  - listitem:
+    - link "마이쿠팡" [ref=e13]
+  - listitem:
+    - link "0 장바구니" [ref=e14]
+- link [ref=e15]
+- list:
+  - listitem "쿠팡플레이" [ref=e335]:
+    - link "쿠팡플레이" [ref=e16]:
+      - image "쿠팡플레이"
+      - text: "쿠팡플레이"
+  - listitem "로켓배송" [ref=e336]:
+    - link "로켓배송" [ref=e17]:
+      - image "로켓배송"
+      - text: "로켓배송"
+  - listitem "로켓프레시" [ref=e337]:
+    - link "로켓프레시" [ref=e18]:
+      - image "로켓프레시"
+      - text: "로켓프레시"
+  - listitem "다시 구매" [ref=e338]:
+    - link "다시 구매" [ref=e19]:
+      - image "다시 구매"
+      - text: "다시 구매"
+  - listitem "쿠팡비즈" [ref=e339]:
+    - link "쿠팡비즈" [ref=e20]:
+      - image "쿠팡비즈"
+      - text: "쿠팡비즈"
+  - listitem "로켓직구" [ref=e340]:
+    - link "로켓직구" [ref=e21]:
+      - image "로켓직구"
+      - text: "로켓직구"
+  - listitem "골드박스" [ref=e341]:
+    - link "골드박스" [ref=e22]:
+      - image "골드박스"
+      - text: "골드박스"
+  - listitem "이달의신상" [ref=e342]:
+    - link "이달의신상" [ref=e23]:
+      - image "이달의신상"
+      - text: "이달의신상"
+  - listitem "입점신청" [ref=e343]:
+    - link "입점신청" [ref=e24]:
+      - image "입점신청"
+      - text: "입점신청"
+  - listitem "판매자특가" [ref=e344]:
+    - link "판매자특가" [ref=e25]:
+      - image "판매자특가"
+      - text: "판매자특가"
+  - listitem "와우회원할인" [ref=e345]:
+    - link "와우회원할인" [ref=e26]:
+      - image "와우회원할인"
+      - text: "와우회원할인"
+  - listitem "반품마켓" [ref=e346]:
+    - link "반품마켓" [ref=e27]:
+      - image "반품마켓"
+      - text: "반품마켓"
+  - listitem "착한상점" [ref=e347]:
+    - link "착한상점" [ref=e28]:
+      - image "착한상점"
+      - text: "착한상점"
+  - listitem "기획전" [ref=e348]:
+    - link "기획전" [ref=e29]:
+      - image "기획전"
+      - text: "기획전"
+  - listitem "쿠팡트래블" [ref=e349]:
+    - link "쿠팡트래블" [ref=e30]:
+      - image "쿠팡트래블"
+      - text: "쿠팡트래블"
+- link [ref=e31]
+- list:
+  - listitem "쿠팡 홈" [ref=e350]:
+    - link "쿠팡 홈" [ref=e32]
+  - listitem "결혼준비" [ref=e351]:
+    - link "결혼준비" [ref=e33]
+  - listitem "가전" [ref=e352]:
+    - link "가전" [ref=e34]
+  - listitem "TV/영상가전" [ref=e353]:
+    - link "TV/영상가전" [ref=e35]
+  - listitem "빔/프로젝터/스크린" [ref=e354]:
+    - link "빔/프로젝터/스크린" [ref=e36]
+  - listitem "빔/프로젝터" [ref=e355]:
+    - link "빔/프로젝터" [ref=e37]
+- main:
+  - list:
+    - listitem [ref=e38]
+    - listitem [ref=e39]
+    - listitem [ref=e40]
+    - listitem [ref=e41]
+    - listitem [ref=e42]
+    - listitem [ref=e43]
+    - listitem [ref=e44]
+    - listitem [ref=e45]
+    - listitem [ref=e46]
+    - listitem [ref=e47]
+  - image "Product image"
+  - image "쿠팡 추천" [ref=e48]
+  - link "엡손" [ref=e49]
+  - heading [level=1]: "엡손 가정용 미니 빔 프로젝터"
+  - link "60 개 상품평" [ref=e50]
+  - button [ref=e51]
+  - button [ref=e52]
+  - text: "28%990,000원"
+  - text: "705,910원 할인 고객님은 와우회원 으로"
+  - list:
+    - listitem "무조건 무료배송" [ref=e356]
+    - listitem "무료반품" [ref=e357]
+  - text: "무료배송 내일(월) 11/16  도착 보장 (4시간 30분  내 주문 시)"
+  - link "다른 판매자 보기" [ref=e54]: "다른 판매자 보기(7)"
+  - region: "모델명/품번: EF-21W"
+  - text: "쿠팡안심케어"
+  - text: "한 번 결제로 최대 5년, 무상보증 혜택 연장"
+  - label:
+    - radio "선택안함" [ref=e56] [checked]
+    - text: "선택안함"
+  - label:
+    - radio "무상보증연장 3년 50만원 한도5,800원" [ref=e57]
+    - text: "무상보증연장 3년 50만원 한도 5,800원"
+  - label:
+    - radio "무상보증연장 5년 50만원 한도6,700원" [ref=e58]
+    - text: "무상보증연장 5년 50만원 한도 6,700원"
+  - label:
+    - radio "무상보증연장 3년 100만원 한도9,500원" [ref=e59]
+    - text: "무상보증연장 3년 100만원 한도 9,500원"
+  - label:
+    - radio "무상보증연장 5년 100만원 한도13,500원" [ref=e60]
+    - text: "무상보증연장 5년 100만원 한도 13,500원"
+  - text: "최대  6% 카드  즉시할인 (NH농협, 하나, 삼성) - 와우 전용"
+  - text: "적립 최대 7,059원"
+  - button "쿠팡캐시 적립" [ref=e62]
+  - text: "· 쿠페이 머니 결제시"
+  - textbox "1" [ref=e63]
+  - button "수량빼기" [ref=e64]
+  - button "수량더하기" [ref=e65] [disabled]
+  - button "장바구니 담기" [ref=e66]
+  - button "바로구매" [ref=e67]
+  - list:
+    - listitem "방식별: LCD" [ref=e358]
+    - listitem "밝기(안시): 1000루멘" [ref=e359]
+    - listitem "Wi-Fi연결지원 여부: wifi 연결가능" [ref=e360]
+    - listitem "블루투스 가능여부: 블루투스 가능" [ref=e361]
+    - listitem "USB 재생 가능여부: USB 재생가능" [ref=e362]
+    - listitem "쿠팡상품번호: 8405310081 - 24299349589" [ref=e363]
+  - generic "상품정보에 문제가 있나요?" [ref=e68]
+  - link "다른 옵션에 반품 상품이 있어요!새 상품(7) / 반품(1)" [ref=e69]
+  - link [ref=e70]:
+    - image "엑스지미 가정용 빔프로젝터, Elfin Flip Laser"
+    - heading "이런건 어때요?" [level=4]: "추천 이런건 어때요?"
+    - text: "23%엑스지미 가정용 빔프로젝터, Elfin Flip Laser(2)광고"
+    - button "Ad information" [ref=e71]
+  - text: "함께 비교하면 좋을 상품  광고"
+  - button "Ad information" [ref=e72]
+  - list [ref=e73] [scrollable]:
+    - listitem:
+      - link "엑스지미 미니빔 캠핑용 휴대용 빔프로젝터, MoGo4 할인 899,000 22%698,400 무료배송 무료반품 내일(월) 새벽 도착 보장(390)" [ref=e74]
+    - listitem:
+      - link "엡손 빔프로젝터, EB-E10 550,000 무료배송 11/18(수) 도착 예정(8)" [ref=e75]
+    - listitem:
+      - link "엡손 프로젝터, EB-2155W 1,490,000 22%1,149,000 무료배송 무료반품 내일(월) 도착 보장(75)" [ref=e76]
+    - listitem:
+      - link "엑스지미 4k 가정용 빔프로젝터, 호라이즌20 Max 할인 4,509,000 15%3,818,500 무료배송 무료반품 내일(월) 도착 보장(341)" [ref=e77]
+    - listitem:
+      - link "엑스지미 가정용 빔프로젝터, Elfin Flip 4K 할인 1,690,000 11%1,489,000 무료배송 무료반품 내일(월) 도착 보장(37)" [ref=e78]
+    - listitem:
+      - link "TouYinger 가정용빔프로젝터 4K 홈시네마 풀HD 1080p 안드로이드 스마트빔 한글지원, FlixTone D10S, 화이트 할인 629,990 25%468,080 무료배송 " [ref=e79]
+    - listitem:
+      - link "엡손 EB-FH08 빔프로젝터 3600안시 고해상도 LCD FHD 900,000 무료배송 무료반품 내일(월) 도착 보장(2)" [ref=e80]
+    - listitem:
+      - link "비비텍 MX621 빔프로젝터 사무용 회의용 강의용 빔프로젝트 추천 밝기 4300 799,000 31%544,000 무료배송 무료반품 내일(월) 도착 보장(198)" [ref=e81]
+    - listitem:
+      - link "엡손 EB-X51 빔프로젝터 빔프로젝트 밝기 3800, EB-X51+정품가방 640,000 무료배송 모레(화) 도착 예정" [ref=e82]
+    - listitem:
+      - link "엡손 4K 입문용 프로젝터, EH-TW6250 1,189,000 무료배송 무료반품 내일(월) 도착 보장(9)" [ref=e83]
+    - listitem:
+      - link "엑스지미 FULL HD 250 ISO 루멘 노바 미니 캠핑 휴대용 빔프로젝터, 클라우드애쉬 할인 438,000 13%378,000 무료배송 무료반품 내일(월) 새벽 도착 보장(88" [ref=e84]
+    - listitem:
+      - link "VEIDADZ 가정용 주름방지 고밀도 폴리에스터 빔프로젝터 스크린 휴대용 흑색 배면층, 150형, 16:9 할인 40,240 36%25,660 무료배송 무료반품 내일(월) 새벽 도" [ref=e85]
+    - listitem:
+      - link "VEIDADZ 4K ALR 빔프로젝터 스크린 삼각대 세트 고반사 고명암비 가정용/영화관용 접이식 이동형 + 거치대 포함, 120형, 16:9 할인 190,000 82%32,520 " [ref=e86]
+    - listitem:
+      - link "아라크네 빔스크린 화이트프리미엄 80인치, 아라크네 화이트 프리미엄 프로젝터 빔 스크린 할인 49,900 5%47,400 무료배송 11/21(토) 도착 예정(46)" [ref=e87]
+    - listitem:
+      - link "이코노미쿠스 빔프로젝터 가정용 홈시네마 4K 지원 미니빔 휴대용 가능, 블랙 쿠폰할인 900,000 33%599,000 무료배송 무료반품 내일(월) 새벽 도착 보장(7)" [ref=e88]
+    - listitem:
+      - link "아라크네 빔스크린 화이트프리미엄 130인치, 빔스크린 130인치 화이트프리미엄 할인 98,900 3%95,900 무료배송 11/21(토) 도착 예정(33)" [ref=e89]
+    - listitem:
+      - link "VANKYO 빔프로젝터 무선 미러링 블루투스5.0 휴대용 캠핑용 미니빔 5G WIFI 삼각대포함, Leisure300 할인 209,000 52%99,000 무료배송 무료반품 내일(" [ref=e90]
+    - listitem:
+      - link "LG 시네빔 4K 빔프로젝터, 큐브2 1,590,000 5%1,510,000 무료배송 모레(화) 도착 예정(2)" [ref=e91]
+    - listitem:
+      - link "다바라 유압식 이동식 휴대용 캠핑 빔스크린 빔프로젝터 스크린 60 80 100 120 in, 80인치 229,000 무료배송 모레(화) 도착 예정(11)" [ref=e92]
+    - listitem:
+      - link "프로젝터매니아 가정용 미니 빔프로젝터, PJM11A 990,000 50%489,140 무료배송 무료반품 내일(월) 도착 보장(442)" [ref=e93]
+    - listitem:
+      - link "지아이비 USB 갤럭시 미니 프로젝터, 은하수 17,910 무료배송 무료반품 내일(월) 도착 보장(64)" [ref=e94]
+    - listitem:
+      - link "vincent FHD 지원 휴대용 빔프로젝터 자동 키 스톤 보정 미니 프로젝터 홈시어터, TP350 쿠폰할인 205,800 51%99,900 무료배송 무료반품 내일(월) 새벽 도착" [ref=e95]
+    - listitem:
+      - link "엡손 EH-TW750 빔프로젝터 EH-TW650후속 1,302,880 무료배송 11/18(수) 도착 예정(2)" [ref=e96]
+    - listitem:
+      - link "VANKYO Leisure 200 빔프로젝터 초소형 미니빔 1080P 지원 품질보증 1년 할인 185,000 58%75,900 무료배송 무료반품 내일(월) 새벽 도착 보장(1,46" [ref=e97]
+    - listitem:
+      - link "VEIDADZ 빔프로젝터 스크린 삼각대 세트 고밀도 폴리에스터 백색 주름방지 가정용/실외용 접이식 이동형 + 듀얼 삼각대+휴대용 가방 포함, 84형, 16:9 할인 85,130 7" [ref=e98]
+    - listitem:
+      - link "VEIDADZ 4K ALR 빔프로젝터 스크린 삼각대 세트 고반사 고명암비 가정용/영화관용 접이식 이동형 + 거치대 포함, 16:9, 100형 할인 100,760 36%64,480 " [ref=e99]
+    - listitem:
+      - link "오브룸 이지플레이 원룸 침실용 무설치 빔프로젝터 1080p 캠핑용, OV-BP13 빔프로젝터 단품 199,000 25%149,000 무료배송 무료반품 내일(월) 도착 보장(67)" [ref=e100]
+    - listitem:
+      - link "옵토마 5000안시 XGA 사무용 강의용 업소용 교회용 회의용 학원용 카페 매장용 수업용 영업용 홍보용 강의실 회의실 사무실 빔프로젝터, OKX-FA 850,000 23%649,0" [ref=e101]
+    - listitem:
+      - link "엑스지미 MIRA 시리즈 4K 초단초점 프로젝터 할인 2,690,000 26%1,990,000 무료배송 무료반품 내일(월) 도착 보장(6)" [ref=e102]
+    - listitem:
+      - link "[당일배송]특허받은 삼각대스크린 빔스크린 가방포함 빔프로젝터스크린 프로젝터스크린 4:3/16:9 호환 40/60/80/100/120인치/울트라매트원단/캠핑용/회의용/이동형/가정용," [ref=e103]
+  - button [ref=e104]
+  - text: "오늘의  판매자 특가 1/5"
+  - list:
+    - listitem:
+      - link [ref=e105]:
+        - image "미니멀공간 빔프로젝터 틈새 히든거치대 스탠드 받침대 브라켓 선반, 화이트"
+        - text: "특가진행중 미니멀공간 빔프로젝터 틈새 히든거치대 스탠드 받침대 브라켓 선반, 화이트 할인 40%70,000 41,710 원 모레(화) 도착 예정 무료배송 100%(10)99 % 남음"
+    - listitem:
+      - link [ref=e106]:
+        - image "LOVFIR 프로젝터 4k 초고화질 프로젝터 휴대용 구름대 프로젝터, A10"
+        - text: "특가진행중 LOVFIR 프로젝터 4k 초고화질 프로젝터 휴대용 구름대 프로젝터, A10 와우할인 13%154,800 134,240 원 내일(월) 도착 보장 90%(202)54 % 남음"
+    - listitem:
+      - link [ref=e107]:
+        - image "Flixtone 풀HD 빔프로젝터 가정용 빔프로젝트 Android 스마트빔, 데스크톱 스탠드"
+        - text: "특가진행중 Flixtone 풀HD 빔프로젝터 가정용 빔프로젝트 Android 스마트빔, 데스크톱 스탠드 할인 20%19,990 15,990 원 내일(월) 도착 보장 90%(60)85 % 남음"
+    - listitem:
+      - link [ref=e108]:
+        - image "빔스크린 빔스크린천 빔프로젝트 스크린 암막스크린 100인치 72인치, 16:9 / 100인치"
+        - text: "특가진행중 빔스크린 빔스크린천 빔프로젝트 스크린 암막스크린 100인치 72인치, 16:9 / 100인치 할인 27%26,900 19,500 원 모레(화) 도착 예정 무료배송 80%(47)90 % 남음"
+    - listitem:
+      - link [ref=e109]:
+        - image "스탠드 프로젝터 화면 구멍 없는 휴대용 주름 및 조명 차단 벽면 16:9 블랙 후면 HD 회의실/홈 시어터, 84인치"
+        - text: "특가진행중 스탠드 프로젝터 화면 구멍 없는 휴대용 주름 및 조명 차단 벽면 16:9 블랙 후면 HD 회의실/홈 시어터, 84인치 할인 60%83,110 33,240 원 내일(월) 도착 보장 80%(7)99 % 남음"
+    - listitem:
+      - link [ref=e110]:
+        - image "옥외 듀얼 삼각 스탠드 프로젝터 스크린 블랙 후면 주름 방지 HD 스크린 광시야각 세트 고반사 고대비도 가정용/회의실/홈시어터, 150인치"
+        - text: "특가진행중 옥외 듀얼 삼각 스탠드 프로젝터 스크린 블랙 후면 주름 방지 HD 스크린 광시야각 세트 고반사 고대비도 가정용/회의실/홈시어터, 150인치 할인 64%172,630 61,720 원 내일(월) 도착 보장 30%(2)99 % 남음"
+    - listitem:
+      - link [ref=e111]:
+        - image "스탠드 접이식 휴대용 스크린 광시야각 듀얼 삼각대 가방 주름 방지 접이식, 150형"
+        - text: "특가진행중 스탠드 접이식 휴대용 스크린 광시야각 듀얼 삼각대 가방 주름 방지 접이식, 150형 할인 42%103,500 59,560 원 내일(월) 도착 보장 100%(1)99 % 남음"
+    - listitem:
+      - link "특가진행중 Kismetic 프로젝터 빔스크린 삼각대 16:9 높이 조절이 가능한, 100 인치 (220 x 125 cm)할인 35%75,000 48,510 원 내일(월) 도착 보장" [ref=e112]
+    - listitem:
+      - link "특가진행중 가정용 주름 방지 고밀도 캠핑용 이동형 대형 심플 프로젝션 커튼 휴대용 블랙 후면, 150인치 할인 28%40,240 28,970 원 내일(월) 도착 보장 70%(5)9" [ref=e113]
+    - listitem:
+... [snapshot truncated at 16 KiB; narrow it with { interactive: true }, selector or ref]
