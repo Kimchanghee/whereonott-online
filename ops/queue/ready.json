@@ -25,6 +25,8 @@
     "photoCount": 6,
     "addedAt": "2026-11-15T10:48:24.195Z",
     "creatorSessionId": "kuWJU8rq0pCnpQnO",
-    "status": "pending-dryrun"
+    "status": "ready",
+    "dryRunPassedAt": "2026-11-15T10:56:57.339Z",
+    "dryRunReceipt": "../_mac/bridge/results/20261115-1920-shop-dryrun-corrected.json"
   }
 ]
