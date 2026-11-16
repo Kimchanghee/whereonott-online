@@ -48,3 +48,5 @@
 | HT-S2000 사운드바, HDMI 입력과 TV 자리 확인 | 정확 옵션·구매버튼 2026-11-15 확인, 제휴 URI 발급, 사진6 원본 시각검수·SHA, 전체 격리검사 62/62 | 상품 노트(제휴) | 대기(queued) | 미발행 (sony-ht-s2000-tv-input-placement-check) |
 
 | epson-ef21w-small-room-placement-check | pick | queued | 2026-11-15 exact option verified; 6 photos; dry-run passed |
+
+| lg-hu710pb-usbc-room-connection-check | pick | 시네빔 큐브 HU710PB USB-C 연결 확인 | queued | 2026-11-16 13:00 KST; full rehearsal 66/66 passed |

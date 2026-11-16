@@ -1,0 +1,64 @@
+# note: interactive (clickable / focusable) elements only.
+- title: "쿠팡 파트너스 공식 사이트 - Coupang Partners" [url=https://partners.coupang.com/#affiliate/ws/linkgeneration/PRODUCT/8266158238/23818470624?product%5Btype%5D=PRODUCT&product%5Bite…]
+- banner:
+  - link "Coupang Partners" [ref=e1]
+  - menu:
+    - menuitem [ref=e2]:
+      - link "홈" [ref=e3]
+    - menuitem [ref=e4]:
+      - link "내 정보" [ref=e5]
+    - menuitem "링크 생성" [ref=e6]
+    - menuitem "추가 기능" [ref=e8]
+    - menuitem "리포트" [ref=e10]
+    - menuitem "약관 및 정책" [ref=e12]
+    - menuitem "도움말" [ref=e14]
+    - menuitem [ref=e16]:
+      - link "공지사항" [ref=e17]
+  - generic "쿠팡 인플루언서" [ref=e18]
+  - generic "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 " [ref=e19]
+  - generic "마이 페이지" [ref=e20]
+- link "홈" [ref=e68]
+- link "상품 링크" [ref=e69]
+- text: "링크 생성"
+- heading [level=1]:
+  - text: "링크 생성  채널 아이디:"
+  - combobox "기본값" [ref=e70]
+- region: "단축 URL 혹은 HTML 코드를 복사하여  블로그 혹은 SNS, 웹사이트에 붙여주세요 1 상품 탐색  2 마음에 드는 상품 선택  3 URL 혹은 배너 만들기"
+- region:
+  - link [ref=e71]
+  - region:
+    - heading "단축 URL" [level=3]
+    - text: "https://link.coupang.com/a/iIwszaBA16"
+    - image [ref=e72]
+    - image [ref=e73]
+    - button "URL 복사" [ref=e74]
+    - text: "*활동 시 주의 사항 \n1. 게시글 작성 시, 아래 문구를 반드시 기재해 주세요.\n\"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\"\n쿠팡 파트너스의 활동은 공정거래위원회의 심사지침에 따라 추천, 보증인인 파트너스 회원과 당사의 경제적 이해관계에 …[+245 chars]"
+  - region:
+    - heading "이미지 + 텍스트" [level=3]
+    - heading "미리보기" [level=2]
+    - label [ref=e75]:
+      - checkbox "보더라인" [ref=e76] [hidden] [checked]
+      - text: "보더라인"
+    - heading [level=2]: "HTML   iframe 이 적용되지 않는 곳에는 블로그용 태그를 이용하세요"
+    - label [ref=e77]:
+      - radio "일반태그" [ref=e78] [hidden] [checked]
+      - text: "일반태그"
+    - label [ref=e79]:
+      - radio "블로그용 태그" [ref=e80] [hidden]
+      - text: "블로그용 태그"
+    - text: "<iframe src=\"https://coupa.ng/cq0Lqf\" width=\"120\" height=\"240\" frameborder=\"0\" scrolling=\"no\" referrerpolicy=\"unsafe-url\"></iframe>"
+    - button "HTML 복사" [ref=e81]
+- contentinfo:
+  - text: "coupang partners 쿠팡(주) | 대표이사: 로저스 해롤드 린(Rogers Harold Lynn)(05050) 서울특별시 광진구 아차산로 412, 2층 (자양동)사업자 등록번호: 120-88-00767 통신판매업신고: 2026-서울광진-1253 /"
+  - link "사업자정보 확인" [ref=e35]
+  - link "개인정보 처리방침" [ref=e36]
+  - text: "Copyright © Coupang Corp. 2018-2020 All Rights Reserved.문의하기"
+  - link "partners@coupang.com" [ref=e37]
+  - link "Kakao" [ref=e38]
+  - link "Facebook" [ref=e39]
+  - link "YouTube" [ref=e40]
+  - link "Naver" [ref=e41]
+  - link "Instagram" [ref=e42]
+- iframe:
+  - text: "LG전자 시네빔 큐브, HU710PB"
+  - link "쇼핑하기" [ref=f2e1]

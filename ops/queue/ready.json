@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "slug": "lg-hu710pb-usbc-room-connection-check",
+    "manuscript": "ops/queue/lg-hu710pb-usbc-room-connection-check.md",
+    "sourceURL": "https://www.coupang.com/vp/products/8266158238?itemId=23818470624",
+    "issuedURI": "https://link.coupang.com/a/iIwszaBA16",
+    "option": "HU710PB / 본체 1대",
+    "verifyTokens": [
+      "HU710PB",
+      "8266158238",
+      "23818470624"
+    ],
+    "evidence": "ops/queue/evidence/lg-hu710pb-usbc-room-connection-check.md",
+    "images": [
+      "ops/queue/images/lg-hu710pb-usbc-room-connection-check/01-hu1.webp",
+      "ops/queue/images/lg-hu710pb-usbc-room-connection-check/02-hu2c.webp",
+      "ops/queue/images/lg-hu710pb-usbc-room-connection-check/03-hu3c.webp",
+      "ops/queue/images/lg-hu710pb-usbc-room-connection-check/04-hu4.webp",
+      "ops/queue/images/lg-hu710pb-usbc-room-connection-check/05-hu5c.webp",
+      "ops/queue/images/lg-hu710pb-usbc-room-connection-check/06-hu6.webp",
+      "ops/queue/images/lg-hu710pb-usbc-room-connection-check/thumb-hu710pb.webp"
+    ],
+    "dryRunPassedAt": "2026-11-16T04:19:47.741Z",
+    "dryRunReceipt": "rebuild-202610/_mac/bridge/results/20261116-1300-where-dryrun3.json"
+  }
+]

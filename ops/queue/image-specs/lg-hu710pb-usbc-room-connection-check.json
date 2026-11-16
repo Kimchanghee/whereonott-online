@@ -1,0 +1,96 @@
+{
+  "slot": "20261116-1300-shop",
+  "creatorSessionId": "x8uoezs9mqRqn2EK",
+  "photoCount": 6,
+  "referenceSource": "https://www.lge.co.kr/kr/images/projectors/md10331827/usp/2nd/HU710PB_02_02_pc.png",
+  "photos": [
+    {
+      "id": "hu1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261116-1300/hu1.png",
+      "sourceSHA256": "9889efd3eda20b7030d2aae7eda3d95abb7f5c6a24c268506e5d226f9d33895c",
+      "sourceBytes": 2012686,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": null,
+      "target": "ops/queue/images/lg-hu710pb-usbc-room-connection-check/01-hu1.webp",
+      "targetSHA256": "69cc0181670cb6b1b454ff256b63dbb9f884c842c5bd245b79cd8daf6bd10a5c",
+      "visualQA": "read_file original: sensor/lens/handle/vents match reference; crops are editorial details, no altered geometry"
+    },
+    {
+      "id": "hu2c",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261116-1300/hu2c.png",
+      "sourceSHA256": "99aba61e14fd9be2ca217e45db2dc6217bc76bb2765681ecd448039786cf129e",
+      "sourceBytes": 1977629,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": null,
+      "target": "ops/queue/images/lg-hu710pb-usbc-room-connection-check/02-hu2c.webp",
+      "targetSHA256": "4539203842f06a837e666329d30d5f389657fd5cff7b96a6307360f93314135f",
+      "visualQA": "read_file original: sensor/lens/handle/vents match reference; crops are editorial details, no altered geometry"
+    },
+    {
+      "id": "hu3c",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261116-1300/hu3c.png",
+      "sourceSHA256": "0ec098f437438f35464c3cc75e406972e8697065dc727cd07b8ebede4ab2315a",
+      "sourceBytes": 2037616,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": {
+        "left": 350,
+        "top": 35,
+        "width": 900,
+        "height": 600
+      },
+      "target": "ops/queue/images/lg-hu710pb-usbc-room-connection-check/03-hu3c.webp",
+      "targetSHA256": "f4d03357a5f055f542525439c5777e38fb07ab0e4dada2786a5a23af73bb708b",
+      "visualQA": "read_file original: sensor/lens/handle/vents match reference; crops are editorial details, no altered geometry"
+    },
+    {
+      "id": "hu4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261116-1300/hu4.png",
+      "sourceSHA256": "2123100d94a63419e637504d96a7930051fbc7f716cb42a9cb1e09ea98065cd5",
+      "sourceBytes": 1968264,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": null,
+      "target": "ops/queue/images/lg-hu710pb-usbc-room-connection-check/04-hu4.webp",
+      "targetSHA256": "4f31d8fe7fffcf1cf22f08a450c73ca7ac5ddeee52c380682e57a35e5696ccdf",
+      "visualQA": "read_file original: sensor/lens/handle/vents match reference; crops are editorial details, no altered geometry"
+    },
+    {
+      "id": "hu5c",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261116-1300/hu5c.png",
+      "sourceSHA256": "17fadc57ff815d1a6ea781e779defdff2f4beae146796a3f4db044a3d43e4d55",
+      "sourceBytes": 2023637,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": {
+        "left": 470,
+        "top": 310,
+        "width": 480,
+        "height": 320
+      },
+      "target": "ops/queue/images/lg-hu710pb-usbc-room-connection-check/05-hu5c.webp",
+      "targetSHA256": "05f2a6874fbfddb28e60741ae7711dee6c90d9634ee7d11c39100ba81523ae4f",
+      "visualQA": "read_file original: sensor/lens/handle/vents match reference; crops are editorial details, no altered geometry"
+    },
+    {
+      "id": "hu6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261116-1300/hu6.png",
+      "sourceSHA256": "1f8127a3b6d1cb9b34fa56eb0543ff4cf6b49caf36e2344b7576340eed3ab1a0",
+      "sourceBytes": 2157738,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "crop": null,
+      "target": "ops/queue/images/lg-hu710pb-usbc-room-connection-check/06-hu6.webp",
+      "targetSHA256": "2e7883657a78d2afed611bc461c07e376b62e1e45923d29860105da46b20c424",
+      "visualQA": "read_file original: sensor/lens/handle/vents match reference; crops are editorial details, no altered geometry"
+    }
+  ],
+  "rejected": [
+    "hu2",
+    "hu3",
+    "hu5"
+  ],
+  "allUnpublished": true
+}
