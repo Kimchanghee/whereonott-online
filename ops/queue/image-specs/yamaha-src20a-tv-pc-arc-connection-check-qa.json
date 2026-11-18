@@ -1,0 +1,87 @@
+{
+  "observedUTC": "2026-11-18T10:42:12.551Z",
+  "creatorSessionId": "VhL995F7QaZyzI0x",
+  "slot": "20261118-1920-shop",
+  "photoCount": 6,
+  "method": "Exact original read_file visual inspection once each; native manufacturer reference matched. No QA collage or resized QA copies.",
+  "photos": [
+    {
+      "id": "ya1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya1.png",
+      "sourceSHA256": "da08cbb3b1053c43257a9821f75098ca7182f0ef721e6e9359147dbaa3eab8af",
+      "sourceBytes": 2286119,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-src20a-tv-pc-arc-connection-check/01-ya1.webp",
+      "targetSHA256": "15b52c1ec47b83591a03973ca8203562bab2cb1a1d05d45d28409b36d6253348",
+      "targetBytes": 83518,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "ya2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya2.png",
+      "sourceSHA256": "e130f31b6330de1cdaa533157a71f15dacdfc6fe3e85ff96e95f4a39a0c6c254",
+      "sourceBytes": 2405523,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-src20a-tv-pc-arc-connection-check/02-ya2.webp",
+      "targetSHA256": "74ee9b44a79d56db2c11b1b69e02ab23abb210ff68097476664974116c22a188",
+      "targetBytes": 92032,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "ya3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya3.png",
+      "sourceSHA256": "edd8f5d81a4dee115c6ca796aab07401dc8ad362c77944b7098b65cd403bf084",
+      "sourceBytes": 2926272,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-src20a-tv-pc-arc-connection-check/03-ya3.webp",
+      "targetSHA256": "681c01c8e81d6743694cda6d215e392389706dd3c3e8db6859b696b911add0b5",
+      "targetBytes": 130570,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "ya4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya4.png",
+      "sourceSHA256": "146a072ba581b5b872e097d5e1e17e32b23b36cd6741d865d7b69c25cd5ed363",
+      "sourceBytes": 2686552,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-src20a-tv-pc-arc-connection-check/04-ya4.webp",
+      "targetSHA256": "8df7adb374488b56958eaf685fd3499723039bb05c8241a0778f4ccf8e02fdb4",
+      "targetBytes": 138496,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "ya5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya5.png",
+      "sourceSHA256": "1a48b78c84f4694789f7684b9940212e9df1b4d10108c61c84acc0bd6b7db414",
+      "sourceBytes": 2425572,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-src20a-tv-pc-arc-connection-check/05-ya5.webp",
+      "targetSHA256": "ef4d7206edf05172f8ea1f1b65e70dcaa950c5eeb968d24107ba2395c0e8436d",
+      "targetBytes": 115150,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "ya6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya6.png",
+      "sourceSHA256": "ef086da2ce1ecbd17c5b79ba82318ab9a55cd170beadceb449a9e8fc50839ba6",
+      "sourceBytes": 2416738,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-src20a-tv-pc-arc-connection-check/06-ya6.webp",
+      "targetSHA256": "81c9e614efbb1d26ac14dad1bf740a87135719b8c2e42061a43272f08528aa1b",
+      "targetBytes": 73764,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    }
+  ]
+}

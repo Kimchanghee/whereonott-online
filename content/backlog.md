@@ -52,3 +52,5 @@
 | lg-hu710pb-usbc-room-connection-check | pick | 시네빔 큐브 HU710PB USB-C 연결 확인 | queued | 2026-11-16 13:00 KST; full rehearsal 66/66 passed |
 
 | CO-FH02, 동글과 게임기를 함께 꽂아 둘 수 있을까? | epson-cofh02-hdmi-dongle-room-check | queued | 2026-11-18 SHOP 13:00; 6 photos; native option verified; publication pending |
+
+| SR-C20A, TV와 PC의 HDMI를 똑같이 연결할까? | yamaha-src20a-tv-pc-arc-connection-check | queued | 2026-11-18 SHOP 19:20; 6 photos; isolated dry-run passed; publication pending |

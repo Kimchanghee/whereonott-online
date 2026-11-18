@@ -1,0 +1,36 @@
+{
+  "slug": "yamaha-src20a-tv-pc-arc-connection-check",
+  "manuscript": "ops/queue/yamaha-src20a-tv-pc-arc-connection-check.md",
+  "jobs": [
+    {
+      "name": "01-ya1.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya1.png",
+      "width": 1280
+    },
+    {
+      "name": "02-ya2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya2.png",
+      "width": 1280
+    },
+    {
+      "name": "03-ya3.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya3.png",
+      "width": 1280
+    },
+    {
+      "name": "04-ya4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya4.png",
+      "width": 1280
+    },
+    {
+      "name": "05-ya5.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya5.png",
+      "width": 1280
+    },
+    {
+      "name": "06-ya6.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1920/ya6.png",
+      "width": 1280
+    }
+  ]
+}
