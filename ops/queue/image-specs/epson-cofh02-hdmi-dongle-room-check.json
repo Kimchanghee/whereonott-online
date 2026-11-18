@@ -1,0 +1,42 @@
+{
+  "slug": "epson-cofh02-hdmi-dongle-room-check",
+  "manuscript": "ops/queue/epson-cofh02-hdmi-dongle-room-check.md",
+  "jobs": [
+    {
+      "name": "01-co1fix.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co1fix.png",
+      "width": 1280
+    },
+    {
+      "name": "02-co2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co2.png",
+      "width": 1280
+    },
+    {
+      "name": "03-co3.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co3.png",
+      "width": 1280
+    },
+    {
+      "name": "04-co4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co4.png",
+      "width": 1280
+    },
+    {
+      "name": "05-co5.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co5.png",
+      "width": 1280,
+      "crop": {
+        "left": 550,
+        "top": 370,
+        "width": 950,
+        "height": 633
+      }
+    },
+    {
+      "name": "06-co6fix.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co6fix.png",
+      "width": 1280
+    }
+  ]
+}

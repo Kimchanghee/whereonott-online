@@ -1,0 +1,80 @@
+{
+  "observedUTC": "2026-11-18T04:32:26.383Z",
+  "slot": "20261118-1300-shop",
+  "creatorSessionId": "d8zxn8V3ZO3cCgDc",
+  "photoCount": 6,
+  "method": "read_file exact original each; actual WebP output from selected source. No QA-only image copies",
+  "photos": [
+    {
+      "id": "co1fix",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co1fix.png",
+      "sourceSHA256": "e4389a140c824d1f7d8857190b27cefd2a2361082eaef59c4c7f78781f89d5dc",
+      "sourceBytes": 1876975,
+      "target": "ops/queue/images/epson-cofh02-hdmi-dongle-room-check/01-co1fix.webp",
+      "targetSHA256": "be299b9f31f766317ac27e7682af358999fb7dec5b2c30aa579d00aaf827e8a5",
+      "targetBytes": 48744,
+      "crop": null,
+      "visualQA": "CO-FH02 white ribbed body/lens/focus/speaker per refs; co1fix screen unlit, co6fix removes incompatible US plug, co5 editorial crop excludes mismatched top controls; cropped WebP read_file inspected"
+    },
+    {
+      "id": "co2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co2.png",
+      "sourceSHA256": "95b4ac44f8e9f2a6e10c33b12e9881d02a356f423eaa97fdf05581a3d1375ecb",
+      "sourceBytes": 1805501,
+      "target": "ops/queue/images/epson-cofh02-hdmi-dongle-room-check/02-co2.webp",
+      "targetSHA256": "6995757a93f1b22337a1bf64acd4a075e1e891f7c88b9b04b25c7771cd0eed37",
+      "targetBytes": 21870,
+      "crop": null,
+      "visualQA": "CO-FH02 white ribbed body/lens/focus/speaker per refs; co1fix screen unlit, co6fix removes incompatible US plug, co5 editorial crop excludes mismatched top controls; cropped WebP read_file inspected"
+    },
+    {
+      "id": "co3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co3.png",
+      "sourceSHA256": "dc128f902398c30b42651d4a87f511f780852fc15f5a0b039f38b71327f103ce",
+      "sourceBytes": 2850365,
+      "target": "ops/queue/images/epson-cofh02-hdmi-dongle-room-check/03-co3.webp",
+      "targetSHA256": "c7d923eaa97966492e660a8cdf35da35930625cc35fc90b73f3dc730a84ed1a1",
+      "targetBytes": 92526,
+      "crop": null,
+      "visualQA": "CO-FH02 white ribbed body/lens/focus/speaker per refs; co1fix screen unlit, co6fix removes incompatible US plug, co5 editorial crop excludes mismatched top controls; cropped WebP read_file inspected"
+    },
+    {
+      "id": "co4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co4.png",
+      "sourceSHA256": "a2598fdcf2264526e35ef902cecb3598ac06405c99e93e303604c2e22a53e033",
+      "sourceBytes": 2190874,
+      "target": "ops/queue/images/epson-cofh02-hdmi-dongle-room-check/04-co4.webp",
+      "targetSHA256": "00e9cf199e41761c354cdba269833627141e788af8c6cf7bcbd50146cc43ebe1",
+      "targetBytes": 73770,
+      "crop": null,
+      "visualQA": "CO-FH02 white ribbed body/lens/focus/speaker per refs; co1fix screen unlit, co6fix removes incompatible US plug, co5 editorial crop excludes mismatched top controls; cropped WebP read_file inspected"
+    },
+    {
+      "id": "co5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co5.png",
+      "sourceSHA256": "4484b7be896433eab66932d569e793b75cfc4e1e277c8c805391cedbc426f6b7",
+      "sourceBytes": 1834000,
+      "target": "ops/queue/images/epson-cofh02-hdmi-dongle-room-check/05-co5.webp",
+      "targetSHA256": "0334c5a043c938deef341a824eb9ef811fa1c11ec39ebb504015c248d636cc57",
+      "targetBytes": 27090,
+      "crop": {
+        "left": 550,
+        "top": 370,
+        "width": 950,
+        "height": 633
+      },
+      "visualQA": "CO-FH02 white ribbed body/lens/focus/speaker per refs; co1fix screen unlit, co6fix removes incompatible US plug, co5 editorial crop excludes mismatched top controls; cropped WebP read_file inspected"
+    },
+    {
+      "id": "co6fix",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261118-1300/co6fix.png",
+      "sourceSHA256": "3719c372cc04ace0f86dd7d057d764e5842228da35028497a12a0f736fd27aea",
+      "sourceBytes": 1778443,
+      "target": "ops/queue/images/epson-cofh02-hdmi-dongle-room-check/06-co6fix.webp",
+      "targetSHA256": "34a0082d2278b494ba841e17d20ebdb40d64428e875cf432c1e4b60490edc29b",
+      "targetBytes": 38964,
+      "crop": null,
+      "visualQA": "CO-FH02 white ribbed body/lens/focus/speaker per refs; co1fix screen unlit, co6fix removes incompatible US plug, co5 editorial crop excludes mismatched top controls; cropped WebP read_file inspected"
+    }
+  ]
+}
