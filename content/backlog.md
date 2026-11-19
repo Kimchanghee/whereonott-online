@@ -54,3 +54,5 @@
 | CO-FH02, 동글과 게임기를 함께 꽂아 둘 수 있을까? | epson-cofh02-hdmi-dongle-room-check | queued | 2026-11-18 SHOP 13:00; 6 photos; native option verified; publication pending |
 
 | SR-C20A, TV와 PC의 HDMI를 똑같이 연결할까? | yamaha-src20a-tv-pc-arc-connection-check | queued | 2026-11-18 SHOP 19:20; 6 photos; isolated dry-run passed; publication pending |
+
+| 삼성 B400F 사운드바, ARC와 광출력 중 무엇을 볼까? | samsung-b400f-arc-optical-tv-choice | queued | 2026-11-19 SHOP 13:00; 6 photos; isolated dry-run passed; publication pending |

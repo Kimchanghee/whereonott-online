@@ -1,0 +1,87 @@
+{
+  "observedUTC": "2026-11-19T04:25:11.189Z",
+  "creatorSessionId": "P6HMkyeVTUCG88Qe",
+  "slot": "20261119-1300-shop",
+  "photoCount": 6,
+  "method": "Exact original read_file visual inspection once each; native manufacturer reference matched. No QA collage or resized QA copies.",
+  "photos": [
+    {
+      "id": "bf1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1300/bf1.png",
+      "sourceSHA256": "fbb8a231f52d19051a57d2b06e5d798debe3a8630d888a83042d4d59eb9c1a22",
+      "sourceBytes": 2152611,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/samsung-b400f-arc-optical-tv-choice/01-bf1.webp",
+      "targetSHA256": "093fcc876683d7ffc49ffad8677a4e274a2a67f1c53c1c07628dc30425ab57b9",
+      "targetBytes": 73310,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "bf2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1300/bf2.png",
+      "sourceSHA256": "6c30192165947a45d8250fbe72d598874ba0c7245a12408d3ae900a29f2a354a",
+      "sourceBytes": 2528190,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/samsung-b400f-arc-optical-tv-choice/02-bf2.webp",
+      "targetSHA256": "a85aa745e27ae2def07c70a228f37073e237e70f882e044bdbaafe6345887944",
+      "targetBytes": 119720,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "bf3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1300/bf3.png",
+      "sourceSHA256": "bb9f5b4abf7a130c27517009f389fa13ad3d4a71495176050c3e8a258d89235c",
+      "sourceBytes": 2895580,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/samsung-b400f-arc-optical-tv-choice/03-bf3.webp",
+      "targetSHA256": "05e3078d90441cfce944c6c9b63943651c692454e04da5be5cd149349d693cf9",
+      "targetBytes": 138310,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "bf4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1300/bf4.png",
+      "sourceSHA256": "c03da744a6ad0d4cd4d7069de4360f41d7f6a10f38b38f8a1ee8c4dd46dbc8b7",
+      "sourceBytes": 2302016,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/samsung-b400f-arc-optical-tv-choice/04-bf4.webp",
+      "targetSHA256": "de2003a5a31556143b8ab6df98a1f8dbf440f155cf6691a96e0b5a9a9d7c2b9d",
+      "targetBytes": 99982,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "bf5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1300/bf5.png",
+      "sourceSHA256": "bcb4297cc15db1d3313fc4a5fc9d0f8a45c6fcb3b5719e43df0bec18fe8cb8be",
+      "sourceBytes": 2822464,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/samsung-b400f-arc-optical-tv-choice/05-bf5.webp",
+      "targetSHA256": "16639a2e8cf898d976b1a79d30bb01494237bbb1b8081725a2ffb31ad9d85097",
+      "targetBytes": 142404,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    },
+    {
+      "id": "bf6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1300/bf6.png",
+      "sourceSHA256": "dcf933ef44b50ce71fc35790da1877089d7b409f141cede65fbb3ddfcfe8345e",
+      "sourceBytes": 2166656,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/samsung-b400f-arc-optical-tv-choice/06-bf6.webp",
+      "targetSHA256": "837c96517655075e2dc2b22a99d99350f7ab371d797df96f56e2850afddd90f0",
+      "targetBytes": 53386,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof",
+      "pngCRCChunksVerified": 4
+    }
+  ]
+}
