@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "slug": "belkin-avc012-usbc-video-output-tv-check",
+    "sourceURL": "https://www.coupang.com/vp/products/7038637937?itemId=17398773451",
+    "issuedURI": "https://link.coupang.com/a/iNWsKB41vM",
+    "productName": "벨킨 USB C타입-HDMI 2.1 케이블 AVC012bt2M",
+    "option": "2m / 블랙(AVC012bt2MBK) / 1개",
+    "verifyTokens": [
+      "AVC012bt2MBK",
+      "2m",
+      "7038637937 - 17398773451"
+    ],
+    "file": "ops/queue/belkin-avc012-usbc-video-output-tv-check.md",
+    "manuscript": "ops/queue/belkin-avc012-usbc-video-output-tv-check.md",
+    "evidence": "ops/queue/evidence/belkin-avc012-usbc-video-output-tv-check.md",
+    "images": [
+      "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/01-bc1.webp",
+      "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/02-bc2-side.webp",
+      "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/03-bc3.webp",
+      "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/04-bc4.webp",
+      "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/05-bc5.webp",
+      "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/06-bc6.webp"
+    ],
+    "preparedAt": "2026-11-19T10:40:29Z",
+    "verifiedAt": "2026-11-19T10:30:50Z",
+    "creatorSessionId": "TD5DeGmfm90YOfVQ",
+    "slot": "20261119-1920-shop",
+    "dryRunPassedAt": "2026-11-19T10:42:55.029Z",
+    "dryRunBridgeReceipt": "rebuild-202610/_mac/bridge/results/20261119-1920-shop-dryrun-fixed-input.json"
+  }
+]

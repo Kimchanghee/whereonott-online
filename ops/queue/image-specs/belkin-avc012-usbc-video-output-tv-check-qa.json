@@ -1,0 +1,81 @@
+{
+  "observedUTC": "2026-11-19T10:40:29.421Z",
+  "creatorSessionId": "TD5DeGmfm90YOfVQ",
+  "slot": "20261119-1920-shop",
+  "photoCount": 6,
+  "method": "Exact original read_file visual inspection once each; native manufacturer reference matched. No QA collage or resized QA copies.",
+  "photos": [
+    {
+      "id": "bc1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1920/bc1.png",
+      "sourceSHA256": "5899b3fdb783797909f6921a5960625c5d4dcc8e69f0a616c1c76965ff034f1a",
+      "sourceBytes": 2342329,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/01-bc1.webp",
+      "targetSHA256": "d9e7b99a715f7368d99f710c8f96137b2aa552fb74140278d2994be9def09519",
+      "targetBytes": 121392,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "bc2-side",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1920/bc2-side.png",
+      "sourceSHA256": "1e0151fee135595efd08bd223c3137172b6bf9ffade1ab35041e64f143fc2c3f",
+      "sourceBytes": 2317723,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/02-bc2-side.webp",
+      "targetSHA256": "f530b6b5a15f8f1dfa6df91891d9af7452d08b6000e06e169ea4e985bf5409e0",
+      "targetBytes": 109386,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "bc3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1920/bc3.png",
+      "sourceSHA256": "083b0f99b0b1d290e1cee9aba7ec969cae7b7549dc67f9705c5f00dd0c417b76",
+      "sourceBytes": 2707443,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/03-bc3.webp",
+      "targetSHA256": "3cd008166459b2aefcd8f6a8b76e50268677ebe0fb093e0a8b6d24aeeca2dea5",
+      "targetBytes": 153560,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "bc4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1920/bc4.png",
+      "sourceSHA256": "8a11c2f5b21762edcbabcd7147baba6b13e85307819a2f773e7e073d8e130a57",
+      "sourceBytes": 3156806,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/04-bc4.webp",
+      "targetSHA256": "8704793dfcb3aca6343f493a9a9413365428bc0df8237fbd84bfbb6a486f53fc",
+      "targetBytes": 202552,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "bc5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1920/bc5.png",
+      "sourceSHA256": "4d6a1587ba64175a1292fb73113a607d6d2cc7e7a8d8548f4472ca6162c4207d",
+      "sourceBytes": 2429074,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/05-bc5.webp",
+      "targetSHA256": "4035256ad052025cb04b5c733f98dd99c48728ae3b8947d378cc9b2dabab8210",
+      "targetBytes": 124862,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "bc6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261119-1920/bc6.png",
+      "sourceSHA256": "0d84d49984594c1b8eae1a846da3940d0a96f835362680c98102b3abd6dcc551",
+      "sourceBytes": 2664480,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/belkin-avc012-usbc-video-output-tv-check/06-bc6.webp",
+      "targetSHA256": "dec62fb2fe98db5c56e209cd5cc515154c01d34d0052df8fabce7571621d4e33",
+      "targetBytes": 133922,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    }
+  ]
+}
