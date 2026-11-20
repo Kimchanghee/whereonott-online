@@ -1,0 +1,81 @@
+{
+  "observedUTC": "2026-11-20T04:17:03.305Z",
+  "creatorSessionId": "xphcVf8NPL5xEaUV",
+  "slot": "20261120-1300-shop",
+  "photoCount": 6,
+  "method": "Exact original read_file visual inspection once each; native manufacturer reference matched. No QA collage or resized QA copies.",
+  "photos": [
+    {
+      "id": "yb1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb1.png",
+      "sourceSHA256": "980f9e91661e1906d12c0f98736d692dbbcab4a7ab526c504aded9e2eb2577e6",
+      "sourceBytes": 2370254,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-srb20a-arc-input-power-check/01-yb1.webp",
+      "targetSHA256": "f85c648d430db4f553acb543358f9ceeef18bdbebbfdd862edfe8fda0c5bd5d5",
+      "targetBytes": 113552,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "yb2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb2.png",
+      "sourceSHA256": "ebae3bad66a058afcf227edfe217cd48eee7bfd5188051de2d724dddef0357f1",
+      "sourceBytes": 2203815,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-srb20a-arc-input-power-check/02-yb2.webp",
+      "targetSHA256": "6410c7c423bd27d9ee673abdf81f33a7c02c179ad87f431d9e86c53ed575fec1",
+      "targetBytes": 73794,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "yb3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb3.png",
+      "sourceSHA256": "4c5df4cef3dcb39e12b43b9fbb05226317a322e86b83cc044fc69d386519383c",
+      "sourceBytes": 2620092,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-srb20a-arc-input-power-check/03-yb3.webp",
+      "targetSHA256": "09442e90541035ff70508177d8a650be16be9892a8a7a992d605bb59bd8ed548",
+      "targetBytes": 154348,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "yb4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb4.png",
+      "sourceSHA256": "e3aee924adcc1340194525b021bfc48dd13e386ed7d40426a061a030b7d65e34",
+      "sourceBytes": 2915636,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-srb20a-arc-input-power-check/04-yb4.webp",
+      "targetSHA256": "756b7337f47cd4be61b78b42864efb110e48963a09cb20fd7034b5a51793d72f",
+      "targetBytes": 167056,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "yb5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb5.png",
+      "sourceSHA256": "e040d47088090b074116f8f7e3124a6f620b65860d6c8f0b07c3dbc8cedc7dc4",
+      "sourceBytes": 2466998,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-srb20a-arc-input-power-check/05-yb5.webp",
+      "targetSHA256": "f7894d6e474da3df4f4349880fc3842ce5265a81a2f845731a76e932b211a79a",
+      "targetBytes": 103722,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    },
+    {
+      "id": "yb6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb6.png",
+      "sourceSHA256": "0a481c992851ba2184208e19dec8d83db7cbfc99af6ad7cb3707120ca37a4f1e",
+      "sourceBytes": 2759713,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/yamaha-srb20a-arc-input-power-check/06-yb6.webp",
+      "targetSHA256": "8dbb2de3c9e8744bcde31a7b072613e0ade757145b3fe8f435b013baeee982d9",
+      "targetBytes": 150504,
+      "visualQA": "accepted; distinct role; no logo/text/art anomaly; ALT grounded to visible scene; conceptual not actual use/performance proof"
+    }
+  ]
+}

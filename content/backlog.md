@@ -58,3 +58,5 @@
 | 삼성 B400F 사운드바, ARC와 광출력 중 무엇을 볼까? | samsung-b400f-arc-optical-tv-choice | queued | 2026-11-19 SHOP 13:00; 6 photos; isolated dry-run passed; publication pending |
 
 | C타입 HDMI 케이블, AVC012는 충전 포트에도 될까? | belkin-avc012-usbc-video-output-tv-check | queued | 2026-11-19 SHOP 19:20; 6 photos; isolated dry-run passed; publication pending |
+
+| 야마하 SR-B20A, HDMI 입력과 전원부터 볼까요? | yamaha-srb20a-arc-input-power-check | queued | 2026-11-20 SHOP 13:00; 6 photos; isolated dry-run passed; publication pending |

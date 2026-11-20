@@ -1,0 +1,36 @@
+{
+  "slug": "yamaha-srb20a-arc-input-power-check",
+  "manuscript": "ops/queue/yamaha-srb20a-arc-input-power-check.md",
+  "jobs": [
+    {
+      "name": "01-yb1.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb1.png",
+      "width": 1280
+    },
+    {
+      "name": "02-yb2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb2.png",
+      "width": 1280
+    },
+    {
+      "name": "03-yb3.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb3.png",
+      "width": 1280
+    },
+    {
+      "name": "04-yb4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb4.png",
+      "width": 1280
+    },
+    {
+      "name": "05-yb5.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb5.png",
+      "width": 1280
+    },
+    {
+      "name": "06-yb6.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261120-1300/yb6.png",
+      "width": 1280
+    }
+  ]
+}
