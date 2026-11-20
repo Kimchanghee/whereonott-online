@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "slug": "benq-gv32-ceiling-usbc-power-check",
+    "sourceURL": "https://www.coupang.com/vp/products/9371336127?itemId=27814767145&vendorItemId=94774561498",
+    "issuedURI": "https://link.coupang.com/a/iPBl0API7w",
+    "productName": "벤큐 LED 천장측면투사 구글OS 내장형 미니 빔프로젝터",
+    "option": "GV32 / 혼합색상 / 1개",
+    "verifyTokens": [
+      "GV32",
+      "9371336127 - 27814767145"
+    ],
+    "file": "ops/queue/benq-gv32-ceiling-usbc-power-check.md",
+    "manuscript": "ops/queue/benq-gv32-ceiling-usbc-power-check.md",
+    "evidence": "ops/queue/evidence/benq-gv32-ceiling-usbc-power-check.md",
+    "images": [
+      "ops/queue/images/benq-gv32-ceiling-usbc-power-check/01-gv1-final.webp",
+      "ops/queue/images/benq-gv32-ceiling-usbc-power-check/02-gv2.webp",
+      "ops/queue/images/benq-gv32-ceiling-usbc-power-check/03-gv3.webp",
+      "ops/queue/images/benq-gv32-ceiling-usbc-power-check/04-gv4.webp",
+      "ops/queue/images/benq-gv32-ceiling-usbc-power-check/05-gv5.webp",
+      "ops/queue/images/benq-gv32-ceiling-usbc-power-check/06-gv6.webp"
+    ],
+    "preparedAt": "2026-11-20T10:39:27Z",
+    "verifiedAt": "2026-11-20T10:35:38Z",
+    "creatorSessionId": "csIcW2hT5iIPrYXo",
+    "slot": "20261120-1920-shop",
+    "dryRunPassedAt": "2026-11-20T10:48:46.598Z",
+    "dryRunBridgeReceipt": "rebuild-202610/_mac/bridge/results/20261120-1920-shop-dryrun-quoted-dates.json"
+  }
+]
