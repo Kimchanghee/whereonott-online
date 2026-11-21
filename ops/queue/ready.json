@@ -24,6 +24,8 @@
     "preparedAt": "2026-11-21T10:42:18.143Z",
     "verifiedAt": "2026-11-21T10:37:34.995Z",
     "creatorSessionId": "HHSQYEvVJbzqDG3o",
-    "slot": "20261121-1920-shop"
+    "slot": "20261121-1920-shop",
+    "dryRunPassedAt": "2026-11-21T10:45:30.500Z",
+    "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/bridge/results/20261121-1920-shop-home-dryrun-schema-fixed.json"
   }
 ]
