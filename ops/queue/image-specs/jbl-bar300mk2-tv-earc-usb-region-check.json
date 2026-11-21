@@ -1,0 +1,40 @@
+{
+  "slug": "jbl-bar300mk2-tv-earc-usb-region-check",
+  "manuscript": "ops/queue/jbl-bar300mk2-tv-earc-usb-region-check.md",
+  "jobs": [
+    {
+      "name": "01-bar1.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar1.png",
+      "width": 1280
+    },
+    {
+      "name": "02-bar2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar2.png",
+      "width": 1280
+    },
+    {
+      "name": "03-bar3.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar3.png",
+      "width": 1280
+    },
+    {
+      "name": "04-bar4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar4.png",
+      "width": 1280
+    },
+    {
+      "name": "05-bar5-correct.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar5-correct.png",
+      "width": 1280
+    },
+    {
+      "name": "06-bar6.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar6.png",
+      "width": 1280
+    }
+  ],
+  "visualQA": "Originals read_file once each; target corrected photos only accepted",
+  "rejected": [
+    "bar5.png:unverifiedUSplug"
+  ]
+}

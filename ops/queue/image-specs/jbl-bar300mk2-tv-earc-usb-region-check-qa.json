@@ -1,0 +1,96 @@
+{
+  "observedUTC": "2026-11-21T10:42:18.142Z",
+  "creatorSessionId": "HHSQYEvVJbzqDG3o",
+  "slot": "20261121-1920-shop",
+  "photoCount": 6,
+  "photos": [
+    {
+      "id": "bar1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar1.png",
+      "sourceSHA256": "1c321df79cceaed26718d8a304f0bde6db3a3ec27675d4a6fe5e3e25fd23e998",
+      "sourceBytes": 2138540,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/jbl-bar300mk2-tv-earc-usb-region-check/01-bar1.webp",
+      "targetSHA256": "a50d779c77310b9a3ec528bbef08cf7c6cb4bace1dc55e11e7c6d338824f0005",
+      "targetBytes": 66822,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted against real official identity and region; distinct scene; original read_file only; illustrative not actual test"
+    },
+    {
+      "id": "bar2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar2.png",
+      "sourceSHA256": "76039aaedafc8da966f61198fdee9603b6afaa890164238fd4281b1b15fb59ea",
+      "sourceBytes": 2239708,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/jbl-bar300mk2-tv-earc-usb-region-check/02-bar2.webp",
+      "targetSHA256": "93d0a1cad8103e4b64f41759c72e8daa1754d792498cb31b260f1ae2240b85ae",
+      "targetBytes": 51650,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted against real official identity and region; distinct scene; original read_file only; illustrative not actual test"
+    },
+    {
+      "id": "bar3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar3.png",
+      "sourceSHA256": "56178b4505822b5b66ee3cba38f7eb08044850954a09bf9f796447ef78f50ccc",
+      "sourceBytes": 2288395,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/jbl-bar300mk2-tv-earc-usb-region-check/03-bar3.webp",
+      "targetSHA256": "043dff3bd0bfea69d21ddeedc1d1e7c4a7fc101aebd3b84c9ac4019f612cd210",
+      "targetBytes": 73818,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted against real official identity and region; distinct scene; original read_file only; illustrative not actual test"
+    },
+    {
+      "id": "bar4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar4.png",
+      "sourceSHA256": "3b34949831a36ee76c5ffb0ef0c4f4135735a4f13060de30f8cf2bbf7d57dd08",
+      "sourceBytes": 1634801,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/jbl-bar300mk2-tv-earc-usb-region-check/04-bar4.webp",
+      "targetSHA256": "9ee7280ad88a951a0acc24ade6411981a7054b88ffe116901fabcee83238be4a",
+      "targetBytes": 54872,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted against real official identity and region; distinct scene; original read_file only; illustrative not actual test"
+    },
+    {
+      "id": "bar5-correct",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar5-correct.png",
+      "sourceSHA256": "eae209ece0e5f43972780fb581b9170a46aed1bdbf19a0561e2e9c8ec9573115",
+      "sourceBytes": 2123249,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/jbl-bar300mk2-tv-earc-usb-region-check/05-bar5-correct.webp",
+      "targetSHA256": "f9cf0c1cd808d891f8bc0fb6a47d98b52c1381b7305f9c357270cf2ac6b6ee3d",
+      "targetBytes": 85476,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted against real official identity and region; distinct scene; original read_file only; illustrative not actual test"
+    },
+    {
+      "id": "bar6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261121-1920/bar6.png",
+      "sourceSHA256": "08c641180cacc4b54a5869265760bd97f98a6036977d17c43b7bfd1b88343066",
+      "sourceBytes": 2158760,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/jbl-bar300mk2-tv-earc-usb-region-check/06-bar6.webp",
+      "targetSHA256": "ec79ebc50590bfdd803d303a0f1fd0c6f25c0c5b3ec0046da5c0937448f88275",
+      "targetBytes": 62396,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted against real official identity and region; distinct scene; original read_file only; illustrative not actual test"
+    }
+  ],
+  "rejected": [
+    "bar5.png:unverifiedUSplug"
+  ],
+  "originalReadFileQA": true
+}

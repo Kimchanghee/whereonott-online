@@ -1,0 +1,35 @@
+{
+  "builtAt": "2026-11-21T10:42:18.132Z",
+  "dims": {
+    "01-bar1.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 66822
+    },
+    "02-bar2.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 51650
+    },
+    "03-bar3.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 73818
+    },
+    "04-bar4.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 54872
+    },
+    "05-bar5-correct.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 85476
+    },
+    "06-bar6.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 62396
+    }
+  }
+}
