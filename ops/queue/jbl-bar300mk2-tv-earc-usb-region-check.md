@@ -48,7 +48,7 @@ images:
     width: 1280
     height: 853
   - src: "/images/picks/jbl-bar300mk2-tv-earc-usb-region-check/05-bar5-correct.webp"
-    alt: "사운드바 뒤 연결 단자와 옆에 분리한 케이블"
+    alt: "사운드바 뒷면의 전원과 USB HDMI 광입력 단자"
     role: "context"
     rights: "generated"
     credit: "편집팀 제작 (제조사 공식 사진 참고)"
@@ -76,14 +76,10 @@ faq:
   - q: "450W가 정격 출력인가요?"
     a: "규격표의 450W는 최대 출력 표기이며 같은 표의 RMS @THD 1%는 225W로 별도 표기됩니다."
 checklist:
-  - label: "모델"
-    text: "BAR300MK2와 블랙 옵션을 확인합니다."
-  - label: "TV 단자"
-    text: "eARC 또는 ARC와 CEC 설정을 확인합니다."
-  - label: "공간"
-    text: "가로 940mm와 TV 화면 아래 높이를 대조합니다."
-  - label: "USB"
-    text: "미국 버전 한정 재생과 서비스 단자를 구분합니다."
+  - "모델: BAR300MK2와 블랙 옵션을 확인합니다."
+  - "TV 단자: eARC 또는 ARC와 CEC 설정을 확인합니다."
+  - "공간: 가로 940mm와 TV 화면 아래 높이를 대조합니다."
+  - "USB: 미국 버전 한정 재생과 서비스 단자를 구분합니다."
 ---
 
 TV 옆에 우퍼를 따로 둘 공간이 없어 올인원 사운드바를 찾는다면 연결 경로부터 정하는 편이 좋습니다. BAR300MK2는 메인 바 한 개를 쓰는 5.0채널 모델이며, 같은 HDMI 모양이라도 TV와 재생기를 어느 쪽에 꽂는지가 중요합니다.
@@ -120,7 +116,7 @@ HDMI 입력 한 개와 eARC 출력 한 개를 각각 세어야 합니다. 재생
 ## USB와 블루투스는 같은 음악 입력인가요?
 아닙니다. 한국어 규격표는 USB 오디오 재생을 미국 버전으로 한정하고, 다른 버전의 USB는 서비스용으로 구분합니다. 국내 블랙 옵션을 USB 메모리 재생기처럼 선택하지 마세요.
 
-<figure class="fig"><img src="/images/picks/jbl-bar300mk2-tv-earc-usb-region-check/05-bar5-correct.webp" alt="사운드바 뒤 연결 단자와 옆에 분리한 케이블" width="1280" height="853" loading="lazy" decoding="async"><figcaption>사운드바 뒤 연결 단자와 옆에 분리한 케이블</figcaption></figure>
+<figure class="fig"><img src="/images/picks/jbl-bar300mk2-tv-earc-usb-region-check/05-bar5-correct.webp" alt="사운드바 뒷면의 전원과 USB HDMI 광입력 단자" width="1280" height="853" loading="lazy" decoding="async"><figcaption>사운드바 뒷면의 전원과 USB HDMI 광입력 단자</figcaption></figure>
 
 블루투스와 Wi-Fi 스트리밍은 별도 연결 경로입니다. 설명서는 JBL One 앱으로 홈 네트워크를 설정하는 방법을 안내하며, 스트리밍 서비스의 제공 국가와 구독 조건은 따로 확인해야 한다고 구분합니다.
 
