@@ -7,7 +7,7 @@ description: "JBL BAR300MK2 블랙의 HDMI eARC·ARC 연결 경로와 미국 버
 draft: false
 published: "2026-11-21T10:42:17Z"
 updated: "2026-11-21T10:42:17Z"
-category: "soundbar"
+category: "sound"
 primaryKeyword: "JBL BAR300MK2 연결"
 product:
   name: "삼성 JBL BAR 사운드바 벽걸이 거실용 가정용 홈시어터 블루투스 TV스피커"
