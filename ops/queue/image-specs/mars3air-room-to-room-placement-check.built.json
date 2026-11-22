@@ -1,0 +1,35 @@
+{
+  "builtAt": "2026-11-22T10:46:31.821Z",
+  "dims": {
+    "01-ma1.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 58644
+    },
+    "02-ma2.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 122880
+    },
+    "03-ma3.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 112154
+    },
+    "04-ma4.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 102496
+    },
+    "05-ma5.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 139650
+    },
+    "06-ma6.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 62354
+    }
+  }
+}
