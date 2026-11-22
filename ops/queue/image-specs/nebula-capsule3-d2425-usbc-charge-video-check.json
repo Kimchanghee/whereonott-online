@@ -1,0 +1,41 @@
+{
+  "slug": "nebula-capsule3-d2425-usbc-charge-video-check",
+  "manuscript": "ops/queue/nebula-capsule3-d2425-usbc-charge-video-check.md",
+  "jobs": [
+    {
+      "name": "01-cp1-correct.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp1-correct.png",
+      "width": 1280
+    },
+    {
+      "name": "02-cp2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp2.png",
+      "width": 1280
+    },
+    {
+      "name": "03-cp3-correct.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp3-correct.png",
+      "width": 1280
+    },
+    {
+      "name": "04-cp4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp4.png",
+      "width": 1280
+    },
+    {
+      "name": "05-cp5.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp5.png",
+      "width": 1280
+    },
+    {
+      "name": "06-cp6.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp6.png",
+      "width": 1280
+    }
+  ],
+  "visualQA": "All originals inspected through read_file only",
+  "rejected": [
+    "cp1.png:projection direction conflict; corrected to powered-off placement scene",
+    "cp3.png:US power adapter not confirmed for Korean bundle; adapter removed by exact-target edit"
+  ]
+}

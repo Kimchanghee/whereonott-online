@@ -64,3 +64,5 @@
 | 벤큐 GV32, 천장 투사와 보조배터리 조건은? | benq-gv32-ceiling-usbc-power-check | queued | 2026-11-20 SHOP 19:20; 6 photos; isolated dry-run passed; publication pending |
 
 | JBL BAR300MK2, eARC와 USB 재생은 다 될까요? | jbl-bar300mk2-tv-earc-usb-region-check | queued | 2026-11-21 SHOP 19:20; 6 photos; isolated rehearsal passed; publication pending |
+
+| nebula-capsule3-d2425-usbc-charge-video-check | pick | queued | 네뷸라 캡슐3, USB-C로 영상도 넣을까요? | 2026-11-22 SHOP; exact option; six inspected photos; isolated rehearsal pending |

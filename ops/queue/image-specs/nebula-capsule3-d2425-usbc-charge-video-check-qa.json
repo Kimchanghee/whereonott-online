@@ -1,0 +1,97 @@
+{
+  "observedUTC": "2026-11-22T04:17:52.929Z",
+  "creatorSessionId": "b0lICpeNALZD4nwO",
+  "slot": "20261122-1300-shop",
+  "photoCount": 6,
+  "photos": [
+    {
+      "id": "cp1-correct",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp1-correct.png",
+      "sourceSHA256": "e676d621ee9549047e26f7c25e4139354d3fc8dcd46de6dfbd7e08a169e2a809",
+      "sourceBytes": 1808400,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/nebula-capsule3-d2425-usbc-charge-video-check/01-cp1-correct.webp",
+      "targetSHA256": "2ab15d0c5492cda84cceb3176478d81e575795ca3e91c5bdc68799fff780bca0",
+      "targetBytes": 47706,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted after original read_file once, real official reference attached, structure/color/scene checked; not physical performance evidence"
+    },
+    {
+      "id": "cp2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp2.png",
+      "sourceSHA256": "51961205985080fc51a038b7165d405f06da812be91640a3baeeae50ffca6a13",
+      "sourceBytes": 2126727,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/nebula-capsule3-d2425-usbc-charge-video-check/02-cp2.webp",
+      "targetSHA256": "0718a45bcb4df496218eb1cee63a14912b98f8cbb6a3022179288cc52bcdebc9",
+      "targetBytes": 87214,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted after original read_file once, real official reference attached, structure/color/scene checked; not physical performance evidence"
+    },
+    {
+      "id": "cp3-correct",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp3-correct.png",
+      "sourceSHA256": "14a5acaf3a2a95466e79921e939db6d97c63f0ef6b084a37422b9e654a37bc95",
+      "sourceBytes": 2010428,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/nebula-capsule3-d2425-usbc-charge-video-check/03-cp3-correct.webp",
+      "targetSHA256": "ea71ce09ad1ccf0f683ac302a3f819cf3743fdc8f652e811d47345a2c9bbff45",
+      "targetBytes": 79590,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted after original read_file once, real official reference attached, structure/color/scene checked; not physical performance evidence"
+    },
+    {
+      "id": "cp4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp4.png",
+      "sourceSHA256": "5726ac60a72e84c35a7a9c9b3556b821ac411ffced9afacc26acb15d470d8c8c",
+      "sourceBytes": 2231336,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/nebula-capsule3-d2425-usbc-charge-video-check/04-cp4.webp",
+      "targetSHA256": "b43abc02a2a2f95e53623d55bc851757c0739faedcca2d15a2d8c8c66a91914a",
+      "targetBytes": 90364,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted after original read_file once, real official reference attached, structure/color/scene checked; not physical performance evidence"
+    },
+    {
+      "id": "cp5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp5.png",
+      "sourceSHA256": "2398f73200d5368bdc9d83b3f27ad3e871ba707949aa98c13f19081d60440a19",
+      "sourceBytes": 2139778,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/nebula-capsule3-d2425-usbc-charge-video-check/05-cp5.webp",
+      "targetSHA256": "fea7e223534104c2090770aeebbc36693b871a6ce9416a5f08a3bdadd6c8293a",
+      "targetBytes": 78118,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted after original read_file once, real official reference attached, structure/color/scene checked; not physical performance evidence"
+    },
+    {
+      "id": "cp6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261122-1300/cp6.png",
+      "sourceSHA256": "dddd9a0e0d8499dc55bbf276c66a044953e76f107708b06f93636196f2f10a38",
+      "sourceBytes": 2681493,
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "target": "ops/queue/images/nebula-capsule3-d2425-usbc-charge-video-check/06-cp6.webp",
+      "targetSHA256": "0ebc33c6904c33cd1a618fb21026eb75bab8fc5078c819ecbb070bc600d428cc",
+      "targetBytes": 148670,
+      "targetWidth": 1280,
+      "targetHeight": 853,
+      "visualQA": "accepted after original read_file once, real official reference attached, structure/color/scene checked; not physical performance evidence"
+    }
+  ],
+  "rejected": [
+    "cp1.png:projection direction conflict; corrected to powered-off placement scene",
+    "cp3.png:US power adapter not confirmed for Korean bundle; adapter removed by exact-target edit"
+  ],
+  "originalReadFileQA": true
+}
