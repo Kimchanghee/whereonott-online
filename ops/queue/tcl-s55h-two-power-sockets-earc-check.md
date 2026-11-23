@@ -7,7 +7,7 @@ description: "TCL S55H의 2.1채널 구성과 무선 서브우퍼를 전원 두 
 draft: false
 published: "2026-11-23T04:09:10Z"
 updated: "2026-11-23T04:09:10Z"
-category: "audio"
+category: "sound"
 primaryKeyword: "TCL S55H"
 product:
   name: "TCL 무선 서브우퍼 2.1채널 돌비 애트모스 사운드바"
