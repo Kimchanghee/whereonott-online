@@ -1,0 +1,114 @@
+{
+  "slug": "belkin-av10175-2m-hdmi-route-port-check",
+  "manuscript": "ops/queue/belkin-av10175-2m-hdmi-route-port-check.md",
+  "jobs": [
+    {
+      "name": "01-bk1.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk1.png",
+      "width": 1280
+    },
+    {
+      "name": "02-bk2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk2.png",
+      "width": 1280
+    },
+    {
+      "name": "03-bk3.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk3.png",
+      "width": 1280
+    },
+    {
+      "name": "04-bk4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk4.png",
+      "width": 1280
+    },
+    {
+      "name": "05-bk5.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk5.png",
+      "width": 1280
+    },
+    {
+      "name": "06-bk6.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk6.png",
+      "width": 1280
+    }
+  ],
+  "photos": [
+    {
+      "id": "bk1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk1.png",
+      "sourceSHA256": "0ac5a444a2ce0eaa00453f50cc5888c5ecfcf5f3e33c1dd692e022ff5d885f9c",
+      "sourceBytes": 2003703,
+      "target": "ops/queue/images/belkin-av10175-2m-hdmi-route-port-check/01-bk1.webp",
+      "targetSHA256": "0602edc483db5e48fa707a5d6b16d2c8dfaee32fbe39f75e4468573ef9c923de",
+      "targetBytes": 72890,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "bk2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk2.png",
+      "sourceSHA256": "0ed023e47353fd23c6f20cec0bb64c028b27c6125a34684f3f9aa1824f6041ad",
+      "sourceBytes": 2193142,
+      "target": "ops/queue/images/belkin-av10175-2m-hdmi-route-port-check/02-bk2.webp",
+      "targetSHA256": "a8219341f286ea907b0bf8103c30357233e205abc25aa1a233c8cfdb5738908a",
+      "targetBytes": 51922,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "bk3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk3.png",
+      "sourceSHA256": "9235962a0c10670cc20f429f851d921e8d1b5481648ea85410e3d2d56624561c",
+      "sourceBytes": 2058251,
+      "target": "ops/queue/images/belkin-av10175-2m-hdmi-route-port-check/03-bk3.webp",
+      "targetSHA256": "af71df3a36b57afafa29649f10e55c9353f25128ead2349e7841a733e74d81ed",
+      "targetBytes": 64396,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "bk4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk4.png",
+      "sourceSHA256": "b9f6290650e618ffbc21ef8eb4548c7b99952c8a7395171cb063ef67797901ae",
+      "sourceBytes": 2436991,
+      "target": "ops/queue/images/belkin-av10175-2m-hdmi-route-port-check/04-bk4.webp",
+      "targetSHA256": "1cdc054174cc23e305e1eadb5f27e687df54a3e9b1d2db96f4e8670dd3dd656f",
+      "targetBytes": 124336,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "bk5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk5.png",
+      "sourceSHA256": "1a9f674b21f171df14b3e153dc18e0b3d4367cf64d19f8e7c2f666c9a6b41270",
+      "sourceBytes": 2319931,
+      "target": "ops/queue/images/belkin-av10175-2m-hdmi-route-port-check/05-bk5.webp",
+      "targetSHA256": "eea65d4c0d7644e450a09135accff4b32b21d131c3c3f54265b0ffc51a526caf",
+      "targetBytes": 114790,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "bk6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1920/bk6.png",
+      "sourceSHA256": "b7b3dfb12d484c8c558b6c81ac623dffde957c63b73d48c5cf3c0f8c368e5f8e",
+      "sourceBytes": 2222447,
+      "target": "ops/queue/images/belkin-av10175-2m-hdmi-route-port-check/06-bk6.webp",
+      "targetSHA256": "13f7d9b75f616612c25b6057b3bba905772a8c27e23b0015dec0849300217053",
+      "targetBytes": 86298,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    }
+  ],
+  "originalReadFileQA": true,
+  "creatorSessionId": "Zx2gArertWZu4WiO",
+  "slot": "20261123-1920-shop",
+  "rejected": []
+}
