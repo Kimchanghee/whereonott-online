@@ -1,0 +1,114 @@
+{
+  "slug": "tcl-s55h-two-power-sockets-earc-check",
+  "manuscript": "ops/queue/tcl-s55h-two-power-sockets-earc-check.md",
+  "jobs": [
+    {
+      "name": "01-tc1.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc1.png",
+      "width": 1280
+    },
+    {
+      "name": "02-tc2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc2.png",
+      "width": 1280
+    },
+    {
+      "name": "03-tc3.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc3.png",
+      "width": 1280
+    },
+    {
+      "name": "04-tc4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc4.png",
+      "width": 1280
+    },
+    {
+      "name": "05-tc5.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc5.png",
+      "width": 1280
+    },
+    {
+      "name": "06-tc6.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc6.png",
+      "width": 1280
+    }
+  ],
+  "photos": [
+    {
+      "id": "tc1",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc1.png",
+      "sourceSHA256": "b3c4c45dd71a2121bd8e3308a868504446080307dbdec02ec537f793cc369844",
+      "sourceBytes": 2187147,
+      "target": "ops/queue/images/tcl-s55h-two-power-sockets-earc-check/01-tc1.webp",
+      "targetSHA256": "a7fa0dbf6c4e99a66b07160f40f5cbd89d9a0e4f3f8732545a47bcf32854e033",
+      "targetBytes": 76668,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "tc2",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc2.png",
+      "sourceSHA256": "80f41c99c37999cfa1c29ac0d2deda1e387b802cb5ea16fb7f3d5b33ee614b65",
+      "sourceBytes": 2121177,
+      "target": "ops/queue/images/tcl-s55h-two-power-sockets-earc-check/02-tc2.webp",
+      "targetSHA256": "659bac668bf703b5092122c340e5ed06e5c2c3a319e779f3688b65e7acdd6467",
+      "targetBytes": 99208,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "tc3",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc3.png",
+      "sourceSHA256": "2a782fb8187b6e15d4988bbf0876085ec3d82d7fe7406264ca409fd4d40c1040",
+      "sourceBytes": 2383016,
+      "target": "ops/queue/images/tcl-s55h-two-power-sockets-earc-check/03-tc3.webp",
+      "targetSHA256": "6ceb72bfb3353f613be0aad11954ffe47508c7c49c428e58da1924665ee029c5",
+      "targetBytes": 81742,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "tc4",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc4.png",
+      "sourceSHA256": "02d7354a5c72316beda75c8031c068d277c7aae156e0a8108738c118a306aeb1",
+      "sourceBytes": 2915156,
+      "target": "ops/queue/images/tcl-s55h-two-power-sockets-earc-check/04-tc4.webp",
+      "targetSHA256": "6e275223ca691e565390c08d295d5e44cf04dcb79d26cb50897fdfd3696768e5",
+      "targetBytes": 169332,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "tc5",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc5.png",
+      "sourceSHA256": "037b202c7a113ffa043822e6580eb0d584c4296a2c7c998949133b0a3ca313cc",
+      "sourceBytes": 1974676,
+      "target": "ops/queue/images/tcl-s55h-two-power-sockets-earc-check/05-tc5.webp",
+      "targetSHA256": "c5c6b69a43405195c5897b705e33080a858e3618c0a13231b38b9f9fd9601a47",
+      "targetBytes": 73672,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    },
+    {
+      "id": "tc6",
+      "source": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261123-1300/tc6.png",
+      "sourceSHA256": "ddd932608ba5ad50d58a5bfbe786e5f35320937090258e2955aaf3d0cad3fa0a",
+      "sourceBytes": 2344883,
+      "target": "ops/queue/images/tcl-s55h-two-power-sockets-earc-check/06-tc6.webp",
+      "targetSHA256": "82c896b8381a76b6f1faf502bbf6f7dd941b65899887dd7ec72b0b2cd55b9cb4",
+      "targetBytes": 105940,
+      "width": 1280,
+      "height": 853,
+      "visualQA": "accepted; original read_file once; exact official reference actually attached; shape/count/color/text checked; not physical test evidence"
+    }
+  ],
+  "originalReadFileQA": true,
+  "creatorSessionId": "ANC24lmpQT4hoGPW",
+  "slot": "20261123-1300-shop",
+  "rejected": []
+}

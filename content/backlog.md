@@ -68,3 +68,5 @@
 | nebula-capsule3-d2425-usbc-charge-video-check | pick | queued | 네뷸라 캡슐3, USB-C로 영상도 넣을까요? | 2026-11-22 SHOP; exact option; six inspected photos; isolated build/gate passed |
 
 | mars3air-room-to-room-placement-check | pick | queued | 네뷸라 마스3 에어, 배터리만 보고 골라도 될까요? | 2026-11-22 SHOP evening; exact option; six inspected photos; isolated gate pending |
+
+| tcl-s55h-two-power-sockets-earc-check | pick | queued | TCL S55H, 무선인데 콘센트가 두 곳 필요할까? | 2026-11-23 SHOP13:00; exact option; six inspected photos; isolated gate pending |
