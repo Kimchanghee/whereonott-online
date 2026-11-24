@@ -1,0 +1,36 @@
+{
+  "slug": "chromecast-google-tv-hd-1080p-4k-tv-check",
+  "manuscript": "ops/queue/chromecast-google-tv-hd-1080p-4k-tv-check.md",
+  "jobs": [
+    {
+      "name": "01-c1.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261124-1920/c1.png",
+      "width": 1280
+    },
+    {
+      "name": "02-c4.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261124-1920/c4.png",
+      "width": 1280
+    },
+    {
+      "name": "03-c2.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261124-1920/c2.png",
+      "width": 1280
+    },
+    {
+      "name": "04-c5.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261124-1920/c5.png",
+      "width": 1280
+    },
+    {
+      "name": "05-c3.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261124-1920/c3.png",
+      "width": 1280
+    },
+    {
+      "name": "06-c6.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261124-1920/c6.png",
+      "width": 1280
+    }
+  ]
+}

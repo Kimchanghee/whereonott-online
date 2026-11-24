@@ -72,3 +72,5 @@
 | tcl-s55h-two-power-sockets-earc-check | pick | queued | TCL S55H, 무선인데 콘센트가 두 곳 필요할까? | 2026-11-23 SHOP13:00; exact option; six inspected photos; isolated gate pending |
 
 | belkin-av10175-2m-hdmi-route-port-check | pick | queued | 벨킨 HDMI 2m, TV 옆 직선거리만 재면 될까요? | 2026-11-23 SHOP evening; exact option; six inspected photos; isolated gate pending |
+
+| chromecast-google-tv-hd-1080p-4k-tv-check | pick | queued | 크롬캐스트 HD, 4K TV에 꽂으면 4K로 나올까요? | 2026-11-24 SHOP 19:20; exact option GA03131-KR; six inspected photos; isolated dry-run passed (gate 92/92); publication pending |

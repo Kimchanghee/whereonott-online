@@ -1,0 +1,35 @@
+{
+  "builtAt": "2026-11-24T10:37:50.841Z",
+  "dims": {
+    "01-c1.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 61408
+    },
+    "02-c4.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 55730
+    },
+    "03-c2.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 45992
+    },
+    "04-c5.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 45462
+    },
+    "05-c3.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 144556
+    },
+    "06-c6.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 44454
+    }
+  }
+}
