@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "slug": "next402sp4k60-mirror-vs-extended-screen-check",
+    "sourceURL": "https://www.coupang.com/vp/products/1223755714",
+    "issuedURI": "https://link.coupang.com/a/iVNIaWEjKu",
+    "productName": "넥스트유 UHD 1대2 HDMI 2.0 분배기 NEXT-402SP4K60",
+    "option": "NEXT-402SP4K60 / 혼합 색상 × 1개",
+    "verifyTokens": [
+      "NEXT-402SP4K60",
+      "혼합 색상 × 1개",
+      "1223755714 - 2215321633"
+    ],
+    "file": "ops/queue/next402sp4k60-mirror-vs-extended-screen-check.md",
+    "manuscript": "ops/queue/next402sp4k60-mirror-vs-extended-screen-check.md",
+    "evidence": "ops/queue/evidence/next402sp4k60-mirror-vs-extended-screen-check.md",
+    "images": [
+      "ops/queue/images/next402sp4k60-mirror-vs-extended-screen-check/01-sp1.webp",
+      "ops/queue/images/next402sp4k60-mirror-vs-extended-screen-check/02-sp2.webp",
+      "ops/queue/images/next402sp4k60-mirror-vs-extended-screen-check/03-sp3.webp",
+      "ops/queue/images/next402sp4k60-mirror-vs-extended-screen-check/04-sp4.webp",
+      "ops/queue/images/next402sp4k60-mirror-vs-extended-screen-check/05-sp5.webp",
+      "ops/queue/images/next402sp4k60-mirror-vs-extended-screen-check/06-sp6.webp"
+    ],
+    "preparedAt": "2026-11-24T04:25:43.771Z",
+    "verifiedAt": "2026-11-24T04:23:43Z",
+    "creatorSessionId": "A5t5EnihL5nqYmXK",
+    "slot": "20261124-1300-shop",
+    "dryRunPassedAt": "2026-11-24T04:26:41.689Z",
+    "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/bridge/logs/20261124-1300-shop-kr-dryrun2-claude.log"
+  }
+]
