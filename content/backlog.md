@@ -74,3 +74,5 @@
 | belkin-av10175-2m-hdmi-route-port-check | pick | queued | 벨킨 HDMI 2m, TV 옆 직선거리만 재면 될까요? | 2026-11-23 SHOP evening; exact option; six inspected photos; isolated gate pending |
 
 | chromecast-google-tv-hd-1080p-4k-tv-check | pick | queued | 크롬캐스트 HD, 4K TV에 꽂으면 4K로 나올까요? | 2026-11-24 SHOP 19:20; exact option GA03131-KR; six inspected photos; isolated dry-run passed (gate 92/92); publication pending |
+
+| xiaomi-tv-box-s-2nd-gen-no-lan-usb-ethernet-check | pick | queued | 샤오미 TV 박스 S 2세대, 랜선으로 연결할 수 있을까요? | 2026-11-25 SHOP 13:00 (takeover); exact option; six inspected photos; isolated dry-run pending |
