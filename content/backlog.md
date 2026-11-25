@@ -77,4 +77,4 @@
 
 | xiaomi-tv-box-s-2nd-gen-no-lan-usb-ethernet-check | pick | queued | 샤오미 TV 박스 S 2세대, 랜선으로 연결할 수 있을까요? | 2026-11-25 SHOP 13:00 (takeover); exact option; six inspected photos; isolated dry-run passed (gate 94/94); publication pending |
 
-| apple-tv-4k-2022-ethernet-model-vs-wifi-model-check | pick | queued | 애플TV 4K 이더넷 지원 모델, Wi-Fi 모델과 무엇이 다를까요? | 2026-11-25 SHOP 19:20 (takeover); exact option; six inspected photos; isolated dry-run pending |
+| apple-tv-4k-2022-ethernet-model-vs-wifi-model-check | pick | queued | 애플TV 4K 이더넷 지원 모델, Wi-Fi 모델과 무엇이 다를까요? | 2026-11-25 SHOP 19:20 (takeover); exact option; six inspected photos; isolated dry-run passed (gate 96/96); publication pending |
