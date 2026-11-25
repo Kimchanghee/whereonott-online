@@ -1,0 +1,36 @@
+{
+  "slug": "lg-s70tr-rear-speakers-wire-power-check",
+  "manuscript": "ops/queue/lg-s70tr-rear-speakers-wire-power-check.md",
+  "jobs": [
+    {
+      "name": "01-wl1b-cover.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261125-1920/wl1b_cover.png",
+      "width": 1280
+    },
+    {
+      "name": "02-wl2-rear-speakers.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261125-1920/wl2_rear_speakers.png",
+      "width": 1280
+    },
+    {
+      "name": "03-wl3-contents.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261125-1920/wl3_contents.png",
+      "width": 1280
+    },
+    {
+      "name": "04-wl5-subwoofer-power.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261125-1920/wl5_subwoofer_power.png",
+      "width": 1280
+    },
+    {
+      "name": "05-wl4-soundbar-rear.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261125-1920/wl4_soundbar_rear.png",
+      "width": 1280
+    },
+    {
+      "name": "06-wl6-wall-mount.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261125-1920/wl6_wall_mount.png",
+      "width": 1280
+    }
+  ]
+}

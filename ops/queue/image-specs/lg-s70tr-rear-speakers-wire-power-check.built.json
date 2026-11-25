@@ -1,0 +1,35 @@
+{
+  "builtAt": "2026-11-25T10:51:56.731Z",
+  "dims": {
+    "01-wl1b-cover.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 41140
+    },
+    "02-wl2-rear-speakers.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 89304
+    },
+    "03-wl3-contents.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 205530
+    },
+    "04-wl5-subwoofer-power.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 50246
+    },
+    "05-wl4-soundbar-rear.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 47588
+    },
+    "06-wl6-wall-mount.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 35346
+    }
+  }
+}
