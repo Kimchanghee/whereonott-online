@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "slug": "apple-tv-4k-2022-ethernet-model-vs-wifi-model-check",
+    "sourceURL": "https://www.coupang.com/vp/products/6912123681?itemId=16661686588&vendorItemId=83845334204",
+    "issuedURI": "https://link.coupang.com/a/iXT4R2sRj2",
+    "productName": "Apple 2022 애플TV + 이더넷 지원",
+    "option": "MN893KH/A / 1개",
+    "verifyTokens": [
+      "Apple 2022 애플TV + 이더넷 지원",
+      "MN893KH/A",
+      "6912123681 - 16661686588"
+    ],
+    "file": "ops/queue/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check.md",
+    "manuscript": "ops/queue/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check.md",
+    "evidence": "ops/queue/evidence/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check.md",
+    "images": [
+      "ops/queue/images/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check/01-wo1-cover.webp",
+      "ops/queue/images/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check/02-wo2-rear-ports.webp",
+      "ops/queue/images/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check/03-wo3-wired-router.webp",
+      "ops/queue/images/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check/04-wo4b-smarthome.webp",
+      "ops/queue/images/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check/05-wo5-box-contents.webp",
+      "ops/queue/images/apple-tv-4k-2022-ethernet-model-vs-wifi-model-check/06-wo6-remote-usbc.webp"
+    ],
+    "preparedAt": "2026-11-25T10:42:26.138Z",
+    "verifiedAt": "2026-11-25T10:27:00Z",
+    "creatorSessionId": "DkJFOEOUZ4mpTuPc",
+    "slot": "20261125-1920-shop"
+  }
+]

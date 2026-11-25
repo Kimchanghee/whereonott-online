@@ -1,0 +1,35 @@
+{
+  "builtAt": "2026-11-25T10:42:26.135Z",
+  "dims": {
+    "01-wo1-cover.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 65002
+    },
+    "02-wo2-rear-ports.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 40028
+    },
+    "03-wo3-wired-router.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 61960
+    },
+    "04-wo4b-smarthome.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 67520
+    },
+    "05-wo5-box-contents.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 189606
+    },
+    "06-wo6-remote-usbc.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 55464
+    }
+  }
+}
