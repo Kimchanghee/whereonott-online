@@ -1,32 +1,5 @@
 [
   {
-    "slug": "tcl-s65k-wireless-rear-speakers-power-hdmi-check",
-    "sourceURL": "https://www.coupang.com/vp/products/9707420777?itemId=29042560576&vendorItemId=95969642540",
-    "issuedURI": "https://link.coupang.com/a/iY7PRJB5IP",
-    "productName": "TCL 5.1 채널 돌비 애트모스 무선 리어 후면 스피커 사운드바 서브우퍼",
-    "option": "모델명 S65K / 사운드바 / 1개",
-    "verifyTokens": [
-      "TCL 5.1 채널 돌비 애트모스 무선 리어 후면 스피커 사운드바 서브우퍼",
-      "S65K",
-      "9707420777 - 29042560576"
-    ],
-    "file": "ops/queue/tcl-s65k-wireless-rear-speakers-power-hdmi-check.md",
-    "manuscript": "ops/queue/tcl-s65k-wireless-rear-speakers-power-hdmi-check.md",
-    "evidence": "ops/queue/evidence/tcl-s65k-wireless-rear-speakers-power-hdmi-check.md",
-    "images": [
-      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/01-wo1-cover.webp",
-      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/02-wo2-rear-speakers.webp",
-      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/03-wo3-hdmi-port.webp",
-      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/04-wo4b-subwoofer-power.webp",
-      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/05-wo5b-box-contents.webp",
-      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/06-wo6-rear-closeup.webp"
-    ],
-    "preparedAt": "2026-11-26T04:33:56.431Z",
-    "verifiedAt": "2026-11-26T04:10:00Z",
-    "creatorSessionId": "ClaudeTakeover1300S",
-    "slot": "20261126-1300-shop"
-  },
-  {
     "slug": "apple-tv-4k-2022-ethernet-model-vs-wifi-model-check",
     "sourceURL": "https://www.coupang.com/vp/products/6912123681?itemId=16661686588&vendorItemId=83845334204",
     "issuedURI": "https://link.coupang.com/a/iXT4R2sRj2",
@@ -54,5 +27,34 @@
     "slot": "20261125-1920-shop",
     "dryRunPassedAt": "2026-11-25T10:43:38.653Z",
     "dryRunReceipt": "bridge 20261125-1920-wo-dryrun1 code 0, gate 96/96"
+  },
+  {
+    "slug": "tcl-s65k-wireless-rear-speakers-power-hdmi-check",
+    "sourceURL": "https://www.coupang.com/vp/products/9707420777?itemId=29042560576&vendorItemId=95969642540",
+    "issuedURI": "https://link.coupang.com/a/iY7PRJB5IP",
+    "productName": "TCL 5.1 채널 돌비 애트모스 무선 리어 후면 스피커 사운드바 서브우퍼",
+    "option": "모델명 S65K / 사운드바 / 1개",
+    "verifyTokens": [
+      "TCL 5.1 채널 돌비 애트모스 무선 리어 후면 스피커 사운드바 서브우퍼",
+      "S65K",
+      "9707420777 - 29042560576"
+    ],
+    "file": "ops/queue/tcl-s65k-wireless-rear-speakers-power-hdmi-check.md",
+    "manuscript": "ops/queue/tcl-s65k-wireless-rear-speakers-power-hdmi-check.md",
+    "evidence": "ops/queue/evidence/tcl-s65k-wireless-rear-speakers-power-hdmi-check.md",
+    "images": [
+      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/01-wo1-cover.webp",
+      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/02-wo2-rear-speakers.webp",
+      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/03-wo3-hdmi-port.webp",
+      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/04-wo4b-subwoofer-power.webp",
+      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/05-wo5b-box-contents.webp",
+      "ops/queue/images/tcl-s65k-wireless-rear-speakers-power-hdmi-check/06-wo6-rear-closeup.webp"
+    ],
+    "preparedAt": "2026-11-26T04:33:56.431Z",
+    "verifiedAt": "2026-11-26T04:10:00Z",
+    "creatorSessionId": "ClaudeTakeover1300S",
+    "slot": "20261126-1300-shop",
+    "dryRunPassedAt": "2026-11-26T04:34:50.732Z",
+    "dryRunReceipt": "bridge 20261126-1300-wo-dryrun-tcl2 code 0, gate 98/98"
   }
 ]
