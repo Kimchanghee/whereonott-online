@@ -80,3 +80,4 @@
 | apple-tv-4k-2022-ethernet-model-vs-wifi-model-check | pick | queued | 애플TV 4K 이더넷 지원 모델, Wi-Fi 모델과 무엇이 다를까요? | 2026-11-25 SHOP 19:20 (takeover); exact option; six inspected photos; isolated dry-run passed (gate 96/96); publication pending |
 
 | lg-s70tr-rear-speakers-wire-power-check | pick | queued | LG 사운드바 S70TR, 후면 스피커는 선 없이 쓸 수 있나요? | 2026-11-25 SHOP 19:20 (takeover); exact option; six inspected photos; isolated dry-run passed (gate 96/96); publication pending |
+| tcl-s65k-wireless-rear-speakers-power-hdmi-check | pick | queued | TCL S65K 후면 스피커, 전원선 없이 둘 수 있을까요? | 2026-11-26 SHOP 13:00 (takeover); exact option; six inspected photos; publication pending |

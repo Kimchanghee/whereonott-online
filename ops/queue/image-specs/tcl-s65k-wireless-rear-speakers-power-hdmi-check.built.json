@@ -1,0 +1,35 @@
+{
+  "builtAt": "2026-11-26T04:33:40.677Z",
+  "dims": {
+    "01-wo1-cover.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 108094
+    },
+    "02-wo2-rear-speakers.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 133062
+    },
+    "03-wo3-hdmi-port.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 40628
+    },
+    "04-wo4b-subwoofer-power.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 64058
+    },
+    "05-wo5b-box-contents.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 109854
+    },
+    "06-wo6-rear-closeup.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 122142
+    }
+  }
+}
