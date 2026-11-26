@@ -1,0 +1,35 @@
+{
+  "builtAt": "2026-11-26T10:35:51.797Z",
+  "dims": {
+    "01-wo1-cover.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 138286
+    },
+    "02-wo2-distance.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 105556
+    },
+    "03-wo3-battery.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 77900
+    },
+    "04-wo4-ports.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 53314
+    },
+    "05-wo5-remote.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 61272
+    },
+    "06-wo6-tilt.webp": {
+      "width": 1280,
+      "height": 853,
+      "bytes": 70920
+    }
+  }
+}

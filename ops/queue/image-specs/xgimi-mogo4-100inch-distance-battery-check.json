@@ -1,0 +1,44 @@
+{
+ "slug": "xgimi-mogo4-100inch-distance-battery-check",
+ "manuscript": "ops/queue/xgimi-mogo4-100inch-distance-battery-check.md",
+ "jobs": [
+  {
+   "name": "01-wo1-cover.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261126-1920/whereonott/wo1_cover.png",
+   "width": 1280
+  },
+  {
+   "name": "02-wo2-distance.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261126-1920/whereonott/wo2_distance.png",
+   "width": 1280
+  },
+  {
+   "name": "03-wo3-battery.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261126-1920/whereonott/wo3_battery.png",
+   "width": 1280
+  },
+  {
+   "name": "04-wo4-ports.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261126-1920/whereonott/wo4_ports.png",
+   "width": 1280
+  },
+  {
+   "name": "05-wo5-remote.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261126-1920/whereonott/wo5_remote.png",
+   "width": 1280
+  },
+  {
+   "name": "06-wo6-tilt.webp",
+   "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261126-1920/whereonott/wo6_tilt.png",
+   "width": 1280
+  }
+ ],
+ "qa": {
+  "01": "match: grey cylinder, grille, orange ring, side stand w/ round base, remote on strap, ports on side",
+  "02": "match",
+  "03": "match; no power cord attached; charger separate",
+  "04": "match; black HDMI-type plug + white USB-C cable; illustrative",
+  "05": "match; remote small round orange button like reference",
+  "06": "match; tilted on hinge stand"
+ }
+}
