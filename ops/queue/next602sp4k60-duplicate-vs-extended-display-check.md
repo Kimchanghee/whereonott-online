@@ -16,7 +16,7 @@ product:
   provider: coupang
   url: https://link.coupang.com/a/i0MtozB8we
   landingHost: www.coupang.com
-  verifiedAt: "2026-11-27T04:20:14Z"
+  verifiedAt: "2026-11-27T10:23:18Z"
   evidence: ops/queue/evidence/next602sp4k60-duplicate-vs-extended-display-check.md
 images:
   - src: /images/picks/next602sp4k60-duplicate-vs-extended-display-check/wo-hero-v2.webp

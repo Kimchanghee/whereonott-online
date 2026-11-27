@@ -85,3 +85,5 @@
 | xgimi-mogo4-100inch-distance-battery-check | pick | queued | 엑스지미 MoGo 4, 100인치 화면에 몇 미터가 필요할까요? | 2026-11-26 SHOP 19:20 (takeover); exact option MoGo4; six inspected photos; isolated dry-run passed (gate 100/100); publication pending |
 
 | next602sp4k60-duplicate-vs-extended-display-check | pick | queued | HDMI 분배기, 두 화면에 다른 영상을 띄울 수 있을까? | 2026-11-27 SHOP13:00; six inspected photographs; publication pending |
+
+| ugreen-optical-1m-tv-output-vs-hdmi-check | pick | queued | TV 광케이블, 꽂기만 하면 사운드바 소리가 날까? | 2026-11-27 SHOP19:20; six inspected photos; publication pending |

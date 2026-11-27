@@ -14,3 +14,6 @@ Comparison gap: Independent desktop extension is not a 1:2 splitter capability. 
 Image QA: each original read_file; exact official reference attached. No physical experiment.
 
 Final exact product native recheck 2026-11-27T04:20:14Z: buy enabled; see wo-final-native.txt and new-korean-observations.json.
+
+
+SHOP 20261127-1920 native recheck 2026-11-27T10:23:18.326Z: exact tokens NEXT-602SP4K60 | 혼합 색상 | 334803611 - 1068496375; buy enabled. Source https://www.coupang.com/vp/products/334803611?itemId=1068496375&vendorItemId=5555500409. Snapshot _mac/shop/20261127-1920/next602sp4k60-duplicate-vs-extended-display-check-native.txt and -main.txt. Own affiliate URI never opened.
