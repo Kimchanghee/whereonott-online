@@ -1,34 +1,5 @@
 [
   {
-    "slug": "xgimi-mogo4-100inch-distance-battery-check",
-    "sourceURL": "https://www.coupang.com/vp/products/9319940896?itemId=27622515421&vendorItemId=93861172991",
-    "issuedURI": "https://link.coupang.com/a/iZy2Ih2o0W",
-    "productName": "엑스지미 미니빔 캠핑용 휴대용 빔프로젝터",
-    "option": "모델명 MoGo4 / FHD / 리모컨 포함 / 1개",
-    "verifyTokens": [
-      "엑스지미 미니빔 캠핑용 휴대용 빔프로젝터",
-      "MoGo4",
-      "9319940896 - 27622515421"
-    ],
-    "file": "ops/queue/xgimi-mogo4-100inch-distance-battery-check.md",
-    "manuscript": "ops/queue/xgimi-mogo4-100inch-distance-battery-check.md",
-    "evidence": "ops/queue/evidence/xgimi-mogo4-100inch-distance-battery-check.md",
-    "images": [
-      "ops/queue/images/xgimi-mogo4-100inch-distance-battery-check/01-wo1-cover.webp",
-      "ops/queue/images/xgimi-mogo4-100inch-distance-battery-check/02-wo2-distance.webp",
-      "ops/queue/images/xgimi-mogo4-100inch-distance-battery-check/03-wo3-battery.webp",
-      "ops/queue/images/xgimi-mogo4-100inch-distance-battery-check/04-wo4-ports.webp",
-      "ops/queue/images/xgimi-mogo4-100inch-distance-battery-check/05-wo5-remote.webp",
-      "ops/queue/images/xgimi-mogo4-100inch-distance-battery-check/06-wo6-tilt.webp"
-    ],
-    "preparedAt": "2026-11-26T10:36:00.752Z",
-    "verifiedAt": "2026-11-27T04:02:00Z",
-    "creatorSessionId": "ClaudeTakeover1920S-fork-wo",
-    "slot": "20261126-1920-shop",
-    "dryRunPassedAt": "2026-11-26T10:37:00.000Z",
-    "dryRunReceipt": "bridge 20261126-1920-wo-dryrun-xg code 0, gate 100/100 (xgimi first in queue for run)"
-  },
-  {
     "slug": "next602sp4k60-duplicate-vs-extended-display-check",
     "sourceURL": "https://www.coupang.com/vp/products/334803611?itemId=1068496375&vendorItemId=5555500409",
     "issuedURI": "https://link.coupang.com/a/i0MtozB8we",
