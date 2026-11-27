@@ -83,3 +83,5 @@
 | tcl-s65k-wireless-rear-speakers-power-hdmi-check | pick | queued | TCL S65K 후면 스피커, 전원선 없이 둘 수 있을까요? | 2026-11-26 SHOP 13:00 (takeover); exact option; six inspected photos; publication pending |
 
 | xgimi-mogo4-100inch-distance-battery-check | pick | queued | 엑스지미 MoGo 4, 100인치 화면에 몇 미터가 필요할까요? | 2026-11-26 SHOP 19:20 (takeover); exact option MoGo4; six inspected photos; isolated dry-run passed (gate 100/100); publication pending |
+
+| next602sp4k60-duplicate-vs-extended-display-check | pick | queued | HDMI 분배기, 두 화면에 다른 영상을 띄울 수 있을까? | 2026-11-27 SHOP13:00; six inspected photographs; publication pending |

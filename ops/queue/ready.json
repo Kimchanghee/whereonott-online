@@ -1,5 +1,32 @@
 [
   {
+    "slug": "next602sp4k60-duplicate-vs-extended-display-check",
+    "sourceURL": "https://www.coupang.com/vp/products/334803611?itemId=1068496375&vendorItemId=5555500409",
+    "issuedURI": "https://link.coupang.com/a/i0MtozB8we",
+    "productName": "넥스트유 HDMI 2.0 1대2 분배기 NEXT-602SP4K60",
+    "option": "혼합 색상 / 1개 / NEXT-602SP4K60",
+    "verifyTokens": [
+      "NEXT-602SP4K60",
+      "혼합 색상",
+      "334803611 - 1068496375"
+    ],
+    "file": "ops/queue/next602sp4k60-duplicate-vs-extended-display-check.md",
+    "manuscript": "ops/queue/next602sp4k60-duplicate-vs-extended-display-check.md",
+    "evidence": "ops/queue/evidence/next602sp4k60-duplicate-vs-extended-display-check.md",
+    "images": [
+      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-hero-v2.webp",
+      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-output.webp",
+      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-scale.webp",
+      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-input-v2.webp",
+      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-route.webp",
+      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-store.webp"
+    ],
+    "preparedAt": "2026-11-27T04:19:46.437Z",
+    "verifiedAt": "2026-11-27T04:20:14Z",
+    "creatorSessionId": "Aqecx68OX9WmMbNQ",
+    "slot": "20261127-1300-shop"
+  },
+  {
     "slug": "xgimi-mogo4-100inch-distance-battery-check",
     "sourceURL": "https://www.coupang.com/vp/products/9319940896?itemId=27622515421&vendorItemId=93861172991",
     "issuedURI": "https://link.coupang.com/a/iZy2Ih2o0W",
@@ -22,7 +49,7 @@
       "ops/queue/images/xgimi-mogo4-100inch-distance-battery-check/06-wo6-tilt.webp"
     ],
     "preparedAt": "2026-11-26T10:36:00.752Z",
-    "verifiedAt": "2026-11-26T10:28:00Z",
+    "verifiedAt": "2026-11-27T04:02:00Z",
     "creatorSessionId": "ClaudeTakeover1920S-fork-wo",
     "slot": "20261126-1920-shop",
     "dryRunPassedAt": "2026-11-26T10:37:00.000Z",

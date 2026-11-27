@@ -16,7 +16,7 @@ product:
   provider: "coupang"
   url: "https://link.coupang.com/a/iZy2Ih2o0W"
   landingHost: "www.coupang.com"
-  verifiedAt: "2026-11-26T10:28:00Z"
+  verifiedAt: "2026-11-27T04:02:00Z"
   evidence: "ops/queue/evidence/xgimi-mogo4-100inch-distance-battery-check.md"
 images:
   - src: "/images/picks/xgimi-mogo4-100inch-distance-battery-check/01-wo1-cover.webp"
