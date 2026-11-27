@@ -5,8 +5,8 @@ question: NEXT-602SP4K60을 연결하면 TV와 모니터에서 서로 다른 영
 answer: 아니요. 입력 하나를 두 화면으로 나누는 1:2 분배기는 같은 영상을 함께 보려는 장치예요. 서로 다른 작업 창을 띄우는 확장이 목적이면 컴퓨터가 독립된 화면 출력을 지원하는지부터 확인하세요.
 description: 넥스트유 NEXT-602SP4K60의 입력과 출력 방향, 같은 화면 복제와 작업 화면 확장의 차이, 4K 60Hz와 HDCP 2.2 표기를 읽는 법, 연결 전에 확인할 케이블 경로를 정리합니다.
 draft: false
-published: 2026-11-27T04:20:14Z
-updated: 2026-11-27T04:20:14Z
+published: "2026-11-27T04:20:14Z"
+updated: "2026-11-27T04:20:14Z"
 category: sound
 primaryKeyword: HDMI 분배기 복제 확장
 product:
@@ -16,7 +16,7 @@ product:
   provider: coupang
   url: https://link.coupang.com/a/i0MtozB8we
   landingHost: www.coupang.com
-  verifiedAt: 2026-11-27T04:20:14Z
+  verifiedAt: "2026-11-27T04:20:14Z"
   evidence: ops/queue/evidence/next602sp4k60-duplicate-vs-extended-display-check.md
 images:
   - src: /images/picks/next602sp4k60-duplicate-vs-extended-display-check/wo-hero-v2.webp
@@ -74,12 +74,9 @@ faq:
   - q: 4K 표기만 같으면 다른 분배기와 같은가요?
     a: 아닙니다. 최대 주사율, HDCP 버전과 단자 방향을 모델별로 읽어야 합니다.
 checklist:
-  - label: 화면 목적
-    text: 두 화면에 같은 영상을 보낼 것인지, 서로 다른 창을 쓸 것인지 정했나요?
-  - label: 정확 모델
-    text: 602SP4K60과 선택기·케이블 일체형 모델을 구분했나요?
-  - label: 경로
-    text: 소스에서 분배기, 각 화면까지 케이블과 전원 자리를 확인했나요?
+  - "화면 목적: 두 화면에 같은 영상을 보낼 것인지, 서로 다른 창을 쓸 것인지 정했나요?"
+  - "정확 모델: 602SP4K60과 선택기·케이블 일체형 모델을 구분했나요?"
+  - "경로: 소스에서 분배기, 각 화면까지 케이블과 전원 자리를 확인했나요?"
 ---
 
 TV는 영화를 틀고 옆 모니터는 다른 창을 띄우고 싶은데, HDMI 단자가 하나라 분배기를 찾게 되는 경우가 있어요. 이때 먼저 볼 것은 화면 수가 아니라 두 화면에 무엇을 띄울지예요.
