@@ -1,34 +1,5 @@
 [
   {
-    "slug": "ugreen-optical-1m-tv-output-vs-hdmi-check",
-    "sourceURL": "https://www.coupang.com/vp/products/4776352151?itemId=6102920118&vendorItemId=73399289577",
-    "issuedURI": "https://link.coupang.com/a/i1d9J5OJxY",
-    "productName": "유그린 디지털 광 오디오 각대각 케이블",
-    "option": "1m / 1개 / 검은 각대각 광 오디오 케이블",
-    "verifyTokens": [
-      "유그린 디지털 광 오디오 각대각 케이블",
-      "1m",
-      "4776352151 - 6102920118"
-    ],
-    "file": "ops/queue/ugreen-optical-1m-tv-output-vs-hdmi-check.md",
-    "manuscript": "ops/queue/ugreen-optical-1m-tv-output-vs-hdmi-check.md",
-    "evidence": "ops/queue/evidence/ugreen-optical-1m-tv-output-vs-hdmi-check.md",
-    "images": [
-      "ops/queue/images/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-hero.webp",
-      "ops/queue/images/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-ends.webp",
-      "ops/queue/images/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-route.webp",
-      "ops/queue/images/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-scale.webp",
-      "ops/queue/images/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-coil.webp",
-      "ops/queue/images/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-store.webp"
-    ],
-    "preparedAt": "2026-11-27T10:47:55Z",
-    "verifiedAt": "2026-11-28T04:04:59.393Z",
-    "creatorSessionId": "eKQADbA5pZWqaBGa",
-    "slot": "20261127-1920-shop",
-    "dryRunPassedAt": "2026-11-27T10:52:29.333Z",
-    "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/bridge/logs/20261127-1920-shop-dryrun-v3-wo.log"
-  },
-  {
     "slug": "ugreen-right-angle-hdmi-2m-port-direction-check",
     "sourceURL": "https://www.coupang.com/vp/products/9659606609?itemId=28876441613&vendorItemId=95809614751",
     "issuedURI": "https://link.coupang.com/a/i2rBXPm0l2",
