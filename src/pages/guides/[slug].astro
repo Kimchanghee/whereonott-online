@@ -1,9 +1,9 @@
 ---
-import {articleLd,faqLd,ymd} from '../../lib/content';import Base from '../../layouts/Base.astro';import Checklist from '../../components/Checklist.astro';import{getCollection,render}from'astro:content';
+import {metaDescription, articleLd,faqLd,ymd} from '../../lib/content';import Base from '../../layouts/Base.astro';import Checklist from '../../components/Checklist.astro';import{getCollection,render}from'astro:content';
 export async function getStaticPaths(){return(await getCollection('guides', ({data}) => !data.draft)).map(entry=>({params:{slug:entry.data.slug},props:{entry}}))}
 const{entry}=Astro.props;const d=entry.data;const{Content}=await render(entry);
 ---
-<Base title={d.title} description={d.description} ogType="article" published={d.published} updated={d.updated} crumbs={[{name:'홈',href:'/'},{name:'상영 준비',href:'/guides/'},{name:d.title,href:'/guides/'+d.slug+'/'}]} jsonld={[articleLd('guide',entry,Astro.url.pathname,'/og/home.png'),faqLd(d.faq)].filter(Boolean)}>
+<Base title={d.title} description={metaDescription(d)} ogType="article" published={d.published} updated={d.updated} crumbs={[{name:'홈',href:'/'},{name:'상영 준비',href:'/guides/'},{name:d.title,href:'/guides/'+d.slug+'/'}]} jsonld={[articleLd('guide',entry,Astro.url.pathname,'/og/home.png'),faqLd(d.faq)].filter(Boolean)}>
   <article class="article">
     <a class="back-link" href="/guides/">← 상영 준비 가이드 전체</a>
     <h1>{d.title}</h1>

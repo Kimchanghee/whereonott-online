@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import Checklist from '../../components/Checklist.astro';
 import AdSlot from '../../components/AdSlot.astro';
-import { allPosts, allGuides, postPath, guidePath, articleLd, faqLd, ymd, disclosureFor, type Post } from '../../lib/content';
+import { metaDescription, allPosts, allGuides, postPath, guidePath, articleLd, faqLd, ymd, disclosureFor, type Post } from '../../lib/content';
 import { imgSize, thumbOf, isDiagram } from '../../lib/media';
 import { categoryBySlug, providerInfo } from '../../site.config';
 
@@ -31,7 +31,7 @@ const dot = (iso: string) => ymd(iso).replaceAll('-', '.');
 const ld = [articleLd('post', post, path, og), faqLd(d.faq)].filter(Boolean) as Record<string, unknown>[];
 const crumbs = [ { name: '홈', href: '/' }, { name: cat.name, href: `/category/${cat.slug}/` }, { name: d.title, href: path } ];
 ---
-<Base title={d.title} description={d.description} path={path} ogImage={og} ogType="article" jsonld={ld} crumbs={crumbs} published={d.published} updated={d.updated}>
+<Base title={d.title} description={metaDescription(d)} path={path} ogImage={og} ogType="article" jsonld={ld} crumbs={crumbs} published={d.published} updated={d.updated}>
   <div class="pv2">
     <div class="pv2__grid">
       <article class="pv2__article" data-gate="article">
