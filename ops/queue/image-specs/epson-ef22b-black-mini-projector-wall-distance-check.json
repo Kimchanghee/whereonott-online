@@ -1,0 +1,42 @@
+{
+  "slug": "epson-ef22b-black-mini-projector-wall-distance-check",
+  "manuscript": "ops/queue/epson-ef22b-black-mini-projector-wall-distance-check.md",
+  "jobs": [
+    {
+      "name": "wo-hero.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1920/wo-hero.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-stand.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1920/wo-stand.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-wall.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1920/wo-wall.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-power.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1920/wo-power.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-carry.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1920/wo-carry.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-air.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1920/wo-air.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    }
+  ]
+}
