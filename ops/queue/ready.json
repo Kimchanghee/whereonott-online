@@ -1,34 +1,5 @@
 [
   {
-    "slug": "next602sp4k60-duplicate-vs-extended-display-check",
-    "sourceURL": "https://www.coupang.com/vp/products/334803611?itemId=1068496375&vendorItemId=5555500409",
-    "issuedURI": "https://link.coupang.com/a/i0MtozB8we",
-    "productName": "넥스트유 HDMI 2.0 1대2 분배기 NEXT-602SP4K60",
-    "option": "혼합 색상 / 1개 / NEXT-602SP4K60",
-    "verifyTokens": [
-      "NEXT-602SP4K60",
-      "혼합 색상",
-      "334803611 - 1068496375"
-    ],
-    "file": "ops/queue/next602sp4k60-duplicate-vs-extended-display-check.md",
-    "manuscript": "ops/queue/next602sp4k60-duplicate-vs-extended-display-check.md",
-    "evidence": "ops/queue/evidence/next602sp4k60-duplicate-vs-extended-display-check.md",
-    "images": [
-      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-hero-v2.webp",
-      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-output.webp",
-      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-scale.webp",
-      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-input-v2.webp",
-      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-route.webp",
-      "ops/queue/images/next602sp4k60-duplicate-vs-extended-display-check/wo-store.webp"
-    ],
-    "preparedAt": "2026-11-27T04:19:46.437Z",
-    "verifiedAt": "2026-11-27T10:23:18.326Z",
-    "creatorSessionId": "Aqecx68OX9WmMbNQ",
-    "slot": "20261127-1300-shop",
-    "dryRunPassedAt": "2026-11-27T04:33:59.055Z",
-    "dryRunReceipt": "rebuild-202610/_mac/bridge/results/20261127-1300-shop-korean-dryrun4.json"
-  },
-  {
     "slug": "ugreen-optical-1m-tv-output-vs-hdmi-check",
     "sourceURL": "https://www.coupang.com/vp/products/4776352151?itemId=6102920118&vendorItemId=73399289577",
     "issuedURI": "https://link.coupang.com/a/i1d9J5OJxY",
