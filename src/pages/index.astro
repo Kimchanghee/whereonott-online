@@ -1,4 +1,5 @@
 ---
+import { thumbSrcset } from '../../scripts/lib/thumbs.mjs';
 import Base from '../layouts/Base.astro';import {siteEntries} from '../lib/seo';import {ymd,postPath,guidePath} from '../lib/content';import {thumbOf,isDiagram} from '../lib/media';
 const {guides,posts,latest}=await siteEntries();
 ---
@@ -15,7 +16,7 @@ const {guides,posts,latest}=await siteEntries();
   </section>
   {posts.length>0&&<section class="shelf" aria-labelledby="picks-h">
     <div class="shelf__head"><h2 id="picks-h">새 상품 노트</h2><a href="/picks/">전체 보기</a></div>
-    <ul class="pick-list">{posts.slice(0,4).map(p=>{const t=thumbOf(p.data.images);return <li class="pick-tile"><img src={t.src} alt={t.alt} width="168" height="126" style={isDiagram(t)?'object-fit:contain':undefined} loading="lazy" decoding="async"/><div><h3><a href={postPath(p.data.slug)}>{p.data.title}</a></h3><p>{p.data.product.name}</p><p class="meta"><span>제휴 링크 포함</span><time datetime={p.data.published}>{ymd(p.data.published)}</time></p></div></li>})}</ul>
+    <ul class="pick-list">{posts.slice(0,4).map(p=>{const t=thumbOf(p.data.images);return <li class="pick-tile"><img src={t.src} srcset={thumbSrcset(t.src, 168)} sizes="168px" alt={t.alt} width="168" height="126" style={isDiagram(t)?'object-fit:contain':undefined} loading="lazy" decoding="async"/><div><h3><a href={postPath(p.data.slug)}>{p.data.title}</a></h3><p>{p.data.product.name}</p><p class="meta"><span>제휴 링크 포함</span><time datetime={p.data.published}>{ymd(p.data.published)}</time></p></div></li>})}</ul>
   </section>}
   <section class="shelf" aria-labelledby="guides-h">
     <div class="shelf__head"><h2 id="guides-h">구매 전 읽을거리</h2><a href="/guides/">가이드 목록</a></div>

@@ -1,4 +1,5 @@
 ---
+import { heroSrcset, HERO_SIZES, thumbSrcset } from '../../../scripts/lib/thumbs.mjs';
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
@@ -42,7 +43,7 @@ const crumbs = [ { name: '홈', href: '/' }, { name: cat.name, href: `/category/
           <p class="pv2__byline"><span>거실상영관 편집팀</span><span>발행 <time datetime={d.published}>{dot(d.published)}</time></span>{d.updated !== d.published && <span>수정 <time datetime={d.updated}>{dot(d.updated)}</time></span>}<span>링크 확인 {dot(d.product.verifiedAt)}</span></p>
         </header>
         <figure class={`pv2__hero${coverIsDiagram ? ' pv2__hero--diagram' : ''}`}>
-          <img src={cover.src} alt={cover.alt} width={coverSize.width} height={coverSize.height} loading="eager" fetchpriority="high" decoding="async" />
+          <img src={cover.src} srcset={heroSrcset(cover.src)} sizes={HERO_SIZES} alt={cover.alt} width={coverSize.width} height={coverSize.height} loading="eager" fetchpriority="high" decoding="async" />
         </figure>
         <section class="answer-box" aria-label="먼저 결론">
           <p class="answer-box__k">먼저 결론</p>
@@ -63,7 +64,7 @@ const crumbs = [ { name: '홈', href: '/' }, { name: cat.name, href: `/category/
           </div>
         )}
         <div class="pv2__end">
-          <img src={thumb.src} alt="" width={thumbSize.width} height={thumbSize.height} style={isDiagram(thumb) ? 'object-fit:contain' : undefined} loading="lazy" decoding="async" />
+          <img src={thumb.src} srcset={thumbSrcset(thumb.src, 168)} sizes="168px" alt="" width={thumbSize.width} height={thumbSize.height} style={isDiagram(thumb) ? 'object-fit:contain' : undefined} loading="lazy" decoding="async" />
           <div>
             <p class="pv2__end-name">{d.product.name} <span>{d.product.optionDetail}</span></p>
             <a class="pv2__btn" href={d.product.url} rel="sponsored nofollow noopener" target="_blank" data-product-link="end">{shop}에서 옵션 확인하기</a>

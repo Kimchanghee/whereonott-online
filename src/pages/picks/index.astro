@@ -1,4 +1,5 @@
 ---
+import { thumbSrcset } from '../../../scripts/lib/thumbs.mjs';
 import Base from '../../layouts/Base.astro';
 import { allPosts, postPath, ymd } from '../../lib/content';
 import { thumbOf, isDiagram } from '../../lib/media';
@@ -16,7 +17,7 @@ const crumbs = [{ name: '홈', href: '/' }, { name: '장비 추천', href: '/pic
       <p class="empty" style="margin-top:20px">아직 발행된 추천 글이 없습니다. 링크와 옵션 확인을 마친 글부터 순서대로 올라옵니다.</p>
     ) : (
       <ul class="pick-list" style="margin-top:28px">{posts.map((p) => { const t = thumbOf(p.data.images); return (
-        <li class="pick-tile"><img src={t.src} alt={t.alt} width="168" height="126" style={isDiagram(t) ? 'object-fit:contain' : undefined} loading="lazy" decoding="async" /><div><h3><a href={postPath(p.data.slug)}>{p.data.title}</a></h3><p>{p.data.product.name}</p><p class="meta"><span>제휴 링크 포함</span><time datetime={p.data.published}>{ymd(p.data.published)}</time></p></div></li>
+        <li class="pick-tile"><img src={t.src} srcset={thumbSrcset(t.src, 168)} sizes="168px" alt={t.alt} width="168" height="126" style={isDiagram(t) ? 'object-fit:contain' : undefined} loading="lazy" decoding="async" /><div><h3><a href={postPath(p.data.slug)}>{p.data.title}</a></h3><p>{p.data.product.name}</p><p class="meta"><span>제휴 링크 포함</span><time datetime={p.data.published}>{ymd(p.data.published)}</time></p></div></li>
       ); })}</ul>
     )}
   </div>

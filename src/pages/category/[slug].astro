@@ -1,4 +1,5 @@
 ---
+import { thumbSrcset } from '../../../scripts/lib/thumbs.mjs';
 import Base from '../../layouts/Base.astro';
 import { allGuides, allPosts, guidePath, postPath, ymd } from '../../lib/content';
 import { thumbOf, isDiagram } from '../../lib/media';
@@ -39,7 +40,7 @@ const ld = [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name:
       <p class="empty" style="margin-top:16px">{cat.name} 분야 상품 추천 글은 아직 없습니다. 추천 글은 판매 링크와 옵션을 확인한 뒤에만 발행합니다.</p>
     ) : (
       <ul class="pick-list">{posts.map((p) => { const t = thumbOf(p.data.images); return (
-        <li class="pick-tile"><img src={t.src} alt={t.alt} width="168" height="126" style={isDiagram(t) ? 'object-fit:contain' : undefined} loading="lazy" decoding="async" /><div><h3><a href={postPath(p.data.slug)}>{p.data.title}</a></h3><p>{p.data.product.name}</p><p class="meta"><span>제휴 링크 포함</span><time datetime={p.data.published}>{ymd(p.data.published)}</time></p></div></li>
+        <li class="pick-tile"><img src={t.src} srcset={thumbSrcset(t.src, 168)} sizes="168px" alt={t.alt} width="168" height="126" style={isDiagram(t) ? 'object-fit:contain' : undefined} loading="lazy" decoding="async" /><div><h3><a href={postPath(p.data.slug)}>{p.data.title}</a></h3><p>{p.data.product.name}</p><p class="meta"><span>제휴 링크 포함</span><time datetime={p.data.published}>{ymd(p.data.published)}</time></p></div></li>
       ); })}</ul>
     )}
     <p class="cat-links"><a href="/guides/">전체 체크리스트</a> · <a href="/methodology/">상품 선정 방법</a></p>
