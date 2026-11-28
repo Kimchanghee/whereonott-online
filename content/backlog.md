@@ -87,3 +87,5 @@
 | next602sp4k60-duplicate-vs-extended-display-check | pick | queued | HDMI 분배기, 두 화면에 다른 영상을 띄울 수 있을까? | 2026-11-27 SHOP13:00; six inspected photographs; publication pending |
 
 | ugreen-optical-1m-tv-output-vs-hdmi-check | pick | queued | TV 광케이블, 꽂기만 하면 사운드바 소리가 날까? | 2026-11-27 SHOP19:20; six inspected photos; publication pending |
+
+| ugreen-right-angle-hdmi-2m-port-direction-check | pick | queued | 꺾임 HDMI 케이블, 벽 간격보다 단자 방향부터 볼까요? | SHOP 2026-11-28 13:00; six inspected photos; publication pending |

@@ -16,7 +16,7 @@ product:
   provider: coupang
   url: https://link.coupang.com/a/i1d9J5OJxY
   landingHost: www.coupang.com
-  verifiedAt: "2026-11-27T10:31:34Z"
+  verifiedAt: "2026-11-28T04:04:59Z"
   evidence: ops/queue/evidence/ugreen-optical-1m-tv-output-vs-hdmi-check.md
 images:
   - src: /images/picks/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-hero.webp

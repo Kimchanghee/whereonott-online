@@ -1,0 +1,42 @@
+{
+  "slug": "ugreen-right-angle-hdmi-2m-port-direction-check",
+  "manuscript": "ops/queue/ugreen-right-angle-hdmi-2m-port-direction-check.md",
+  "jobs": [
+    {
+      "name": "wo-hero.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1300/wo-hero.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-ends.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1300/wo-ends.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-clearance.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1300/wo-clearance.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-route.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1300/wo-route.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-hand.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1300/wo-hand.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    },
+    {
+      "name": "wo-store.webp",
+      "src": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/channel-ops/ops/content/shop-20261128-1300/wo-store-fixed.png",
+      "width": 1280,
+      "verdict": "accepted_read_file"
+    }
+  ]
+}

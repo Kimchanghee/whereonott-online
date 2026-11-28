@@ -9,3 +9,6 @@ UGREEN 지역 판매 안내: 광케이블 유형 비교 자료 | https://www.ugr
 Snapshots and manufacturer references: _mac/shop/20261127-1920 and channel-ops/ops/content/shop-20261127-1920.
 Exact native selected-product artwork attached; Ugreen PL different 1.5m AV122 housing not used for image reference or actual SKU specs. Samsung and Sony generic connection limits not tested on this SKU. Store photo shows tray, not included pouch.
 All six originals inspected once via read_file; no first-hand/product performance/price/rating/stock claim in article.
+
+
+SHOP 20261128-1300 native recheck at 2026-11-28T04:04:59.393Z: exact 유그린 디지털 광 오디오 각대각 케이블 | 1m | 4776352151 - 6102920118 and enabled buy button observed. Ordinary product https://www.coupang.com/vp/products/4776352151?itemId=6102920118&vendorItemId=73399289577; own URI never opened. Snapshot _mac/shop/20261128-1300/ugreen-optical-1m-tv-output-vs-hdmi-check-main.txt.

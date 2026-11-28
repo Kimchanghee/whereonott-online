@@ -22,10 +22,38 @@
       "ops/queue/images/ugreen-optical-1m-tv-output-vs-hdmi-check/wo-store.webp"
     ],
     "preparedAt": "2026-11-27T10:47:55Z",
-    "verifiedAt": "2026-11-27T10:31:34.274Z",
+    "verifiedAt": "2026-11-28T04:04:59.393Z",
     "creatorSessionId": "eKQADbA5pZWqaBGa",
     "slot": "20261127-1920-shop",
     "dryRunPassedAt": "2026-11-27T10:52:29.333Z",
     "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/bridge/logs/20261127-1920-shop-dryrun-v3-wo.log"
+  },
+  {
+    "slug": "ugreen-right-angle-hdmi-2m-port-direction-check",
+    "sourceURL": "https://www.coupang.com/vp/products/9659606609?itemId=28876441613&vendorItemId=95809614751",
+    "issuedURI": "https://link.coupang.com/a/i2rBXPm0l2",
+    "productName": "유그린 8K 60Hz 90도 HDMI to HDMI V2.1 모니터 케이블 꺽임형",
+    "option": "2m / 1개 / 한쪽 90도 HDMI 수단자·반대쪽 일자 수단자",
+    "verifyTokens": [
+      "유그린 8K 60Hz 90도 HDMI",
+      "9659606609 - 28876441613"
+    ],
+    "file": "ops/queue/ugreen-right-angle-hdmi-2m-port-direction-check.md",
+    "manuscript": "ops/queue/ugreen-right-angle-hdmi-2m-port-direction-check.md",
+    "evidence": "ops/queue/evidence/ugreen-right-angle-hdmi-2m-port-direction-check.md",
+    "images": [
+      "ops/queue/images/ugreen-right-angle-hdmi-2m-port-direction-check/wo-hero.webp",
+      "ops/queue/images/ugreen-right-angle-hdmi-2m-port-direction-check/wo-ends.webp",
+      "ops/queue/images/ugreen-right-angle-hdmi-2m-port-direction-check/wo-clearance.webp",
+      "ops/queue/images/ugreen-right-angle-hdmi-2m-port-direction-check/wo-route.webp",
+      "ops/queue/images/ugreen-right-angle-hdmi-2m-port-direction-check/wo-hand.webp",
+      "ops/queue/images/ugreen-right-angle-hdmi-2m-port-direction-check/wo-store.webp"
+    ],
+    "preparedAt": "2026-11-28T04:30:28.818Z",
+    "verifiedAt": "2026-11-28T04:14:46.624Z",
+    "creatorSessionId": "VC0Fm7u7WTuVKpVw",
+    "slot": "20261128-1300-shop",
+    "dryRunPassedAt": "2026-11-28T04:33:55.828Z",
+    "dryRunReceipt": "/Users/kimchangheemac/Library/Aside/WindowsWorkspace/web-revenue/rebuild-202610/_mac/bridge/logs/20261128-1300-shop-dryrun.log"
   }
 ]
